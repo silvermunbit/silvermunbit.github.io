@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>어휘 목록</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="../../style.css" rel="stylesheet" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"/>
+<script src="../../libs/jquery-3.1.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.getScript("../../js/buttonUp.js", function () {
+            $.getScript("../../js/settingsButton.js", function () {
+                $.getScript("../../js/nonVocabTheme.js", function () {
+                    $.getScript("../../js/localStorage.js")
+                })
+            })
+        })
+    })
+</script>
+</head>
+<body>
+	<a id="top"></a>
+    <a href="#top" id="up"><img src="../../gfx/goUp.png" alt="up" /></a>
+    <img id="settingsButton" src="../../gfx/settingsDark.png" alt="settings" />
+    <div id="menu">
+        <h3>테마</h3>
+        <a id="lightTheme">밝게</a>
+        <a id="darkTheme">어둡게</a>
+        <h3>링크</h3>
+        <a id="homepage" href="../../index.html">홈페이지</a>
+        <a id="mobileToggle" href="../../mobile/html/ko/koWordlist.html">모바일 버전</a>
+    </div>
+    <div id="contentDiv">
+        <h1>Partykuły</h1>
+        <h2>조사</h2>
+        <p>Po znaczeniu podany japoński odpowiednik.</p>
+        <ul>
+            <li>는/은 <span class="gray">partykuła tematu</span> は</li>
+            <li>가/이 <span class="gray">partykuła podmiotu</span> が. 나 &rarr; 내가, 저 &rarr; 제가, 너 &rarr; 네가, 누구 &rarr; 누가.</li>
+            <li>를/을 <span class="gray">partykuła dopełnienia bliższego</span> を</li>
+            <li>도 <span class="gray">też</span> も</li>
+            <li>만 <span class="gray">tylko</span> だけ. ~에만, ~때만</li>
+            <li>에 <span class="gray">partykuła miejsca/kierunku, dopełnienia dalszego (nieożywione)</span> に</li>
+            <li>의 <span class="gray">partykuła dzierżawcza</span> の. 나의/내, 저의/제, 너의/네, 누구의/누구.</li>
+            <li>에서 <span class="gray">od (miejsca)</span> から, <span class="gray">partykuła miejsca</span> で</li>
+            <li>부터 <span class="gray">od (czasu)</span> から</li>
+            <li>까지 <span class="gray">do</span> まで</li>
+            <li>로/으로 (ㄹ로) <span class="gray">partykuła sposobu</span> で, <span class="gray">kierunku</span> へ. 아침식사로 <span class="gray">na śniadanie</span>, 두 번째로 <span class="gray">po raz drugi</span>, 처음으로 <span class="gray">po raz pierwszy</span>.</li>
+            <li>와/과, 랑/이랑, 하고 <span class="gray">i, z</span> と</li>
+            <li>에게, 한테, 께 <span class="gray">do kogoś, komuś</span> に</li>
+            <li>에게서, 한테서, 로/으로부터 <span class="gray">od kogoś</span> に</li>
+            <li>보다 <span class="gray">(bardziej) od</span> より</li>
+        </ul>
+
+        <h1>Kwantyfikatory</h1>
+        <h2>수분류사</h2>
+        <p>Po znaczeniu podany typ liczebnika.</p>
+        <ul>
+            <li>개 <span class="gray">ogólny</span> 한 개</li>
+            <li>번 <span class="gray">razy</span> 한 번</li>
+            <li>번째 <span class="gray">z kolei, raz z kolei</span> 첫 번째/첫째</li>
+            <li>명 <span class="gray">osób</span> 한 명</li>
+            <li>분 <span class="gray">osób (grzecznościowy)</span> 한 분</li>
+            <li>대 <span class="gray">maszyn</span> 한 대</li>
+            <li>잔 <span class="gray">szklanek</span> 한 잔</li>
+            <li>살 <span class="gray">lat (wiek)</span> 한 살</li>
+            <li>세 <span class="gray">lat (wiek)</span> 일 세</li>
+            <li>권 <span class="gray">książek</span> 한 권</li>
+            <li>층 <span class="gray">piętro</span> 일 층</li>
+            <li>송이 <span class="gray">kwiatów, pęczków</span> 한 송이</li>
+            <li>가지 <span class="gray">rodzajów</span> 한 가지</li>
+            <li>초 <span class="gray">sekund</span> 일 초</li>
+            <li>분 <span class="gray">minut, minuta</span> 일 분</li>
+            <li>시 <span class="gray">godzina</span> 한 시</li>
+            <li>시간 <span class="gray">godzin</span> 한 시간</li>
+            <li>일 <span class="gray">dni, dzień</span> 일 일</li>
+            <li>주/주일 <span class="gray">tygodni</span> 일 주, 일 주일</li>
+            <li>월 <span class="gray">miesiąc</span> 일 월</li>
+            <li>개월 <span class="gray">miesięcy</span> 일 개월</li>
+            <li>달 <span class="gray">miesięcy</span> 한 달</li>
+            <li>년 <span class="gray">lat, rok</span> 일 년</li>
+        </ul>
+
+		<h1>Przysłówki</h1>
+		<h2>부사</h2>
+        <p>Przysłówki odprzymiotnikowe nieregularne.</p>
+        <ul>
+            <li>빠르다 &rarr; 빨리 <span class="gray">szybko</span></li>
+            <li>많다 &rarr; 많이 <span class="gray">dużo</span></li>
+            <li>높다 &rarr; 높이 <span class="gray">wysoko</span></li>
+            <li>깊다 &rarr; 깊이 <span class="gray">głęboko</span></li>
+            <li>같다 &rarr; 같이 <span class="gray">razem, tak jak</span></li>
+            <li>가깝다 &rarr; 가까이 <span class="gray">blisko</span></li>
+            <li>멀다 &rarr; 멀리 <span class="gray">daleko</span></li>
+            <li>깨끗하다 &rarr; 깨끗이 <span class="gray">czysto</span></li>
+        </ul>
+
+        <p>Przykładowe przysłówki z 히. Po znaczeniu podane hanja.</p>
+        <ul>
+            <li>솔직히 <span class="gray">szczerze</span> 率直히</li>
+            <li>열심히 <span class="gray">ciężko (pracować)</span> 熱心히</li>
+            <li>완전히 <span class="gray">całkowicie</span> 完全히</li>
+            <li>자세히 <span class="gray">szczegółowo</span> 仔細히</li>
+            <li>특히 <span class="gray">tym bardziej</span> 特히</li>
+            <li>확실히 <span class="gray">na pewno</span> 確実히</li>
+            <li>영원히 <span class="gray">na zawsze</span> 永遠히</li>
+            <li>철저히 <span class="gray">gruntownie, porządnie</span> 徹底히</li>
+            <li>여전히 <span class="gray">wciąż, jak zwykle</span> 如前히</li>
+            <li>가만히 <span class="gray">nieruchomo</span></li>
+        </ul>
+
+        <p>Przysłówki związane z czasem.</p>
+        <ul>
+            <li>지금 <span class="gray">teraz</span> 只今</li>
+            <li>곧 <span class="gray">wkrótce</span></li>
+            <li>항상 <span class="gray">zawsze, ciągle</span> 恒常</li>
+            <li>일찍 <span class="gray">wcześnie</span></li>
+            <li>바로 <span class="gray">od razu, tuż przy</span></li>
+            <li>즉시 <span class="gray">natychmiast</span> 即時</li>
+            <li>자주 <span class="gray">często</span></li>
+            <li>가끔 <span class="gray">czasami</span></li>
+            <li>방금 <span class="gray">dopiero co, właśnie</span> 方今</li>
+            <li>아까 <span class="gray">przedtem</span></li>
+            <li>동시에 <span class="gray">jednocześnie</span> 同時에</li>
+            <li>갑자기 <span class="gray">nagle</span></li>
+            <li>보통 <span class="gray">zwykle, zwykły</span> 普通</li>
+            <li>대개 <span class="gray">zazwyczaj</span> 大槪</li>
+            <li>요즘 <span class="gray">niedawno</span></li>
+            <li>최근에 <span class="gray">ostatnio</span> 最近에</li>
+            <li>요새 <span class="gray">ostatnimi czasy</span></li>
+            <li>자꾸 <span class="gray">wielokrotnie</span></li>
+            <li>다시 <span class="gray">znowu, od nowa (np. coś co się nie udało)</span></li>
+            <li>또 <span class="gray">ponownie</span></li>
+            <li>나중에 <span class="gray">potem</span></li>
+            <li>예전에 <span class="gray">dawniej, kiedyś</span></li>
+            <li>결국 <span class="gray">ostatecznie</span> 結局</li>
+            <li>드디어 <span class="gray">w końcu</span></li>
+            <li>내내 <span class="gray">poprzez, przez cały czas</span></li>
+            <li>아직 <span class="gray">wciąż, jeszcze nie</span></li>
+            <li>이제 <span class="gray">już, teraz</span>, 이제부터 <span class="gray">od teraz (これから)</span></li>
+            <li>이미 <span class="gray">już</span></li>
+            <li>벌써 <span class="gray">już (wcześniej niż się spodziewano)</span></li>
+            <li>여전히 <span class="gray">wciąż, jak zwykle</span> 如前히</li>
+            <li>먼저 <span class="gray">najpierw</span></li>
+            <li>계속 <span class="gray">ciągle, ciągły</span> 継続</li>
+            <li>줄곧 <span class="gray">ciągle</span></li>
+        </ul>
+
+        <h1>Czasowniki</h1>
+        <h2>동사</h2>
+        <p>Pary czasowników przechodnich/nieprzechodnich.</p>
+        <table>
+            <tr>
+                <th>Przechodnie</th>
+                <th>Nieprzechodnie</th>
+            </tr>
+            <!-- <tr> in one line for clarity purposes -->
+            <tr><td>열다 <i>otworzyć</i></td><td>열리다 <i>być otwartym</i></td></tr>
+            <tr><td>닫다 <i>zamknąć</i></td><td>닫히다 <i>być zamkniętym</i></td></tr>
+            <tr><td>보다 <i>widzieć</i></td><td>보이다 <i>być widocznym</i></td></tr>
+            <tr><td>듣다 <i>słyszeć</i></td><td>들리다 <i>być słyszanym</i></td></tr>
+            <tr><td>쓰다 <i>pisać</i></td><td>쓰이다 <i>być napisanym</i></td></tr>
+            <tr><td>잡다 <i>złapać</i></td><td>잡히다 <i>być złapanym</i></td></tr>
+            <tr><td>세우다 <i>postawić</i></td><td>서다 <i>stać</i></td></tr>
+            <tr><td>바꾸다 <i>zmienić</i></td><td>바뀌다 <i>zmienić się</i></td></tr>
+            <tr><td>잠그다 <i>zablokować</i></td><td>잠기다 <i>być zablokowanym</i></td></tr>
+            <tr><td>숨기다 <i>schować</i></td><td>숨다 <i>schować się</i></td></tr>
+            <tr><td>속이다 <i>oszukać</i></td><td>속다 <i>być oszukanym</i></td></tr>
+            <tr><td>놓다 <i>położyć</i></td><td>놓이다 <i>znajdować się</i></td></tr>
+            <tr><td>돌리다 <i>obracać</i></td><td>돌다 <i>obracać się</i></td></tr>
+            <tr><td>걸다 <i>powiesić</i></td><td>걸리다 <i>wisieć</i></td></tr>
+            <tr><td>모으다 <i>gromadzić</i></td><td>모이다 <i>gromadzić się</i></td></tr>
+            <tr><td>늘리다 <i>zwiększać</i></td><td>늘다<i>zwiększać się</i></td></tr>
+            <tr><td>줄이다 <i>zmniejszać</i></td><td>줄다 <i>zmiejszać się</i></td></tr>
+            <tr><td>남기다 <i>zostawić</i></td><td>남다 <i>zostać</i></td></tr>
+            <tr><td>담다 <i>nałożyć</i></td><td>담기다 <i>być nałożonym</i></td></tr>
+            <tr><td>붙이다 <i>dołączyć</i></td><td>붙다 <i>być dołączonym</i></td></tr>
+            <tr><td>막다 <i>zatkać</i></td><td>막히다 <i>być zatkanym</i></td></tr>
+            <tr><td>끊다 <i>zaprzestać</i></td><td>끊기다 <i>być zaprzestanym</i></td></tr>
+            <tr><td>끓이다 <i>gotować wodę</i></td><td>끓다 <i>gotować się (woda)</i></td></tr>
+            <tr><td>뜨다 <i>otworzyć oczy</i></td><td>떠지다 <i>być otwartym (oczy)</i></td></tr>
+            <tr><td>감다 <i>zamknąć oczy</i></td><td>감기다 <i>być zamkniętym (oczy)</i></td></tr>
+            <tr><td>팔다 <i>sprzedać</i></td><td>팔리다 <i>srzedawać się</i></td></tr>
+            <tr><td>떨어뜨리다 <i>upuścić</i></td><td>떨어지다 <i>spaść</i></td></tr>
+            <tr><td>켜다 <i>włączyć</i></td><td>켜지다 <i>być włączonym</i></td></tr>
+            <tr><td>끄다 <i>wyłączyć</i></td><td>꺼지다 <i>być wyłączonym</i></td></tr>
+            <tr><td>찢다 <i>podrzeć</i></td><td>찢어지다 <i>podrzeć się</i></td></tr>
+            <tr><td>깨다 <i>rozbić</i></td><td>깨지다 <i>rozbić się</i></td></tr>
+            <tr><th>내다 <i>wyjąć, powodować</i></th><th>나다 <i>wyjść, wydarzyć się</i></th></tr>
+            <tr><td>끝내다 <i>skończyć</i></td><td>끝나다 <i>skończyć się</i></td></tr>
+            <tr><td>고장내다 <i>zepsuć</i></td><td>고장나다 <i>zepsuć się</i></td></tr>
+            <tr><td>드러내다 <i>ujawnić</i></td><td>드러나다 <i>ujawnić się</i></td></tr>
+            <tr><td>나타내다 <i>wskazać, wyrazić</i></td><td>나타나다 <i>pojawić się</i></td></tr>
+        </table>
+        <p>Czasowniki kauzatywne.</p>
+        <table>
+            <tr>
+                <th>Podstawowe</th>
+                <th>Kauzatywne</th>
+            </tr>
+            <!-- <tr> in one line for clarity purposes -->
+            <tr><td>살다 <i>żyć</i></td><td>살리다 <i>uratować</i></td></tr>
+            <tr><td>알다 <i>wiedzieć</i></td><td>알리다 <i>powiadomić</i></td></tr>
+            <tr><td>죽다 <i>umrzeć</i></td><td>죽이다 <i>zabić</i></td></tr>
+            <tr><td>지나다 <i>minąć</i></td><td>지내다 <i>spędzać czas</i></td></tr>
+            <tr><td>신다 <i>ubrać na nogi</i></td><td>신기다 <i>ubrać komuś na nogi</i></td></tr>
+            <tr><td>입다 <i>ubrać</i></td><td>입히다 <i>ubrać kogoś</i></td></tr>
+            <tr><td>놀다 <i>bawić się</i></td><td>놀리다 <i>dokuczać</i></td></tr>
+        </table>
+</div>
+</body>
+</html>
+
+

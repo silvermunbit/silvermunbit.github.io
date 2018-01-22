@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Homepage</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<script src="libs/jquery-3.1.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.getScript("js/homeChooseLang.js", function () {
+            $.getScript("js/homeTheme.js", function () {
+                $.getScript("js/settingsButton.js", function () {
+                    $.getScript("js/homeNoTransition.js", function () {
+                        $.getScript("js/localStorage.js")
+                    })
+                })
+            })
+        })
+    })
+</script>
+</head>
+<body>
+    <img id="settingsButton" src="gfx/settingsDark.png" alt="settings" />
+    <div id="menu">
+        <h3>THEME</h3>
+        <a id="lightTheme">Light</a>
+        <a id="darkTheme">Dark</a>
+        <h3>LINKS</h3>
+        <a id="homepage" href="#">Homepage</a>
+        <a id="mobileToggle" href="mobile/index.html">Mobile</a>
+    </div>
+    <h1>Choose a language</h1>
+    <h2>言語を選択してください</h2>
+    <h2>언어를 선택하세요</h2>
+    <div id="chooseLang">
+        <a id="chooseEn">English</a>
+        <a id="chooseJa">日本語</a>
+        <a id="chooseKo">한국어</a>
+    </div>
+    <div id="langSubmenu">
+        <div id="submenuEn" class="submenu">
+            <div class="submenuOption">
+                <a class="submenuCircle c1" href="html/en/enVocabulary.html">V</a>
+                <p class="submenuText">Vocabulary</p>
+            </div>
+        </div>
+        <div id="submenuJa" class="submenu">
+            <div class="submenuOption">
+                <a class="submenuCircle c1" href="html/ja/jaVocabulary.html">学</a>
+                <p class="submenuText">語彙テスト</p>
+            </div>
+            <div class="submenuOption">
+                <a class="submenuCircle c2" href="html/ja/jaGrammar.html">文</a>
+                <p class="submenuText">文法</p>
+            </div>
+            <div class="submenuOption">
+                <a class="submenuCircle c3" href="html/ja/jaWordlist.html">言</a>
+                <p class="submenuText">語彙リスト</p>
+            </div>
+            <div class="submenuOption">
+                <a class="submenuCircle c4" href="html/ja/jaParticles.html">助</a>
+                <p class="submenuText">助詞の使い分け</p>
+            </div>
+        </div>
+        <div id="submenuKo" class="submenu">
+            <div class="submenuOption">
+                <a class="submenuCircle c1" href="html/ko/koVocabulary.html">학</a>
+                <p class="submenuText">어휘 시험</p>
+            </div>
+            <div class="submenuOption">
+                <a class="submenuCircle c2" href="html/ko/koGrammar.html">문</a>
+                <p class="submenuText">문법</p>
+            </div>
+            <div class="submenuOption">
+                <a class="submenuCircle c3" href="html/ko/koWordlist.html">말</a>
+                <p class="submenuText">어휘 목록</p>
+            </div>
+            <div class="submenuOption">
+                <a class="submenuCircle c4" href="html/ko/koParticles.html">조</a>
+                <p class="submenuText">조사의 용법</p>
+            </div>
+        </div>
+    </div>
+    <a id="wagyk" href="html/wa/waGrammar.html">와</a>
+    <footer>© 2018 Filip Bańdur</footer>
+</body>
+</html>

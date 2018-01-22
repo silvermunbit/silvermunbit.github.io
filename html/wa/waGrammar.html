@@ -1,0 +1,737 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>와극 먕순</title>
+<meta charset="utf-8" />
+<link href="../../style.css" rel="stylesheet" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"/>
+<script src="../../libs/jquery-3.1.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.getScript("../../js/buttonUp.js", function () {
+            $.getScript("../../js/settingsButton.js", function () {
+                $.getScript("../../js/nonVocabTheme.js", function () {
+                    $.getScript("../../js/localStorage.js")
+                })
+            })
+        })
+    })
+</script>
+</head>
+<body>
+    <a id="top"></a>
+    <a href="#top" id="up"><img src="../../gfx/goUp.png" alt="up" /></a>
+    <img id="settingsButton" src="../../gfx/settingsDark.png" alt="settings" />
+    <div id="menu">
+        <h3>유리 묘부</h3>
+        <a id="lightTheme">휘</a>
+        <a id="darkTheme">여소</a>
+        <h3>부쿨</h3>
+        <a id="homepage" href="../../index.html">괴윳가</a>
+        <a id="mobileToggle" href="../../mobile/html/wa/waGrammar.html">먹수 뷰란</a>
+        <a id="wagykDict" href="https://docs.google.com/spreadsheets/d/1iJiVBbqxABmgvGxeKXTZX950tIifVoYhj6g508zCYxU/edit?usp=sharing" target="_blank">먕궉</a>
+    </div>
+    <div id="contentDiv">
+        <h1>Wymowa, zapis</h1>
+        <h2>쿠무, 사서다</h2>
+        <p>Używany koreański hangul z elementami yennal hangul. Istnieje 27 samogłosek: 6 prostych, 13 dyftongów i 8 tryftongów. Jest 16 spółgłosek początkowych i 27 końcowych, z czego 12 złożonych.</p>
+        <p>Samogłoski podstawowe:</p>
+        <table>
+            <tr>
+                <th>Zapis</th>
+                <td>ㅏ</td>
+                <td>ㅓ</td>
+                <td>ㅣ</td>
+                <td>ㅗ</td>
+                <td>ㅜ</td>
+                <td>ㅡ</td>
+            </tr>
+            <tr>
+                <th>Transkrypcja</th>
+                <td>a</td>
+                <td>e</td>
+                <td>i</td>
+                <td>o</td>
+                <td>u</td>
+                <td>y</td>
+            </tr>
+            <tr>
+                <th>Wymowa</th>
+                <td class="ipa">a</td>
+                <td class="ipa">e</td>
+                <td class="ipa">i</td>
+                <td class="ipa">o</td>
+                <td class="ipa">u</td>
+                <td class="ipa">ɯ</td>
+            </tr>
+        </table>
+        <p>Dyftongi:</p>
+        <table>
+            <tr>
+                <th>Zapis</th>
+                <td>ㅐ</td>
+                <td>ᅟᅶ</td>
+                <td>ㅔ</td>
+                <td>ㅘ</td>
+                <td>ᅿ</td>
+                <td>ㅚ</td>
+                <td>ㅝ</td>
+                <td>ㅟ</td>
+                <td>ㅑ</td>
+                <td>ㅕ</td>
+                <td>ㅢ</td>
+                <td>ㅛ</td>
+                <td>ㅠ</td>
+            </tr>
+            <tr>
+                <th>Transkrypcja</th>
+                <td>ay</td>
+                <td>aw</td>
+                <td>ey</td>
+                <td>wa</td>
+                <td>we</td>
+                <td>oy</td>
+                <td>wo</td>
+                <td>wi</td>
+                <td>ya</td>
+                <td>ye</td>
+                <td>yi</td>
+                <td>yo</td>
+                <td>yu</td>
+            </tr>
+            <tr>
+                <th>Wymowa</th>
+                <td class="ipa">ai</td>
+                <td class="ipa">ao</td>
+                <td class="ipa">ei</td>
+                <td class="ipa">wa</td>
+                <td class="ipa">we</td>
+                <td class="ipa">oi</td>
+                <td class="ipa">wo</td>
+                <td class="ipa">wi</td>
+                <td class="ipa">ja</td>
+                <td class="ipa">je</td>
+                <td class="ipa">ji, ɯi</td>
+                <td class="ipa">jo</td>
+                <td class="ipa">ju</td>
+            </tr>
+        </table>
+        <p>Tryftongi:</p>
+        <table>
+            <tr>
+                <th>Zapis</th>
+                <td>ㅙ</td>
+                <td>ᆦ</td>
+                <td>ힰ</td>
+                <td>ㅞ</td>
+                <td>ᅟᅸ</td>
+                <td>ᆎ</td>
+                <td>ᆏ</td>
+                <td>ㆌ</td>
+            </tr>
+            <tr>
+                <th>Transkrypcja</th>
+                <td>way</td>
+                <td>oya</td>
+                <td>oye</td>
+                <td>wey</td>
+                <td>yaw</td>
+                <td>yua</td>
+                <td>yue</td>
+                <td>yuy</td>
+            </tr>
+            <tr>
+                <th>Wymowa</th>
+                <td class="ipa">wai</td>
+                <td class="ipa">oja</td>
+                <td class="ipa">oje</td>
+                <td class="ipa">wei</td>
+                <td class="ipa">jao</td>
+                <td class="ipa">jua</td>
+                <td class="ipa">jue</td>
+                <td class="ipa">jui</td>
+            </tr>
+        </table>
+        <p>Jako że spółgłoski są wymawiane inaczej w zależności od swojej pozycji, w tabeli podana jest wymowa na początku słowa, na początku sylaby w środku słowa, oraz na końcu sylaby.</p>
+        <table>
+            <tr>
+                <th>Zapis</th>
+                <th>ㄱ</th>
+                <th>ㅋ</th>
+                <th>ㅂ</th>
+                <th>ㅍ</th>
+                <th>ㄷ</th>
+                <th>ㅌ</th>
+                <th>ㅈ</th>
+                <th>ㅊ</th>
+                <th>ᅀ</th>
+                <th>ㅅ</th>
+                <th>ㅁ</th>
+                <th>ㄴ</th>
+                <th>ㅇ</th>
+                <th>ㄹ</th>
+                <th>ㅎ</th>
+                <th>ᅙ</th>
+            </tr>
+            <tr>
+                <th>Nazwa</th>
+                <td>각</td>
+                <td>킼</td>
+                <td>밥</td>
+                <td>핖</td>
+                <td>닫</td>
+                <td>팉</td>
+                <td>잦</td>
+                <td>칯</td>
+                <td>ᅀᅡᇫ</td>
+                <td>삿</td>
+                <td>믐</td>
+                <td>는</td>
+                <td>응</td>
+                <td>를</td>
+                <td>히</td>
+                <td>ᅙᅵ</td>
+            </tr>
+            <tr>
+                <th>Transkrypcja</th>
+                <td>g/k</td>
+                <td>k</td>
+                <td>b/p</td>
+                <td>p</td>
+                <td>d/t</td>
+                <td>t</td>
+                <td>j/q</td>
+                <td>q</td>
+                <td>c</td>
+                <td>s~x</td>
+                <td>m</td>
+                <td>n</td>
+                <td>ng</td>
+                <td>r/l</td>
+                <td>h</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <th>Początek</th>
+                <td colspan="2" class="ipa">k</td>
+                <td colspan="2" class="ipa">p</td>
+                <td colspan="2" class="ipa">t</td>
+                <td colspan="2" class="ipa">tɕ</td>
+                <td rowspan="3" class="ipa">ts</td>
+                <td rowspan="3" class="ipa">s</td>
+                <td rowspan="3" class="ipa">m</td>
+                <td rowspan="3" class="ipa">n</td>
+                <td rowspan="2" class="ipa">∅</td>
+                <td rowspan="2" class="ipa">ɾ</td>
+                <td rowspan="2" class="ipa">h</td>
+                <td rowspan="2" class="ipa">f</td>
+            </tr>
+            <tr>
+                <th>Środek</th>
+                <td class="ipa">g</td>
+                <td class="ipa">k</td>
+                <td class="ipa">b</td>
+                <td class="ipa">p</td>
+                <td class="ipa">d</td>
+                <td class="ipa">t</td>
+                <td class="ipa">dʑ</td>
+                <td class="ipa">tɕ</td>
+            </tr>
+            <tr>
+                <th>Koniec</th>
+                <td colspan="2" class="ipa">k</td>
+                <td colspan="2" class="ipa">p</td>
+                <td colspan="2" class="ipa">t</td>
+                <td colspan="2" class="ipa">tɕ</td>
+                <td class="ipa">ŋ</td>
+                <td class="ipa">l</td>
+                <th colspan="2"></th>
+            </tr>
+        </table>
+        <p>Występują pewne zjawiska fonetyczne.</p>
+        <ul>
+            <li>ㅢ wymawiane jest <span class="ipa">/ji/</span> po samogłoskach i <span class="ipa">/ɯi/</span> po spółgłoskach.</li>
+            <li>ㅅ zmiękcza się na <span class="ipa">/ɕ/</span>, a ᅀ na <span class="ipa">/tɕ/</span> przed <span class="ipa">/i, j, wi, we/</span>.</li>
+            <li><span class="ipa">/j/</span> po ㅈ, ㅊ,  ᅀ, ㅅ nie jest wymawiane.</li>
+            <li>końcowe spółgłoski czyta się jak środkowe, gdy występują przed ㅇ, zastępując je (ㅇ pozostaje <span class="ipa">/ŋ/</span>), np. 악아 /아가/.</li>
+            <li>ㄱㅂㄷㅈ są ubezdźwięczniane po zwartych i ㅅ.</li>
+            <li><span class="ipa">/ɯ/</span> dodawane do ᅀ, <span class="ipa">/i/</span> do ㅈㅊ przed ㄱㅂㄷ. ㅈㅊᅀ przed ㅋㅍㅌ podwajają je.</li>
+            <li>ㅈㅊᅀㅅ przed ㅈㅊᅀㅅ podwajaję je.</li>
+            <li><span class="ipa">/ɯ/</span> dodawane do zwartych i ᅀㅅ, <span class="ipa">/i/</span> do ㅈㅊ przed ㅁㄴㅇㄹㅎᅙ</li>
+            <li>ㄹ po nosowych ㅁㄴㅇ wymawiane <span class="ipa">/n/</span>. Złożenie ㄹㄹ czyta się <span class="ipa">/ll/</span>.</li>
+        </ul>
+        <p>Istnieją też złożone spółgłoski występujące na końcu sylaby, gdzie czytana jest tylko pierwsza, chyba że występuje po nich samogłoska: ㄳ, ㅄ, ㅺ, ㅽ, ㅼ, ᇚ, ퟢ, ㅯ, ᄓ, ㄵ, ㄽ, ㄻ. 옶 /옵/, 옶이 /옵시/.</p>
+        <p>Tabela wymowy par samogłosek (końcowa + środkowa). Zmiany fonetyczne mogą nie występować w niektórych słowach obcych, np. 옷로 <span class="gray">Oslo</span> (<span class="ipa">/oslo/</span>, nie <span class="ipa">/onno/</span>)</p>
+        <table>
+            <tr>
+                <th class="split"><div class="splitCol">2ga</div><div class="splitRow">1sza</div></th>
+                <th>ㄱ</th>
+                <th>ㅋ</th>
+                <th>ㅂ</th>
+                <th>ㅍ</th>
+                <th>ㄷ</th>
+                <th>ㅌ</th>
+                <th>ㅈ</th>
+                <th>ㅊ</th>
+                <th>ᅀ</th>
+                <th>ㅅ</th>
+                <th>ㅁ</th>
+                <th>ㄴ</th>
+                <th>ㄹ</th>
+                <th>ㅎ</th>
+                <th>ᅙ</th>
+            </tr>
+            <tr>
+                <th>ㄱ ㅋ</th>
+                <td colspan="2" class="ipa">kk</td>
+                <td colspan="2" class="ipa">kp</td>
+                <td colspan="2" class="ipa">kt</td>
+                <td colspan="2" class="ipa">ktɕ</td>
+                <td class="ipa">kts</td>
+                <td class="ipa">ks</td>
+                <td class="ipa">kɯm</td>
+                <td class="ipa">kɯn</td>
+                <td class="ipa">kɯɾ</td>
+                <td class="ipa">kɯh</td>
+                <td class="ipa">kɯf</td>
+            </tr>
+            <tr>
+                <th>ㅂ ㅍ</th>
+                <td colspan="2" class="ipa">pk</td>
+                <td colspan="2" class="ipa">pp</td>
+                <td colspan="2" class="ipa">pt</td>
+                <td colspan="2" class="ipa">ptɕ</td>
+                <td class="ipa">pts</td>
+                <td class="ipa">ps</td>
+                <td class="ipa">pɯm</td>
+                <td class="ipa">pɯn</td>
+                <td class="ipa">pɯɾ</td>
+                <td class="ipa">pɯh</td>
+                <td class="ipa">pɯf</td>
+            </tr>
+            <tr>
+                <th>ㄷ ㅌ</th>
+                <td colspan="2" class="ipa">tk</td>
+                <td colspan="2" class="ipa">tp</td>
+                <td colspan="2" class="ipa">tt</td>
+                <td colspan="2" class="ipa">ttɕ</td>
+                <td class="ipa">tts</td>
+                <td class="ipa">ts</td>
+                <td class="ipa">tɯm</td>
+                <td class="ipa">tɯn</td>
+                <td class="ipa">tɯɾ</td>
+                <td class="ipa">tɯh</td>
+                <td class="ipa">tɯf</td>
+            </tr>
+            <tr>
+                <th>ㅈ ㅊ</th>
+                <td class="ipa">tɕig</td>
+                <td rowspan="2" class="ipa">kk</td>
+                <td class="ipa">tɕib</td>
+                <td rowspan="2" class="ipa">pp</td>
+                <td class="ipa">tɕid</td>
+                <td rowspan="2" class="ipa">tt</td>
+                <td colspan="2" rowspan="3" class="ipa">ttɕ</td>
+                <td rowspan="3" class="ipa">tts</td>
+                <td rowspan="3" class="ipa">ss</td>
+                <td class="ipa">tɕim</td>
+                <td class="ipa">tɕin</td>
+                <td class="ipa">tɕiɾ</td>
+                <td class="ipa">tɕih</td>
+                <td class="ipa">tɕif</td>
+            </tr>
+            <tr>
+                <th>ᅀ</th>
+                <td class="ipa">tsɯg</td>
+                <td class="ipa">tsɯb</td>
+                <td class="ipa">tsɯd</td>
+                <td class="ipa">tsɯm</td>
+                <td class="ipa">tsɯn</td>
+                <td class="ipa">tsɯɾ</td>
+                <td class="ipa">tsɯh</td>
+                <td class="ipa">tsɯf</td>
+            </tr>
+            <tr>
+                <th>ㅅ</th>
+                <td colspan="2" class="ipa">sk</td>
+                <td colspan="2" class="ipa">sp</td>
+                <td colspan="2" class="ipa">st</td>
+                <td class="ipa">sɯm</td>
+                <td class="ipa">sɯn</td>
+                <td class="ipa">sɯɾ</td>
+                <td class="ipa">sɯh</td>
+                <td class="ipa">sɯf</td>
+            </tr>
+            <tr>
+                <th>ㅁ</th>
+                <td class="ipa">mg</td>
+                <td class="ipa">mk</td>
+                <td class="ipa">mb</td>
+                <td class="ipa">mp</td>
+                <td class="ipa">md</td>
+                <td class="ipa">mt</td>
+                <td class="ipa">mdʑ</td>
+                <td class="ipa">mtɕ</td>
+                <td class="ipa">mts</td>
+                <td class="ipa">ms</td>
+                <td class="ipa">mm</td>
+                <td colspan="2" class="ipa">mn</td>
+                <td class="ipa">mh</td>
+                <td class="ipa">mf</td>
+            </tr>
+            <tr>
+                <th>ㄴ</th>
+                <td class="ipa">ng</td>
+                <td class="ipa">nk</td>
+                <td class="ipa">nb</td>
+                <td class="ipa">np</td>
+                <td class="ipa">nd</td>
+                <td class="ipa">nt</td>
+                <td class="ipa">ndʑ</td>
+                <td class="ipa">ntɕ</td>
+                <td class="ipa">nts</td>
+                <td class="ipa">ns</td>
+                <td class="ipa">nm</td>
+                <td colspan="2" class="ipa">nn</td>
+                <td class="ipa">nh</td>
+                <td class="ipa">nf</td>
+            </tr>
+            <tr>
+                <th>ㅇ</th>
+                <td class="ipa">ŋg</td>
+                <td class="ipa">ŋk</td>
+                <td class="ipa">ŋb</td>
+                <td class="ipa">ŋp</td>
+                <td class="ipa">ŋd</td>
+                <td class="ipa">ŋt</td>
+                <td class="ipa">ŋdʑ</td>
+                <td class="ipa">ŋtɕ</td>
+                <td class="ipa">ŋts</td>
+                <td class="ipa">ŋs</td>
+                <td class="ipa">ŋm</td>
+                <td colspan="2" class="ipa">ŋn</td>
+                <td class="ipa">ŋh</td>
+                <td class="ipa">ŋf</td>
+            </tr>
+            <tr>
+                <th>ㄹ</th>
+                <td class="ipa">lg</td>
+                <td class="ipa">lk</td>
+                <td class="ipa">lb</td>
+                <td class="ipa">lp</td>
+                <td class="ipa">ld</td>
+                <td class="ipa">lt</td>
+                <td class="ipa">ldʑ</td>
+                <td class="ipa">ltɕ</td>
+                <td class="ipa">lts</td>
+                <td class="ipa">ls</td>
+                <td class="ipa">lm</td>
+                <td class="ipa">ln</td>
+                <td class="ipa">ll</td>
+                <td class="ipa">lh</td>
+                <td class="ipa">lf</td>
+            </tr>
+        </table>
+
+        <h1>Rzeczowniki</h1>
+        <h2>며산</h2>
+        <p>Nieodmienne, nie mają liczby mnogiej, chociaż można dodać sufiks ᅀᅳᆯ, gdy liczba nie wynika z kontekstu. Mogą, ale nie muszą mięc jednosylabicznego rdzenia używanego w słowotwórstwie.</p>
+
+        <h1>Partykuły</h1>
+        <h2>육산</h2>
+        <p>Dołączane bezpośrednio do słowa.</p>
+        <ul>
+            <li>리/이 <span class="gray">mianownik, oznacza podmiot</span></li>
+            <li>시 <span class="gray">dopełniacz, oznacza dzierżawczość</span></li>
+            <li>야/아 <span class="gray">biernik, dopełnienie bliższe</span></li>
+            <li>여/어 <span class="gray">celownik, zwykle dopełnienie bliższe, ogólna domyślna partykuła</span></li>
+            <li>부사 <span class="gray">przeciwieństwo 여/어, znaczy od, przez, z powodu</span></li>
+            <li>유/우 <span class="gray">miejscownik, oznacza czas i miejsce, znaczy w, podczas. Nie używane z zaimkami.</span></li>
+            <li>하ᇫ <span class="gray">narzędnik, oznacza sposób wykonania akcji, znaczy za pomocą, przez, jako.</span></li>
+            <li>야/아 <span class="gray">wołacz</span></li>
+        </ul>
+        <ul>
+            <li>요/오, 실 <span class="gray">z, bez</span></li>
+            <li>갗, 더 <span class="gray">od, do</span></li>
+            <li>순, 분 <span class="gray">przed, po</span></li>
+            <li>묜/아묜 <span class="gray">poprzez, na, stosowane przy liczbie przypadającej na coś</span></li>
+            <li>슈 <span class="gray">też, ani</span></li>
+            <li>쿤 <span class="gray">tylko</span></li>
+            <li>를/을 <span class="gray">i</span></li>
+        </ul>
+        <p>Gdy 슈 i 쿤 są używane z czasownikami, korzysta się z formy 다 oznaczającej czynność i czasownika 여 <span class="gray">robić</span>, np. 과다슈 여 <span class="gray">też iść</span>. 슈 jest używane zamiast 리/이 i 야/아. 쿤 i 슈, gdy używane z innymi partykułami, występują przed nimi.</p>
+
+        <h1>Czasowniki</h1>
+        <h2>화산</h2>
+        <p>Czasowniki są traktowane tak samo jak przymiotniki. Końcówki w odmianie dodawane do bezokolicznika. Każdy czasownik poza złożonymi i specjalnymi posiada jednosylabiczny morfem używany w słowotwórstwie. Czasowniki specjalne to 라/이라 <span class="gray">być</span>, 니라/아니라 <span class="gray">nie być</span> oraz zaimki.</p>
+        <p>라(ㄹ라)/오라 <span class="gray">czas terażniejszy</span>. Czasowniki specjalne - ∅/이.<br />
+        ㄴ나/은나 <span class="gray">czas przeszły</span>, ㄹ러/을러 <span class="gray">czas przyszły</span><br /></p>
+        <p>Czasowniki neguje się czasownikiem 니/으니, który potem można odmieniać, np. 과 &rarr; 과니 &rarr; 과니라, 과닌나, itd. Nie używa się podwójnego przeczenia, zazwyczaj używa się zaimka przeczącego i czasownika w formie twierdzącej, można też zamiast tego zanegować czaswonik i użyć zaimka nieokreślonego podobnie jak w języku angielskim.</p>
+        <p>Formy przydawkowe/imiesłowy przymiotnikowe. W przypadku czasowników specjalnych, 잇 <span class="gray">taki jak, niczym</span>, 모 <span class="gray">kolejny, ~ z kolei</span>, ᅙᅳ <span class="gray">zwielokrotniać, wieloraki</span> i 지 <span class="gray">wielokrotny</span> zamiast 시 używa się ㄴ/은.</p>
+        <p>시, 니/으니 <span class="gray">teraźniejszy twierdzący, przeczący</span><br />
+        나/으나, 니나/으니나 <span class="gray">przeszły twierdzący, przeczący</span><br />
+        러/으러, 니러/으니러 <span class="gray">przyszły twierdzący, przeczący</span><br />
+        술 <span class="gray">forma przysłówkowa</span>, ㅂ뵬/읍뵬 <span class="gray">imiesłów przysłówkowy współczesny</span>, 터 <span class="gray">imiesłów przysłówkowy uprzedni</span></p>
+        <p>Czasowniki specjalne 라/이라 <span class="gray">być</span> i 니라/아니라 <span class="gray">nie być</span> są dodawane bezpośrednio do orzecznika. Nie mogą być używane w znaczeniu <span class="gray">znajdować się, istnieć</span>, do tego celu używa się czasownika 시.</p>
+        <p>Forma ∅/오 służy do łączenia czasownika z czasownikiem modalnym i do tworzenia czasowników złożonych. Może być też używana wymiennie z formą 터, przy wymienianiu wielu czynności. W języku mówionym jest używana jako czas teraźniejszy lub tryb rozkazujący (w ustalonych wyrażeniach preferowana forma 라(ㄹ라)/오라). Czasowniki złożone składają się z 2 czasowników lub rzeczownika i czasownika, np. 출 <span class="gray">jechać</span> + 과 <span class="gray">iść</span> &rarr; 출오과 <span class="gray">pojechać</span>. Czasowniki modalne dołączane są do tej formy po spacji, np. 과 양 <span class="gray">chcieć iść</span>. Istnieją czasowniki dołączane bezpośrednio do bezokolicznika bez spacji.</p>
+        <ul>
+            <li>시 <span class="gray">być</span>. Aspekt niedokonany.</li>
+            <li>니/으니 <span class="gray">nie</span>. Przeczenie.</li>
+            <li>드 <span class="gray">stać się</span>. Strona bierna, zamiana form przymiotnikowych na czasownikowe.</li>
+            <li>히 <span class="gray">zmusić, sprawić</span>. Forma kauzatywna, zamiana przymiotników/czasowników nieprzechodnich na czasowniki przechodnie.</li>
+            <li>워 <span class="gray">- się</span>. Strona zwrotna, zamiana czasowników przechodnich na nieprzechodnich.</li>
+            <li>다 <span class="gray">wykonać</span>. Służy nominalizacji, wyrażeniu czynności, np. myśleć &rarr; myślenie (nie myśl).</li>
+        </ul>
+        <p>W stronie biernej dopełnienie (sprawca czynności) jest używane z 부사. W stronie zwrotnej można użyć słowa 눅술 <span class="gray">nawzajem</span>. Używając czasownika kauzatywnego 히 dodaje się partykułę 야/아, chyba że zdanie ma inne dopełnienie bliższe, wtedy 여/어. Istnieje stosunkowo mało czasowników mogących być albo przechodnimi albo nieprzechodnimi, np. 나라 <span class="gray">dzwonić</span>, 묵수 <span class="gray">skręcić</span>.</p>
+        <p>서, 누/이누 <span class="gray">tryb rozkazujący twierdzący, przeczący dla 2 osoby</span><br />
+        군, 니군/으니군 <span class="gray">tryb rozkazujący twierdzący, przeczący dla 1 osoby liczby mnogiej</span><br />
+        시다, 니다/으니다 <span class="gray">tryb rozkazujący twierdzący, przeczący dla 2 os. grzecznościowy</span><br />
+        ∅/오 미 <span class="gray">tryb rozkazujący kolokwialny</span><br /></p>
+        <p>Pytania tak/nie kończą się słowem 거, które może być pomijane w języku potocznym. Jest też używane do tworzenia zdań podrzędnych.</p>
+        <p>Czasowniki typu 밫치 <span class="gray">wydawać się</span> są używane z formą 이술 lub przysłówkami. Czasownik 드 <span class="gray">stać się</span> jest używany z partykułą 여/어.</p>
+        <p>Odmiany tworzące zdania złożone. (ㄴ/ㄹ) - aby stworzyć czas przeszły/przyszły należy dodać przed odmianą odpowiednią przydawkę. Po odmianie podane jak dodawać do rzeczowników.</p>
+        <ul>
+            <li>ㅅ소/앗소 (ㄴ/ㄹ) <span class="gray">jeśli, w razie</span>, 랏소/이랏소</li>
+            <li>부사 (ㄴ/ㄹ) <span class="gray">ponieważ, z powodu</span>, 부사</li>
+            <li>수러 <span class="gray">aby, w celu, dla</span>, 수러</li>
+            <li>지 (ㄴ/ㄹ) <span class="gray">mimo że, nieważne że, nieważne czy</span>, 라지/이라지</li>
+            <li>요리 <span class="gray">dopóki</span></li>
+            <li>다룐 <span class="gray">im bardziej/mniej</span></li>
+            <li>다가 (ㄴ/ㄹ) <span class="gray">ale</span></li>
+            <li>구 <span class="gray">że (do orzeczenia)</span>, cytowanie: "..." 라구/이라구</li>
+        </ul>      
+
+        <h1>Zaimki</h1>
+        <h2>샹며산</h2>
+        <p>Zaimki osobowe:</p>
+        <table>
+            <tr>
+                <th colspan="2"></th>
+                <th>l. pojedyncza</th>
+                <th>l. mnoga</th>
+            </tr>
+            <tr>
+                <th colspan="2">1. osoba</th>
+                <td>와</td>
+                <td>와라</td>
+            </tr>
+            <tr>
+                <th colspan="2">2. osoba</th>
+                <td>유</td>
+                <td>유라</td>
+            </tr>
+            <tr>
+                <th rowspan="3">3. osoba</th>
+                <th>r. męski</th>
+                <td>키</td>
+                <td>키라</td>
+            </tr>
+            <tr>
+                <th>r. żeński</th>
+                <td>모</td>
+                <td>모라</td>
+            </tr>
+            <tr>
+                <th>r. nijaki</th>
+                <td>조</td>
+                <td>조라</td>
+            </tr>
+            <tr>
+                <th colspan="2">Zaimek zwrotny</th>
+                <td colspan="2">옶</td>
+            </tr>
+            <tr>
+                <th colspan="2">Zaimek bezosobowy</th>
+                <td colspan="2">ᅙᅮ</td>
+            </tr>
+        </table>
+        <p>Zaimki 키 i 모 zawsze określają ludzi, a 조 zawsze przedmioty. 키라 może odnosić się do grupy mężczyzn lub do grupy mężczyzn i kobiet, 조라 do grupy przedmiotów.</p>
+        <p>Pozostałe zaimki:</p>
+        <table>
+            <tr>
+                <th>pytający</th>
+                <th>wskazujący 1</th>
+                <th>wskazujący 2</th>
+                <th>nieokreślony 1</th>
+                <th>nieokreślony 2</th>
+                <th>upowszechniający</th>
+                <th>przeczący</th>
+            </tr>
+            <tr>
+                <td>유 <i>który</i></td>
+                <td>다 <i>ten</i></td>
+                <td>저 <i>tamten</i></td>
+                <td>보 <i>któryś</i></td>
+                <td>솔 <i>którykolwiek</i></td>
+                <td>임 <i>każdy</i></td>
+                <td>안 <i>żaden</i></td>
+            </tr>
+            <tr>
+                <td>휸 <i>kto</i></td>
+                <td>다휸 <i>ta osoba</i></td>
+                <td>저휸 <i>tamta osoba</i></td>
+                <td>보휸 <i>ktoś</i></td>
+                <td>솔휸 <i>ktokolwiek</i></td>
+                <td>임휸 <i>wszyscy</i></td>
+                <td>안휸 <i>nikt</i></td>
+            </tr>
+            <tr>
+                <td>하 <i>co</i></td>
+                <td>다하 <i>to</i></td>
+                <td>저하 <i>tamto</i></td>
+                <td>보하 <i>coś</i></td>
+                <td>솔하 <i>cokolwiek</i></td>
+                <td>임하 <i>wszystko</i></td>
+                <td>안하 <i>nic</i></td>
+            </tr>
+            <tr>
+                <td>하여 (해) <i>dlaczego</i></td>
+                <td>다여 <i>dlatego</i></td>
+                <td>저여 <i>dlatego</i></td>
+                <td>보여 <i>z jakiegoś powodu</i></td>
+                <td>솔어 <i>z jakiegokolwiek powodu</i></td>
+                <td>임어 <i>z każdego powodu</i></td>
+                <td>안어 <i>bez powodu</i></td>
+            </tr>
+            <tr>
+                <td>유기 <i>gdzie</i></td>
+                <td>다기 <i>tutaj</i></td>
+                <td>저기 <i>tam</i></td>
+                <td>보기 <i>gdzieś</i></td>
+                <td>솔기 <i>gdziekolwiek</i></td>
+                <td>임기 <i>wszędzie</i></td>
+                <td>안기 <i>nigdzie</i></td>
+            </tr>
+            <tr>
+                <td>유자 <i>kiedy</i></td>
+                <td>다자 <i>wtedy</i></td>
+                <td>저자 <i>wtedy</i></td>
+                <td>보자 <i>kiedyś</i></td>
+                <td>솔자 <i>kiedykolwiek</i></td>
+                <td>임자 <i>zawsze</i></td>
+                <td>안자 <i>nigdy</i></td>
+            </tr>
+            <tr>
+                <td>유 <i>jak(i) jest</i></td>
+                <td>다 <i>tak(i) jest</i></td>
+                <td>저 <i>tak(i) jest</i></td>
+                <td>보 <i>jakiś/oś jest</i></td>
+                <td>솔 <i>jak(i)kolwiek jest</i></td>
+                <td>임 <i>wszelki/ak jest</i></td>
+                <td>안 <i>nijak(i) jest</i></td>
+            </tr>
+            <tr>
+                <td>윤 <i>jaki</i></td>
+                <td>단 <i>taki</i></td>
+                <td>전 <i>taki</i></td>
+                <td>본 <i>jakiś</i></td>
+                <td>솔은 <i>jakikolwiek</i></td>
+                <td>임은 <i>wszelki</i></td>
+                <td>안은 <i>nijaki</i></td>
+            </tr>
+            <tr>
+                <td>유술 <i>jak</i></td>
+                <td>다술 <i>tak</i></td>
+                <td>저술 <i>tak</i></td>
+                <td>보술 <i>jakoś</i></td>
+                <td>솔술 <i>jakkolwiek</i></td>
+                <td>임술 <i>wszelak</i></td>
+                <td>안술 <i>nijaki</i></td>
+            </tr>
+        </table>
+        <p>Zaimki z 술 przed innym przysłówkiem mogą być skrócone je do jednego słowa. Łącząc 유술 i inne przysłówki można utworzyć: 유술 ᄀᆦ (유ᄀᆦ) <span class="gray">ile</span>, 유술 하라 (유하라) <span class="gray">jak bardzo</span>, itd.</p>
+        <p>조 i 다하 są w wielu przypadkach wymienne. 하 w złożeniach może też być wymienione na 빛 <span class="gray">rzecz</span>.</p>
+        <p>Czasownik 다 często używany w odmianach, np. 닷소 <span class="gray">jeśli tak</span>, 다부사 <span class="gray">z tego powodu</span>, 다다가 <span class="gray">ale (zwykle skracane do 다가)</span>.</p>
+        <p>Niektóre zaimki odmieniają się z niektórymi partykułami nieregularnie.</p>
+        <table>
+            <tr>
+                <th>Zaimek</th>
+                <th>-시 <i>dzierżawczość</i></th>
+                <th>-야/아 <i>dop. bliższe</i></th>
+                <th>-여/어 <i>dop. dalsze</i></th>
+            </tr>
+            <tr>
+                <td>와 <i>ja</i></td>
+                <td>외 <i>mój</i></td>
+                <td>ᄋᆦ <i>mnie</i></td>
+                <td>ᄋힰ <i>mi</i></td>
+            </tr>
+            <tr>
+                <td>유 <i>ty</i></td>
+                <td>ᄋᆔ <i>twój</i></td>
+                <td>ᄋᆎ <i>cię</i></td>
+                <td>ᄋᆏ <i>ci</i></td>
+            </tr>
+            <tr>
+                <td>키 <i>on</i></td>
+                <td>킷 <i>jego</i></td>
+                <td>캬 <i>go</i></td>
+                <td>켜 <i>jemu</i></td>
+            </tr>
+            <tr>
+                <td>모 <i>ona</i></td>
+                <td>못 <i>jej</i></td>
+                <td>ᄆᆦ <i>ją</i></td>
+                <td>ᄆힰ <i>jej</i></td>
+            </tr>
+            <tr>
+                <td>조 <i>ono</i></td>
+                <td>좃 <i>jego</i></td>
+                <td>ᄌᆦ <i>go</i></td>
+                <td>ᄌힰ <i>mu</i></td>
+            </tr>
+            <tr>
+                <td>하 <i>co</i></td>
+                <td></td>
+                <td></td>
+                <td>해 <i>dlaczego</i></td>
+            </tr>
+        </table>
+
+        <h1>Przysłówki</h1>
+        <h2>촐산</h2>
+        <p>Nie ma rozróżnienia między przysłówkami a spółnikami, ze względu na podobieństwo użycia. Przysłówki mogą występować w różnych miejscach zdania - na początku, na końcu, pomiędzy słowami, czy jako afiksy dołączane bezpośrednio do słowa. Mogą powstawać w wyniku dodania do rzeczownika afiksu 술, np. 랴허 <span class="gray">wyjątek</span>, 랴허술 <span class="gray">z wyjątkiem</span>. Niektórych przysłówków, głównie tych wyrażających ilość, rzadziej czas, można użyć jako rzeczowników.</p>
+        <p>Do przysłówków zaliczane są liczbeniki. Używane też liczby arabskie. Liczebniki od 1-9 posiadają morfemy, w przypadku większych liczb liczebnik jest taki sam jak morfem. Liczby większe od 10 są składane z morfemów mniejszych, np. 138 - 100-3-10-8. W większych liczebnikach liczby są oddzielane spacją co trzy potęgi 10. Przykład: 3 252 725 689 325 &rarr; 고교 사배침ᅙᅡᆼ사박 식배사ᅙᅡᆼ침문 필배야ᇫᅙᅡᆼ옥상 고배사ᅙᅡᆼ침.</p>
+        <p>Ułamki dziesiętne wykorzystują słowo 즉 <span class="gray">przecinek</span>, a zwykłe 부사 <span class="gray">z, od</span> na zasadzie 2/3 - 3부사 2. Przysłówki wyrażające ilość używane wraz z czasownikami 모 <span class="gray">kolejny, ~ z kolei</span>, ᅙᅳ <span class="gray">zwielokrotniać, wieloraki</span> i 지 <span class="gray">wielokrotny</span> są w stanie utworzyć liczebniki porządkowe, mnożne i wielokrotne. W przypadku form przymiotnikowych typu drugi, dwukrotny, podwójny używa się formy przydawkowej, a w formach przysłówkowych typu po drugie, dwukrotnie, podwójnie formy 술. Przykłady: 1모 <span class="gray">być pierwszym</span>, 1몬 <span class="gray">pierwszy</span>, 1모술 <span class="gray">po pierwsze</span>, 1몬 지 <span class="gray">pierwszy raz</span>, 1몬 지유 <span class="gray">za pierwszym razem</span>, 1몬 지술 <span class="gray">po raz pierwszy</span>.</p>
+        <p>Nie występują przysłówki działąjące w charakterze przyimków. Zamiast tego używa się po danym rzeczowniku rzeczownika oznaczającego miejsce i partykułę 유/우 <span class="gray">w, podczas</span>, np. 괴 십우 <span class="gray">pod domem</span>.</p>
+
+        <h1>Słowotwórstwo</h1>
+        <h2>먕사순</h2>
+        <p>W słowotwórstwie można użyć całego słowa, jego jedno-sylabiczengo morfemu, rzadziej części słowa. Istnieją też osobne afiksy, których nie używa się jako osobnych słów, np. 갹 <span class="gray">nauka, obszar</span>. Większość słów o takim samym znaczeniu dla uproszczenia ma ten sam morfem, np. 환 (환) <span class="gray">bieżący</span> i 아리 (환) <span class="gray">teraz</span>.</p>
+        <p>Do tworzenia rzeczowników odczasownikowych najczęściej używa się formy ㅁ/임 dodawanej do bezokolicznika. Częste są też kombinacje morfemów wielu słów oraz użycie ogólnych morfemów 사 <span class="gray">rzecz</span> i 미 <span class="gray">przedmiot</span>. Aby wyrazić czynność, dodaje się do bezokolicznika morfem 다 pochodzący od czasownika 다 <span class="gray">wykonać, działać</span>.</p>
+        <p>Rzeczowniki mogą być używane do tworzenia innych rzeczowników. Zdarza się, że dane słowo i jego morfem tworzą jeszcze inne słowo, np. 열 <span class="gray">osoba (od 열인)</span> + 수 <span class="gray">osoba (morfem)</span> &rarr; 열수 <span class="gray">człowiek</span>. Czasowniki odrzeczownikowe są tworzone najczęściej przez dodanie bezpośrednio do nich czasownika 여 <span class="gray">robić</span> lub 하 <span class="gray">(zamiana na formę przymiotnikową)</span>, ale można dodawać inne czasowniki. Używając czasownika 고로 <span class="gray">-podobny, niczym</span> można stworzyć czasownik wyrażający podobieństwo.</p>
+        <p>W przypadku łączenia wielu rzeczowników w jeden, nie ma konkretnych zasad dotyczących stawiania spacji. Ogólna zasada mówi, że w przypadku odnoszenia się do konkretnych rzeczy lub używania ustalonych wyrażeń spacja jest opcjonalna, np. 기훼 참추/기훼참추 <span class="gray">zakaz wstępu</span>.</p>
+
+        <h1>Ustalone zwroty</h1>
+        <h2>히리드나 아라와왐</h2>
+        <p>Ustalone zwroty zwykle składają się z rzeczowników i partykuł, np. 사나리 <span class="gray">dzień dobry (dosł. dzisiaj)</span>. Często wykorzystywana jest forma 술 czasowników, forma ㅅ소/앗소 oraz czas teraźniejszy. Istnieje też grupa wyrazów, takie jak wykrzykniki czy partykuły, np. 앳 <span class="gray">tak</span>, 읏 <span class="gray">cześć</span>. Sklasyfikowane są jako partykuły.</p>
+
+        <h1>Składnia</h1>
+        <h2>군솔</h2>
+        <p>Orzeczenie zawsze znajduje się na końcu zdania (lub zdania składowego). Przydawki i wszystkie formy opisujące występują przed tym, co opisują. Inne elementy zdania mogą występować w dowolnej kolejności, jednak podmiot zwykle występuje przed dopełnieniem, a dopełnienie bliższe zazwyczaj znajduje się tuż przed orzeczeniem. Im bardziej coś ma być podkreślone, tym bliżej początku zdania powinno się znajdować.</p>
+        <p>Jako części zdania można użyć całych zdań za pomocą formy przydawkowej. Do nominalizacji zdań mogą służyć wyrazy takie jak 빛 <span class="gray">rzecz</span> (와리 과나 빛 <span class="gray">to, że poszedłem</span>, 과나 빛 <span class="gray">to, że poszedł; ten, kto poszedł</span>), 열인 <span class="gray">osoba</span> (과나 열인 <span class="gray">ten, kto poszedł; osoba, która poszła</span>), 기 <span class="gray">miejsce</span> (와리 과나 기 <span class="gray">tam, gdzie poszedłem</span>), 자 <span class="gray">czas</span> (와리 과나 자 <span class="gray">kiedy poszedłem</span>), czy 거 <span class="gray">czy</span> (와리 과나 거 <span class="gray">to, czy poszedłem</span>). Do modyfikacji słów mogą służyć partykuły, np. 지유ᅀᅳᆯ오 흥과 <span class="gray">wycieczka z przyjaciółmi</span>, 술더 흥과 <span class="gray">wycieczka nad morze</span>.</p>
+        <p>W języku potocznym słowa oczywiste lub domyślne z kontekstu często są pomijane (głownie podmiot). Partykuły również mogą być pomijane, dzieje się tak głównie z partykułą podmiotu i dopełnienia bliższego.</p>
+
+        <h1>Zdania złożone</h1>
+        <h2>황군</h2>
+        <p>Do tworzenia zdań złożonych można użyć przysłówków, np. 든이 <span class="gray">lub</span>, zaimków, np. 다여 <span class="gray">dlatego</span>, 저자 <span class="gray">wtedy</span>, końcówek dołączanych do czasowników, np. ㅅ소/앗소 <span class="gray">jeśli</span>, lub rozbudowanych przydawek, co zostało pokazane w poprzedniej sekcji (które tak naprawdę nie są zdaniami złożonymi, a jedynie je przypominają).</p>
+        <p>Jeszcze jednym sposobem jest użycie przysłówka pytającego 거 <span class="gray">czy</span>, który służy zadaniu pytania w zdaniu podrzędnym. Jest on dodawany po orzeczeniu, nie po formie imiesłowu. Można po nim używać partykuł, rzeczowników i czasowników, np. 괄러 거리 <span class="gray">to, czy pójdzie</span>, 유기더 괄러 거 지본나 <span class="gray">spytałem, gdzie pójdzie</span>.</p>
+
+        <h1>Zdania warunkowe</h1>
+        <h2>술ᄋᅸ군</h2>
+        <p></p>
+
+        <h1>Zdania porównawcze</h1>
+        <h2>비눔 군</h2>
+        <p></p>
+
+        <h1>Wyrażenia związane z czasem</h1>
+        <h2>자여 부드시 아라왐</h2>
+        <p></p>
+
+        <h1>Jednostki miary</h1>
+        <h2>턴룡 어류</h2>
+        <p></p>
+    </div>
+</body>
+</html>

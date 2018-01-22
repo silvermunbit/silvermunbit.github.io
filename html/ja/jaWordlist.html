@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>語彙リスト</title>
+<meta charset="utf-8" />
+<link href="../../style.css" rel="stylesheet" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"/>
+<script src="../../libs/jquery-3.1.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.getScript("../../js/buttonUp.js", function () {
+            $.getScript("../../js/settingsButton.js", function () {
+                $.getScript("../../js/nonVocabTheme.js", function () {
+                    $.getScript("../../js/localStorage.js")
+                })
+            })
+        })
+    })
+</script>
+</head>
+<body>
+    <a id="top"></a>
+    <a href="#top" id="up"><img src="../../gfx/goUp.png" alt="up" /></a>
+    <img id="settingsButton" src="../../gfx/settingsDark.png" alt="settings" />
+    <div id="menu">
+        <h3>テーマ</h3>
+        <a id="lightTheme">ライト</a>
+        <a id="darkTheme">ダーク</a>
+        <h3>リンク</h3>
+        <a id="homepage" href="../../index.html">ホームページ</a>
+        <a id="mobileToggle" href="../../mobile/html/ja/jaWordlist.html">モバイル版</a>
+    </div>
+    <div id="contentDiv">
+        <h1>Mylące słowa</h1>
+        <h2>紛らわしい言葉</h2>
+        <p>製造 <span class="gray">produkcja</span> 製造者, 製作 <span class="gray">produkcja</span>, 生産 <span class="gray">produkcja</span>, 作製 <span class="gray">produkcja</span><br />
+        制作 <span class="gray">produkcja (np. film)</span>, 作成 <span class="gray">tworzenie, robienie</span>, 生成 <span class="gray">tworzenie, generowanie</span><br />
+        製品 <span class="gray">produkt</span>, 作品 <span class="gray">dzieło</span>, 商品 <span class="gray">towar</span><br />
+        産業 <span class="gray">przemysł</span>, 工業 <span class="gray">przemysł przetwórczy</span>, 商業 <span class="gray">handel</span>, 企業 <span class="gray">przedsiębiorstwo</span><br />
+        職業 <span class="gray">zawód</span>, 作業 <span class="gray">praca (czynność)</span>, 事業 <span class="gray">biznes (przedsięwzięcie)</span>, 営業 <span class="gray">biznes (w celu zarobku)</span> 営業時間, 営業中<br />
+        業務 <span class="gray">praca zawodowa</span>, 事務 <span class="gray">praca biurowa</span> 事務所, 職務 <span class="gray">praca, obowiązki</span>, 経営 <span class="gray">zarządzanie</span> 事業を経営する</p>
+        <p>安定 <span class="gray">stabilność</span>, 認定 <span class="gray">autoryzacja</span>, 認識 <span class="gray">rozpoznanie, świadomość</span>, 認証 <span class="gray">uwierzytelnienie</span><br />
+        推定 <span class="gray">oszacowanie, przypuszczenie</span>, 推測 <span class="gray">zgadnięcie, przypuszczenie</span>, 推薦 <span class="gray">rekomendacja</span><br />
+        保証 <span class="gray">gwarancja</span>, 保険 <span class="gray">ubezpieczenie</span> 保険証, 保健 <span class="gray">ochrona zdrowia</span> 保健所, 保管 <span class="gray">przechowanie</span><br />
+        明確 <span class="gray">precyzyjny, konkretny</span>, 正確 <span class="gray">dokładny</span><br />
+        確信 <span class="gray">przekonanie</span> 確信が持てない, 確認 <span class="gray">weryfikacja, sprawdzenie</span>, 確保 <span class="gray">zapewnienie</span></p>
+        <p>判断 <span class="gray">decyzja, osąd</span>, 判決 <span class="gray">wyrok</span>, 評判 <span class="gray">reputacja</span><br />
+        評価 <span class="gray">ocena, wartość</span>, 評論 <span class="gray">krytyka</span>, 批評 <span class="gray">recenzja, krytyka</span><br /></p>
+        <p>衝動 <span class="gray">impuls</span>, 衝撃 <span class="gray">szok</span>, 衝突 <span class="gray">kolizja</span>, 突破 <span class="gray">penetracja</span>, 突然 <span class="gray">nagły</span><br />
+        外観 <span class="gray">wygląd zewnętrzny</span>, 観測 <span class="gray">obserwacja</span>, 直観 <span class="gray">intuicja</span></p>
+        <p>危険 <span class="gray">niebezpieczeństwo</span>, 冒険 <span class="gray">przygoda</span>, 保険 <span class="gray">ubezpieczenie</span><br />
+        経験 <span class="gray">doświadczenie</span>, 試験 <span class="gray">egzamin</span><br />
+        検査 <span class="gray">inspekcja</span>, 探検 <span class="gray">eksploracja</span>, 検索 <span class="gray">wyszukiwanie</span>, 検閲 <span class="gray">cenzura</span></p>
+
+        <h1>Czasowniki i przymiotniki</h1>
+        <h2>動詞と形容詞</h2>
+        <p><ruby>焦<rt>こ</rt></ruby>げる、<ruby>焦<rt>こ</rt></ruby>がす <span class="gray">spalić się/spalić</span>, <ruby>溶<rt>と</rt></ruby>ける、<ruby>溶<rt>と</rt></ruby>かす <span class="gray">topnieć/stopić</span>, <ruby>抜<rt>ぬ</rt></ruby>く、<ruby>抜<rt>ぬ</rt></ruby>ける <span class="gray">wypaść/pominąć, wyprzednić</span><br />
+        <ruby>吊<rt>つ</rt></ruby>る、<ruby>吊<rt>つ</rt></ruby>るす <span class="gray">wisieć/powiesić</span>, <ruby>詰<rt>つ</rt></ruby>まる、<ruby>詰<rt>つ</rt></ruby>める <span class="gray">być wypełnionym/wypełnić</span>, <ruby>砕<rt>くだ</rt></ruby>く、<ruby>砕<rt>くだ</rt></ruby>ける <span class="gray">być rozbitym/rozbić</span><br />
+        <ruby>生<rt>は</rt></ruby>える、<ruby>生<rt>は</rt></ruby>やす <span class="gray">rosnąć/sadzić, kultywować</span>, <ruby>縮<rt>ちぢ</rt></ruby>む、<ruby>縮<rt>ちぢ</rt></ruby>める <span class="gray">kurczyć się, skracać</span></p>
+        <p><ruby>染<rt>そ</rt></ruby>める <span class="gray">zabarwić</span>, <ruby>塗<rt>ぬ</rt></ruby>る <span class="gray">malować</span>, <ruby>怠<rt>なま</rt></ruby>ける <span class="gray">być leniwym</span>, <ruby>配<rt>くば</rt></ruby>る <span class="gray">dostarczyć</span>, <ruby>告<rt>つ</rt></ruby>げる <span class="gray">powiadomić</span>, <ruby>責<rt>せ</rt></ruby>める <span class="gray">obwiniać</span><br />
+        <ruby>飽<rt>あ</rt></ruby>きる <span class="gray">mieć dosyć</span><br />
+        <ruby>招<rt>まね</rt></ruby>く <span class="gray">zaprosić, skutkować czymś</span>, <ruby>掃<rt>は</rt></ruby>く <span class="gray">zamiatać</span>, <ruby>除<rt>のぞ</rt></ruby>く <span class="gray">usunąć, wykluczyć</span>, <ruby>傾<rt>かたむ</rt></ruby>く <span class="gray">przechylać się, skłaniać się</span><br />
+        <ruby>防<rt>ふせ</rt></ruby>ぐ <span class="gray">chronić przed, zapobiegać</span>, <ruby>塞<rt>ふさ</rt></ruby>ぐ <span class="gray">zablokować, zatkać</span>, <ruby>担<rt>かつ</rt></ruby>ぐ <span class="gray">nieść na ramieniu</span><br />
+        <ruby>満<rt>み</rt></ruby>たす <span class="gray">wypełnić</span>, <ruby>荒<rt>あ</rt></ruby>らす <span class="gray">zniszczyć</span>, <ruby>費<rt>つい</rt></ruby>やす <span class="gray">zużyć</span><br />
+        <ruby>阻<rt>はば</rt></ruby>む <span class="gray">powstrzymać</span>, <ruby>拒<rt>こば</rt></ruby>む <span class="gray">odmówić</span>, <ruby>営<rt>いとな</rt></ruby>む <span class="gray">prowadzić interes</span>, <ruby>惜<rt>お</rt></ruby>しむ <span class="gray">szczędzić</span>, <ruby>弾<rt>はず</rt></ruby>む <span class="gray">odbijać się</span><br />
+        <ruby>疑<rt>うたが</rt></ruby>う <span class="gray">wątpić</span>, <ruby>扱<rt>あつか</rt></ruby>う <span class="gray">zająć się, traktować</span>, <ruby>逆<rt>さか</rt></ruby>らう <span class="gray">przeciwstawiać się</span>, ためらう <span class="gray">wahać się</span>, <ruby>伴<rt>ともな</rt></ruby>う <span class="gray">towarzyszyć</span>, <ruby>従<rt>したが</rt></ruby>う <span class="gray">przestrzegać</span><br />
+        <ruby>雇<rt>やと</rt></ruby>う <span class="gray">zatrudnić</span><br />
+        <ruby>保<rt>たも</rt></ruby>つ <span class="gray">zachować, utrzymać</span></p>
+        <p><ruby>賢<rt>かしこ</rt></ruby>い <span class="gray">mądry</span>, <ruby>恋<rt>こい</rt></ruby>しい <span class="gray">utęskniony</span>, <ruby>勇<rt>いさ</rt></ruby>ましい <span class="gray">odważny</span>, かゆい <span class="gray">swędzący</span>, <ruby>紛<rt>まぎ</rt></ruby>らわしい <span class="gray">mylący</span>, <ruby>等<rt>ひと</rt></ruby>しい <span class="gray">podobny</span></p>
+    </div>
+</body>
+</html>

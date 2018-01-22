@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>助詞の使い分け</title>
+<meta charset="utf-8" />
+<link href="../../style.css" rel="stylesheet" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"/>
+<script src="../../libs/jquery-3.1.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.getScript("../../js/buttonUp.js", function () {
+            $.getScript("../../js/settingsButton.js", function () {
+                $.getScript("../../js/nonVocabTheme.js", function () {
+                    $.getScript("../../js/localStorage.js")
+                })
+            })
+        })
+    })
+</script>
+</head>
+<body>
+    <a id="top"></a>
+    <a href="#top" id="up"><img src="../../gfx/goUp.png" alt="up" /></a>
+    <img id="settingsButton" src="../../gfx/settingsDark.png" alt="settings" />
+    <div id="menu">
+        <h3>テーマ</h3>
+        <a id="lightTheme">ライト</a>
+        <a id="darkTheme">ダーク</a>
+        <h3>リンク</h3>
+        <a id="homepage" href="../../index.html">ホームページ</a>
+        <a id="mobileToggle" href="../../mobile/html/ja/jaParticles.html">モバイル版</a>
+    </div>
+    <div id="contentDiv">
+        <h1>Użycie partykuł</h1>
+        <h2>助詞の使い分け</h2>
+        <p>W nawiasach podane słowa opcjonalne. Synonimy/alternatywy oddzielone ・.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,498 @@
+﻿/* DESKTOP */
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@font-face {font-family: "Beau Thin"; src: url(fonts/beau-thin.ttf);}
+@font-face {font-family: "Beau Light"; src: url(fonts/beau-light.ttf);}
+@font-face {font-family: "Beau Regular"; src: url(fonts/beau-regular.ttf);}
+
+/* GLOBAL */
+
+* {
+    font-family: 'Beau Thin', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+*:focus {
+    outline: none;
+}
+::selection {
+    background-color: rgba(74, 74, 74, 0.5);
+}
+::-moz-selection {
+    background-color: rgba(74, 74, 74, 0.5);
+}
+img[alt*="www.000webhost.com"] {
+    display: none;
+}
+body {
+    margin: 0;
+    background: #111;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* MENU */
+
+#menu {
+    width: 170px;
+    position: fixed;
+    top: 55px;
+    left: 15px;
+    padding-bottom: 10px;
+    background: #222;
+    display: none;
+    z-index: 2;
+}
+#menu.slide {
+    display: inline;
+}
+h3 {
+    margin: 15px 0px 2px 15px;
+    font-family: 'Beau Regular', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #707070;
+}
+#menu a {
+    width: 155px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    padding-left: 15px;
+    font-size: 16px;
+    vertical-align: bottom;
+}
+#menu a:hover {
+    background: #333;
+}
+#menu a.light:hover {
+    background: #ddd;
+}
+#settingsButton {
+    width: 24px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+#settingsButton.slide {
+    transform: rotate(90deg);
+}
+#lightTheme, #darkTheme {
+    cursor: pointer;
+}
+
+/* HOMEPAGE */
+
+h1 {
+    line-height: 50px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    line-height: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+#chooseLang {
+    width: 850px;
+    margin: 50px auto;
+}
+#chooseLang a {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 25px;
+    color: #707070;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+#chooseLang a:hover {
+    background: #474747;
+    color: #111;
+}
+#chooseLang a.light {
+    color: #a1a1a1;
+}
+#chooseLang a.light:hover {
+    background: #ebebeb;
+    color: #a1a1a1;
+}
+#langSubmenu {
+    width: 800px;
+    height: 150px;
+    position: relative;
+    margin: 80px auto;
+    overflow: hidden;
+}
+.submenu {
+    width: 800px;
+    height: 150px;
+    position: absolute;
+    top: -150px;
+    text-align: center;
+    font-size: 0;
+    transition: .3s ease-in-out;
+}
+.submenu.slide {
+    top: 0px;
+}
+.submenuOption {
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+}
+.submenuCircle {
+    width: 80px;
+    height: 80px;
+    line-height: 82px;
+    display: block;
+    position: relative;
+    left: 60px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+.c1 {
+    background: #e53935;
+}
+.c2 {
+    background: #f9a825;
+}
+.c3 {
+    background: #2bce72;
+}
+.c4 {
+    background: #448aff;
+}
+.submenuText {
+    text-align: center;
+    font-size: 20px;
+}
+
+#wagyk {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 22px;
+    background: #222;
+    z-index: 1; 
+}
+#wagyk:hover {
+    background: #333;
+    -webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+}
+#wagyk.light {
+    background: #f5f5f5;
+    color: black;
+}
+#wagyk.light:hover {
+    background: #ddd;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #707070;
+}
+
+/* HOMEPAGE SHRINK */
+
+@media only screen and (max-height: 700px) {
+    footer {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #chooseLang {
+        width: 280px;
+    }
+    #langSubmenu {
+        width: 280px;
+        height: 600px;
+    }
+    .submenu {
+        width: 280px;
+        top: -600px;
+    }
+    footer {
+        position: relative;
+    }
+}
+.notransition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+}
+
+/* VOCABULARY */
+
+#total, #guessed {
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+}
+#total {
+    top: 20px;
+}
+#guessed {
+    top: 55px;
+}
+
+#addDiv {
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    padding: 10px;
+    background: #222;
+}
+#addDiv * {
+    display: block;
+    margin: 10px;
+}
+
+#prompt {
+    line-height: 120px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 80px;
+}
+#typing {
+    width: 60%;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+}
+#inputArea {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 80px;
+    color: #707070;
+    background: #222;
+}
+#correct {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-size: 80px;
+    color: #0c0;
+}
+
+#range {
+    position: fixed;
+    left: .5%;
+    bottom: 105px;
+    width: 99%;
+    height: 30px;
+    margin: 0;
+    border-radius: 15px;
+    background: #474747;
+    -webkit-appearance: none;
+}
+#range::-webkit-slider-thumb {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: red;
+    -webkit-appearance: none;
+}
+#range:focus {
+    outline: none;
+}
+#rangeWord {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+/* NONVOCAB */
+
+#up {
+    width: 50px;
+    height: 50px;
+	position: fixed;
+	bottom: -50px;
+	right: 20px;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.5);
+	-webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+}
+#up:hover {
+    background: black;
+}
+#up.slide {
+    bottom: 20px;
+}
+#up img {
+    width: 40px;
+    margin: 5px;
+}
+
+#contentDiv {
+    max-width: 1400px;
+    margin: 100px auto 50px;
+    padding: 8px;
+}
+#contentDiv * {
+	font-family: 'Beau Light', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+}
+#contentDiv h1 {
+	display: inline-block;
+	margin: 15px 0px;
+	font-family: 'Beau Regular', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+	font-size: 30px;
+	color: #707070;
+	font-weight: 500;
+}
+#contentDiv h2 {
+	display: inline-block;
+	margin: 0px 10px;
+	font-size: 22px;
+	color: #707070;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    text-indent: -1em;
+}
+ul li:before {
+    padding-right: 0.5em;
+    color: #707070;
+    content: "\2022 ";
+}
+ul li.light:before {
+    color: #a1a1a1;
+}
+table {
+	margin: 15px 0px;
+	border-collapse: collapse;
+    text-align: center;
+}
+table td, table th {
+	min-width: 30px;
+	padding: 5px;
+	border: 1px #111 solid;
+	background: #333;
+    white-space: nowrap;
+}
+table th {
+	background: #222;
+    font-family: 'Beau Regular', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+}
+span.blue {
+	color: #09f;
+}
+span.green {
+	color: #0c0;
+}
+span.gray {
+	color: #707070;
+}
+del {
+	text-decoration: none;
+	color: red;
+}
+rt {
+    font-size: 10px;
+}
+.ipa {
+    font-family: sans-serif !important;
+}
+.split {
+    height: 30px;
+    line-height: 15px;
+    position: relative;
+    background: linear-gradient(to top right,#222 49.5%,#111 49.5%,#111 50.5%,#222 50.5%);
+}
+.split div {
+    width: 60px;
+}
+.splitCol {
+    text-align: right;
+}
+.splitRow {
+    text-align: left;
+}
+
+/*
+
+COLOR SCHEME
+
+                DARK    LIGHT
+TEXT            #FF     #00
+BG              #11     #FA
+
+MENU BG         #22     #F5
+MENU BG:HOVER   #33     #DD
+MENU H3         #70     #A1
+
+CHLANG TEXT		#70		#A1
+CHLANG TEXT:H	#11		#A1
+CHLANG BG:H		#47		#EB
+MENU1	        #E53935	#E53935
+MENU2           #F9A825	#F9A825
+MENU3           #2BCE72	#2BCE72
+MENU4           #448AFF	#448AFF
+WAGYK BG        #22     #F5
+WAGYK:HOVER     #33     #DD
+FOOTER          #70     #A1
+
+INPUT TEXT      #70     #A1
+INPUT BG        #22     #F5
+RANGE BG        #47     #B8
+RANGEMOVE BG    #22     #F5
+
+HEADERS			#70		#A1
+GRAY            #70		#A1
+TH				#22		#DD
+TD				#33		#F5
+TEXTBG          #47     #B8
+
+ORDER
+
+size
+display
+position
+margin
+padding
+border
+background
+text-align
+font-family
+font-size
+color
+font-weight
+other
+
+*/

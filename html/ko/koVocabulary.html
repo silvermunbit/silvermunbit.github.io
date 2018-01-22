@@ -1,0 +1,42 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>어휘 시험</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="../../style.css" rel="stylesheet" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"/>
+<script src="../../libs/jquery-3.1.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.getScript("../../js/vocabInitKo.js", function () {
+            $.getScript("../../js/settingsButton.js", function () {
+                $.getScript("../../js/vocabDrawWord.js", function () {
+                    $.getScript("../../js/vocabTheme.js", function () {
+                        $.getScript("../../js/localStorage.js")
+                    })
+                })
+            })
+        })
+    })
+</script>
+</head>
+<body>
+    <img id="settingsButton" src="../../gfx/settingsDark.png" alt="settings" />
+    <div id="menu">
+        <h3>테마</h3>
+        <a id="lightTheme">밝게</a>
+        <a id="darkTheme">어둡게</a>
+        <h3>링크</h3>
+        <a id="homepage" href="../../index.html">홈페이지</a>
+        <a id="mobileToggle" href="../../mobile/html/ko/koVocabulary.html">모바일 버전</a>
+    </div>
+    <div id="total"></div>
+    <div id="guessed"></div>
+    <div id="prompt"></div>
+    <div id="typing"><input type="text" id="inputArea" spellcheck="false" autofocus/></div>
+    <div id="correct"></div>
+    <input id="range" type="range" min="0" value="0"/>
+    <div id="rangeWord"></div> 
+</body>
+</html>

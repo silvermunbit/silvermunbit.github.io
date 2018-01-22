@@ -1,0 +1,471 @@
+﻿/* MOBILE */
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@font-face {font-family: "Beau Thin"; src: url(../fonts/beau-thin.ttf);}
+@font-face {font-family: "Beau Light"; src: url(../fonts/beau-light.ttf);}
+@font-face {font-family: "Beau Regular"; src: url(../fonts/beau-regular.ttf);}
+
+/* GLOBAL */
+
+* {
+    font-family: 'Beau Thin', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+*:focus {
+    outline: none;
+}
+::selection {
+    background-color: rgba(74, 74, 74, 0.5);
+}
+::-moz-selection {
+    background-color: rgba(74, 74, 74, 0.5);
+}
+img[alt*="www.000webhost.com"] {
+    display: none;
+}
+body {
+    margin: 0;
+    background: #111;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* MENU */
+
+#menu {
+    width: 170px;
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    padding-bottom: 10px;
+    background: #222;
+    display: none;
+    z-index: 2;
+}
+#menu.slide {
+    display: inline;
+}
+h3 {
+    margin: 15px 0px 2px 15px;
+    font-family: 'Beau Regular', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #707070;
+}
+#menu a {
+    width: 155px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    padding-left: 15px;
+    font-size: 16px;
+    vertical-align: bottom;
+}
+#settingsButton {
+    width: 24px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+#settingsButton.slide {
+    transform: rotate(90deg);
+}
+
+/* HOMEPAGE */
+
+h1 {
+    line-height: 28px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 28px;
+}
+h2 {
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+}
+#chooseLang {
+    width: 360px;
+    margin: 30px auto;
+}
+#chooseLang a {
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #707070;
+}
+#chooseLang a.light {
+    color: #a1a1a1;
+}
+#langSubmenu {
+    width: 300px;
+    height: 260px;
+    position: relative;
+    margin: 40px auto;
+    overflow: hidden;
+}
+.submenu {
+    width: 300px;
+    height: 260px;
+    position: absolute;
+    top: -300px;
+    text-align: center;
+    font-size: 0;
+    transition: .3s ease-in-out;
+}
+.submenu.slide {
+    top: 0px;
+}
+.submenuOption {
+    width: 150px;
+    height: 130px;
+    display: inline-block;
+}
+.submenuCircle {
+    width: 60px;
+    height: 60px;
+    line-height: 68px;
+    display: block;
+    position: relative;
+    left: 45px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.c1 {
+    background: #e53935;
+}
+.c2 {
+    background: #f9a825;
+}
+.c3 {
+    background: #2bce72;
+}
+.c4 {
+    background: #448aff;
+}
+.submenuText {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+#wagyk {
+    width: 40px;
+    height: 40px;
+    line-height: 46px;
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    background: #222;
+    z-index: 1;
+}
+#wagyk.light {
+    background: #f5f5f5;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #707070;
+}
+@media only screen and (max-height: 550px) {
+    footer {
+        position: relative;
+    }
+}
+
+.notransition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+}
+
+/* VOCABULARY */
+
+#total, #guessed {
+    position: absolute;
+    right: 10px;
+    font-size: 14px;
+}
+#total {
+    top: 10px;
+}
+#guessed {
+    top: 30px;
+}
+
+#addDiv {
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    padding: 10px;
+    background: #222;
+}
+#addDiv * {
+    display: block;
+    margin: 10px;
+}
+
+#prompt {
+    line-height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+#typing {
+    width: 98%;
+    height: 40px;
+    position: relative;
+    margin: 0 auto;
+}
+#inputArea {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 20px;
+    background: #222;
+    text-align: center;
+    font-size: 30px;
+    color: #707070;
+}
+#correct {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 30px;
+    color: #0c0;
+}
+
+#range {
+    position: absolute;
+    left: 1%;
+    bottom: 50px;
+    width: 98%;
+    height: 18px;
+    margin: 0;
+    border-radius: 9px;
+    background: #474747;
+    -webkit-appearance: none;
+}
+#range::-webkit-slider-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background: red;
+    -webkit-appearance: none;
+}
+#range:focus {
+    outline: none;
+}
+#rangeWord {
+    position: absolute;
+    left: 10px;
+    bottom: 12px;
+    font-size: 20px;
+    color: white;
+}
+.rangeMove {
+    width: 30px;
+    height: 30px;
+    line-height: 34px;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 15px;
+    background: #222;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#rangeDecrement {
+    right: 50px;
+}
+#rangeIncrement {
+    right: 10px;
+}
+
+/* NONVOCAB */
+
+#up {
+    width: 40px;
+    height: 40px;
+	position: fixed;
+	bottom: -40px;
+	right: 10px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.5);
+	-webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+}
+#up.slide {
+    bottom: 10px;
+}
+#up img {
+    width: 30px;
+    margin: 5px;
+}
+
+#contentDiv {
+    margin: 50px auto 50px;
+    padding: 8px;
+    font-size: 14px;
+}
+#contentDiv * {
+	font-family: 'Beau Light', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+}
+#contentDiv h1 {
+	margin: 20px 0px 0px 0px;
+    text-align: left;
+	font-family: 'Beau Regular', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+	font-size: 24px;
+	color: #707070;
+	font-weight: 500;
+}
+#contentDiv h2 {
+    margin-top: 5px;
+    text-align: left;
+	font-size: 18px;
+	color: #707070;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    text-indent: -1em;
+}
+ul li:before {
+    padding-right: 0.5em;
+    color: #707070;
+    content: "\2022 ";
+}
+ul li.light:before {
+    color: #a1a1a1;
+}
+table {
+    width: inherit;
+    display: block;
+	margin: 15px 0px;
+	border-collapse: collapse;
+    text-align: center;
+    overflow-x: auto;
+}
+table td, table th {
+	min-width: 20px;
+	padding: 5px;
+	border: 1px #111 solid;
+	background: #333;
+    white-space: nowrap;
+}
+table th {
+	background: #222;
+    font-family: 'Beau Regular', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+}
+span.blue {
+	color: #09f;
+}
+span.green {
+	color: #0c0;
+}
+span.gray {
+	color: #707070;
+}
+del {
+	text-decoration: none;
+	color: red;
+}
+rt {
+    font-size: 7px;
+}
+.ipa {
+    font-family: sans-serif !important;
+}
+.split {
+    height: 20px;
+    line-height: 11px;
+    position: relative;
+    background: linear-gradient(to top right,#222 49.5%,#111 49.5%,#111 50.5%,#222 50.5%);
+}
+.split div {
+    width: 50px;
+}
+.splitCol {
+    text-align: right;
+}
+.splitRow {
+    text-align: left;
+}
+
+/*
+
+COLOR SCHEME
+
+                DARK    LIGHT
+TEXT            #FF     #00
+BG              #11     #FA
+
+MENU BG         #22     #F5
+MENU BG:HOVER   #33     #DD
+MENU H3         #70     #A1
+
+CHLANG TEXT		#70		#A1
+CHLANG TEXT:H	#11		#A1
+CHLANG BG:H		#47		#EB
+MENU1	        #E53935	#E53935
+MENU2           #F9A825	#F9A825
+MENU3           #2BCE72	#2BCE72
+MENU4           #448AFF	#448AFF
+WAGYK BG        #22     #F5
+WAGYK:HOVER     #33     #DD
+FOOTER          #70     #A1
+
+INPUT TEXT      #70     #A1
+INPUT BG        #22     #F5
+RANGE BG        #47     #B8
+RANGEMOVE BG    #22     #F5
+
+HEADERS			#70		#A1
+GRAY            #70		#A1
+TH				#22		#DD
+TD				#33		#F5
+TEXTBG          #47     #B8
+
+ORDER
+
+size
+display
+position
+margin
+padding
+border
+background
+text-align
+font-family
+font-size
+color
+font-weight
+other
+
+*/

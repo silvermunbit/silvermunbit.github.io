@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>조사의 용법</title>
+<meta charset="utf-8" />
+<link href="../../style.css" rel="stylesheet" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"/>
+<script src="../../libs/jquery-3.1.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.getScript("../../js/buttonUp.js", function () {
+            $.getScript("../../js/settingsButton.js", function () {
+                $.getScript("../../js/nonVocabTheme.js", function () {
+                    $.getScript("../../js/localStorage.js")
+                })
+            })
+        })
+    })
+</script>
+</head>
+<body>
+    <a id="top"></a>
+    <a href="#top" id="up"><img src="../../gfx/goUp.png" alt="up" /></a>
+    <img id="settingsButton" src="../../gfx/settingsDark.png" alt="settings" />
+    <div id="menu">
+        <h3>테마</h3>
+        <a id="lightTheme">밝게</a>
+        <a id="darkTheme">어둡게</a>
+        <h3>링크</h3>
+        <a id="homepage" href="../../index.html">홈페이지</a>
+        <a id="mobileToggle" href="../../mobile/html/ko/koParticles.html">모바일 버전</a>
+    </div>
+    <div id="contentDiv">
+        <h1>Użycie partykuł</h1>
+        <h2>조사의 용법</h2>
+        <p>W nawiasach podane słowa opcjonalne. Synonimy/alternatywy oddzielone ・.</p>
+    </div>
+</body>
+</html>

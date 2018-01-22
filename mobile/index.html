@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Homepage</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+<script src="../libs/jquery-3.1.0.min.js"></script>
+<script>
+    $(function () {
+        $("#i").load("../index.html", function () {
+            $("#mobileToggle").attr("href", "../index.html")
+            $("#mobileToggle").text("Desktop")
+        })
+    })
+</script>
+</head>
+<body>
+    <div id="i"></div>
+</body>
+</html>

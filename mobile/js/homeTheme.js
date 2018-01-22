@@ -1,0 +1,28 @@
+﻿var lightTheme = function () {
+    $("body").css("background", "#fafafa")
+    $("h1").css("color", "black")
+    $("h2").css("color", "black")
+    $("h3").css("color", "#a1a1a1")
+    $("footer").css("color", "#a1a1a1")
+    $("#menu").css("background", "#f5f5f5")
+    $("#menu").find("a").css("color", "black")
+    $("#menu").find("a").addClass("light")
+    $("#settingsButton").attr("src", "gfx/settingsLight.png")
+    $("#chooseLang").find("a").addClass("light")
+    $(".submenuText").css("color", "black")
+    $("#wagyk").addClass("light")
+}
+var darkTheme = function () {
+    $("body").css("background", "#111")
+    $("h1").css("color", "white")
+    $("h2").css("color", "white")
+    $("h3").css("color", "#707070")
+    $("footer").css("color", "#707070")
+    $("#menu").css("background", "#222")
+    $("#menu").find("a").css("color", "white")
+    $("#menu").find("a").removeClass("light")
+    $("#settingsButton").attr("src", "gfx/settingsDark.png")
+    $("#chooseLang").find("a").removeClass("light")
+    $(".submenuText").css("color", "white")
+    $("#wagyk").removeClass("light")
+}
