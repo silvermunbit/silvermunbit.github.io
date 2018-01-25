@@ -8,7 +8,7 @@
 /* GLOBAL */
 
 * {
-    font-family: 'Beau Thin', sans-serif;
+    font-family: 'Beau Thin', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
     /*font-family: 'Beau Thin', 'Noto Sans JP Light', sans-serif;*/
     font-weight: 300;
 }
