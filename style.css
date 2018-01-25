@@ -1,5 +1,6 @@
 ﻿/* DESKTOP */
-
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @font-face {font-family: "Noto Sans JP Light"; src: url(../fonts/NotoSansCJKjp-Light.otf);}
 @font-face {font-family: "Noto Sans JP Medium"; src: url(../fonts/NotoSansCJKjp-Medium.otf);}
 @font-face {font-family: "Beau Thin"; src: url(fonts/beau-thin.ttf);}
@@ -9,7 +10,8 @@
 /* GLOBAL */
 
 * {
-    font-family: 'Beau Thin', 'Noto Sans JP Light', sans-serif;
+    font-family: 'Beau Thin', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+    /*font-family: 'Beau Thin', 'Noto Sans JP Light', sans-serif;*/
     font-weight: 300;
 }
 *:focus {
