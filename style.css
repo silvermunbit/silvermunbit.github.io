@@ -1,6 +1,6 @@
 ﻿/* DESKTOP */
-@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosansjp.css);
 @font-face {font-family: "Beau Thin"; src: url(fonts/beau-thin.ttf);}
 @font-face {font-family: "Beau Light"; src: url(fonts/beau-light.ttf);}
 @font-face {font-family: "Beau Regular"; src: url(fonts/beau-regular.ttf);}
