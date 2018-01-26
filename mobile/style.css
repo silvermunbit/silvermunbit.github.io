@@ -136,7 +136,7 @@ h2 {
 .submenuCircle {
     width: 60px;
     height: 60px;
-    line-height: 72px;
+    line-height: 68px;
     display: block;
     position: relative;
     left: 45px;
@@ -145,8 +145,7 @@ h2 {
     font-size: 40px;
 }
 .c1 {
-    background: blue;
-    /*e53935*/
+    background: #e53935;
 }
 .c2 {
     background: #f9a825;
@@ -166,7 +165,7 @@ h2 {
 #wagyk {
     width: 40px;
     height: 40px;
-    line-height: 48px;
+    line-height: 46px;
     display: block;
     position: fixed;
     bottom: 10px;
