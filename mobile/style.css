@@ -145,7 +145,8 @@ h2 {
     font-size: 40px;
 }
 .c1 {
-    background: #e53935;
+    background: red;
+    /*e53935*/
 }
 .c2 {
     background: #f9a825;
