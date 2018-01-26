@@ -15,15 +15,6 @@
 *:focus {
     outline: none;
 }
-::selection {
-    background-color: rgba(74, 74, 74, 0.5);
-}
-::-moz-selection {
-    background-color: rgba(74, 74, 74, 0.5);
-}
-img[alt*="www.000webhost.com"] {
-    display: none;
-}
 body {
     margin: 0;
     background: #111;
