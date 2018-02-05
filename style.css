@@ -370,6 +370,7 @@ footer {
 	color: #707070;
 }
 ul {
+    padding-left: 0;
     list-style-type: none;
 }
 ul li {
