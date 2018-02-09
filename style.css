@@ -370,6 +370,8 @@ footer {
 	color: #707070;
 }
 ul {
+    margin-left: 18px;
+    padding: 0;
     list-style-type: none;
 }
 ul li {
@@ -412,6 +414,9 @@ span.gray {
 span.example {
     display: block;
     margin-left: 20px;
+}
+li span.example {
+    margin-left: 34px;
 }
 del {
 	text-decoration: none;
