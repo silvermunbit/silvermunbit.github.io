@@ -415,9 +415,6 @@ span.example {
     display: block;
     margin-left: 20px;
 }
-li span.example {
-    margin-left: 34px;
-}
 del {
 	text-decoration: none;
 	color: red;
