@@ -299,6 +299,11 @@ footer {
 
 /* NONVOCAB */
 
+#top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 #up {
     width: 40px;
     height: 40px;
