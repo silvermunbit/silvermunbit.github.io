@@ -372,18 +372,6 @@ footer {
 ul {
     margin-left: 18px;
     padding: 0;
-    list-style-type: none;
-}
-ul li {
-    text-indent: -1em;
-}
-ul li:before {
-    padding-right: 0.5em;
-    color: #707070;
-    content: "\2022 ";
-}
-ul li.light:before {
-    color: #a1a1a1;
 }
 table {
 	margin: 15px 0px;
@@ -412,6 +400,7 @@ span.gray {
 	color: #707070;
 }
 span.example {
+    display: inline-block;
     margin-left: 20px;
 }
 del {
