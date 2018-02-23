@@ -9,8 +9,8 @@
 /* GLOBAL */
 
 * {
-    font-family: 'Beau Thin', 'Noto Sans JP Light', sans-serif;
-    font-weight: 300;
+    font-family: 'Beau Thin', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
+    font-weight: 400;
 }
 *:focus {
     outline: none;
@@ -42,7 +42,7 @@ a {
 }
 h3 {
     margin: 15px 0px 2px 15px;
-    font-family: 'Beau Regular', 'Noto Sans JP Medium', sans-serif;
+    font-family: 'Beau Thin', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #707070;
@@ -324,12 +324,12 @@ footer {
     font-size: 14px;
 }
 #contentDiv * {
-	font-family: 'Beau Light', 'Noto Sans JP Light', sans-serif;
+	font-family: 'Beau Thin', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
 }
 #contentDiv h1 {
 	margin: 20px 0px 0px 0px;
     text-align: left;
-	font-family: 'Beau Regular', 'Noto Sans JP Medium', sans-serif;
+	font-family: 'Beau Thin', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
 	font-size: 24px;
 	color: #707070;
 	font-weight: 500;
@@ -361,7 +361,7 @@ table td, table th {
 }
 table th {
 	background: #222;
-    font-family: 'Beau Regular', 'Noto Sans JP Medium', sans-serif;
+    font-family: 'Beau Thin', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
     font-weight: 500;
 }
 span.blue {
