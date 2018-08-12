@@ -10,7 +10,7 @@
     $("#settingsButton").attr("src", "gfx/settingsLight.png")
     $("#chooseLang").find("a").addClass("light")
     $(".submenuText").css("color", "black")
-    $("#wagyk").addClass("light")
+    $("#wokugi").addClass("light")
 }
 var darkTheme = function () {
     $("body").css("background", "#111")
@@ -24,5 +24,5 @@ var darkTheme = function () {
     $("#settingsButton").attr("src", "gfx/settingsDark.png")
     $("#chooseLang").find("a").removeClass("light")
     $(".submenuText").css("color", "white")
-    $("#wagyk").removeClass("light")
+    $("#wokugi").removeClass("light")
 }

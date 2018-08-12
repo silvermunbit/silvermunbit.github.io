@@ -170,7 +170,7 @@ h2 {
     font-size: 20px;
 }
 
-#wagyk {
+#wokugi {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -184,16 +184,16 @@ h2 {
     background: #222;
     z-index: 1; 
 }
-#wagyk:hover {
+#wokugi:hover {
     background: #333;
     -webkit-transition: .3s ease-in-out;
 	-moz-transition: .3s ease-in-out;
 }
-#wagyk.light {
+#wokugi.light {
     background: #f5f5f5;
     color: black;
 }
-#wagyk.light:hover {
+#wokugi.light:hover {
     background: #ddd;
 }
 
@@ -448,8 +448,8 @@ MENU1	        #E53935	#E53935
 MENU2           #F9A825	#F9A825
 MENU3           #2BCE72	#2BCE72
 MENU4           #448AFF	#448AFF
-WAGYK BG        #22     #F5
-WAGYK:HOVER     #33     #DD
+WOKUGI BG       #22     #F5
+WOKUGI:HOVER    #33     #DD
 FOOTER          #70     #A1
 
 INPUT TEXT      #70     #A1
