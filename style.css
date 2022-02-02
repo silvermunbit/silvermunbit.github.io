@@ -80,7 +80,7 @@ h3 {
 
 h1 {
     line-height: 50px;
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
     font-size: 50px;
 }
@@ -90,7 +90,7 @@ h2 {
     font-size: 30px;
 }
 #chooseLang {
-    width: 850px;
+    width: 1120px;
     margin: 50px auto;
 }
 #chooseLang a {
