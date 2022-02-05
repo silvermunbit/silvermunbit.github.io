@@ -82,16 +82,17 @@ h2 {
     font-size: 18px;
 }
 #chooseLang {
-    width: 360px;
+    width: 277px;
     margin: 30px auto;
 }
 #chooseLang a {
-    width: 100px;
+    width: 120px;
     height: 20px;
     line-height: 20px;
     display: inline-block;
     margin-left: 8px;
     margin-right: 8px;
+    margin-bottom: 20px;
     border-radius: 25px;
     text-align: center;
     font-size: 18px;
