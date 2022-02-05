@@ -4,6 +4,7 @@
 @font-face {font-family: "Beau Thin"; src: url(fonts/beau-thin.ttf);}
 @font-face {font-family: "Beau Light"; src: url(fonts/beau-light.ttf);}
 @font-face {font-family: "Beau Regular"; src: url(fonts/beau-regular.ttf);}
+@font-face {font-family: "Beau Bold"; src: url(fonts/beau-bold.ttf);}
 
 /* GLOBAL */
 
@@ -22,6 +23,9 @@ body {
 a {
     color: white;
     text-decoration: none;
+}
+b {
+    font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', 'sans-serif';
 }
 
 /* MENU */
