@@ -373,6 +373,14 @@ footer {
 	font-size: 22px;
 	color: #707070;
 }
+#contentDiv h3 {
+    	display: inline-block;
+	margin: 15px 0px;
+	font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
+	font-size: 30px;
+	color: white;
+	font-weight: 500;
+}
 ul {
     margin-left: 18px;
     padding: 0;
@@ -409,7 +417,8 @@ span.example {
 }
 
 span.phHead {
-    font-family: sans-serif !important;
+	font-family: sans-serif !important;
+	color: #707070;
 }
 
 del {
