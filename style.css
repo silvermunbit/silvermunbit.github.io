@@ -373,12 +373,15 @@ footer {
 	font-size: 22px;
 	color: #707070;
 }
-#contentDiv h3 {
+#contentDiv h4 {
     	display: inline-block;
 	margin: 15px 0px;
-	font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
+	font-family: 'Beau Regular', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
 	font-size: 30px;
 	color: white;
+}
+#contentDiv h4 b {
+	font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
 	font-weight: 500;
 }
 ul {
@@ -416,9 +419,14 @@ span.example {
     margin-left: 20px;
 }
 
-span.phHead {
+#contentDiv h4 span.ph {
 	font-family: sans-serif !important;
 	color: #707070;
+}
+
+span.ph {
+	font-family: sans-serif !important;
+	color: #448aff;
 }
 
 del {
