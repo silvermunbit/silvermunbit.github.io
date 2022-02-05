@@ -403,6 +403,11 @@ span.example {
     display: inline-block;
     margin-left: 20px;
 }
+
+span.trHead {
+    font-family: sans-serif !important;
+}
+
 del {
 	text-decoration: none;
 	color: red;
