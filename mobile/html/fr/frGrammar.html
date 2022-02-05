@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Grammaire</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="../../style.css" rel="stylesheet" />
+<link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon"/>
+<script src="../../libs/jquery-3.1.0.min.js"></script>
+<script>
+    $(function () {
+        $("#i").load("../../../html/fr/frGrammar.html", function () {
+            $("#mobileToggle").attr("href", "../../../html/fr/frGrammar.html")
+            $("#mobileToggle").text("Version de bureau")
+        })
+    })
+</script>
+</head>
+<body>
+    <div id="i"></div>
+</body>
+</html>
+
