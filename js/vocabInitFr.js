@@ -4,7 +4,7 @@ $.get("../../txt/arrayFr1.txt", function (data) {
     $("#total").html("Tous les mots: " + t1.length)
 })
 var t2 = new Array()
-$.get("../../txt/arrayEn2.txt", function (data) { t2 = data.split('; ') })
+$.get("../../txt/arrayFr2.txt", function (data) { t2 = data.split('; ') })
 var correct = 0
 var correctText = "Mots corrects: "
 $("#guessed").html(correctText + correct)
