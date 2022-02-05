@@ -394,7 +394,7 @@ span.blue {
 	color: #09f;
 }
 span.green {
-	color: #c00;
+	color: #0c0;
 }
 span.gray {
 	color: #707070;
@@ -404,7 +404,7 @@ span.example {
     margin-left: 20px;
 }
 
-span.trHead {
+span.phHead {
     font-family: sans-serif !important;
 }
 
