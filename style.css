@@ -385,6 +385,19 @@ footer {
 	font-size: 30px;
 	font-weight: 500;
 }
+#contentDiv h5 {
+    	display: inline-block;
+	margin: 15px 0px;
+	font-family: 'Beau Regular', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+#contentDiv h5 b {
+	font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 500;
+}
 ul {
     margin-left: 18px;
     padding: 0;
@@ -424,8 +437,12 @@ span.example {
 	font-family: sans-serif !important;
 	color: #707070;
 }
+#contentDiv h5 span.ph {
+	font-family: sans-serif !important;
+	color: #707070;
+}
 
-span.ph {
+.ph {
 	font-family: sans-serif !important;
 	color: #448aff;
 }
