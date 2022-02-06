@@ -452,7 +452,7 @@ span.example {
 	background: none !important;
 }
 .fr td, .fr th {
-	padding-right: 30px;
+	padding: 2px 30px 2px 0px;
 }
 
 del {
