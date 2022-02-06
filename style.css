@@ -25,7 +25,7 @@ a {
     text-decoration: none;
 }
 b {
-    font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', 'sans-serif';
+    font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', 'sans-serif' !important;
 }
 
 /* MENU */
