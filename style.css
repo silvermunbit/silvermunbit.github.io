@@ -448,7 +448,6 @@ span.example {
 }
 .fr * {
 	text-align: left;
-	vertical-align: baseline;
 	background: none !important;
 }
 .fr td, .fr th {
