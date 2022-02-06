@@ -446,13 +446,13 @@ span.example {
 	font-family: sans-serif !important;
 	color: #448aff;
 }
-.fr {
-	border-spacing: 20px;
-}
 .fr * {
-	align: left;
+	text-align: left;
 	vertical-align: top;
 	background: none !important;
+}
+.fr td .fr th {
+	padding-right: 30px;
 }
 
 del {
