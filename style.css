@@ -359,6 +359,10 @@ footer {
 #contentDiv * {
 	font-family: 'Beau Light', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
 }
+#contectDiv p {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
 #contentDiv h1 {
 	display: inline-block;
 	margin: 15px 0px;
