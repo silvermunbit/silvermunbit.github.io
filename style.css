@@ -423,7 +423,7 @@ span.blue {
 	color: #09f;
 }
 span.green {
-	color: #c00;
+	color: #0c0;
 }
 span.gray {
 	color: #707070;
@@ -445,6 +445,9 @@ span.example {
 .ph {
 	font-family: sans-serif !important;
 	color: #448aff;
+}
+.b {
+	font-family: 'Beau Bold', sans-serif !important;
 }
 .fr * {
 	text-align: left;
