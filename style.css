@@ -439,11 +439,11 @@ span.example {
 
 #contentDiv h4 span.ph {
 	font-family: sans-serif !important;
-	color: #707070;
+	/*color: #707070;*/
 }
 #contentDiv h5 span.ph {
 	font-family: sans-serif !important;
-	color: #707070;
+	/*color: #707070;*/
 }
 
 .ph {
