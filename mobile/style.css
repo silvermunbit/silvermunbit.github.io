@@ -5,6 +5,7 @@
 @font-face {font-family: "Beau Thin"; src: url(../fonts/beau-thin.ttf);}
 @font-face {font-family: "Beau Light"; src: url(../fonts/beau-light.ttf);}
 @font-face {font-family: "Beau Regular"; src: url(../fonts/beau-regular.ttf);}
+@font-face {font-family: "Beau Bold"; src: url(../fonts/beau-bold.ttf);}
 
 /* GLOBAL */
 
@@ -23,6 +24,9 @@ body {
 a {
     color: white;
     text-decoration: none;
+}
+b {
+    font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', 'sans-serif' !important;
 }
 
 /* MENU */
@@ -327,6 +331,10 @@ footer {
 #contentDiv * {
 	font-family: 'Beau Light', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
 }
+#contentDiv p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 #contentDiv h1 {
 	margin: 20px 0px 0px 0px;
     text-align: left;
@@ -341,6 +349,31 @@ footer {
 	font-size: 18px;
 	color: #707070;
 }
+#contentDiv h4 {
+    	display: inline-block;
+	margin: 10px 0px;
+	font-family: 'Beau Regular', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+#contentDiv h4 b {
+	font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+}
+#contentDiv h5 {
+    	display: inline-block;
+	margin: 10px 0px;
+	font-family: 'Beau Regular', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
+	font-size: 14px;
+	color: white;
+}
+#contentDiv h5 b {
+	font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
+	font-style: italic;
+	font-size: 16px;
+	font-weight: 500;
+}
 ul {
     margin-left: 18px;
     padding: 0;
@@ -348,7 +381,7 @@ ul {
 table {
     width: inherit;
     display: block;
-	margin: 15px 0px;
+	margin: 20px 0px;
 	border-collapse: collapse;
     text-align: center;
     overflow-x: auto;
@@ -378,6 +411,33 @@ span.example {
     display: inline-block;
     margin-left: 10px;
 }
+
+#contentDiv h4 span.ph {
+	font-family: sans-serif !important;
+}
+#contentDiv h5 span.ph {
+	font-family: sans-serif !important;
+}
+
+.ph {
+	font-family: sans-serif !important;
+	color: #448aff;
+}
+.b {
+	font-family: 'Beau Bold', sans-serif !important;
+}
+.ph b {
+	font-family: sans-serif !important;
+	font-weight: bold;
+}
+.fr * {
+	text-align: left;
+	background: none !important;
+}
+.fr td, .fr th {
+	padding: 2px 24px 2px 0px;
+}
+
 del {
 	text-decoration: none;
 	color: red;
