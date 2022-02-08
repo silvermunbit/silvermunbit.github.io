@@ -453,6 +453,9 @@ span.example {
 .b {
 	font-family: 'Beau Bold', sans-serif !important;
 }
+.ph b {
+	font-family: sans-serif !important;
+}
 .fr * {
 	text-align: left;
 	background: none !important;
