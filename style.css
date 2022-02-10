@@ -430,7 +430,7 @@ span.green {
 	color: #0c0;
 }
 span.gray {
-	color: #707070;
+	color: #707070 !important;
 }
 span.example {
     display: inline-block;
@@ -446,7 +446,7 @@ span.example {
 
 .ph {
 	font-family: sans-serif !important;
-	color: #6d9deb;
+	color: #6aa3ff;
 }
 .b {
 	font-family: 'Beau Bold', sans-serif !important;
