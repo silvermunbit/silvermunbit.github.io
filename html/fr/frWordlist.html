@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Liste de mots</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="../../style.css" rel="stylesheet" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"/>
+<script src="../../libs/jquery-3.1.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.getScript("../../js/buttonUp.js", function () {
+            $.getScript("../../js/settingsButton.js", function () {
+                $.getScript("../../js/nonVocabTheme.js", function () {
+                    $.getScript("../../js/localStorage.js")
+                })
+            })
+        })
+    })
+</script>
+</head>
+<body>
+	<a id="top"></a>
+    <a href="#top" id="up"><img src="../../gfx/goUp.png" alt="up" /></a>
+    <img id="settingsButton" src="../../gfx/settingsDark.png" alt="settings" />
+    <div id="menu">
+        <h3>THÈME</h3>
+        <a id="lightTheme">Clair</a>
+        <a id="darkTheme">Sombre</a>
+        <h3>LINKS</h3>
+        <a id="homepage" href="../../index.html">Page d’accueil</a>
+        <a id="mobileToggle" href="../../mobile/html/fr/frGrammar.html">Version mobile</a>
+    </div>
+    <div id="contentDiv">
+		<h4><b>Leçon 1</b></h4>
+		<table class="fr">
+			<tr>
+				<td>S’il vous plaît.</td>
+				<td class ="ph">/sil vu plɛ/</td>
+				<td>Please. / If you please. (when asking for sth) (lit. If it pleases you)</td>
+			</tr>
+			<tr>
+				<td>S’il te plaît.</td>
+				<td class ="ph">/sil tə plɛ/</td>
+				<td><span class="gray">(informal)</span></td>
+			</tr>
+			<tr>
+				<td>Je vous en prie.</td>
+				<td class ="ph">/ʒə vuzɑ̃ pʁi/</td>
+				<td>Please do. / You’re welcome. (when offering sth) (lit. I beg you)</td>
+			</tr>
+			<tr>
+				<td>Je t’en prie.</td>
+				<td class ="ph">/ʒə tɑ̃ pʁi/</td>
+				<td><span class="gray">(informal)</span></td>
+			</tr>
+			<tr>
+				<td>De rien.</td>
+				<td class ="ph">/də ʁjɛ̃/</td>
+				<td>You’re welcome. (lit. Of nothing)</td>
+			</tr>
+			<tr>
+				<td>Il n’y a pas de quoi.</td>
+				<td class ="ph">/il nija pɑ də kwa/</td>
+				<td>You’re welcome. (lit. There isn’t anything for which [to thank])</td>
+			</tr>
+			<tr>
+				<td>Excusez-moi.</td>
+				<td class ="ph">/ɛkskyzemwa/</td>
+				<td>Excuse me.</td>
+			</tr>
+			<tr>
+				<td>Excuse-moi.</td>
+				<td class ="ph">/ɛkskyzmwa/</td>
+				<td><span class="gray">(informal)</span></td>
+			</tr>
+			<tr>
+				<td>Je suis désolé(e).</td>
+				<td class ="ph">/ʒə sɥi dezɔle/</td>
+				<td>I'm sorry.</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Bonjour, monsieur.</td>
+				<td class ="ph">/bɔ̃ʒuʁ məsjø/</td>
+				<td>Hello, sir.</td>
+			</tr>
+			<tr>
+				<td>Bonsoir, madame.</td>
+				<td class ="ph">/bɔ̃swaʁ madam/</td>
+				<td>Good evening, madam.</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
