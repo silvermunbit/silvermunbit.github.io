@@ -34,7 +34,7 @@ var darkTheme = function () {
     $("h4").css("color", "white")
     $("h5").css("color", "white")
     $(".gray").css("color", "#707070")
-    $(".ph").css("color", "#6d9deb")
+    $(".ph").css("color", "#6aa3ff")
     $(".grayDark").css("background", "#474747")
     $(".grayLight").css("background", "none")
     $(".split").css("background", "linear-gradient(to top right,#222 49.5%,#111 49.5%,#111 50.5%,#222 50.5%)")
