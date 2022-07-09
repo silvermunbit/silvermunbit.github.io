@@ -6,7 +6,7 @@
 @font-face {font-family: "Beau Regular"; src: url(fonts/beau-regular.ttf);}
 @font-face {font-family: "Beau Bold"; src: url(fonts/beau-bold.ttf);}
 
-@font-face {font-family: "Source Code Pro Black"; src: url(fonts/SourceCodePro-Black.ttf);}
+@font-face {font-family: "Source Code Pro Black"; src: url(../fonts/SourceCodePro-Black.ttf);}
 @font-face {font-family: "Source Code Pro Bold"; src: url(fonts/SourceCodePro-Bold.ttf);}
 @font-face {font-family: "Source Code Pro ExtraBold"; src: url(fonts/SourceCodePro-ExtraBold.ttf);}
 @font-face {font-family: "Source Code Pro ExtraLight"; src: url(fonts/SourceCodePro-ExtraLight.ttf);}
