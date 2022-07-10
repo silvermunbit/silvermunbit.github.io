@@ -540,6 +540,10 @@ rt {
 	text-align: left;
 	background: none !important;
 }
+.tabNewTight * {
+	text-align: left;
+	background: none !important;
+}
 .tabNew td, .tabNew th {
 	padding: 0px 3ch 0px 0px;
 }
