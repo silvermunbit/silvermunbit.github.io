@@ -536,6 +536,13 @@ rt {
 #contentDivNew p.noSpace {
 	margin-bottom: 0px;
 }
+.tabNew * {
+	text-align: left;
+	background: none !important;
+}
+.tabNew td, .tabNew th {
+	padding: 0px;
+}
 
 /*
 
