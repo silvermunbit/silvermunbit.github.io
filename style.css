@@ -528,15 +528,12 @@ rt {
 #contentDivNew * b {
 	font-family: 'Source Code Pro Black', monospace !important;
 }
-#contentDivNew p + ul {
-	margin-bottom: 0px;
-}
 .newUl {
 	margin-top: 0px;
 	list-style-type: none;
 	margin-left: 4ch;
 }
-.noSpace {
+p.noSpace {
 	margin-bottom: 0px;
 }
 
