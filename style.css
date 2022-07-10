@@ -512,26 +512,21 @@ rt {
 }
 #contentDivNew h4 {
 	font-family: 'Source Code Pro Black', monospace;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 500;
-	margin: 15px 0px;
+	margin: 5px 0px;
 }
 #contentDivNew h5 {
 	font-family: 'Source Code Pro Black', monospace;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 500;
-	margin: 15px 0px;
+	margin: 5px 0px;
 }
 #contentDivNew * i {
 	font-family: 'Source Code Pro LightItalic', monospace !important;
 }
 #contentDivNew * b {
 	font-family: 'Source Code Pro Black', monospace !important;
-}
-
-
-.pho {
-	color: #6aa3ff;
 }
 /*
 
