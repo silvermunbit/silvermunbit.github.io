@@ -541,7 +541,10 @@ rt {
 	background: none !important;
 }
 .tabNew td, .tabNew th {
-	padding: 0px;
+	padding: 0px 3ch 0px 0px;
+}
+.tabNewTight td, .tabNewTight th {
+	padding: 0px 1ch 0pc 0ch;
 }
 
 /*
