@@ -532,6 +532,7 @@ rt {
 	margin-bottom: 0px;
 }
 .newUl {
+	margin-top: 0px;
 	list-style-type: none;
 	margin-left: 4ch;
 }
