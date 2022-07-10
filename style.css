@@ -533,7 +533,7 @@ rt {
 	list-style-type: none;
 	margin-left: 4ch;
 }
-p.noSpace {
+#contentDivNew p.noSpace {
 	margin-bottom: 0px;
 }
 
