@@ -536,6 +536,9 @@ rt {
 	list-style-type: none;
 	margin-left: 4ch;
 }
+.noSpace {
+	margin-bottom: 0px;
+}
 
 /*
 
