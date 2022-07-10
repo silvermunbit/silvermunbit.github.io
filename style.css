@@ -522,10 +522,10 @@ rt {
 	font-weight: 500;
 	margin: 15px 0px;
 }
-#contentDivNew i {
+#contentDivNew * i {
 	font-family: 'Source Code Pro LightItalic', monospace;
 }
-#contentDivNew b {
+#contentDivNew * b {
 	font-family: 'Source Code Pro Black', monospace;
 }
 
