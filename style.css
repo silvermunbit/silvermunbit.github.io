@@ -11,6 +11,7 @@
 @font-face {font-family: "Source Code Pro ExtraBold"; src: url(fonts/SourceCodePro-ExtraBold.ttf);}
 @font-face {font-family: "Source Code Pro ExtraLight"; src: url(fonts/SourceCodePro-ExtraLight.ttf);}
 @font-face {font-family: "Source Code Pro Light"; src: url(fonts/SourceCodePro-Light.ttf);}
+@font-face {font-family: "Source Code Pro LightItalic"; src: url(fonts/SourceCodePro-LightItalic.ttf);}
 @font-face {font-family: "Source Code Pro Medium"; src: url(fonts/SourceCodePro-Medium.ttf);}
 @font-face {font-family: "Source Code Pro Regular"; src: url(fonts/SourceCodePro-Regular.ttf);}
 @font-face {font-family: "Source Code Pro Semibold"; src: url(fonts/SourceCodePro-Semibold.ttf);}
@@ -456,10 +457,6 @@ span.example {
 	font-family: sans-serif !important;
 	color: #6aa3ff;
 }
-.pho {
-	font-family: 'Source Code Pro Regular', serif !important;
-	
-}
 .b {
 	font-family: 'Beau Bold', sans-serif !important;
 }
@@ -501,6 +498,35 @@ rt {
     text-align: left;
 }
 
+#contentDivNew {
+    max-width: 1500px;
+    margin: 100px auto 50px;
+    padding: 8px;
+}
+#contentDivNew * {
+	font-family: 'Source Code Pro Light', monospace;
+}
+#contentDivNew p {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+#contentDivNew h4 b {
+	font-family: 'Source Code Pro Black', monospace;
+	font-size: 30px;
+	font-weight: 500;
+}
+#contentDivNew h5 b {
+	font-family: 'Source Code Pro Black', monospace;
+	font-size: 20px;
+	font-weight: 500;
+}
+#contentDivNew i {
+	font-family: 'Source Code Pro LightItalic', monospace;
+}
+
+.pho {
+	color: #6aa3ff;
+}
 /*
 
 COLOR SCHEME
