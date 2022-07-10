@@ -505,6 +505,7 @@ rt {
 }
 #contentDivNew * {
 	font-family: 'Source Code Pro Light', monospace;
+	font-size: 14px;
 }
 #contentDivNew p {
 	margin-top: 24px;
@@ -517,8 +518,8 @@ rt {
 	margin: 5px 0px;
 }
 #contentDivNew h5 {
-	font-family: 'Source Code Pro Black', monospace;
-	font-size: 16px;
+	font-family: 'Source Code Pro ExtraBold', monospace;
+	font-size: 14px;
 	font-weight: 500;
 	margin: 5px 0px;
 }
