@@ -528,6 +528,14 @@ rt {
 #contentDivNew * b {
 	font-family: 'Source Code Pro Black', monospace !important;
 }
+#contentDivNew p + ul {
+	margin-top: 0px;
+}
+.newUl {
+	list-style-type: none;
+	margin-left: 4ch;
+}
+
 /*
 
 COLOR SCHEME
