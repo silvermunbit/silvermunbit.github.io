@@ -21,6 +21,7 @@
     $("#settingsButton").attr("src", "../../gfx/settingsLight.png")
     $("#contentDiv").css("color", "black")
     $("#contentDivNew").css("color", "black")
+    $("#contentDivNew").css("font-family", "'Source Code Pro Regular', monospace")
 }
 var darkTheme = function () {
     $("body").css("background", "#111")
@@ -45,4 +46,5 @@ var darkTheme = function () {
     $("#settingsButton").attr("src", "../../gfx/settingsDark.png")
     $("#contentDiv").css("color", "white")
     $("#contentDivNew").css("color", "white")
+    $("#contentDivNew").css("font-family", "'Source Code Pro Light', monospace")
 }
