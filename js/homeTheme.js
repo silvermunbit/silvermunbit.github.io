@@ -4,7 +4,7 @@
     $("h2").css("color", "black")
     $("h3").css("color", "#a1a1a1")
     $("footer").css("color", "#a1a1a1")
-    $("#menu").css("background", "#f5f5f5")
+    $("#menu").css("background", "#ccc")
     $("#menu").find("a").css("color", "black")
     $("#menu").find("a").addClass("light")
     $("#settingsButton").attr("src", "gfx/settingsLight.png")
