@@ -1,10 +1,10 @@
 ﻿var lightTheme = function () {
-    $("body").css("background", "#fafafa")
+    $("body").css("background", "#eeeeee")
     $("h1").css("color", "black")
     $("h2").css("color", "black")
     $("h3").css("color", "#a1a1a1")
     $("footer").css("color", "#a1a1a1")
-    $("#menu").css("background", "#f5f5f5")
+    $("#menu").css("background", "#ddd")
     $("#menu").find("a").css("color", "black")
     $("#menu").find("a").addClass("light")
     $("#settingsButton").attr("src", "gfx/settingsLight.png")
