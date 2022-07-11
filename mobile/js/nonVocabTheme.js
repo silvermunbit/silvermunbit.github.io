@@ -1,9 +1,9 @@
 ﻿var lightTheme = function () {
     $("body").css("background", "#eeeeee")
-    $("td").css("border", "1px #fafafa solid")
-    $("td").css("background", "#f5f5f5")
+    $("td").css("border", "1px #eeeeee solid")
+    $("td").css("background", "#ddd")
     $("th").css("border", "1px #eeeeee solid")
-    $("th").css("background", "#ddd")
+    $("th").css("background", "#ccc")
     $("a").css("color", "black")
     $("h1").css("color", "#a1a1a1")
     $("h2").css("color", "#a1a1a1")
