@@ -7,16 +7,16 @@
 @font-face {font-family: "Beau Regular"; src: url(../fonts/beau-regular.ttf);}
 @font-face {font-family: "Beau Bold"; src: url(../fonts/beau-bold.ttf);}
 
-@font-face {font-family: "Source Code Pro Black"; src: url(fonts/SourceCodePro-Black.ttf);}
-@font-face {font-family: "Source Code Pro Bold"; src: url(fonts/SourceCodePro-Bold.ttf);}
-@font-face {font-family: "Source Code Pro ExtraBold"; src: url(fonts/SourceCodePro-ExtraBold.ttf);}
-@font-face {font-family: "Source Code Pro ExtraLight"; src: url(fonts/SourceCodePro-ExtraLight.ttf);}
-@font-face {font-family: "Source Code Pro Light"; src: url(fonts/SourceCodePro-Light.ttf);}
-@font-face {font-family: "Source Code Pro LightItalic"; src: url(fonts/SourceCodePro-LightItalic.ttf);}
-@font-face {font-family: "Source Code Pro Medium"; src: url(fonts/SourceCodePro-Medium.ttf);}
-@font-face {font-family: "Source Code Pro Regular"; src: url(fonts/SourceCodePro-Regular.ttf);}
-@font-face {font-family: "Source Code Pro Italic"; src: url(fonts/SourceCodePro-Italic.ttf);}
-@font-face {font-family: "Source Code Pro Semibold"; src: url(fonts/SourceCodePro-Semibold.ttf);}
+@font-face {font-family: "Source Code Pro Black"; src: url(../fonts/SourceCodePro-Black.ttf);}
+@font-face {font-family: "Source Code Pro Bold"; src: url(../fonts/SourceCodePro-Bold.ttf);}
+@font-face {font-family: "Source Code Pro ExtraBold"; src: url(../fonts/SourceCodePro-ExtraBold.ttf);}
+@font-face {font-family: "Source Code Pro ExtraLight"; src: url(../fonts/SourceCodePro-ExtraLight.ttf);}
+@font-face {font-family: "Source Code Pro Light"; src: url(../fonts/SourceCodePro-Light.ttf);}
+@font-face {font-family: "Source Code Pro LightItalic"; src: url(../fonts/SourceCodePro-LightItalic.ttf);}
+@font-face {font-family: "Source Code Pro Medium"; src: url(../fonts/SourceCodePro-Medium.ttf);}
+@font-face {font-family: "Source Code Pro Regular"; src: url(../fonts/SourceCodePro-Regular.ttf);}
+@font-face {font-family: "Source Code Pro Italic"; src: url(../fonts/SourceCodePro-Italic.ttf);}
+@font-face {font-family: "Source Code Pro Semibold"; src: url(../fonts/SourceCodePro-Semibold.ttf);}
 
 /* GLOBAL */
 
