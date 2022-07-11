@@ -513,7 +513,7 @@ rt {
 	margin-bottom: 24px;
 }
 #contentDivNew h4 {
-	font-family: 'Source Code Pro Black', monospace;
+	font-family: 'Source Code Pro ExtraBold', monospace;
 	font-size: 20px;
 	font-weight: 500;
 	margin: 5px 0px;
@@ -525,10 +525,10 @@ rt {
 	margin: 5px 0px;
 }
 #contentDivNew * i {
-	font-family: 'Source Code Pro LightItalic', monospace !important;
+	font-family: 'Source Code Pro Italic', monospace !important;
 }
 #contentDivNew * b {
-	font-family: 'Source Code Pro Black', monospace !important;
+	font-family: 'Source Code Pro ExtraBold', monospace !important;
 }
 .newUl {
 	margin-top: 0px;
