@@ -1,5 +1,5 @@
 ﻿var lightTheme = function () {
-    $("body").css("background", "#fafafa")
+    $("body").css("background", "#eeeeee")
     $("a").css("color", "black")
     $("h3").css("color", "#a1a1a1")
     $("#menu").css("background", "#f5f5f5")
