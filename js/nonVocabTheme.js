@@ -22,7 +22,7 @@
     $("#contentDiv").css("color", "black")
     $("#contentDivNew").css("color", "black")
     $("#contentDivNew *").css("font-family", "'Source Code Pro Regular', monospace")
-    $("#contentDivNew i").attr("style", "font-family: 'Source Code Pro Italic', monospace !important");
+    $("#contentDivNew * i").attr("style", "font-family: 'Source Code Pro Italic', monospace !important");
     //$("#contentDivNew i").css("font-family", "'Source Code Pro Italic', monospace !important")
 }
 var darkTheme = function () {
@@ -49,6 +49,6 @@ var darkTheme = function () {
     $("#contentDiv").css("color", "white")
     $("#contentDivNew").css("color", "white")
     $("#contentDivNew *").css("font-family", "'Source Code Pro Light', monospace")
-    $("#contentDivNew i").attr("style", "font-family: 'Source Code Pro LightItalic', monospace !important");
+    $("#contentDivNew * i").attr("style", "font-family: 'Source Code Pro LightItalic', monospace !important");
     //$("#contentDivNew i").css("font-family", "'Source Code Pro LightItalic', monospace !important")
 }
