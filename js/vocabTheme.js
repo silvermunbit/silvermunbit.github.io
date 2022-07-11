@@ -2,7 +2,7 @@
     $("body").css("background", "#eeeeee")
     $("a").css("color", "black")
     $("h3").css("color", "#a1a1a1")
-    $("#menu").css("background", "#ccc")
+    $("#menu").css("background", "#ddd")
     $("#menu").find("a").css("color", "black")
     $("#menu").find("a").addClass("light")
     $("#settingsButton").attr("src", "../../gfx/settingsLight.png")
