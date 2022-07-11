@@ -24,7 +24,6 @@
     $("#contentDivNew *").css("font-family", "'Source Code Pro Regular', monospace")
     $("#contentDivNew * i").css("font-family", "'Source Code Pro Italic', monospace !important")
 }
-}
 var darkTheme = function () {
     $("body").css("background", "#111")
     $("td").css("border", "1px #111 solid")
