@@ -10,11 +10,11 @@
     $("#guessed").css("color", "black")
     $("#prompt").css("color", "black")
     $("#inputArea").css("color", "#a1a1a1")
-    $("#inputArea").css("background", "#ccc")
-    $("#range").css("background", "#b8b8b8")
+    $("#inputArea").css("background", "#ddd")
+    $("#range").css("background", "#ccc")
     $("#rangeWord").css("color", "black")
     $(".rangeMove").css("color", "black")
-    $(".rangeMove").css("background", "#ccc")
+    $(".rangeMove").css("background", "#ddd")
 }
 var darkTheme = function () {
     $("body").css("background", "#111")
