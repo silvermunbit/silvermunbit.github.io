@@ -15,7 +15,7 @@
     $(".grayDark").css("background", "none")
     $(".grayLight").css("background", "#b8b8b8")
     $(".split").css("background", "linear-gradient(to top right,#ddd 49.5%,#eeeeee 49.5%,#eeeeee 50.5%,#ddd 50.5%)")
-    $("#menu").css("background", "#f5f5f5")
+    $("#menu").css("background", "#ccc")
     $("#menu").find("a").css("color", "black")
     $("#menu").find("a").addClass("light")
     $("#settingsButton").attr("src", "../../gfx/settingsLight.png")
