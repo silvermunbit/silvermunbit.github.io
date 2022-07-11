@@ -2,7 +2,7 @@
     $("body").css("background", "#eeeeee")
     $("a").css("color", "black")
     $("h3").css("color", "#a1a1a1")
-    $("#menu").css("background", "#f5f5f5")
+    $("#menu").css("background", "#ccc")
     $("#menu").find("a").css("color", "black")
     $("#menu").find("a").addClass("light")
     $("#settingsButton").attr("src", "../../gfx/settingsLight.png")
@@ -10,11 +10,11 @@
     $("#guessed").css("color", "black")
     $("#prompt").css("color", "black")
     $("#inputArea").css("color", "#a1a1a1")
-    $("#inputArea").css("background", "#f5f5f5")
+    $("#inputArea").css("background", "#ccc")
     $("#range").css("background", "#b8b8b8")
     $("#rangeWord").css("color", "black")
     $(".rangeMove").css("color", "black")
-    $(".rangeMove").css("background", "#f5f5f5")
+    $(".rangeMove").css("background", "#ccc")
 }
 var darkTheme = function () {
     $("body").css("background", "#111")
