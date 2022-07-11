@@ -503,12 +503,10 @@ rt {
     max-width: 1500px;
     margin: 100px auto 50px;
     padding: 8px;
-	font-family: 'Source Code Pro Light', monospace;
-	font-size: 14px;
 }
 #contentDivNew * {
-	/*font-family: 'Source Code Pro Light', monospace;
-	font-size: 14px;*/
+	font-family: 'Source Code Pro Regular', monospace;
+	font-size: 14px;
 }
 #contentDivNew p {
 	margin-top: 24px;
