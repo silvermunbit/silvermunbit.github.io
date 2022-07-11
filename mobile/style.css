@@ -173,7 +173,7 @@ h2 {
     z-index: 1;
 }
 #wokugi.light {
-    background: #f5f5f5;
+    background: #ddd;
     color: black;
 }
 
@@ -469,6 +469,72 @@ rt {
 }
 .splitRow {
     text-align: left;
+}
+
+#contentDivNew {
+    margin: 50px auto 50px;
+    padding: 8px;
+}
+#contentDivNew * {
+	font-family: 'Source Code Pro Regular', monospace;
+	font-size: 14px;
+}
+#contentDivNew p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#contentDivNew h4 {
+	font-family: 'Source Code Pro ExtraBold', monospace;
+	font-size: 20px;
+	font-weight: 500;
+	margin: 5px 0px;
+}
+#contentDivNew h5 {
+	font-family: 'Source Code Pro ExtraBold', monospace;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 5px 0px;
+}
+#contentDivNew * i {
+	font-family: 'Source Code Pro Italic', monospace !important;
+}
+#contentDivNew * b {
+	font-family: 'Source Code Pro ExtraBold', monospace !important;
+}
+.newUl {
+	margin-top: 0px;
+	list-style-type: none;
+	margin-left: 4ch;
+}
+#contentDivNew p.noSpace {
+	margin-bottom: 0px;
+}
+.tabNew * {
+	text-align: left;
+	background: none !important;
+}
+.tabNewTight * {
+	text-align: left;
+	background: none !important;
+}
+.tabNew td, .tabNew th {
+	padding: 0px 3ch 0px 0px;
+}
+.tabNewTight td, .tabNewTight th {
+	padding: 0px 1ch 0pc 0ch;
+}
+
+.tabNew::-webkit-scrollbar {
+	display: none;
+}
+.tabNewTight::-webkit-scrollbar {
+	display: none;
+}
+.tabNew {
+	-ms-overflow-style: none;
+}
+.tabNewTight {
+	-ms-overflow-style: none;
 }
 
 /*
