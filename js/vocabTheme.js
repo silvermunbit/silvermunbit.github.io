@@ -11,7 +11,7 @@
     $("#prompt").css("color", "black")
     $("#inputArea").css("color", "#a1a1a1")
     $("#inputArea").css("background", "#ddd")
-    $("#range").css("background", "#ccc")
+    $("#range").css("background", "#ddd")
     $("#rangeWord").css("color", "black")
     $(".rangeMove").css("color", "black")
     $(".rangeMove").css("background", "#ddd")
