@@ -20,6 +20,7 @@
     $("#menu").find("a").addClass("light")
     $("#settingsButton").attr("src", "../../gfx/settingsLight.png")
     $("#contentDiv").css("color", "black")
+    $("#contentDivNew").css("color", "black")
 }
 var darkTheme = function () {
     $("body").css("background", "#111")
@@ -43,4 +44,5 @@ var darkTheme = function () {
     $("#menu").find("a").removeClass("light")
     $("#settingsButton").attr("src", "../../gfx/settingsDark.png")
     $("#contentDiv").css("color", "white")
+    $("#contentDivNew").css("color", "white")
 }
