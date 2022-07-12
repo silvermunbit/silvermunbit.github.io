@@ -12,6 +12,7 @@
     $("h5").css("color", "black")
     $(".ph").css("color", "#448aff")
     $(".gray").css("color", "#a1a1a1")
+    $(".gray").css("font-family", "'Source Code Pro Medium', monospace")
     $(".grayDark").css("background", "none")
     $(".grayLight").css("background", "#b8b8b8")
     $(".split").css("background", "linear-gradient(to top right,#ccc 49.5%,#eeeeee 49.5%,#eeeeee 50.5%,#ccc 50.5%)")
@@ -21,9 +22,6 @@
     $("#settingsButton").attr("src", "../../gfx/settingsLight.png")
     $("#contentDiv").css("color", "black")
     $("#contentDivNew").css("color", "black")
-    //$("#contentDivNew").css("font-family", "'Source Code Pro Regular', monospace")
-    //$("#contentDivNew * i").attr("style", "font-family: 'Source Code Pro Italic', monospace !important");
-    //$("#contentDivNew i").css("font-family", "'Source Code Pro Italic', monospace !important")
 }
 var darkTheme = function () {
     $("body").css("background", "#111")
@@ -39,6 +37,7 @@ var darkTheme = function () {
     $("h5").css("color", "white")
     $(".ph").css("color", "#6aa3ff")
     $(".gray").css("color", "#707070")
+    $(".gray").css("font-family", "'Source Code Pro Regular', monospace")
     $(".grayDark").css("background", "#474747")
     $(".grayLight").css("background", "none")
     $(".split").css("background", "linear-gradient(to top right,#222 49.5%,#111 49.5%,#111 50.5%,#222 50.5%)")
@@ -48,7 +47,4 @@ var darkTheme = function () {
     $("#settingsButton").attr("src", "../../gfx/settingsDark.png")
     $("#contentDiv").css("color", "white")
     $("#contentDivNew").css("color", "white")
-    //$("#contentDivNew ").css("font-family", "'Source Code Pro Light', monospace")
-    //$("#contentDivNew * i").attr("style", "font-family: 'Source Code Pro LightItalic', monospace !important");
-    //$("#contentDivNew i").css("font-family", "'Source Code Pro LightItalic', monospace !important")
 }
