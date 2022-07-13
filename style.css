@@ -211,6 +211,18 @@ h2 {
 #wokugi.light:hover {
     background: #ccc;
 }
+#newLang:hover {
+    background: #333;
+    -webkit-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+}
+#newLang.light {
+    background: #ddd;
+    color: black;
+}
+#newLang.light:hover {
+    background: #ccc;
+}
 
 footer {
     width: 100%;
