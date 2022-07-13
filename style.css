@@ -552,6 +552,9 @@ rt {
 .tabNewTight td, .tabNewTight th {
 	padding: 0px 1ch 0pc 0ch;
 }
+span.grayNew {
+	color: #707070;
+}
 
 /*
 
