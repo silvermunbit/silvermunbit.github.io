@@ -192,7 +192,7 @@ h2 {
     display: block;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 80px;
     border-radius: 25px;
     text-align: center;
     font-size: 22px;
@@ -210,6 +210,20 @@ h2 {
 }
 #wokugi.light:hover {
     background: #ccc;
+}
+#newLang {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 22px;
+    background: #222;
+    z-index: 1; 
 }
 #newLang:hover {
     background: #333;
