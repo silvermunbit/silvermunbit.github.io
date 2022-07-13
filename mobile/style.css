@@ -547,6 +547,9 @@ rt {
 .tabNewTight {
 	-ms-overflow-style: none;
 }
+span.grayNew {
+	color: #707070;
+}
 
 /*
 
