@@ -407,6 +407,12 @@ STARTING FROM THE DEMONSTRATIVE <*gä>
     (N merges O <kä>, S merges W <ke>)
 - epenthetic vowels added (for <ko>: after C, for others: after clusters, B, s, L)
 
+used:
+- typically with set nouns
+- with some proper nouns
+- used with question clauses (i don't know the where of his going)
+- used with other things (tbd)
+
 ~~~~~~
 
 TODO
@@ -553,25 +559,7 @@ agree, same S   kago
 other N         darn
 
 pon             1
-sab             2
-
-ENGLISH
-
-        FRONT   MID     BACK
-HIGH    i ɪ             u ʊ
-MID     ɛ       ə       ɔ
-LOW     æ       ʌ       ɑ
-DIPTH   ɛj ɔw aj aw oj
-
-FRENCH
-        FRONT   MID     BACK
-HIGH    i y             u
-H-MID   e ø             o
-L-MID   ɛ œ     ə       ɔ
-LOW             a       
-DIPTH   
-
-
+sab             2  
 
 ~~~~
 
