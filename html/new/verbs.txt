@@ -281,8 +281,8 @@ I see my dog. ↔ I don't see my dog.
 I talk to a dog. ↔ I talk to no dog.
 
 I give a flower to a fish. ↔ I give no flower to no fish.
-I give the flower to a fish. ↔ I don't give a flower to a fish.
+I give the flower to a fish. ↔ I don't give the flower to a fish.
 I give a flower to the fish. ↔ I give no flower to the fish.
 I give the flower to the fish. ↔ I don't give the flower to the fish.
 
-With ditransitive verbs, the definite object decides the construction. 
+With ditransitive verbs, the direct object decides the construction. 
