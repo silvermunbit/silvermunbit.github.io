@@ -1,0 +1,140 @@
+PRONOUNS
+-------------
+
+PERSONAL PRONOUNS
+
+PRONOUNS
+        ISOLATE         SUBJECT         DO              GENITIVE        DATIVE
+1SG     nä <nya>        n(ä)- <n(ya)->  -(ä)n <-(a)w̃>   orn <orn>       äb'n <aẅn>      regular dative would be rän
+1SET    neis <nyes>     ne- <nye->      -eis <-yes>     uteis <uches>   dieis <jes>     composed of nä- and -is (bis) 'all'
+1PL     si <hi>         s(i)- <h(i)->   -(i)s <-(i)s>   os <os>         ebis <evis>     genitive is shortened from the regular osis 
+
+2SG     kiulu <chuu>    ki- <chi->      -lu <-u>        orlu <ou*>      äblu <avu>
+2SET    liis <ways>     lii- <way->     -iis <-ays>     itiis <itays>   diiis <jays>    composed of lu- (kiulu) and -is (bis) 'all'
+2PL     luoa <wa>       luo- <wo->      -oa <-wa>       oroa <onwa>     äboa <avwa>     composed of lu- (kiulu) and -oa (boa) 'many'
+
+3NU     tark <tark>     tar- <tar->     -(a)rk <-(a)rk> orark <onark>   äbark <avark>
+3NM     tadark <tadark> tad- <tad->     -dark <-dark>   nidark <nidark> äbdark <attark>
+3SU     läb <lav>       lä- <la->       -läb <-lav>     orläb <olav>    äbläb <avyav>
+3SM     läläb <lalav>   lälä- <lala->   -äläb <-alav>   oräläb <oyalav> äbäläb <avalav>
+3WU     arä <aya>       arä- <aya->     -rä <-ya>       orrä <oya>      rärä <yaya>
+3WM     ari <ai>        ari- <ai->      -ri <-i>        erri <ei>       reri <yei>
+3EU     mion <myow̃>     m(i)- <m(i)->   -ion <-yow̃>     esion <ehyow̃>   ebion <evyow̃>
+3EM     mionon <myonow̃> mion- <myow̃->   -non <-now̃>     ornon <ornow̃>   ränon <yanow̃>
+3OU     pa <pa>         p(a)- <p(a)->   -pa <-pa>       nipa <nipa>     äbpa <appa>
+3OM     paba <pava>     pab- <bav->     -aba <-ava>     oraba <onava>   äbaba <avava>
+
+without SDOAUX you can't tell the gender of a third person pronoun in a sentence with a copula
+
+~~~~~~
+
+INTERROGATIVES - what, who, which ~, where, when, how, why
+DEMONSTRATIVES - this, that, some, any, every, no, same, whole, other
+
+this/that (thing), this/that (person), here/there, then, thus, for that reason
+something, someone, somewhere, sometime, somehow, for some reason
+anything, anyone, anywhere, anytime, anyhow, for any reason
+everything, everyone, everywhere, everytime/always
+nothing, no one, nowhere, never, in no way, for no reason
+same thing, same person, same place, same time/simultaneous
+
+what    what            lä <la>
+who     person-what     kuläs > ku(l)ä(s) > kuä <kwa>
+which   of-what         sonlä <sownya> (which, what kind of)
+where   at-what         lilä <lila> (at where and to where, from where will be sonlila <sownila>)
+when    at-time         limiläs > (l)imi(läs) > imi <imi>
+how     by-what         rotlä <nowcha>
+why     for-what        baläns <valaw̃s>
+
+lä is WEST despite no meaning association, same treatment for all non-nouns/adj/v - phonology wins
+
+time    mis
+
+this        3PP
+here        close           mi <mi>                 from müi <mẅi> "close"
+then        at-this         logä <woja>             
+this way    by-this         ro(t)gä > nogä <noja>
+thus        for-this        (ba)mins > mins <myew̃s>  from bans "for" + "mi" here
+
+agree, same S   kago
+other N         darn
+
+pon             1
+sab             2
+
+INDEFINITE PRONOUNS
+
+bis <vis> all
+NEG.ART no
+
+everything
+everyone
+everywhere
+always
+
+nothing		no thing		mika nüa
+no one		no person		
+nowhere		
+never
+
+not nothing - something?
+not no one - someone
+not no - some
+not nowhere - somewhere
+
+i don't want to go nowhere - i want to go somewhere
+i don't need nothing like this - i need something like this
+i didn't see no dog - i saw some dog
+
+i talked to him about someone - i didn't talk to him about no one
+i talked to someone about him - i didn't talk to no one about him
+i talked to someone about something - i didn't talk to no one about nothing
+i talked to someone about nothing - just rephrase it
+
+
+PREPOSITIONS, CONJUNCTIONS
+
+to, at, in      äb... <av>          (DATIVE)
+of, from, about or... <or>          (GENITIVE) 
+
+and             e(l) <e(w)>         (from DATIVE)
+or              dar <dar>           (from OTHER)
+but             ägä <aja>           (from läläl gä "it may be") (with DIR)  also means though, although, despite, even if
+
+from/since      pagson <paskow̃>     (from GO FROM) (with GEN)
+to/until        nelli <nelli>       (from COME TO) (with DAT)
+
+by/through      rot <not>           (from PATH) (with GEN)                  also can mean if or should (as in by doing this - if you do this - accomplishing some goal)
+with            eli <eli>           (from DATIVE) (with DAT)                also means while doing or having done
+without         rütnü <ünü>         (from BY + NEG.LOC-COP.GER) (with GEN)
+for (the sake)  bans <vaw̃s>         (from *I DO) (with DIR)                 also means in order to or because
+only, just      nothing but,
+                or just "but"
+as/like         etmi <eymi>         (from ret mins "by thus") (with DIR)    IDK I DON'T LIKE HOW THESE ARE SO ENGLISH
+
+also, even      kagoeli <kagweli>       (from SAME WITH)
+either/or       dar/dar <dar/dar>       (from OR)
+
+~~~~
+
+k(u)-(u)s - person suffix from kus "person" - should be a circumfix
+
+~~~~
+
+WORDS
+
+lä <la>			what
+darn <darn>		other N
+dar <dar>		or (from darn "other")
+kus	<kus>		person O 
+mis <mis>		time O
+orul			differ N
+ba <va>			for (sake) (from ba "do")
+rot <not>		path W
+rot <not>		by, thru, -ly (from rot "path")
+omt				front E
+				back W
+				inside S
+				outside N
+				follow W
+
