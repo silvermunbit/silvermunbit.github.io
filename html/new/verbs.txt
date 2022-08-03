@@ -267,7 +267,7 @@ originates from the gerund of the negative locative copula nü <nü>
 assimilates its forms to the definite article:
 
 		POST-FRONT		POST-BACK
-N, O	(V)no <(V)no>	(V)nüa <(V)nẅa>
+N, O	(V)no <(V)no>	(V)nüä <(V)nẅa>
 S, W	(V)no <(V)no>	(V)nüe <(V)nẅe>
 E		(V)no <(V)no>	(V)nün <(V)nyew̃>
 
