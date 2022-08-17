@@ -64,23 +64,30 @@ sab             2
 
 INDEFINITE PRONOUNS
 
-bis <vis> all
+bis <vis> all, every, everyone, everything
 NEG.ART no
 
-everything
-everyone
-everywhere
+bis does not cause umlaut as it is a separate word
+the negative article only causes umlaut to the preceding epenthetic vowel 
+
+everything			bis <vis> / mika bis <mika vis>
+everyone			bis <vis> / kus bis <kus vis>
+(to) everywhere
+from everywhere
 always
 
-nothing		no thing		mika nüa
-no one		no person		
-nowhere		
-never
+nothing				no thing		mika nüä <mika nẅa>
+no one				no person		kus ünüä <kuh ünẅa>
+(to) nowhere		at/to not being	linü <linü>
+from nowhere		from not being	sünnü <hünnü>
+never				at no time		li + mis + ino > (li)mis ino > misino <mihino>
+nohow, not at all	(by) no way		rot ünüä <noch ünẅa>
 
-not nothing - something?
+not nothing - something
 not no one - someone
 not no - some
 not nowhere - somewhere
+not nohow - somehow
 
 i don't want to go nowhere - i want to go somewhere
 i don't need nothing like this - i need something like this
@@ -91,6 +98,13 @@ i talked to someone about him - i didn't talk to no one about him
 i talked to someone about something - i didn't talk to no one about nothing
 i talked to someone about nothing - just rephrase it
 
+any				it-may-be X which	ägä X sonlä <aja X sownya>
+anything		it-may-be what		ägä lä <aja la>
+anyone			it-may-be who		ägä kuä <aja kwa>
+(to) anywhere	it-may-be where		ägä lilä <aja lila>
+from anywhere	it-may-be whence	ägä sonlä <aja sownya>
+whenever		it-may-be when		ägä imi <aja imi> / <ajemi>
+however			it-may-be how		ägä rotlä <aja nowcha>
 
 PREPOSITIONS, CONJUNCTIONS
 
@@ -102,7 +116,7 @@ or              dar <dar>           (from OTHER)
 but             ägä <aja>           (from läläl gä "it may be") (with DIR)  also means though, although, despite, even if
 
 from/since      pagson <paskow̃>     (from GO FROM) (with GEN)
-to/until        nelli <nelli>       (from COME TO) (with DAT)
+to/until        nelli <nyelli>      (from COME TO) (with DAT)
 
 by/through      rot <not>           (from PATH) (with GEN)                  also can mean if or should (as in by doing this - if you do this - accomplishing some goal)
 with            eli <eli>           (from DATIVE) (with DAT)                also means while doing or having done
@@ -138,3 +152,42 @@ omt				front E
 				outside N
 				follow W
 
+atu <o>              bear E
+tabeon <tavyow̃>     flower E
+autabeon <otavyow̃> blossom E (bear-flower)
+sonatanu
+son
+
+au <o>              bear E
+gamt <gaw̃t>         flower E
+augamt <ogaw̃t>      blossom E
+sonaugatum <sonogatow̃>
+
+
+bis <vis>           world, among/within, everything, every, all O (usually used in compounds, the word for "world" is a compound all-life) SET (1)
+				
+nobü                air, atmosphere, sky, god, power O (often used in compounds, so shortened to bü usually (NO UMLAUT because of the intervening leftover no))
+nolm <nawm>         sad N
+nobülm <novyew̃>     rain N (sadness of god/sky)
+
+I want to blossom in the rain.
+I am nothing without bearing flowers in the world of rain (the sadness of god)
+COP.1SG thing NEG.ART without blossom(bear-flower).GER DAT.world GEN.rain(sad-god)
+
+TRANSLITERATION:    LÄLÄ MIKA NÜÄ RÜTNÜ SONAUGATUM IMBIS SONOBÜLM NÄ.
+ROMANIZATION:       Lala mika nẅa ünü sonogatow̃ ew̃vis sonovyew̃ nya.
+TRANSCRIPTION:      /ˈlala ˈmʲika ɲɥa ˈyɲy sʌˌnʌŋaˈtʌɰ̃ ɛɰ̃ˈvʲis ˌsʌnʌˈvʲɛɰ̃ ɲa/
+
+-r
+-rsk
+-u
+-ba
+
+
+spubarn
+seribarn
+hyeisparn
+
+ribarn
+rirn
+ba
