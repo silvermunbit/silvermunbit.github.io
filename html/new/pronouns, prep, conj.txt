@@ -163,7 +163,8 @@ bis <vis>           world, among/within, everything, every, all O (usually used 
 				
 nibaa <nivo>        air, atmosphere, sky, god, power O (often used in compounds, so shortened to baa <vo> usually)
 birn <virn>         sad N
-bibarn <vivarn>     rain N (sadness of god/sky)
+bibaarn <vivorn>    rain N (sadness of god/sky)
+spibaarn <hpivorn>  GEN.rain
 
 noba <nova>         use for something cool
 
@@ -175,16 +176,3 @@ TRANSLITERATION:    LÄLÄ MIKA NÜÄ RÜTNÜ SONAUGATUM IMBIS SPIBAARN NÄ.
 ROMANIZATION:       Lala mika nẅa ünü sonogatow̃ ew̃vis hpivorn nya.
 TRANSCRIPTION:      /ˈlala ˈmʲika ɲɥa ˈyɲy sʌˌnʌŋaˈtʌɰ̃ ɛɰ̃ˈvʲis çpʲiˈvɚn ɲa/
 GLOSS:              COP.1SG thing NEG.ART without GEN-blossom-GER DAT-world GEN-rain 1SG
-
-
--r
--rsk
--u
--ba
-
-
-spibaarn <hpivorn>  GEN.rain
-
-bibaarn <vivorn>    rain
-birn <virn>         sad N
-ba <va>
