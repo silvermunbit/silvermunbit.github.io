@@ -152,12 +152,6 @@ omt				front E
 				outside N
 				follow W
 
-atu <o>              bear E
-tabeon <tavyow̃>     flower E
-autabeon <otavyow̃> blossom E (bear-flower)
-sonatanu
-son
-
 au <o>              bear E
 gamt <gaw̃t>         flower E
 augamt <ogaw̃t>      blossom E
@@ -165,18 +159,23 @@ sonaugatum <sonogatow̃>
 
 
 bis <vis>           world, among/within, everything, every, all O (usually used in compounds, the word for "world" is a compound all-life) SET (1)
+                    typically used with definite article except when used as a locative adposition
 				
-nobü                air, atmosphere, sky, god, power O (often used in compounds, so shortened to bü usually (NO UMLAUT because of the intervening leftover no))
-nolm <nawm>         sad N
-nobülm <novyew̃>     rain N (sadness of god/sky)
+nibaa <nivo>        air, atmosphere, sky, god, power O (often used in compounds, so shortened to baa <vo> usually)
+birn <virn>         sad N
+bibarn <vivarn>     rain N (sadness of god/sky)
+
+noba <nova>         use for something cool
 
 I want to blossom in the rain.
-I am nothing without bearing flowers in the world of rain (the sadness of god)
+I am nothing without (by lacking of) blossoming (bearing flowers) in the world of rain (the sadness of god).
 COP.1SG thing NEG.ART without blossom(bear-flower).GER DAT.world GEN.rain(sad-god)
 
-TRANSLITERATION:    LÄLÄ MIKA NÜÄ RÜTNÜ SONAUGATUM IMBIS SONOBÜLM NÄ.
-ROMANIZATION:       Lala mika nẅa ünü sonogatow̃ ew̃vis sonovyew̃ nya.
-TRANSCRIPTION:      /ˈlala ˈmʲika ɲɥa ˈyɲy sʌˌnʌŋaˈtʌɰ̃ ɛɰ̃ˈvʲis ˌsʌnʌˈvʲɛɰ̃ ɲa/
+TRANSLITERATION:    LÄLÄ MIKA NÜÄ RÜTNÜ SONAUGATUM IMBIS SPIBAARN NÄ.
+ROMANIZATION:       Lala mika nẅa ünü sonogatow̃ ew̃vis hpivorn nya.
+TRANSCRIPTION:      /ˈlala ˈmʲika ɲɥa ˈyɲy sʌˌnʌŋaˈtʌɰ̃ ɛɰ̃ˈvʲis çpʲiˈvɚn ɲa/
+GLOSS:              COP.1SG thing NEG.ART without GEN-blossom-GER DAT-world GEN-rain 1SG
+
 
 -r
 -rsk
@@ -184,10 +183,8 @@ TRANSCRIPTION:      /ˈlala ˈmʲika ɲɥa ˈyɲy sʌˌnʌŋaˈtʌɰ̃ ɛɰ̃ˈv
 -ba
 
 
-spubarn
-seribarn
-hyeisparn
+spibaarn <hpivorn>  GEN.rain
 
-ribarn
-rirn
-ba
+bibaarn <vivorn>    rain
+birn <virn>         sad N
+ba <va>
