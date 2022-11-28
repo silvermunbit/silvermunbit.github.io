@@ -534,6 +534,12 @@ rt {
 	margin-top: 0px;
 	list-style-type: none;
 	margin-left: 4ch;
+	margin-bottom: 24px;
+}
+.newUlNested {
+	margin-top: 0px;
+	list-style-type: none;
+	margin-left: 4ch;
 }
 #contentDivNew p.noSpace {
 	margin-bottom: 0px;
