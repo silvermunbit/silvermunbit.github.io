@@ -19,6 +19,8 @@
 
 @font-face {font-family: "Source Sans Pro Light"; src: url(fonts/SourceSansPro-Light.otf);}
 @font-face {font-family: "Source Sans Pro Light Italic"; src: url(fonts/SourceSansPro-LightIt.otf);}
+@font-face {font-family: "Source Sans Pro Regular"; src: url(fonts/SourceSansPro-Regular.otf);}
+@font-face {font-family: "Source Sans Pro Regular Italic"; src: url(fonts/SourceSansPro-It.otf);}
 @font-face {font-family: "Source Sans Pro Black"; src: url(fonts/SourceSansPro-Black.otf);}
 
 /* GLOBAL */
@@ -537,7 +539,7 @@ rt {
     padding: 8px;
 }
 #contentDivNew * {
-	font-family: 'Source Sans Pro Light', sans-serif;
+	font-family: 'Source Sans Pro Regular', sans-serif;
 }
 #contentDivNew p {
 	margin-top: 24px;
@@ -556,7 +558,7 @@ rt {
 	margin: 5px 0px;
 }
 #contentDivNew * i {
-	font-family: 'Source Sans Pro Light Italic', sans-serif !important;
+	font-family: 'Source Sans Pro Regular Italic', sans-serif !important;
 }
 #contentDivNew * b {
 	font-family: 'Source Sans Pro Black', sans-serif !important;
