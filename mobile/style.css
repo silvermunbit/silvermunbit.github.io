@@ -18,6 +18,10 @@
 @font-face {font-family: "Source Code Pro Italic"; src: url(../fonts/SourceCodePro-Italic.ttf);}
 @font-face {font-family: "Source Code Pro Semibold"; src: url(../fonts/SourceCodePro-Semibold.ttf);}
 
+@font-face {font-family: "Source Sans Pro Light"; src: url(../fonts/SourceSansPro-Light.ttf);}
+@font-face {font-family: "Source Sans Pro Light Italic"; src: url(../fonts/SourceSansPro-LightIt.ttf);}
+@font-face {font-family: "Source Sans Pro Black"; src: url(../fonts/SourceSansPro-Black.ttf);}
+
 /* GLOBAL */
 
 * {
@@ -513,22 +517,22 @@ rt {
 	margin-bottom: 20px;
 }
 #contentDivNew h4 {
-	font-family: 'Source Sans Pro ExtraBold', sans-serif;
+	font-family: 'Source Sans Pro Black', sans-serif;
 	font-size: 24px;
 	font-weight: 500;
 	margin: 5px 0px;
 }
 #contentDivNew h5 {
-	font-family: 'Source Code Pro ExtraBold', sans-serif;
+	font-family: 'Source Sans Pro Black', sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	margin: 5px 0px;
 }
 #contentDivNew * i {
-	font-family: 'Source Sans Pro Light', sans-serif !important;
+	font-family: 'Source Sans Pro Light Italic', sans-serif !important;
 }
 #contentDivNew * b {
-	font-family: 'Source Sans Pro ExtraBold', sans-serif !important;
+	font-family: 'Source Sans Pro Black', sans-serif !important;
 }
 .newUl {
 	margin-top: 0px;
