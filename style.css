@@ -525,36 +525,37 @@ rt {
     text-align: left;
 }
 
+/* NEW */
+
 #contentDivNew {
     max-width: 1500px;
     margin: 100px auto 50px;
     padding: 8px;
 }
 #contentDivNew * {
-	font-family: 'Source Code Pro Regular', monospace;
-	font-size: 14px;
+	font-family: 'Source Sans Pro Light', sans-serif;
 }
 #contentDivNew p {
 	margin-top: 24px;
 	margin-bottom: 24px;
 }
 #contentDivNew h4 {
-	font-family: 'Source Code Pro ExtraBold', monospace;
-	font-size: 20px;
+	font-family: 'Source Sans Pro ExtraBold', sans-serif;
+	font-size: 30px;
 	font-weight: 500;
 	margin: 5px 0px;
 }
 #contentDivNew h5 {
-	font-family: 'Source Code Pro ExtraBold', monospace;
-	font-size: 16px;
+	font-family: 'Source Sans Pro ExtraBold', sans-serif;
+	font-size: 20px;
 	font-weight: 500;
 	margin: 5px 0px;
 }
 #contentDivNew * i {
-	font-family: 'Source Code Pro Italic', monospace !important;
+	font-family: 'Source Sans Pro Light', sans-serif !important;
 }
 #contentDivNew * b {
-	font-family: 'Source Code Pro ExtraBold', monospace !important;
+	font-family: 'Source Sans Pro ExtraBold', sans-serif !important;
 }
 .newUl {
 	margin-top: 0px;
