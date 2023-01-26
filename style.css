@@ -539,7 +539,7 @@ rt {
     padding: 8px;
 }
 #contentDivNew * {
-	font-family: 'Source Sans Pro Regular', sans-serif;
+	font-family: 'Source Sans Pro Light', sans-serif;
 }
 #contentDivNew p {
 	margin-top: 24px;
@@ -558,7 +558,7 @@ rt {
 	margin: 5px 0px;
 }
 #contentDivNew * i {
-	font-family: 'Source Sans Pro Regular Italic', sans-serif !important;
+	font-family: 'Source Sans Pro Light Italic', sans-serif !important;
 }
 #contentDivNew * b {
 	font-family: 'Source Sans Pro Black', sans-serif !important;
