@@ -1,6 +1,7 @@
 ﻿/* MOBILE */
 
 @font-face {font-family: "Noto Sans JP Light"; src: url(../fonts/NotoSansCJKjp-Light.otf);}
+@font-face {font-family: "Noto Sans JP Demi"; src: url(../fonts/NotoSansCJKjp-DemiLight.otf);}
 @font-face {font-family: "Noto Sans JP Black"; src: url(../fonts/NotoSansCJKjp-Black.otf);}
 
 @font-face {font-family: "Source Sans Pro Light"; src: url(../fonts/SourceSansPro-Light.otf);}
@@ -12,7 +13,7 @@
 /* GLOBAL */
 
 * {
-    font-family: 'Source Sans Pro Regular', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
+    font-family: 'Source Sans Pro Regular', 'Noto Sans JP Demi', 'Malgun Gothic', sans-serif;
     font-weight: 400;
 }
 *:focus {
@@ -349,7 +350,7 @@ footer {
     font-size: 14px;
 }
 #contentDiv * {
-	font-family: 'Source Sans Pro Regular', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Sans Pro Regular', 'Noto Sans JP Demi', 'Malgun Gothic', sans-serif;
 }
 #contentDiv p {
 	margin-top: 20px;
