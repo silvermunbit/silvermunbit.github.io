@@ -402,8 +402,10 @@ footer {
 #contentDiv h2 {
 	display: inline-block;
 	margin: 0px 10px;
+	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
 	font-size: 22px;
 	color: #707070;
+	font-weight: 500;
 }
 #contentDiv h4 {
     	display: inline-block;
