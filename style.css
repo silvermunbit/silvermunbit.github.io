@@ -1,21 +1,6 @@
 ﻿/* DESKTOP */
 @font-face {font-family: "Noto Sans JP Light"; src: url(fonts/NotoSansCJKjp-Light.otf);}
 @font-face {font-family: "Noto Sans JP Black"; src: url(fonts/NotoSansCJKjp-Black.otf);}
-/*@font-face {font-family: "Beau Thin"; src: url(fonts/beau-thin.ttf);}
-@font-face {font-family: "Beau Light"; src: url(fonts/beau-light.ttf);}
-@font-face {font-family: "Beau Regular"; src: url(fonts/beau-regular.ttf);}
-@font-face {font-family: "Beau Bold"; src: url(fonts/beau-bold.ttf);}
-
-@font-face {font-family: "Source Code Pro Black"; src: url(fonts/SourceCodePro-Black.ttf);}
-@font-face {font-family: "Source Code Pro Bold"; src: url(fonts/SourceCodePro-Bold.ttf);}
-@font-face {font-family: "Source Code Pro ExtraBold"; src: url(fonts/SourceCodePro-ExtraBold.ttf);}
-@font-face {font-family: "Source Code Pro ExtraLight"; src: url(fonts/SourceCodePro-ExtraLight.ttf);}
-@font-face {font-family: "Source Code Pro Light"; src: url(fonts/SourceCodePro-Light.ttf);}
-@font-face {font-family: "Source Code Pro LightItalic"; src: url(fonts/SourceCodePro-LightItalic.ttf);}
-@font-face {font-family: "Source Code Pro Medium"; src: url(fonts/SourceCodePro-Medium.ttf);}
-@font-face {font-family: "Source Code Pro Regular"; src: url(fonts/SourceCodePro-Regular.ttf);}
-@font-face {font-family: "Source Code Pro Italic"; src: url(fonts/SourceCodePro-Italic.ttf);}
-@font-face {font-family: "Source Code Pro Semibold"; src: url(fonts/SourceCodePro-Semibold.ttf);}*/
 
 @font-face {font-family: "Source Sans Pro Light"; src: url(fonts/SourceSansPro-Light.otf);}
 @font-face {font-family: "Source Sans Pro Light Italic"; src: url(fonts/SourceSansPro-LightIt.otf);}
@@ -166,12 +151,13 @@ h2 {
 .submenuCircle {
     width: 80px;
     height: 80px;
+	line-height: 82px;
     display: block;
     position: relative;
     left: 60px;
     border-radius: 40px;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
 }
 .c1 {
     background: #e53935;
