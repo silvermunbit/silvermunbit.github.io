@@ -1,22 +1,7 @@
 ﻿/* MOBILE */
 
 @font-face {font-family: "Noto Sans JP Light"; src: url(../fonts/NotoSansCJKjp-Light.otf);}
-@font-face {font-family: "Noto Sans JP Medium"; src: url(../fonts/NotoSansCJKjp-Medium.otf);}
-@font-face {font-family: "Beau Thin"; src: url(../fonts/beau-thin.ttf);}
-@font-face {font-family: "Beau Light"; src: url(../fonts/beau-light.ttf);}
-@font-face {font-family: "Beau Regular"; src: url(../fonts/beau-regular.ttf);}
-@font-face {font-family: "Beau Bold"; src: url(../fonts/beau-bold.ttf);}
-
-@font-face {font-family: "Source Code Pro Black"; src: url(../fonts/SourceCodePro-Black.ttf);}
-@font-face {font-family: "Source Code Pro Bold"; src: url(../fonts/SourceCodePro-Bold.ttf);}
-@font-face {font-family: "Source Code Pro ExtraBold"; src: url(../fonts/SourceCodePro-ExtraBold.ttf);}
-@font-face {font-family: "Source Code Pro ExtraLight"; src: url(../fonts/SourceCodePro-ExtraLight.ttf);}
-@font-face {font-family: "Source Code Pro Light"; src: url(../fonts/SourceCodePro-Light.ttf);}
-@font-face {font-family: "Source Code Pro LightItalic"; src: url(../fonts/SourceCodePro-LightItalic.ttf);}
-@font-face {font-family: "Source Code Pro Medium"; src: url(../fonts/SourceCodePro-Medium.ttf);}
-@font-face {font-family: "Source Code Pro Regular"; src: url(../fonts/SourceCodePro-Regular.ttf);}
-@font-face {font-family: "Source Code Pro Italic"; src: url(../fonts/SourceCodePro-Italic.ttf);}
-@font-face {font-family: "Source Code Pro Semibold"; src: url(../fonts/SourceCodePro-Semibold.ttf);}
+@font-face {font-family: "Noto Sans JP Black"; src: url(../fonts/NotoSansCJKjp-Black.otf);}
 
 @font-face {font-family: "Source Sans Pro Light"; src: url(../fonts/SourceSansPro-Light.otf);}
 @font-face {font-family: "Source Sans Pro Light Italic"; src: url(../fonts/SourceSansPro-LightIt.otf);}
@@ -27,7 +12,7 @@
 /* GLOBAL */
 
 * {
-    font-family: 'Beau Thin', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
+    font-family: 'Source Sans Pro Regular', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
     font-weight: 400;
 }
 *:focus {
@@ -43,7 +28,7 @@ a {
     text-decoration: none;
 }
 b {
-    font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', 'sans-serif' !important;
+    font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', 'sans-serif' !important;
 }
 
 /* MENU */
@@ -63,7 +48,7 @@ b {
 }
 h3 {
     margin: 15px 0px 2px 15px;
-    font-family: 'Beau Regular', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
+    font-family: 'Source Sans Pro Regular', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #707070;
@@ -364,7 +349,7 @@ footer {
     font-size: 14px;
 }
 #contentDiv * {
-	font-family: 'Beau Light', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Sans Pro Regular', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
 }
 #contentDiv p {
 	margin-top: 20px;
@@ -373,38 +358,39 @@ footer {
 #contentDiv h1 {
 	margin: 20px 0px 0px 0px;
     text-align: left;
-	font-family: 'Beau Regular', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
 	font-size: 24px;
-	color: #707070;
+	/*color: #707070;*/
 	font-weight: 500;
 }
 #contentDiv h2 {
     margin-top: 5px;
     text-align: left;
+	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
 	font-size: 18px;
 	color: #707070;
 }
 #contentDiv h4 {
     	display: inline-block;
 	margin: 10px 0px;
-	font-family: 'Beau Regular', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
 	font-size: 16px;
 	color: white;
 }
 #contentDiv h4 b {
-	font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
 	font-size: 24px;
 	font-weight: 500;
 }
 #contentDiv h5 {
     	display: inline-block;
 	margin: 10px 0px;
-	font-family: 'Beau Regular', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
 	font-size: 14px;
 	color: white;
 }
 #contentDiv h5 b {
-	font-family: 'Beau Bold', 'Noto Sans JP Medium', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
 	font-style: italic;
 	font-size: 16px;
 	font-weight: 500;
@@ -430,7 +416,7 @@ table td, table th {
 }
 table th {
 	background: #222;
-    font-family: 'Beau Regular', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
+    font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
     font-weight: 500;
 }
 span.blue {
@@ -447,22 +433,15 @@ span.example {
     margin-left: 10px;
 }
 
-#contentDiv h4 span.ph {
-	font-family: sans-serif !important;
-}
-#contentDiv h5 span.ph {
-	font-family: sans-serif !important;
-}
-
 .ph {
-	font-family: sans-serif !important;
+	font-family: 'Source Sans Pro Regular', sans-serif !important;
 	color: #6aa3ff;
 }
 .b {
-	font-family: 'Beau Bold', sans-serif !important;
+	font-family: 'Noto Sans Pro Black', sans-serif !important;
 }
 .ph b {
-	font-family: sans-serif !important;
+	font-family: 'Noto Sans Pro Black', sans-serif !important;
 	font-weight: bold;
 }
 
@@ -488,7 +467,7 @@ rt {
     font-size: 7px;
 }
 .ipa {
-    font-family: sans-serif !important;
+    font-family: 'Noto Sans Pro Regular', sans-serif !important;
 }
 .split {
     height: 20px;
