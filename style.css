@@ -166,13 +166,12 @@ h2 {
 .submenuCircle {
     width: 80px;
     height: 80px;
-    line-height: 82px;
     display: block;
     position: relative;
     left: 60px;
     border-radius: 40px;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
 }
 .c1 {
     background: #e53935;
