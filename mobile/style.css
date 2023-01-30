@@ -335,13 +335,13 @@ footer {
     background: rgba(0,0,0,0.5);
 	-webkit-transition: .3s ease-in-out;
 	-moz-transition: .3s ease-in-out;
+	text-align: center;
+	line-height: 32px;
+	font-size: 40px;
+	color: white;
 }
 #up.slide {
     bottom: 10px;
-}
-#up img {
-    width: 30px;
-    margin: 5px;
 }
 
 #contentDiv {
