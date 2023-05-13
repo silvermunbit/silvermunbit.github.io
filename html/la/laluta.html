@@ -1,0 +1,2915 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lalǘta</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="../../style.css" rel="stylesheet" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"/>
+<script src="../../libs/jquery-3.1.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.getScript("../../js/buttonUp.js", function () {
+            $.getScript("../../js/settingsButton.js", function () {
+                $.getScript("../../js/nonVocabTheme.js", function () {
+                    $.getScript("../../js/localStorage.js")
+                })
+            })
+        })
+    })
+</script>
+</head>
+<body>
+	<a id="top"></a>
+    <a href="#top" id="up">↑</a>
+    <img id="settingsButton" src="../../gfx/settingsDark.png" alt="settings" />
+    <div id="menu">
+        <h3>THEME</h3>
+        <a id="lightTheme">Light</a>
+        <a id="darkTheme">Dark</a>
+        <h3>LINKS</h3>
+        <a id="homepage" href="../../index.html">Homepage</a>
+        <a id="mobileToggle" href="../../mobile/html/new/mainfile2.html">Mobile</a>
+    </div>
+    <div id="contentDivNew">
+      <h4>Table of contents</h4>
+      <ul class="newUl" style="margin-top: 24px">
+        <li><a href="#0">Info</a></li>
+        <li><a href="#1">Introduction</a></li>
+        <li><a href="#2">Phonology</a>
+          <ul class="newUlNested">
+            <li><a href="#2_1">1. Vowel and consonant charts</a></li>
+            <li><a href="#2_2">2. Vowels</a></li>
+            <li><a href="#2_3">3. Consonants</a></li>
+            <li><a href="#2_4">4. Realization and allophony</a></li>
+            <li><a href="#2_5">5. Stress and phonotactics</a></li>
+            <li><a href="#2_6">6. Umlaut</a></li>
+            <li><a href="#2_7">7. Vowel hiatus</a></li>
+            <li><a href="#2_8">8. Consonant clusters</a></li>
+            <li><a href="#2_9">9. Reduplication</a></li>
+            <li><a href="#2_10">10. Alternative romanization</a></li>
+          </ul>
+        </li>
+        <li><a href="#3">Orthography</a></li>
+        <li><a href="#4">Class, Number, Case</a>
+          <ul class="newUlNested">
+            <li><a href="#4_1">1. Class</a></li>
+            <li><a href="#4_2">2. Number</a></li>
+            <li><a href="#4_3">3. Case</a></li>
+            <li><a href="#4_4">4. Clause-final auxiliaries</a></li>
+          </ul>
+        </li>
+        <li><a href="#5">Articles</a>
+          <ul class="newUlNested">
+            <li><a href="#5_1">1. Definite article</a></li>
+            <li><a href="#5_2">2. Negative article</a></li>
+          </ul>
+        </li>
+        <li><a href="#6">Pronouns</a>
+          <ul class="newUlNested">
+            <li><a href="#6_1">1. Personal pronouns</a></li>
+            <li><a href="#6_2">2. Interrogatives</a></li>
+            <li><a href="#6_3">3. Demonstratives</a></li>
+            <li><a href="#6_4">4. Indefinite pronouns</a></li>
+          </ul>
+        </li>
+        <li><a href="#7">Nouns</a></li>
+        <li><a href="#8">Adjectives</a>
+          <ul class="newUlNested">
+            <li><a href="#8_1">1. Usage with nouns and as predicate</a></li>
+            <li><a href="#8_2">2. Comparison</a></li>
+          </ul>
+        </li>
+        <li><a href="#9">Adverbs</a>
+					<ul class="newUlNested">
+						<li><a href="#9_1">1. General rules</a></li>
+            <li><a href="#9_2">2. Verb and adjective conversion into adverbs</a></li>
+            <li><a href="#9_3">3. Adverbs used with adjectives and other adverbs</a></li>
+						<li><a href="#9_4">4. Numbers</a></li>
+					</ul>
+				</li>
+        <li><a href="#10">Particles</a>
+					<ul class="newUlNested">
+						<li><a href="#10_1">1. Conjunctions/prepositions</a></li>
+            <li><a href="#10_2">2. Other equivalent forms</a></li>
+            <li><a href="#10_3">3. Positional particles</a></li>
+					</ul>
+				</li>
+        <li><a href="#11">Verbs</a>
+          <ul class="newUlNested">
+            <li><a href="#11_1">1. Tense/aspect system</a></li>
+						<li><a href="#11_2">2. Regular verbs</a></li>
+						<li><a href="#11_3">3. Copulae</a></li>
+						<li><a href="#11_4">4. Irregular verbs</a></li>
+						<li><a href="#11_5">5. Negation and interrogation</a></li>
+						<li><a href="#11_6">6. Imperatives</a></li>
+						<li><a href="#11_7">7. Passive and causative voice</a></li>
+						<li><a href="#11_8">8. Impersonal and reflexive expressions</a></li>
+						<li><a href="#11_9">9. Modality</a></li>
+						<li><a href="#11_10">10. Non-finite forms</a></li>
+						<li><a href="#11_11">11. Other forms</a></li>
+          </ul>
+        </li>
+	      <li><a href="#12">Word formation</a></li>
+	      <li><a href="#13">Syntax</a></li>
+        <li><a href="#14">Appendix 1 - SDOAUX</a></li>
+      </ul>
+        
+	    <h4 id="0">Info</h4>
+        <table class="tabNew">
+            <tr>
+                <td><b>a</b></td>
+                <td>transliteration</td>
+            </tr>
+            <tr>
+                <td><i>a</i></td>
+                <td>romanization</td>
+            </tr>
+						<tr>
+                <td><span class="grayNew">a</i></td>
+                <td>translation</td>
+            </tr>
+            <tr>
+                <td>/a/</td>
+                <td>phonemic transcription</td>
+            </tr>
+            <tr>
+                <td>[a]</td>
+                <td>phonetic transcription</td>
+            </tr>
+            <tr style="height: 24px;"></tr>
+            <tr>
+                <td><b>T</b></td>
+                <td>plosive</td>
+            </tr>
+            <tr>
+                <td><b>P</b></td>
+                <td>voiceless plosive</td>
+            </tr>
+            <tr>
+                <td><b>B</b></td>
+                <td>voiced plosive</td>
+            </tr>
+            <tr>
+                <td><b>N</b></td>
+                <td>nasal</td>
+            </tr>
+            <tr>
+                <td><b>L</b></td>
+                <td>liquid</td>
+            </tr>
+            <tr>
+                <td><b>W</b></td>
+                <td>liquid or nasal</td>
+            </tr>
+						<tr>
+                <td><b>ü</b></td>
+                <td>umlaut</td>
+            </tr>
+        </table>
+        
+        <h4 id="1">Introduction</h4>
+        <p>This is a personal conlang. Its name is <b>läl'üta</b> <i>lalǘta</i>, which is also the word meaning <span class="grayNew">language</span>. It does not attempt to be naturalistic, it is not set in any fictional world, nor does it have a fictional group of speakers. It is free of loan words and makes no reference to names of countries, people, brands, culture-specific ideas, etc. existing in our world. Its purpose is to express ideas universal to the human experience, rather than to create specialized or technical texts.</p>
+        <p>As this is a personal language, its "flavor," that is idiomatic expressions, register and anything that in a natural language would be culture-guided is based on my own thoughts, experiences, and worldview. The language is not inspired by any particular language, natural or fictional, though it draws bits and pieces from many.</p>
+        <p>Although the language is not naturalistic, it features elements such as non-concatenation, proto-forms, grammaticalization and suppletion, in order to make it more interesting. The language is exclusively head initial, VSO and low-context.</p>
+        <p>Some of the presented examples make use of made-up forms, not actual words.</p>
+        
+        <h4 id="2">Phonology</h4><br/>
+	
+        <h5 id="2_1">1. Vowel and consonant charts</h5>
+	    <table class="tabNew">
+			<tr>
+				<th></th>
+				<th>FRONT</th>
+				<th>NON-FRONT</th>
+			</tr>
+			<tr>
+				<th>HIGH</th>
+				<td>i y</td>
+				<td>ɯ</td>
+			</tr>
+			<tr>
+				<th>MID</th>
+				<td>ɛ</td>
+				<td>ʌ</td>
+			</tr>
+			<tr>
+				<th>LOW</th>
+				<td></td>
+				<td>a</td>
+			</tr>
+			<tr>
+				<th>RHOTIC</th>
+				<td colspan="2">aɹ iɹ ɥɚ ɚ</td>
+			</tr>
+		</table>
+		<table class="tabNew">
+			<tr>
+				<th></th>
+				<th colspan="2" style="text-align: center;">LABIAL</th>
+				<th>CORONAL</th>
+				<th>PALATAL</th>
+				<th>VELAR</th>
+			</tr>
+			<tr>
+				<th></th>
+				<th>PLAIN</th>
+				<th>PALATAL</th>
+				<th></th>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<th>NASAL</th>
+				<td>m</td>
+				<td>mʲ</td> 
+				<td>n</td> 
+				<td>ɲ</td> 
+				<td>(ŋ)</td> 
+			</tr>
+			<tr>
+				<th>STOP</th>
+				<td>p</td>
+				<td>pʲ</td> 
+				<td>t d</td> 
+				<td>c ɟ</td> 
+				<td>k ɡ</td> 
+			</tr>
+			<tr>
+				<th>FRIC</th>
+				<td>v</td>
+				<td>vʲ</td> 
+				<td>s</td> 
+				<td>ç</td> 
+				<td></td> 
+			</tr>
+			<tr>
+				<th>APPROX</th>
+				<td></td>
+				<td>ɥ (ɥ̃)</td> 
+				<td>l ɹ</td> 
+				<td>j (ȷ̃)</td> 
+				<td>ɰ ɰ̃</td> 
+			</tr>
+		</table>
+		
+		<h5 id="2_2">2. Vowels</h5>
+		<table class="tabNew">
+			<tr>
+				<th>FRONT</th>
+				<td><b>ä e i ü</b></td>
+				<td><i>a e i ü</i></td>
+				<td>/a ɛ i y/</td>
+			</tr>
+			<tr>
+				<th>BACK</th>
+				<td><b>a o u</b></td>
+				<td><i>a o u</i></td>
+				<td>/a ʌ ɯ/</td>
+			</tr><tr>
+				<th>SEMIVOWELS</th>
+				<td><b>i u ü</b></td>
+				<td><i>y w ẅ</i></td>
+				<td>/j ɰ ɥ/</td>
+			</tr>
+		</table>
+		
+		<h5 id="2_3">3. Consonants</h5>
+		<p>HARD before BACK vowels and semivowels<br/>
+			SOFT before FRONT vowels and semivowels</p>
+		<table class="tabNew">
+			<tr>
+				<th></th>
+				<th>HARD</th>
+				<th>SOFT</th>
+				<th>CODA</th>
+			</tr>
+			<tr>
+				<td><b>p</b></td>
+				<td><i>p</i> /p/</td>
+				<td><i>py</i> /pʲ/*</td>
+				<td><i>p</i> /p/</td>
+			</tr>
+			<tr>
+				<td><b>b</b></td>
+				<td><i>v</i> /v/</td>
+				<td><i>vy</i> /vʲ/</td>
+				<td><i>v</i> /v/</td>
+			</tr>
+			<tr>
+				<td><b>t</b></td>
+				<td><i>t</i> /t/</td>
+				<td><i>ch</i> /c/</td>
+				<td><i>t</i> /t/</td>
+			</tr>
+			<tr>
+				<td><b>d</b></td>
+				<td><i>d</i> /d/</td>
+				<td><i>j</i> /ɟ/</td>
+				<td><i>d</i> /d/</td>
+			</tr>
+			<tr>
+				<td><b>k</b></td>
+				<td><i>k</i> /k/</td>
+				<td><i>ch</i> /c/</td>
+				<td><i>k</i> /k/</td>
+			</tr>
+			<tr>
+				<td><b>g</b></td>
+				<td><i>g</i> /ɡ/</td>
+				<td><i>j</i> /ɟ/</td>
+				<td><i>g</i> /ɡ/</td>
+			</tr>
+			<tr>
+				<td><b>s</b></td>
+				<td><i>s</i> /s/</td>
+				<td><i>hy</i> /ç/</td>
+				<td><i>s</i> /s/</td>
+			</tr>
+			<tr>
+				<td><b>m</b></td>
+				<td><i>m</i> /m/</td>
+				<td><i>my</i> /mʲ/</td>
+				<td><i>m</i> /m/ or <i>w̃</i> /ɰ̃/**</td>
+			</tr>
+			<tr>
+				<td><b>n</b></td>
+				<td><i>n</i> /n/</td>
+				<td><i>ny</i> /ɲ/</td>
+				<td><i>n</i> /n/ or <i>w̃</i> /ɰ̃/**</td>
+			</tr>
+			<tr>
+				<td><b>r</b></td>
+				<td><i>n</i> /n/</td>
+				<td><i>y</i> /j/</td>
+				<td><i>r</i> /ɹ/</td>
+			</tr>
+			<tr>
+				<td><b>l</b></td>
+				<td><i>w</i> /ɰ/</td>
+				<td><i>l</i> /l/</td>
+				<td><i>w</i> /ɰ/</td>
+			</tr>
+		</table>
+		<p>*SOFT consonants with <i>y</i> lose <i>y</i> when preceding <i>i</i>, <i>ü</i>, <i>ẅ</i> or a consonant, e.g. <b>mä me mi mü müi asmi</b> <i>mya mye mi mü mẅi ahmi</i> /mʲa mʲɛ mʲi mʲy mʲɥi açmʲi/.<br/>
+			**Realized as /ɰ̃/ only when directly preceded by a vowel and not followed by a vowel, e.g. <b>am</b> <i>aw̃</i> /aɰ̃/, <b>arm</b> <i>arm</i> /aɹm/, <b>aüm</b> <i>aẅm</i> /aɥm/.</p>
+		
+		<h5 id="2_4">4. Realization and allophony</h5>
+	    	<p><b>N</b> codas lower high vowels - <b>iN üN</b> <i>ew̃</i> /ɛɰ̃/, <b>uN</b> <i>ow̃</i> /ʌɰ̃/.<br/>
+		<b>r</b> coda centralizes some vowels - <i>er or ur</i> /ɚ/.<br/>
+		<b>ür</b> is pronounced as /ɥɚ/.<br/>
+			<b>r</b> is pronounced as /ɚ/ after glides.</p>
+	    	<p>/g/ is realized as [ŋ] intervocalically.<br/>
+		/s/ is realized as [s̟~θ] (lisped s).<br/>
+		/c/ and /ɟ/ are realized as [c~t͡ɕ] and [ɟ~d͡ʑ].<br/>
+	    Onset <b>P</b> are aspirated when stressed. Aspiration before glides results in their devoicing, e.g. <b>poa</b> <i>pwa</i> [pɰ̊a].<br/>
+		/s/ is realized as [ç] before SOFT consonants and romanized as <i>h</i>.<br/>
+			/ɰ̃/ is realized as [ɥ̃] before /pʲ vʲ/ and [ȷ̃] before /c ɟ ç/.<br/>
+			Coda /m/ and /n/ assimilate to following obstruents: [m(ʲ)] before /p(ʲ)/, [ɱ(ʲ)] before /v(ʲ)/, [n] before /t d s/, [ɲ] before /c ɟ ç/, [ŋ] before /k ɡ/. They are romanized as <i>m</i> before <i>p</i>, and <i>n</i> otherwise, e.g. <b>iinpa</b> <i>aynva</i> [ajɱva], <b>eümske</b> <i>eẅnhche</i> [ɛɥɲçcɛ].<br/>
+					Geminates are always realized as geminates, never as doubled consonants, e.g. <b>appa</b> <i>appa</i> [apːa], not [*ap.pa]. For the purposes of word stress, syllables preceding a geminate are counted as closed.
+			</p>
+		<p>/ɯ/ is realized as [ɨ~ɯ].<br/>
+		/ʌ/ is realized as [ɐ~ʌ].<br/>
+		/a/ is realized as [a~ä] following HARD consonants and as [a~æ] following SOFT consonants.<br/>
+		/aɹ/ is realized as [aɹ~æɹ].</p>
+		<p>Word boundaries typically block palatalization, excluding certain set phrases or collocations; this also affects romanization, e.g. <b>läl üta</b> <i>lal üta</i>.<br/>
+		<b>ri rü lu</b> are pronounced as <i>i ü u</i>, preserving vowel hiatus, e.g. <b>ari</b> <i>ai</i>, <b>elu</b> <i>eu</i>.<br/>
+		Two semivowels cannot cooccur adjacently within the same syllable, e.g. <b>iil</b> <i>ayw</i> → <i>ay</i>.<br/>
+		<i>y</i> is never pronounced when adjacent to <b>i ü</b>, and <i>w ẅ</i> are never pronounced when adjacent to <b>u ü</b>, unless the vowel is first and in a separate syllable, e.g. <b>itma</b> <i>iyma</i> → <i>ima</i>, <b>kupna</b> <i>kuwna</i> → <i>kuna</i>, <b>allu</b> <i>awwu</i> → <i>au</i>, <b>iiri</b> <i>ayi</i> → <i>ai</i>, <b>kuiü</b> <i>kwiü</i> → <i>kwü</i> → <i>chü</i>, but <b>kire</b> <i>chiye</i>.</p>
+		
+		<h5 id="2_5">5. Stress and phonotactics</h5>
+		<p class="noSpace">Word stress is final if the syllable is closed, otherwise penultimate if the syllable is closed, otherwise antepenultimate. Every other preceding syllable receives secondary stress. In case of exceptions, the stress is marked with an acute. The exceptions to the stress rule include:</p>
+			<ul class="newUl">
+				<li>- compound SDOAUX, which are always stressed on the final syllable, e.g. <b>arärä</b> <i>ayayá</i></li></li>
+				<li>- second person verb forms ending in <i>chu</i>, which are always stressed on the penult, e.g. <b>elikiu</b> <i>elíchu</i></li>
+				<li>- the word <b>alun</b> <span class="grayNew">child</span> and any words using <b>alun</b> as a diminutive suffix, which are always stressed on the penult, e.g. <b>nikoalun</b> <i>nikwáwow̃</i></li>
+				<li>- certain short componuds, where stress can be counted as if two words were used, e.g. <b>läl'üta</b> <i>lalǘta</i> (from <b>läl üta</b> <i>lal üta</i>)</li>
+			</ul>
+	    <p class="noSpace">Syllable structure is CVC, but:</p><ul class="newUl">
+		<li>- word-initially <b>sP</b> is allowed</li>
+		<li>- word-medially <b>WsP</b> is allowed</li>
+		<li>- word-finally <b>sP WP Ws WsP LN</b> are allowed</li>
+	    </ul>
+		<p>Note that instances of word-initial <b>sb sd sg</b> are respelled as <b>sp st sk</b>, e.g. <b>s-</b> + <b>-dark</b> → <b>stark</b>.</p>
+	
+		<h5 id="2_6">6. Umlaut</h5>
+		<p>An affixed <b>i</b> changes the preceding vowel or combination thereof - <b>ä a e o u</b> → <b>e ä i e i</b>.<br/>
+		An affixed <b>ü</b> changes the preceding vowel or combination thereof - <b>ä a e o u</b> → <b>e ä ü ü ü</b>.<br/>
+		This does not apply when there is no intervening consonant, e.g. <b>ka</b> + <b>i</b> → <b>kai</b>.</p>
+	    	<p>Umlaut applies when an inflectional affix is attached to a word and in SDOAUX (see <b>Class, Number, Case 4. Clause-final auxiliaries</b>). It does not apply between morphemes in compounds or across word boundaries.</p>
+	
+		<h5 id="2_7">7. Vowel hiatus</h5>
+		<table class="tabNewTight">
+			<tr>
+				<th>1→</th>
+			</tr>
+			<tr>
+				<th>2↓</th>
+				<th><b>ä</b></th>
+				<th><b>a</b></th>
+				<th><b>e</b></th>
+				<th><b>o</b></th>
+				<th><b>i</b></th>
+				<th><b>u</b></th>
+				<th><b>ü</b></th>
+			</tr>
+			<tr>
+				<th><b>ä</b></th>
+				<td><i>e</i></td>
+				<td><i>o</i></td>
+				<td><i>ya</i></td>
+				<td><i>wa</i></td>
+				<td><i>ya</i></td>
+				<td><i>wa</i></td>
+				<td><i>ẅa</i></td>
+			</tr>
+			<tr>
+				<th><b>a</b></th>
+				<td><i>e</i></td>
+				<td><i>o</i></td>
+				<td><i>ya</i></td>
+				<td><i>wa</i></td>
+				<td><i>ya</i></td>
+				<td><i>wa</i></td>
+				<td><i>ẅa</i></td>
+			</tr>
+			<tr>
+				<th><b>e</b></th>
+				<td><i>e</i></td>
+				<td><i>e</i></td>
+				<td><i>i</i></td>
+				<td><i>we</i></td>
+				<td><i>i</i></td>
+				<td><i>we</i></td>
+				<td><i>ẅe</i></td>
+			</tr>
+			<tr>
+				<th><b>o</b></th>
+				<td><i>o</i></td>
+				<td><i>o</i></td>
+				<td><i>yo</i></td>
+				<td><i>u</i></td>
+				<td><i>yo</i></td>
+				<td><i>wo</i></td>
+				<td><i>ẅo</i></td>
+			</tr>
+			<tr>
+				<th><b>i</b></th>
+				<td><i>e</i></td>
+				<td><i>e</i></td>
+				<td><i>ye</i></td>
+				<td><i>wa</i></td>
+				<td><i>ay</i></td>
+				<td><i>wi</i></td>
+				<td><i>ẅi</i></td>
+			</tr>
+			<tr>
+				<th><b>u</b></th>
+				<td><i>o</i></td>
+				<td><i>o</i></td>
+				<td><i>yu</i></td>
+				<td><i>u</i></td>
+				<td><i>yu</i></td>
+				<td><i>aw</i></td>
+				<td><i>ü</i></td>
+			</tr>
+			<tr>
+				<th><b>ü</b></th>
+				<td><i>aẅ</i></td>
+				<td><i>aẅ</i></td>
+				<td><i>eẅ</i></td>
+				<td><i>oẅ</i></td>
+				<td><i>ü</i></td>
+				<td><i>ü</i></td>
+				<td><i>aẅ</i></td>
+			</tr>
+		</table>
+		<p class="noSpace">Note that:</p>
+		<ul class="newUl">
+		<li>- <i>y</i> is never pronounced as /j/ after consonants, rather it softens the preceding consonant, e.g. <b>kia</b> <i>chya</i> → <i>cha</i>, <b>mia</b> <i>mya</i> /mʲa/</li>
+		<li>- consonants before <b>ii</b> and <b>üü</b> are pronounced as HARD despite occurring before a FRONT vowel</li>
+		<li>- consonants before <b>uü ae ai</b> are pronounced as SOFT despite occurring before a BACK vowel, because of the realization <i>ü e e</i></li>
+		<li>- if more than two vowels occur in a row, then:<ul class="newUl">
+			<li>- if in V1 is not LOW and V2V3 result in a monophthong-initial sequence, the series is realized as semivowel + vowel-initial sequence, e.g. <b>kiii</b> → <i>ch-</i><b>ii</b> → <i>chay</i>, <b>koie</b> → <i>kw-</i><b>ie</b> → <i>kwi</i>, <b>kuai</b> → <i>kw-</i><b>ai</b> → <i>kwe</i></li>
+			<li>- otherwise the middle vowels are disregarded, e.g. <b>kioa</b> <i>kia</i> → <i>cha</i>, <b>koaeu</b> <i>kou</i> → <i>ku</i><br/></li>
+			<li>- the only exception to this rule are SDOAUX*, where the vowels are split along DO-initial and/or S-final semivowels - <b>kioa</b> <i>chiwa</i>, <b>liiäläb</b> <i>wayalav</i>, <b>liiion</b> <i>wayyow̃</i></li></ul></li>
+		</ul>
+		<p>*See <b>Class, Number, Case 4. Clause-final auxiliaries</b>.</p>
+	
+		<h5 id="2_8">8. Consonant clusters</h5>
+		<p>When the latter consonant is HARD:</p>
+	    	<table class="tabNewTight">
+				<tr>
+					<th>1→</th>
+				</tr>
+				<tr>
+					<th>2↓</th>
+					<th><b>p</b></th>
+					<th><b>b</b></th>
+					<th><b>t</b></th>
+					<th><b>d</b></th>
+					<th><b>k</b></th>
+					<th><b>g</b></th>
+					<th><b>s</b></th>
+					<th><b>m</b></th>
+					<th><b>n</b></th>
+					<th><b>r</b></th>
+					<th><b>l</b></th>
+				</tr>
+				<tr>
+					<th><b>p</b></th>
+					<td><i>pp</i></td>
+					<td><i>pp</i></td>
+					<td><i>pp</i></td>
+					<td><i>pp</i></td>
+					<td><i>pp</i></td>
+					<td><i>pp</i></td>
+					<td><i>sp</i></td>
+					<td><i>w̃p</i></td>
+					<td><i>w̃p</i></td>
+					<td><i>rp</i></td>
+					<td><i>wp</i></td>
+				</tr>
+				<tr>
+					<th><b>b</b></th>
+					<td><i>pp</i></td>
+					<td><i>pp</i></td>
+					<td><i>pp</i></td>
+					<td><i>pp</i></td>
+					<td><i>pp</i></td>
+					<td><i>pp</i></td>
+					<td><i>sp</i></td>
+					<td><i>w̃v</i></td>
+					<td><i>w̃v</i></td>
+					<td><i>rv</i></td>
+					<td><i>v</i></td>
+				</tr>
+				<tr>
+					<th><b>t</b></th>
+					<td><i>tt</i></td>
+					<td><i>tt</i></td>
+					<td><i>tt</i></td>
+					<td><i>tt</i></td>
+					<td><i>tt</i></td>
+					<td><i>tt</i></td>
+					<td><i>st</i></td>
+					<td><i>w̃t</i></td>
+					<td><i>w̃t</i></td>
+					<td><i>rt</i></td>
+					<td><i>wt</i></td>
+				</tr>
+				<tr>
+					<th><b>d</b></th>
+					<td><i>tt</i></td>
+					<td><i>tt</i></td>
+					<td><i>tt</i></td>
+					<td><i>tt</i></td>
+					<td><i>tt</i></td>
+					<td><i>tt</i></td>
+					<td><i>st</i></td>
+					<td><i>w̃d</i></td>
+					<td><i>w̃d</i></td>
+					<td><i>rd</i></td>
+					<td><i>wd</i></td>
+				</tr>
+				<tr>
+					<th><b>k</b></th>
+					<td><i>kk</i></td>
+					<td><i>kk</i></td>
+					<td><i>kk</i></td>
+					<td><i>kk</i></td>
+					<td><i>kk</i></td>
+					<td><i>kk</i></td>
+					<td><i>sk</i></td>
+					<td><i>w̃k</i></td>
+					<td><i>w̃k</i></td>
+					<td><i>rk</i></td>
+					<td><i>wk</i></td>
+				</tr>
+				<tr>
+					<th><b>g</b></th>
+					<td><i>kk</i></td>
+					<td><i>kk</i></td>
+					<td><i>kk</i></td>
+					<td><i>kk</i></td>
+					<td><i>kk</i></td>
+					<td><i>kk</i></td>
+					<td><i>sk</i></td>
+					<td><i>w̃g</i></td>
+					<td><i>w̃g</i></td>
+					<td><i>rg</i></td>
+					<td><i>wg</i></td>
+				</tr>
+				<tr>
+					<th><b>s</b></th>
+					<td><i>sp</i></td>
+					<td><i>sp</i></td>
+					<td><i>st</i></td>
+					<td><i>st</i></td>
+					<td><i>sk</i></td>
+					<td><i>sk</i></td>
+					<td><i>ss</i></td>
+					<td><i>w̃s</i></td>
+					<td><i>w̃s</i></td>
+					<td><i>rs</i></td>
+					<td><i>ws</i></td>
+				</tr>
+				<tr>
+					<th><b>m</b></th>
+					<td><i>ẅm</i></td>
+					<td><i>ẅm</i></td>
+					<td><i>ym</i></td>
+					<td><i>ym</i></td>
+					<td><i>wm</i></td>
+					<td><i>wm</i></td>
+					<td><i>sm</i></td>
+					<td><i>mm</i></td>
+					<td><i>mm</i></td>
+					<td><i>rm</i></td>
+					<td><i>wm</i></td>
+				</tr>
+				<tr>
+					<th><b>n</b></th>
+					<td><i>ẅn</i></td>
+					<td><i>ẅn</i></td>
+					<td><i>yn</i></td>
+					<td><i>yn</i></td>
+					<td><i>wn</i></td>
+					<td><i>wn</i></td>
+					<td><i>sn</i></td>
+					<td><i>nn</i></td>
+					<td><i>nn</i></td>
+					<td><i>rn</i></td>
+					<td><i>wn</i></td>
+				</tr>
+				<tr>
+					<th><b>r</b></th>
+					<td><i>ẅn</i></td>
+					<td><i>ẅn</i></td>
+					<td><i>yn</i></td>
+					<td><i>yn</i></td>
+					<td><i>wn</i></td>
+					<td><i>wn</i></td>
+					<td><i>sn</i></td>
+					<td><i>nn</i></td>
+					<td><i>nn</i></td>
+					<td><i>nn</i></td>
+					<td><i>wn</i></td>
+				</tr>
+				<tr>
+					<th><b>l</b></th>
+					<td><i>wp</i></td>
+					<td><i>v</i></td>
+					<td><i>wt</i></td>
+					<td><i>wd</i></td>
+					<td><i>wk</i></td>
+					<td><i>wg</i></td>
+					<td><i>ws</i></td>
+					<td><i>wm</i></td>
+					<td><i>wn</i></td>
+					<td><i>wn</i></td>
+					<td><i>ww</i></td>
+				</tr>
+	    	</table>
+			<table class="tabNewTight">
+				<tr>
+					<th>1→</th>
+				</tr>
+				<tr>
+					<th>2↓</th>
+					<th><b>m</b></th>
+					<th><b>n</b></th>
+					<th><b>r</b></th>
+					<th><b>l</b></th>
+				</tr>
+				<tr>
+					<th><b>sp</b></th>
+					<td><i>w̃sp</i></td>
+					<td><i>w̃sp</i></td>
+					<td><i>rsp</i></td>
+					<td><i>wsp</i></td>
+				</tr>
+				<tr>
+					<th><b>st</b></th>
+					<td><i>w̃st</i></td>
+					<td><i>w̃st</i></td>
+					<td><i>rst</i></td>
+					<td><i>wst</i></td>
+				</tr>
+				<tr>
+					<th><b>sk</b></th>
+					<td><i>w̃sk</i></td>
+					<td><i>w̃sk</i></td>
+					<td><i>rsk</i></td>
+					<td><i>wsk</i></td>
+				</tr>
+			</table>
+		<p>When the latter consonant is SOFT:</p>
+	    	<table class="tabNewTight">
+				<tr>
+					<th>1→</th>
+				</tr>
+				<tr>
+					<th>2↓</th>
+					<th><b>p</b></th>
+					<th><b>b</b></th>
+					<th><b>t</b></th>
+					<th><b>d</b></th>
+					<th><b>k</b></th>
+					<th><b>g</b></th>
+					<th><b>s</b></th>
+					<th><b>m</b></th>
+					<th><b>n</b></th>
+					<th><b>r</b></th>
+					<th><b>l</b></th>
+				</tr>
+				<tr>
+					<th><b>p</b></th>
+					<td><i>ppy</i></td>
+					<td><i>ppy</i></td>
+					<td><i>ppy</i></td>
+					<td><i>ppy</i></td>
+					<td><i>ppy</i></td>
+					<td><i>ppy</i></td>
+					<td><i>hpy</i></td>
+					<td><i>w̃py</i></td>
+					<td><i>w̃py</i></td>
+					<td><i>ypy</i></td>
+					<td><i>wpy</i></td>
+				</tr>
+				<tr>
+					<th><b>b</b></th>
+					<td><i>ppy</i></td>
+					<td><i>ppy</i></td>
+					<td><i>ppy</i></td>
+					<td><i>ppy</i></td>
+					<td><i>ppy</i></td>
+					<td><i>ppy</i></td>
+					<td><i>hpy</i></td>
+					<td><i>w̃vy</i></td>
+					<td><i>w̃vy</i></td>
+					<td><i>yvy</i></td>
+					<td><i>vy</i></td>
+				</tr>
+				<tr>
+					<th><b>t</b></th>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>hch</i></td>
+					<td><i>w̃ch</i></td>
+					<td><i>w̃ch</i></td>
+					<td><i>ych</i></td>
+					<td><i>wch</i></td>
+				</tr>
+				<tr>
+					<th><b>d</b></th>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>hch</i></td>
+					<td><i>w̃j</i></td>
+					<td><i>w̃j</i></td>
+					<td><i>yj</i></td>
+					<td><i>wj</i></td>
+				</tr>
+				<tr>
+					<th><b>k</b></th>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>hch</i></td>
+					<td><i>w̃ch</i></td>
+					<td><i>w̃ch</i></td>
+					<td><i>ych</i></td>
+					<td><i>wch</i></td>
+				</tr>
+				<tr>
+					<th><b>g</b></th>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>cch</i></td>
+					<td><i>hch</i></td>
+					<td><i>w̃j</i></td>
+					<td><i>w̃j</i></td>
+					<td><i>yj</i></td>
+					<td><i>wj</i></td>
+				</tr>
+				<tr>
+					<th><b>s</b></th>
+					<td><i>hpy</i></td>
+					<td><i>hpy</i></td>
+					<td><i>hch</i></td>
+					<td><i>hch</i></td>
+					<td><i>hch</i></td>
+					<td><i>hch</i></td>
+					<td><i>hhy</i></td>
+					<td><i>w̃hy</i></td>
+					<td><i>w̃hy</i></td>
+					<td><i>yhy</i></td>
+					<td><i>why</i></td>
+				</tr>
+				<tr>
+					<th><b>m</b></th>
+					<td><i>ẅmy</i></td>
+					<td><i>ẅmy</i></td>
+					<td><i>ymy</i></td>
+					<td><i>ymy</i></td>
+					<td><i>wmy</i></td>
+					<td><i>wmy</i></td>
+					<td><i>hmy</i></td>
+					<td><i>mmy</i></td>
+					<td><i>mmy</i></td>
+					<td><i>ymy</i></td>
+					<td><i>wmy</i></td>
+				</tr>
+				<tr>
+					<th><b>n</b></th>
+					<td><i>ẅny</i></td>
+					<td><i>ẅny</i></td>
+					<td><i>yny</i></td>
+					<td><i>yny</i></td>
+					<td><i>wny</i></td>
+					<td><i>wny</i></td>
+					<td><i>hny</i></td>
+					<td><i>nny</i></td>
+					<td><i>nny</i></td>
+					<td><i>yny</i></td>
+					<td><i>wny</i></td>
+				</tr>
+				<tr>
+					<th><b>r</b></th>
+					<td><i>py</i></td>
+					<td><i>vy</i></td>
+					<td><i>ch</i></td>
+					<td><i>j</i></td>
+					<td><i>ch</i></td>
+					<td><i>j</i></td>
+					<td><i>hy</i></td>
+					<td><i>my</i></td>
+					<td><i>ny</i></td>
+					<td><i>y</i></td>
+					<td><i>l</i></td>
+				</tr>
+				<tr>
+					<th><b>l</b></th>
+					<td><i>wpy</i></td>
+					<td><i>vy</i></td>
+					<td><i>wch</i></td>
+					<td><i>wj</i></td>
+					<td><i>wch</i></td>
+					<td><i>wj</i></td>
+					<td><i>why</i></td>
+					<td><i>wmy</i></td>
+					<td><i>wny</i></td>
+					<td><i>l</i></td>
+					<td><i>ll</i></td>
+				</tr>
+	    	</table>
+			<table class="tabNewTight">
+				<tr>
+					<th>1→</th>
+				</tr>
+				<tr>
+					<th>2↓</th>
+					<th><b>m</b></th>
+					<th><b>n</b></th>
+					<th><b>r</b></th>
+					<th><b>l</b></th>
+				</tr>
+				<tr>
+					<th><b>sp</b></th>
+					<td><i>w̃hpy</i></td>
+					<td><i>w̃hpy</i></td>
+					<td><i>yhpy</i></td>
+					<td><i>whpy</i></td>
+				</tr>
+				<tr>
+					<th><b>st</b></th>
+					<td><i>w̃hch</i></td>
+					<td><i>w̃hch</i></td>
+					<td><i>yhch</i></td>
+					<td><i>whch</i></td>
+				</tr>
+				<tr>
+					<th><b>sk</b></th>
+					<td><i>w̃hch</i></td>
+					<td><i>w̃hch</i></td>
+					<td><i>yhch</i></td>
+					<td><i>whch</i></td>
+				</tr>
+			</table>
+			<p>Note that due to metathesis, <i>s</i> and <i>h</i> (from <b>s</b>) are always placed before stops, and <i>w</i> (from <b>l</b>) is always placed first in a cluster.</p>
+		
+		<h5 id="2_9">9. Reduplication</h5>
+		<p>Some forms in the language are formed through reduplication of the final syllable, which adheres to the following patterns:</p>
+		<table class="tabNew">
+			<tr>
+				<th>ORIGINAL FORM</th>
+				<th>REDUP FORM</th>
+				<th>EXAMPLE</th>
+			</tr>
+			<tr>
+				<td>V</td>
+				<td>VV</td>
+				<td><b>a</b> → <b>aa</b></td>
+			</tr>
+			<tr>
+				<td>VC</td>
+				<td>VGVC*</td>
+				<td><b>ak</b> → <b>agak</b>, <b>as</b> → <b>asas</b></td>
+			</tr>
+			<tr>
+				<td>VC1C2</td>
+				<td>VC1VC1C2</td>
+				<td><b>ask</b> → <b>asask</b>, <b>arn</b> → <b>ararn</b></td>
+			</tr>
+			<tr>
+				<td>(s)(C)VWsP</td>
+				<td>(s)(C)VWPVWs</td>
+				<td><b>ansk</b> → <b>ankans</b>, <b>skarsp</b> → <b>skarpars</b></td>
+			</tr>
+			<tr>
+				<td>(s)CV(C1)(C2)</td>
+				<td>(s)CVGV(C1)(C2)</td>
+				<td><b>pa</b> → <b>paba</b>, <b>spa</b> → <b>spaba</b>, <b>pask</b> → <b>pabask</b></td>
+			</tr>
+		</table>
+		<p>*G refers to voicing - <b>p t k</b> → <b>b d g</b>.</p>
+		
+        <h5 id="2_10">10. Alternative romanization</h5>
+        <p class="noSpace">In case some characters are unavailable or for aesthetic or clarity purposes, the following modifications to the romanization system are possible:</p>
+			<ul class="newUl">
+				<li>- <i>w̃</i> may be <i>ũ</i> or <i>n</i>, e.g. <b>rän, mins, sun</b> <i>yaw̃, myew̃s, sow̃</i> → <i>yaũ, myeũs, soũ</i> / <i>yan, myens, son</i></li>
+				<li>- <i>ẅ</i> may be <i>ü</i>, e.g. <b>räb'n</b> <i>yaẅn</i> → <i>yaün</i></li>
+				<li>- <i>h</i> before consonants may be <i>s</i>, e.g. <b>skä</b> <i>hcha</i> → <i>scha</i></li>
+				<li>- soft consonants with <i>y</i> may lose it before <i>e</i>, e.g. <b>äbekki</b> <i>avyecchi</i> → <i>avecchi</i></li>
+			</ul>
+        
+		<h4 id="3">Orthography</h4>
+		<p style="color: red;">Not now</p>
+		
+	  <h4 id="4">Class, Number, Case</h4><br/>
+		
+		<h5 id="4_1">1. Class</h5>
+		<p>Verbs, adjectives, nouns and pronouns are divided into one of five classes. These are similar to grammatical gender, though they rarely involve agreement and are meant to carry semantic associations. Combinations of words within the same class are considered semantically stronger and may be used in idioms and collocations. Each class has a number of possible endings. This system can be referred to as NSWEO.</p>
+		<table class="tabNew">
+			<tr>
+				<th>CLASS</th>
+				<th>EXAMPLES OF ASSOCIATIONS</th>
+				<th>ENDINGS</th>
+			</tr>
+			<tr>
+				<td>North</td>
+				<td>cold, dark, bad, calm, quiet, still, lone, weak</td>
+				<td><b>L LP Ls LN LsP</b></td>
+			</tr>
+			<tr>
+				<td>South</td>
+				<td>hot, bright, good, lively, loud, move, strong</td>
+				<td><b>B e o</b></td>
+			</tr>
+			<tr>
+				<td>West</td>
+				<td>masculine, end, old, death, short, hear</td>
+				<td><b>P ä i</b></td>
+			</tr>
+			<tr>
+				<td>East</td>
+				<td>feminine, start, new, young, life, long, say</td>
+				<td><b>N NP Ns NsP u</b></td>
+			</tr>
+			<tr>
+				<td>Neutral</td>
+				<td>human, nature</td>
+				<td><b>s sP ü a</b></td>
+			</tr>
+		</table>
+		<p>Third person pronouns inflect for class, though human referents are not bound to class by their biological sex. The classes rather suggest certain features or traits, so the same referent may switch class depending on the context, e.g. a good person may be S, an introverted person may be N. Non-human referents typically stay within one class, though the class may be changed for stylistic reasons.</p>
+		
+		<h5 id="4_2">2. Number</h5>
+	    <p>Nouns and certain pronouns inflect for number using another, independent system. The language employs inverse number, meaning each class has an "expected" number which is left unmarked and an "unexpected" number which is marked identically across all classes (via reduplication). The classes are independent of NSWEO and each features a different binary number distinction.</p>
+	    <p class="noSpace">There are three classes:</p>
+		<ul class="newUl">
+			<li>- set nouns, including nouns which typically come in a specific number, e.g. seasons (4), eyes (2), parents (2), the sun (1). Set nouns are unmarked when occurring in their "set" number and marked when occurring in any other number</li>
+			<li>- animate nouns, including people and animals. They are unmarked when singular and marked when plural</li>
+			<li>- inanimate nouns, encompassing all other nouns. They are unmarked when collective and marked when singulative</li>
+		</ul>
+		<p>The difference between the latter two systems is that collective nouns are ambiguous to number and the singulative form is applied if one wants to explicitly specify exactly one of something. This also means that mass nouns are unmarked (collective) by default and marked (singulative) when specifying a unit, e.g. <span class="grayNew">a grain of rice</span>, <span class="grayNew">a glass of water</span>. Abstract terms are collective when referring to them as concepts (e.g. <b>tukusup</b> <span class="grayNew">murder</span>, <b>niko</b> <span class="grayNew">love</span>) and singulative when referring to them as single instances (e.g. <b>Arar tukususup ari.</b> <span class="grayNew">There's been a murder.</span>, <b>Äbpa lipielilin nikogo dieis misano läläb.</b> <span class="grayNew">Our love will never die.</span>). The number system may be represented as follows:</p>
+		<table class="tabNew">
+			<tr>
+				<th></th>
+				<th>UNMARKED</th>
+				<th>MARKED</th>
+				<th>EXAMPLE</th>
+			</tr>
+			<tr>
+				<th>SET</th>
+				<td>Set</td>
+				<td>Non-set</td>
+				<td><b>püi</b> <span class="grayNew">a pair of eyes</span>, <b>püii</b> <span class="grayNew">eye, more than two eyes</span></td>
+			</tr>
+			<tr>
+				<th>ANIMATE</th>
+				<td>Singular</td>
+				<td>Plural</td>
+				<td><b>kus</b> <span class="grayNew">person</span>, <b>kugus</b> <span class="grayNew">people</span></td>
+			</tr>
+			<tr>
+				<th>INANIMATE</th>
+				<td>Collective</td>
+				<td>Singulative</td>
+				<td><b>bamt</b> <span class="grayNew">flower(s)</span>, <b>babamt</b> <span class="grayNew">a flower</span></td>
+			</tr>
+		</table>
+	    
+	    <h5 id="4_3">3. Case</h5>
+	    <p>There are three cases - direct (nominative + accusative: used for subjects and direct objects), genitive (used for possessives, doubles as ablative) and dative (used for indirect objects, doubles as locative). The genitive and dative cases are also used when certain adpositions are employed. The cases may be applied to nouns, pronouns and adjectives, the latter agreeing in case with the noun they describe. However, case prefixes are also applied to verbs to form a number of tenses/aspects - the genitive conveys the meaning of <span class="grayNew">past</span>, while the dative conveys the meaning of <span class="grayNew">future/irrealis</span>.</p>
+	    <p>The direct case is unmarked, while genitive and dative marking depends on the animacy of the noun. Animate nouns, non-set personal pronouns, as well as all verbs are marked with one set of prefixes, inanimate nouns are marked with another, and set nouns and pronouons are marked with yet another set. Adjectives are marked in agreement with their referents. Note that gerund forms are marked with inanimate prefixes when marked for case, since the animate prefixes are used to mark tense/aspect, e.g. <b>peomu</b> <span class="grayNew">doing</span> → <b>äbpeomu</b> <span class="grayNew">going to do (gerund of future form)</span> (AN.DAT-do-GER), <b>lipeomu</b> <span class="grayNew">to/at doing (dative of gerund)</span> (INAN.DAT-do-GER).</p>
+	    <p>The inanimate forms are the default ones used whenever applying case prefixes to items other than nouns/adjectives/verbs.</p>
+	    <table class="tabNew">
+			<tr>
+				<th></th>
+				<th>GENITIVE</th>
+				<th>DATIVE</th>
+			</tr>
+			<tr>
+				<th>ANIMATE/VERBS/PRONOUNS</th>
+				<td><b>or-/r-/ni-</b></td>
+				<td><b>äb-/ä-</b></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>from <b>*nors</b> <span class="grayNew">take</span></td>
+				<td>from <b>*räbe</b> <span class="grayNew">give</span></td>
+			</tr>
+			<tr>
+				<th>INANIMATE</th>
+				<td><b>son-/so-/s-</b></td>
+				<td><b>li-/l-</b></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>from <b>son</b> <span class="grayNew">carry</span></td>
+				<td>from <b>eli</b> <span class="grayNew">see</span></td>
+			</tr>
+			<tr>
+				<th>SET</th>
+				<td><b>dii-/di-</b></td>
+				<td><b>em-/m-</b></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>from <b>dii</b> <span class="grayNew">choose</span></td>
+				<td>from <b>spemt</b> <span class="grayNew">gather</span></td>
+			</tr>
+		</table>
+		<p>The prefixes are chosen based on whether the word is vowel- or consonant-initial:</p>
+		<table class="tabNew">
+			<tr>
+				<th></th>
+				<th>GENITIVE</th>
+				<th>DATIVE</th>
+				<th>GENITIVE</th>
+				<th>DATIVE</th>
+				<th>GENITIVE</th>
+				<th>DATIVE</th>
+			</tr>
+			<tr>
+				<th></th>
+				<th>ANIMATE</th>
+				<th>ANIMATE</th>
+				<th>INANIMATE</th>
+				<th>INANIMATE</th>
+				<th>SET</th>
+				<th>SET</th>
+			</tr>
+			<tr>
+				<th>V-INITIAL</th>
+				<td><b>r-</b></td>
+				<td><b>äb-</b></td>
+				<td><b>s-</b></td>
+				<td><b>l-</b></td>
+				<td><b>di-</b></td>
+				<td><b>m-</b></td>
+			</tr>
+			<tr>
+				<th>C-INITIAL</th>
+				<td><b>or-</b></td>
+				<td><b>äb-</b>*</td>
+				<td><b>so-</b>**</td>
+				<td><b>li-</b></td>
+				<td><b>dii-</b></td>
+				<td><b>em-</b></td>
+			</tr>
+		</table>
+		<p>*<b>ä-</b> for words starting with <b>sP</b>.<br/>
+			**<b>s-</b> for words starting with <b>T</b> (devoice voiced plosives, e.g. <b>s-</b> + <b>dan</b> → <b>stan</b>). <b>son-</b> for words starting with <b>l</b>.</p>
+		<p>Note that: the case prefixes are subject to umlaut, e.g. <b>äb-</b> + <b>ion</b> → <b>ebion</b>.</p>
+		<p>There are a few exceptions to the above-described rules. Some animate words take the genitive prefix <b>ni-</b> (<b>nipa</b> GEN.3OUM, <b>niba</b> GEN.3OM, <b>nigo</b> GEN.REFL, <b>nikus</b> GEN-<span class="grayNew">person</span>). Some inanimate words take the dative prefix <b>eli-</b> (<b>eligä</b> DAT.DEM, <span class="grayNew">then</span>, <b>eliet</b> DAT.end, <span class="grayNew">forever</span>).
+
+		<h5 id="4_4">4. Clause-final auxiliaries</h5>
+		<p>Each clause ends with an auxiliary word (hereafter referred to as SDOAUX) which conveys the clause's subject and direct object (if there is one), in that order. This is done using pronouns in appropriate forms.</p>
+		<p>Each pronoun has a default form, used in isolation or in SDOAUX if the clause has no DO. Each pronoun also has a prefixing S form and a suffixing DO form. If personal pronouns are S or DO they are not stated elsewhere in the clause, but if a noun is S or DO, it is stated in the direct case and reinforced in SDOAUX using appropriate pronouns.</p>
+		<p>This rule makes word order significant. The word order is VSO - the verb is always clause initial and followed directly by the subject. The DO is typically placed clause-finally, immediately before SDOAUX, though words may be placed earlier in the sentence to show emphasis, as long as the subject is placed before the direct object. Some ambiguities may still arise and must be resolved through context, e.g. <b>Tudup kus papa.</b> (kill-REDUP-3P person 3OUM-3OUM.) can mean <span class="grayNew">He/she/it killed the person.</span>, or <span class="grayNew">The person killed him/her/it.</span></p>
+		<p>SDOAUX are typically omitted when the verb in the clause is a copula or a locative copula and the subject is a first or second person pronoun. The same is true for SDOAUX which repeat in subsequent clauses - only the final one must be used.</p>
+		<p>There are cases of multiple subjects or direct objects in a clause (x and y). If pronouns are included therein, they are not omitted in favor of SDOAUX. The SDOAUX in such cases always takes the plural (1P and 2P) or marked (3P) form.</p>
+		
+		<h4 id="5">Articles</h4><br/>
+	    	<h5 id="5_1">1. Definite article</h5>
+		<p class="noSpace">There is only a definite article, no indefinite article. It does not inflect for number, and its form is based on the phonology of the preceding word. The article is placed directly after the head noun, before any descriptors. It stems from the proto-demonstrative <b>*gä</b> <span class="grayNew">this</span> which is devoiced to <b>kä</b> and further modified based on noun class:</p>
+	    <ul class="newUl">
+			<li>- through dissimilation, <b>kä</b> becomes <b>ka</b> after FRONT vowels and class-specific endings are appended</li>
+			<li>- the form is leveled to the SOUTH <b>ko</b> after FRONT vowels</li>
+			<li>- after BACK vowels, class-specific endings are appended, and the form is leveled to the WEST <b>ki</b> except the EAST form which is <b>kän</b></li>
+			<li>- an epenthetic neutral vowel <b>a</b> is added at the beginning of the article (for the post-FRONT vowel form <b>ko</b>: after all consonants, for post-BACK vowel forms: after clusters, <b>B</b>, <b>s</b>)</li>
+		</ul>
+		<p>The resultant forms are as follows:</p>
+		<table class="tabNew">
+			<tr>
+				<th></th>
+				<th>POST-FRONT</th>
+				<th>POST-BACK</th>
+			</tr>
+			<tr>
+				<th>NSWO</th>
+				<td><b>(a)ko</b> <i>(a)ko</i></td>
+				<td><b>(a)ki</b> <i>(a)chi</i></td>
+			</tr>
+			<tr>
+				<th>E</th>
+				<td><b>(a)ko</b> <i>(a)ko</i></td>
+				<td><b>(a)kän</b> <i>(a)chaw̃</i></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td><b>a</b> after <b>C</b></td>
+				<td><b>a</b> after clusters, <b>B</b>, <b>s</b></td>
+			</tr>
+		</table>
+			<p>If the preceding word has no class (definite articles may appear directly after negative articles), the NSWO form is used.</p>
+		<p class="noSpace">The definite article is not used as liberally as in English. It is primarily used:</p>
+		<ul class="newUl">
+			<li>- typically with set nouns and proper nouns or noun phrases, e.g. <b>nid ako</b> <span class="grayNew">the sun</span>, <b>bis ako</b> <span class="grayNew">the world</span></li>
+			<li>- with question clauses, e.g. <b>Pielilin lilä ko sonläluguu nipa närä.</b> <span class="grayNew">I don't know where he lives.</span> (NEG-know-1P where DEF.ART GEN-live-GER GEN-3OUM 1SG-3WUM.)</li>
+			<li>- in place of possessive pronouns or demonstratives, e.g. <b>surs rän</b> <span class="grayNew">my head</span> → <b>surs aki</b> <span class="grayNew">the head</span>, <b>mikaäbbaba orlu</b> <span class="grayNew">your task</span> → <b>mikaäbbaba ki</b> <span class="grayNew">the task</span>, <b>ugu gän</b> <span class="grayNew">this house</span> → <b>ugu kän</b> <span class="grayNew">the house</span></li>
+            <li>- when referring to something specific that has previously been mentioned, e.g. <b>Elilin ugu nion. Lälä do ugu kän.</b> <span class="grayNew">I saw a house. The house was big.</span> (see-REDUP-1P house 1SG-3EUM. COP-REDUP-3P big house DEF.ART.)</li>
+			<li>- with head nouns of subordinate clauses, e.g. <b>kus aki selii rän</b> <span class="grayNew">the person who sees me</span> (person DEF.ART GEN-see-GER GEN-1SG)</li>
+            <li>- for superlatives when used after adjectives, e.g. <b>ugu kän do</b> <span class="grayNew">the big house</span> (house DEF.ART big), <b>ugu do ki</b> <span class="grayNew">the biggest house</span> (house big DEF.ART)</li>
+		</ul>
+		<h5 id="5_2">2. Negative article</h5>
+		<p>The negative article is indefinite and is the equivalent of the English <span class="grayNew">no ~</span>. It stems from the abbreviated gerund of the negative locative copula <b>nü(r)</b> → <b>nü</b>, essentially meaning <span class="grayNew">lacking</span>. It takes on forms based on, and behaves much like the definite artile:</p>
+		<table class="tabNew">
+			<tr>
+				<th></th>
+				<th>POST-FRONT</th>
+				<th>POST-BACK</th>
+			</tr>
+			<tr>
+				<th>NSWO</th>
+				<td><b>(a)no</b> <i>(a)no</i></td>
+				<td><b>(a)nüi</b> <i>(a)nẅi</i></td>
+			</tr>
+			<tr>
+				<th>E</th>
+				<td><b>(a)no</b> <i>(a)no</i></td>
+				<td><b>(a)nüän</b> <i>(a)nẅaw̃</i></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td><b>V</b> after <b>C</b></td>
+				<td><b>V</b> after clusters, <b>T</b>, <b>s</b></td>
+			</tr>
+		</table>
+	    	<p>The negative article does not trigger umlaut in the final vowel of the noun.</p>
+		<p class="noSpace">The negative article is used:</p>
+		<ul class="newUl">
+			<li>- to negate indefinite sentences (those in which the DO is not a pronoun, or a noun followed by a definite article, demonstrative or possessive pronoun)</li>
+			<li>- to form certain indefinite pronouns</li>
+			<li>- to negate adjectives when used after them, e.g. <b>ugu nüän do</b> <span class="grayNew">no big house</span> (house NEG.ART big), <b>ugu do nüi</b> <span class="grayNew">not-big house</span> (house big NEG.ART)</li>
+		</ul>
+		
+		<h4 id="6">Pronouns</h4><br/>
+		<h5 id="6_1">1. Personal pronouns</h5>
+		<p>While third person pronouns inflect for number much like nouns, first and second person pronouns have singular, set and plural forms. The singular is unmarked, while set is marked with the suffix <b>-is</b> stemming from <b>bis</b> <span class="grayNew">all</span>, and plural is marked with the suffix <b>-oa</b> stemming from <b>boa</b> <span class="grayNew">many</span>. The first person plural pronoun stems from a separate root. The genitive forms double as possessive pronouns.</p>
+        <p>Set pronouns are used when referring to a specific, countable group of people, e.g. a couple, a team, a council.</p>
+		<p>There is also a reflexive pronoun. It has no SDOAUX forms. When it is used as the DO, the SDOAUX only features the subject form.</p>
+		<table class="tabNew">
+			<tr>
+				<th></th>
+				<th>ISOLATE</th>
+				<th>SUBJECT</th>
+				<th>DIRECT OBJECT</th>
+				<th>GENITIVE</th>
+				<th>DATIVE</th>
+				<th>NOTE</th>
+			</tr>
+			<tr>
+				<th>1SG</th>
+				<td><b>nä</b> <i>nya</i></td>
+				<td><b>n(ä)-</b> <i>n(ya)-*</i></td>
+				<td><b>-(ä)n</b> <i>-(a)w̃</i></td>
+				<td><b>rän</b> <i>yaw̃</i></td>
+				<td><b>äb'n</b> <i>aẅn</i></td>
+				<td><b>äb'n</b> elides the second <b>ä</b></td>
+			</tr>
+			<tr>
+				<th>1SET</th>
+				<td><b>neis</b> <i>nyes</i></td>
+				<td><b>ne-</b> <i>nye-</i></td>
+				<td><b>-eis</b> <i>-yes</i></td>
+				<td><b>dieis</b> <i>jes</i></td>
+				<td><b>meis</b> <i>myes</i></td>
+				<td><b>neis</b> composed of <b>nä-</b> and <b>-is</b> (<b>bis</b>) <span class="grayNew">all</span>**</td>
+			</tr>
+			<tr>
+				<th>1PL</th>
+				<td><b>si</b> <i>hi</i></td>
+				<td><b>s(i)-</b> <i>h(i)-</i></td>
+				<td><b>-(i)s</b> <i>-(i)s***</i></td>
+				<td><b>ris</b> <i>is</i></td>
+				<td><b>ebis</b> <i>evis</i></td>
+				<td></td>
+			</tr>
+			<tr style="height: 20px;"></tr>
+			<tr>
+				<th>2SG</th>
+				<td><b>kiulu</b> <i>chuu</i></td>
+				<td><b>ki-</b> <i>chi-</i></td>
+				<td><b>-lu</b> <i>-u</i></td>
+				<td><b>orlu</b> <i>ou</i></td>
+				<td><b>äblu</b> <i>avu</i></td>
+				<td><b>orlu</b> realized irregularly as <i>ou</i> instead of <i>ownu</i></td>
+			</tr>
+			<tr>
+				<th>2SET</th>
+				<td><b>liis</b> <i>ways</i></td>
+				<td><b>lii-</b> <i>way-</i></td>
+				<td><b>-(l)iis</b> <i>-(w)ays</i></td>
+				<td><b>diiis</b> <i>jays</i></td>
+				<td><b>miis</b> <i>mays</i></td>
+				<td><b>liis</b> composed of <b>lu-</b> (<b>kiulu</b>) and <b>-is</b> (<b>bis</b>)</td>
+			</tr>
+			<tr>
+				<th>2PL</th>
+				<td><b>luoa</b> <i>wa</i></td>
+				<td><b>luo-</b> <i>wo-</i></td>
+				<td><b>-oa</b> <i>-wa</i></td>
+				<td><b>roa</b> <i>nwa</i></td>
+				<td><b>äboa</b> <i>avwa</i></td>
+				<td><b>luoa</b> composed of <b>lu-</b> (<b>kiulu</b>) and <b>-oa</b> (<b>boa</b>)</td>
+			</tr>
+			<tr style="height: 20px;"></tr>
+			<tr>
+				<th>3NUM</th>
+				<td><b>tark</b> <i>tark</i></td>
+				<td><b>tar-</b> <i>tar-</i></td>
+				<td><b>-(a)rk</b> <i>-(a)rk</i></td>
+				<td><b>rark</b> <i>nark</i></td>
+				<td><b>äbark</b> <i>avark</i></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>3NM</th>
+				<td><b>tadark</b> <i>tadark</i></td>
+				<td><b>tad-</b> <i>tad-</i></td>
+				<td><b>-dark</b> <i>-dark</i></td>
+				<td><b>nidark</b> <i>nidark</i></td>
+				<td><b>äbdark</b> <i>attark</i></td>
+				<td><b>nidark</b> is irregular</td>
+			</tr>
+			<tr>
+				<th>3SUM</th>
+				<td><b>läb</b> <i>lav</i></td>
+				<td><b>lä-</b> <i>la-</i></td>
+				<td><b>-läb</b> <i>-lav</i></td>
+				<td><b>orläb</b> <i>olav</i></td>
+				<td><b>äbläb</b> <i>avyav</i></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>3SM</th>
+				<td><b>läläb</b> <i>lalav</i></td>
+				<td><b>lälä-</b> <i>lala-</i></td>
+				<td><b>-(l)äläb</b> <i>-(l)alav</i></td>
+				<td><b>räläb</b> <i>yalav</i></td>
+				<td><b>äbäläb</b> <i>avyalav</i></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>3WUM</th>
+				<td><b>arä</b> <i>aya</i></td>
+				<td><b>arä-</b> <i>aya-</i></td>
+				<td><b>-rä</b> <i>-ya</i></td>
+				<td><b>orrä</b> <i>oya</i></td>
+				<td><b>äbrä</b> <i>avya</i></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>3WM</th>
+				<td><b>ari</b> <i>ai</i></td>
+				<td><b>ari-</b> <i>ai-</i></td>
+				<td><b>-ri</b> <i>-i</i></td>
+				<td><b>erri</b> <i>ei</i></td>
+				<td><b>ebri</b> <i>evi</i></td>
+				<td><b>ari</b> is irregularly formed via vowel mutation rather than reduplication</td>
+			</tr>
+			<tr>
+				<th>3EUM</th>
+				<td><b>mion</b> <i>myow̃</i></td>
+				<td><b>m(i)-</b> <i>m(i)-</i></td>
+				<td><b>-ion</b> <i>-yow̃</i></td>
+				<td><b>rion</b> <i>yow̃</i></td>
+				<td><b>ebion</b> <i>evyow̃</i></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>3EM</th>
+				<td><b>mionon</b> <i>myonow̃</i></td>
+				<td><b>mion-</b> <i>myow̃-</i></td>
+				<td><b>-non</b> <i>-now̃</i></td>
+				<td><b>ornon</b> <i>ornow̃</i></td>
+				<td><b>äbnon</b> <i>aẅnow̃</i></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th>3OUM</th>
+				<td><b>pa</b> <i>pa</i></td>
+				<td><b>p(a)-</b> <i>p(a)-</i></td>
+				<td><b>-pa</b> <i>-pa</i></td>
+				<td><b>nipa</b> <i>nipa</i></td>
+				<td><b>äbpa</b> <i>appa</i></td>
+				<td><b>nipa</b> is irregular</td>
+			</tr>
+			<tr>
+				<th>3OM</th>
+				<td><b>paba</b> <i>pava</i></td>
+				<td><b>pab-</b> <i>pav-</i></td>
+				<td><b>-ba</b> <i>-va</i></td>
+				<td><b>niba</b> <i>niva</i></td>
+				<td><b>äbba</b> <i>appa</i></td>
+				<td><b>niba</b> is irregular</td>
+			</tr>
+			<tr style="height: 20px;"></tr>
+			<tr>
+				<th>REFL</th>
+				<td><b>go</b> <i>go</i></td>
+				<td>--------</td>
+				<td>--------</td>
+				<td><b>nigo</b> <i>nigo</i></td>
+				<td><b>äbgo</b> <i>akko</i></td>
+				<td><b>go</b> is a reduced form of <b>kus kago</b> <span class="grayNew">same person</span>, <b>nigo</b> is irregular</td>
+			</tr>
+		</table>
+	    <p>*The vowels in parentheses are only appended if there is an illegal cluster. DO () take priority over S (). The <b>l</b> in parentheses is only appended if there is no DO-initial non-low vowel or S-final semivowel.<br/>
+		**The set <b>-is</b> suffix triggers umlaut despite occurring in hiatus, because of the intervening <b>b</b> in the original form.<br/>
+			***This, and other DO forms with <b>i</b> trigger umlaut.</p>
+		<p>SDOAUX combinations are found at the end of this document in <b>Appendix 1</b>. Some syncretism occurs which must be disambiguated through context or spelling, e.g. 1SG.3SUM <b>n(ä)-</b> + <b>-läb</b> → <b>näläb</b> <i>nilav</i>, 1SG.3SM <b>n(ä)-</b> + <b>-(l)äläb</b> → <b>näläb</b> <i>nilav</i>. SDOAUX are stressed on the first syllable of the DO segment.</p>
+		<p>Note that: the default third person pronoun for humans is the neutral <b>pa</b>. <b>arä</b> and <b>mion</b> are not typically used as <span class="grayNew">he</span> and <span class="grayNew">she</span> are in English, with any third person pronoun applicable to humans based on personal perception.</p>
+		
+		<h5 id="6_2">2. Interrogatives</h5>
+		<table class="tabNew">
+			<tr>
+				<th>WORD</th>
+				<th>MEANING</th>
+				<th>ETYMOLOGY</th>
+			</tr>
+			<tr>
+				<td><b>lä</b> <i>la</i></td>
+				<td>what</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><b>kuä</b> <i>kwa</i></td>
+				<td>who</td>
+				<td><span class="grayNew">what person</span> (<b>kus</b> <span class="grayNew">person</span> + <b>lä</b> → <b>kuläs</b> → <b>ku(l)ä(s)</b> → <b>kuä</b>)</td>
+			</tr>
+			<tr>
+				<td><b>sonlä</b> <i>sownya</i></td>
+				<td>which, what kind of, whence</td>
+				<td><span class="grayNew">of/from what</span> (<b>son</b> GEN + <b>lä</b> → <b>sonlä</b>)</td>
+			</tr>
+			<tr>
+				<td><b>lilä</b> <i>lila</i></td>
+				<td>where, whither</td>
+				<td><span class="grayNew">at/to what</span> (<b>li</b> DAT + <b>lä</b> → <b>lilä</b>)</td>
+			</tr>
+			<tr>
+				<td><b>imi</b> <i>imi</i></td>
+				<td>when</td>
+				<td><span class="grayNew">at what time</span> (<b>li</b> DAT + <b>mis</b> <span class="grayNew">time</span> + <b>lä</b> → <b>limiläs</b> → <b>(l)imi(läs)</b> → <b>imi</b>)</td>
+			</tr>
+			<tr>
+				<td><b>baläns</b> <i>valaw̃s</i></td>
+				<td>why, how</td>
+				<td><span class="grayNew">for what</span> (<b>bans</b> <span class="grayNew">for</span> + <b>lä</b> → <b>baläns</b>)</td>
+			</tr>
+		</table>
+		<p>The words <b>lä</b> and <b>kuä</b> belong to the WEST class despite their neutral meaning, because of their endings. In all cases the orthography is more important than semantic meaning in determining the class of a word.</p>
+		<p>The word <b>sonlä</b> means <span class="grayNew">which</span> when preceded by a noun and <span class="grayNew">whence</span> or <span class="grayNew">of what</span> otherwise. This means that this interrogative, as well as its demonstrative and indefinite counterparts cannot be nominal, only adjectival. To use them as nominal pronouns, the demonstrative <b>gä</b> must be used in conjunction with them, e.g. <b>gä sonlä</b> <span class="grayNew">which, which one</span>.</p>
+		
+		<h5 id="6_3">3. Demonstratives</h5>
+		<p>The demonstratives agree with their referents in NSWEO, but not number. They are placed directly after the noun, meaning before adjectives or any other descriptors. While most function only as demonstrative adjectives, the role of the demonstrative pronoun can be filled by the neutral <b>gä</b>, as an alternative to third person personal pronouns. It may be used in impersonal constructions, acting similarly to the English <span class="grayNew">it</span> and <span class="grayNew">one</span>.</p>
+		<p>There is no distinction between proximal and distal demonstratives, but the words <b>müi</b> <span class="grayNew">near</span> and <b>dans</b> <span class="grayNew">far</span> may be placed directly before the head noun to convey proximity (in this context <b>müi</b> and <b>dans</b> do not participate in adjective agreement), e.g. <b>müi ekki gii</b> <span class="grayNew">this man</span>, <b>dans ugu gän</b> <span class="grayNew">that house</span>. Demonstratives are derived from a proto-stem <b>*gä</b> <span class="grayNew">this</span> which is realized as <b>g(ä)-</b>, to which endings typical to NSWEO are appended. For O, the original stem is preserved and no endings are appended.</p>
+		<table class="tabNew">
+			<tr>
+				<td>NORTH</td>
+				<td><b>gäl</b> <i>jaw</i></td>
+			</tr>
+			<tr>
+				<td>SOUTH</td>
+				<td><b>goo</b> <i>gu</i></td>
+			</tr>
+			<tr>
+				<td>WEST</td>
+				<td><b>gii</b> <i>gay</i></td>
+			</tr>
+			<tr>
+				<td>EAST</td>
+				<td><b>gän</b> <i>jaw̃</i></td>
+			</tr>
+			<tr>
+				<td>NEUTRAL</td>
+				<td><b>gä</b> <i>ja</i></td>
+			</tr>
+		</table>
+	    <p><b>gii</b> does NOT cause umlaut of the final vowel in the preceding noun.</p>
+		<p>Other demonstratives are:</p>
+		<table class="tabNew">
+			<tr>
+				<th>WORD</th>
+				<th>MEANING</th>
+				<th>ETYMOLOGY</th>
+			</tr>
+			<tr>
+				<td><b>skä</b> <i>hcha</i></td>
+				<td>such, this kind of</td>
+				<td><span class="grayNew">of this</span> (<b>s</b> GEN + <b>gä</b> → <b>skä</b>)</td>
+			</tr>
+			<tr>
+				<td><b>mi</b> <i>mi</i></td>
+				<td>here</td>
+				<td><span class="grayNew">close</span> (<b>müi</b> → <b>m(ü)i</b> → <b>mi</b>)</td>
+			</tr>
+			<tr>
+				<td><b>mii</b> <i>may</i></td>
+				<td>there</td>
+				<td><span class="grayNew">here-here</span> (reduplication: <b>müi</b> → <b>müii</b> → <b>m(ü)ii</b> → <b>mii</b>)</td>
+			</tr>
+			<tr>
+				<td><b>semi</b> <i>hyemi</i></td>
+				<td>hence</td>
+				<td><span class="grayNew">from here</span> (<b>so</b> GEN + <b>mi</b> → <b>semi</b>)</td>
+			</tr>
+			<tr>
+				<td><b>semii</b> <i>hyemay</i></td>
+				<td>thence</td>
+				<td><span class="grayNew">from there</span> (<b>so</b> GEN + <b>mii</b> → <b>semii</b>)</td>
+			</tr>
+			<tr>
+				<td><b>limi</b> <i>limi</i></td>
+				<td>hither, at here</td>
+				<td><span class="grayNew">to here</span> (<b>li</b> DAT + <b>mi</b> → <b>limi</b>)</td>
+			</tr>
+			<tr>
+				<td><b>limii</b> <i>limay</i></td>
+				<td>thither, at there</td>
+				<td><span class="grayNew">to there</span> (<b>li</b> DAT + <b>mii</b> → <b>limii</b>)</td>
+			</tr>
+			<tr>
+				<td><b>eligä</b> <i>elija</i></td>
+				<td>then</td>
+				<td><span class="grayNew">at this</span> (<b>eli</b> irreg. DAT + <b>gä</b> → <b>ligä</b>)</td>
+			</tr>
+			<tr>
+				<td><b>mins</b> <i>myew̃s</i></td>
+				<td>thus, so, like this</td>
+				<td><span class="grayNew">for here</span> (<b>bans</b> + <b>mi</b> → <b>bamins</b> → <b>(ba)mins</b> → <b>mins</b>)</td>
+			</tr>
+		</table>
+		
+        <h5 id="6_4">4. Indefinite pronouns</h5>
+	    <p>Negative pronouns are formed with the negative article. They are used to negate non-definite sentences and are therefore used with affirmative forms of verbs, cf. <b>Elin ugu kän nion.</b> <span class="grayNew">I see the house.</span> (see-1P house DEF.ART 1SG-3EUM.) → <b>Pielin ugu kän nion.</b> <span class="grayNew">I don't see the house.</span> (NEG-see-1P house DEF.ART 1SG-3EUM.) and <b>Elin ugu nion.</b> <span class="grayNew">I see a house.</span> (see-1P house 1SG.3EUM.) → <b>Elin ugu nüän nion.</b> <span class="grayNew">I don't see a house.</span> (see-1P house NEG.ART 1SG-3EUM.).</p>
+        <p class="noSpace">The same pronouns have the meaning of <span class="grayNew">some ~</span> when used with negative forms of verbs. For example:</p>
+        <ul class="newUl">
+			<li><b>Piipabask linür nä.</b> lit. <span class="grayNew">I didn't go nowhere.</span> = <span class="grayNew">I went somewhere.</span> (NEG-go-REDUP-1P DAT-NEG.LOC.COP-GER 1SG.)</li>
+			<li><b>Piidaäben äbkus anüi semikan nä.</b> <span class="grayNew">I talk to someone about something.</span> (NEG-talk-1P DAT-person NEG.ART GEN-thing NEG.ART 1SG.)</li>
+			<li><b>Piidaäben äbpa semikan nä.</b> <span class="grayNew">I talk to him about something.</span> (NEG-talk-1P DAT-3OUM GEN-thing NEG.ART 1SG.)</li>
+            <li><b>Piidaäben äbkus anüi nipa nä.</b> <span class="grayNew">I talk to someone about him.</span> (NEG-talk-1P DAT-person NEG.ART GEN-3OUM 1SG.)</li>
+		</ul>
+        <table class="tabNew">
+			<tr>
+				<th>WORD</th>
+				<th>MEANING</th>
+				<th>ETYMOLOGY</th>
+			</tr>
+			<tr>
+				<td><b>(a)no/nüi/nüän</b> <i>(a)no/nẅi/nẅaw̃</i></td>
+				<td>no/some</td>
+				<td>NEG.ART</td>
+			</tr>
+			<tr>
+				<td><b>mikan</b> <i>mikaw̃</i></td>
+				<td>nothing/something</td>
+				<td><span class="grayNew">no thing</span> (<b>mika</b> <span class="grayNew">thing</span> + <b>nüi</b> NEG.ART → <b>mika nüi</b> → <b>mika n(üi)</b> → <b>mikan</b>)</td>
+			</tr>
+            <tr>
+				<td><b>kus anüi</b> <i>kus anẅi</i></td>
+				<td>no one/someone</td>
+				<td><span class="grayNew">no person</span> (<b>kus</b> <span class="grayNew">person</span> + <b>anüi</b> NEG.ART → <b>kus anüi</b>)</td>
+			</tr>
+            <tr>
+				<td><b>linür</b> <i>linür</i></td>
+				<td>(to) nowhere/somewhere</td>
+				<td><span class="grayNew">at/to not-being</span> (<b>li</b> DAT + <b>nür</b> NEG.LOC.COP-GER → <b>linür</b>)</td>
+			</tr>
+            <tr>
+				<td><b>sünür</b> <i>hünür</i></td>
+				<td>from nowhere/somewhere</td>
+				<td><span class="grayNew">from not-being</span> (<b>so</b> GEN + <b>nür</b> NEG.LOC.COP-GER → <b>sünür</b>)</td>
+			</tr>
+            <tr>
+				<td><b>misano</b> <i>misano</i></td>
+				<td>never/sometime</td>
+				<td><span class="grayNew">at no time</span> (<b>li</b> DAT + <b>mis</b> <span class="grayNew">time</span> + <b>ano</b> NEG.ART → <b>limis ano</b> → <b>(li)mis ano</b> → <b>misano</b>)</td>
+			</tr>
+            <tr>
+				<td><b>rot anüi</b> <i>not anẅi</i></td>
+				<td>nohow, not at all/somehow</td>
+				<td><span class="grayNew">(by) no way</span> (<b>rot</b> <span class="grayNew">way</span> + <b>anüi</b> NEG.ART → <b>rot anüi</b>)</td>
+			</tr>
+		</table>
+        <p>The word <b>bis</b> has many uses and meanings. It can be used as a set noun to mean <span class="grayNew">world</span>, as a quasi-preposition to mean <span class="grayNew">within, among, inside</span>, as an adjective to mean <span class="grayNew">all, every</span>, or as a pronoun to mean <span class="grayNew">everything, everyone</span>. Below are pronouns formed with <b>bis</b>. Note that when <b>bis</b> is used as a separate word, it causes no umlaut (for <b>sonbis</b>, no umlaut occurs because of the intervening <b>lä</b> which is then elided).</p>
+        <table class="tabNew">
+			<tr>
+				<th>WORD</th>
+				<th>MEANING</th>
+				<th>ETYMOLOGY</th>
+			</tr>
+			<tr>
+				<td><b>bis</b> <i>vis</i></td>
+				<td>all, every, everyone, everything</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><b>mika bisa</b> <i>mika visa</i></td>
+				<td>everything</td>
+				<td><span class="grayNew">every thing</span> (<b>mika</b> <span class="grayNew">thing</span> + <b>bis</b> <span class="grayNew">every</span> + <b>-a</b> ADJ agreement → <b>mika bisa</b>)</td>
+			</tr>
+            <tr>
+				<td><b>kus bis</b> <i>kus vis</i></td>
+				<td>everyone</td>
+				<td><span class="grayNew">every person</span> (<b>kus</b> <span class="grayNew">person</span> + <b>bis</b> <span class="grayNew">every</span> → <b>kus bis</b>)</td>
+			</tr>
+            <tr>
+				<td><b>libis</b> <i>livis</i></td>
+				<td>(to) everywhere</td>
+				<td><span class="grayNew">to every where</span> (<b>lilä</b> <span class="grayNew">where, whither</span> + <b>bis</b> <span class="grayNew">every</span> → <b>lilä bis</b> → <b>li(lä) bis</b> → <b>libis</b>)</td>
+			</tr>
+            <tr>
+				<td><b>sonbis</b> <i>sow̃vis</i></td>
+				<td>from everywhere</td>
+				<td><span class="grayNew">from every where</span> (<b>sonlä</b> <span class="grayNew">whence</span> + <b>bis</b> <span class="grayNew">every</span> → <b>sonlä bis</b> → <b>son(lä) bis</b> → <b>sonbis</b>)</td>
+			</tr>
+            <tr>
+				<td><b>eliet</b> <i>elit</i></td>
+				<td>always, forever</td>
+				<td><span class="grayNew">to the end</span> (<b>eli</b> irreg. DAT + <b>et</b> <span class="grayNew">end</span> → <b>eliet</b>)</td>
+			</tr>
+            <tr>
+				<td><b>mibis</b> <i>mivis</i></td>
+				<td>always, at all times</td>
+				<td><span class="grayNew">at all times</span> (<b>li</b> DAT + <b>mis</b> <span class="grayNew">time</span> + <b>bis</b> <span class="grayNew">every</span> → <b>limis bis</b> → <b>(li)mi(s) bis</b> → <b>mibis</b>)</td>
+			</tr>
+			<tr>
+				<td><b>retbis</b> <i>yeppis</i></td>
+				<td>in all ways, completely</td>
+				<td><span class="grayNew">(by) all ways</span> (<b>rot</b> <span class="grayNew">way</span> + <b>bis</b> <span class="grayNew">every</span> → <b>retbis</b>)</td>
+			</tr>
+		</table>
+        <p>To form pronouns with the meaning of <span class="grayNew">any ~, ~ever</span>, the word <b>ägä</b> meaning <span class="grayNew">but, though</span>, lit. <span class="grayNew">it may be</span> is appended to an interrogative. However, in most cases, a plain interrogative is used and the predicate is instead conjugated into the potential form, e.g. <b>äbseosk lipeomu sonlä</b> lit. <span class="grayNew">what you may do</span> = <span class="grayNew">whatever you do</span> (DAT-LOC.COP-2SG DAT-do-GER GEN-what). Note that while separate pronouns are formed with <b>ägä</b> stemming from the old potential form formed via reduplication (from <b>*läläl gä</b> <span class="grayNew">it may be</span>), when the potential form of verbs is used, the new potential form is employed (DAT-LOC.COP + DAT-GER).</p>
+        <table class="tabNew">
+			<tr>
+				<th>WORD</th>
+				<th>MEANING</th>
+				<th>ETYMOLOGY</th>
+			</tr>
+			<tr>
+				<td><b>ägä lä</b> <i>aja la</i></td>
+				<td>whatever, anything</td>
+				<td><span class="grayNew">what it may be</span> (<b>ägä</b> <span class="grayNew">it may be</span> + <b>lä</b> <span class="grayNew">what</span> → <b>ägä lä</b>)</td>
+			</tr>
+			<tr>
+				<td><b>ägä kuä</b> <i>aja kwa</i></td>
+				<td>whoever, anyone</td>
+				<td><span class="grayNew">who it may be</span> (<b>ägä</b> <span class="grayNew">it may be</span> + <b>kuä</b> <span class="grayNew">who</span> → <b>ägä kuä</b>)</td>
+			</tr>
+			<tr>
+				<td><b>ägä ~ sonlä</b> <i>aja ~ sownya</i></td>
+				<td>any ~, whichever ~</td>
+				<td><span class="grayNew">which ~ it may be</span> (<b>ägä</b> <span class="grayNew">it may be</span> + <b>sonlä</b> <span class="grayNew">which</span> → <b>ägä ~ sonlä</b>)</td>
+			</tr>
+            <tr>
+				<td><b>ägä sonlä</b> <i>aja sownya</i></td>
+				<td>from wherever, from anywhere</td>
+				<td><span class="grayNew">whence it may be</span> (<b>ägä</b> <span class="grayNew">it may be</span> + <b>sonlä</b> <span class="grayNew">whence</span> → <b>ägä sonlä</b>)</td>
+			</tr>
+			<tr>
+				<td><b>ägä lilä</b> <i>aja lila</i></td>
+				<td>(to) wherever, (to) anywhere</td>
+				<td><span class="grayNew">where/whither it may be</span> (<b>ägä</b> <span class="grayNew">it may be</span> + <b>lilä</b> <span class="grayNew">where/whither</span> → <b>ägä lilä</b>)</td>
+			</tr>
+			<tr>
+				<td><b>ägä imi</b> <i>aja imi</i></td>
+				<td>whenever, anytime</td>
+				<td><span class="grayNew">when it may be</span> (<b>ägä</b> <span class="grayNew">it may be</span> + <b>imi</b> <span class="grayNew">when</span> → <b>ägä imi</b>)</td>
+			</tr>
+			<tr>
+				<td><b>ägä baläns</b> <i>aja valaw̃s</i></td>
+				<td>however</td>
+				<td><span class="grayNew">how it may be</span> (<b>ägä</b> <span class="grayNew">it may be</span> + <b>baläns</b> <span class="grayNew">how, why</span> → <b>ägä baläns</b>)</td>
+			</tr>
+		</table>
+        <p>The words <b>kago</b> <span class="grayNew">same</span> and <b>darn</b> <span class="grayNew">other</span> simplify when combined with certain pronouns:</p>
+        <table class="tabNew">
+			<tr>
+				<th>WORD</th>
+				<th>MEANING</th>
+				<th>ETYMOLOGY</th>
+			</tr>
+			<tr>
+				<td><b>kuska</b> <i>kuska</i></td>
+				<td>same person</td>
+				<td><span class="grayNew">same person</span> (<b>kus</b> <span class="grayNew">person</span> + <b>kago</b> <span class="grayNew">same</span> → <b>kus kago</b> → <b>kus ka(go)</b> → <b>kuska</b>)</td>
+            </tr>
+            <tr>
+				<td><b>mikago</b> <i>mikago</i></td>
+				<td>same thing</td>
+				<td><span class="grayNew">same thing</span> (<b>mika</b> <span class="grayNew">thing</span> + <b>kago</b> <span class="grayNew">same</span> → <b>mika kago</b> → <b>mika (ka)go</b> → <b>mikago</b>)</td>
+            </tr>
+            <tr>
+				<td><b>lilägo</b> <i>lilago</i></td>
+				<td>to/at same place</td>
+				<td><span class="grayNew">to same where</span> (<b>lilä</b> <span class="grayNew">where/whither</span> + <b>kago</b> <span class="grayNew">same</span> → <b>lilä kago</b> → <b>lilä (ka)go</b> → <b>lilägo</b>)</td>
+            </tr>
+            <tr>
+				<td><b>sonlägo</b> <i>sownyago</i></td>
+				<td>from same place</td>
+				<td><span class="grayNew">from same where</span> (<b>sonlä</b> <span class="grayNew">whence</span> + <b>kago</b> <span class="grayNew">same</span> → <b>sonlä kago</b> → <b>sonlä (ka)go</b> → <b>sonlägo</b>)</td>
+            </tr>
+            <tr>
+				<td><b>miska</b> <i>miska</i></td>
+				<td>(at) the same time</td>
+				<td><span class="grayNew">same time</span> (<b>mis</b> <span class="grayNew">time</span> + <b>kago</b> <span class="grayNew">same</span> → <b>mis kago</b> → <b>mis ka(go)</b> → <b>miska</b>)</td>
+            </tr>
+			<tr>
+				<td><b>rotka</b> <i>nokka</i></td>
+				<td>(in) the same way</td>
+				<td><span class="grayNew">(by) same way</span> (<b>rot</b> <span class="grayNew">way</span> + <b>kago</b> <span class="grayNew">same</span> → <b>rot kago</b> → <b>rot ka(go)</b> → <b>rotka</b>)</td>
+			</tr>
+            <tr style="height: 20px;"></tr>
+            <tr>
+				<td><b>kusda</b> <i>kusta</i></td>
+				<td>other person</td>
+				<td><span class="grayNew">other person</span> (<b>kus</b> <span class="grayNew">person</span> + <b>darn</b> <span class="grayNew">other</span> → <b>kus darn</b> → <b>kus da(rn)</b> → <b>kusda</b>)</td>
+            </tr>
+            <tr>
+				<td><b>mikarn</b> <i>mikarn</i></td>
+				<td>other thing</td>
+				<td><span class="grayNew">other thing</span> (<b>mika</b> <span class="grayNew">thing</span> + <b>darn</b> <span class="grayNew">other</span> → <b>mika darn</b> → <b>mika (da)rn</b> → <b>mikarn</b>)</td>
+            </tr>
+            <tr>
+				<td><b>lilärn</b> <i>lilarn</i></td>
+				<td>to/at elsewhere</td>
+				<td><span class="grayNew">to other where</span> (<b>lilä</b> <span class="grayNew">where/whither</span> + <b>darn</b> <span class="grayNew">other</span> → <b>lilä darn</b> → <b>lilä (da)rn</b> → <b>lilärn</b>)</td>
+            </tr>
+            <tr>
+				<td><b>sonlärn</b> <i>sownyarn</i></td>
+				<td>from elsewhere</td>
+				<td><span class="grayNew">from other where</span> (<b>sonlä</b> <span class="grayNew">whence</span> + <b>darn</b> <span class="grayNew">other</span> → <b>sonlä darn</b> → <b>sonlä (da)rn</b> → <b>sonlärn</b>)</td>
+            </tr>
+            <tr>
+				<td><b>misda</b> <i>mista</i></td>
+				<td>(at) another time, again, still</td>
+				<td><span class="grayNew">other time</span> (<b>mis</b> <span class="grayNew">time</span> + <b>darn</b> <span class="grayNew">other</span> → <b>mis darn</b> → <b>mis da(rn)</b> → <b>misda</b>)</td>
+            </tr>
+			<tr>
+				<td><b>rotda</b> <i>notta</i></td>
+				<td>(in) another way</td>
+				<td><span class="grayNew">(by) other way</span> (<b>rot</b> <span class="grayNew">way</span> + <b>darn</b> <span class="grayNew">other</span> → <b>rot darn</b> → <b>rot da(rn)</b> → <b>rotda</b>)</td>
+			</tr>
+        </table>
+        <p>Note that the words meaning <span class="grayNew">same place</span> and <span class="grayNew">other place</span> are compositional (<b>dü kago</b> <span class="grayNew">same place</span>, <b>dü darn</b> <span class="grayNew">other place</span>).</p>
+        
+        <h4 id="7">Nouns</h4>
+        <p>Nouns inflect for case and number, and each is classed into NSWEO, as explained in previous sections. Note that nouns may have more than one meaning, and different meanings may be classed into different animacy categories, resulting in different inflection patterns. Due to zero-derivation, certain words may be both nouns and verbs, or both nouns and adjectives, which also must be taken into account when inflecting them.</p>
+        
+        <h4 id="8">Adjectives</h4><br/>
+				<h5 id="8_1">1. Usage with nouns and as predicate</h5>
+        <p>Since the language is exclusively head-initial, adjectives always follow nouns they modify.</p>
+        <p class="noSpace">Adjectives agree with the nouns they modify in case and number. Case prefixes are applied in agreement with the animacy of the noun. For example:</p>
+        <ul class="newUl">
+			    <li><b>mika olo</b> <span class="grayNew">good thing(s)</span>, <b>kus olo</b> <span class="grayNew">good person</span></li>
+			    <li><b>mikaga ololo</b> <span class="grayNew">a good thing</span>, <b>kugus ololo</b> <span class="grayNew">good people</span></li>
+			    <li><b>semika solo</b> <span class="grayNew">of good thing(s)</span>, <b>nikus rolo</b> <span class="grayNew">of good person</span></li>
+          <li><b>limikaga lololo</b> <span class="grayNew">to a good thing</span>, <b>äbkugus äbololo</b> <span class="grayNew">to good people</span></li>
+		    </ul>
+         <p>Contrary to number and case, adjectives do not necessarily have to agree with the noun's class, since each adjective belongs to one of NSWEO. If an adjective does have the same class as the noun it modifies, its ending changes to that of the noun, according to the following patterns:</p>
+        <table class="tabNew">
+            <tr>
+				<th>ADJECTIVE</th>
+				<th>NOUN</th>
+				<th>RULE</th>
+                <th>EXAMPLE</th>
+			</tr>
+			<tr>
+				<td>ends in V</td>
+				<td>ends in V</td>
+				<td>change the V in A to that of N</td>
+                <td><b>bie</b> + <b>olo</b> → <b>bie ole</b> <span class="grayNew">good light</span></td>
+			</tr>
+            <tr>
+				<td>ends in V</td>
+				<td>ends in C(s)</td>
+				<td>add the C(s) in N to the end of A</td>
+                <td><b>nid</b> + <b>olo</b> → <b>nid olod</b> <span class="grayNew">good sun</span></td>
+			</tr>
+            <tr>
+				<td>ends in C(s)</td>
+				<td>ends in V</td>
+				<td>add the V in N to the end of A</td>
+                <td><b>mika</b> + <b>bis</b> → <b>mika bisa</b> <span class="grayNew">everything</span></td>
+			</tr>
+            <tr>
+				<td>ends in C(s)</td>
+				<td>ends in C(s)</td>
+				<td>add the VC(s) in N to the end of A</td>
+                <td><b>sir</b> + <b>spal</b> → <b>sir spälir</b>* <span class="grayNew">bad moon</span></td>
+			</tr>
+        </table>
+	<p>*Adjective agreement endings trigger umlaut.</p>
+	<p>This means that if there are two adjectives <b>sabo</b> and <b>sabe</b>, they will both have the same form <b>sabo</b> when used after nouns ending in <b>-o</b>, or <b>sabe</b> if the noun ends in <b>-e</b>. For disambiguation, phrases like <b>ugu sonläl do</b> lit. <span class="grayNew">house of being big</span> = <span class="grayNew">house which is big</span> (house GEN-COP-GER big) can be used.</p>
+        <p>Adjectives have no predicative forms. They are used with the copula, similarly to nouns. Adjectives used predicatively do not participate in the above-described ending agreement or number agreement.</p>
+        <p>Adejctives have a negative form used in certain constructions described further in this section. The form is created by attatching the negative article directly after the adjective. This is possible because the negative article is otherwise attached directly to the head noun.</p>
+		<h5 id="8_2">2. Comparison</h5>
+		<p class="noSpace">There is no inflection involved with comparison. To express the comparative degree, the compared noun is used in the dative case and placed after the adjective. When there is no compared noun, the demonstrative <b>gä</b> is used. For example:</p>
+		<ul class="newUl">
+			<li><b>ekki do lileüt</b> <span class="grayNew">man bigger than a tree</span> (man big DAT-tree)</li>
+			<li><b>Lä do nüi bamt lileüt mion.</b> <span class="grayNew">A flower is less big than a tree.</span> (COP-3P big NEG.ART flower DAT-tree 3EUM.)</li>
+			<li><b>Lälä mikan rütnü läl olo eligä.</b> <span class="grayNew">I want to be better.</span> (COP-1SG thing NEG.ART without COP-GER good DAT-DEM.)</li>
+		</ul>
+		<p class="noSpace">The superlative is formed by placing the definite article directly after the adjective, whereas normally it would be placed directly after the noun. For example:</p>
+		<ul class="newUl">
+			<li><b>iilius spal ki</b> <span class="grayNew">the worst day</span> (day bad DEF.ART)</li>
+			<li><b>Lä mika mirn ano ki imbis ako pa.</b> <span class="grayNew">This is the least sad thing in the world.</span> (COP-3P thing sad NEG.ART DEF.ART DAT-world DEF.ART 3OUM.)</li>
+		</ul>
+		<p class="noSpace">To compare two nouns of equal quality, a similar construction is used as with the comparative degree, but the adjective is composed of both its affirmative and negative form. For example:</p>
+		<ul class="newUl">
+			<li><b>Lä bog bog anüi monk äbekki mion.</b> <span class="grayNew">The woman is as tall as the man.</span> (COP-3P tall tall NEG.ART woman DAT-man 3EUM.)</li>
+		</ul>
+
+		<h4 id="9">Adverbs</h4><br/>
+			<h5 id="9_1">1. General rules</h5>
+			<p>Adverbs are typically placed between the subject and the direct object. Since sentences are always verb-initial, adverial phrases are never placed at the beginning of a sentence. Adverbs do not conjugate and do not have NSWEO.</p>
+			
+		<h5 id="9_2">2. Verb and adjective conversion into adverbs</h5>
+			<p>The preposition <b>rot</b> <span class="grayNew">by, through</span> can be placed in front of adjectives to turn them into adverbs, e.g. <b>olo</b> <span class="grayNew">good</span> → <b>rot olo</b> <span class="grayNew">well</span>. While this preposition typically requires the following word to be in the genitive case, there is no case marking if <b>rot</b> is used adverbially in front of adjectives. It can also be placed before verbs, with the meaning of <span class="grayNew">by doing, if one does, one should do</span> (see <b>Verbs 10. Non-finite forms</b>).</p>
+			
+		<h5 id="9_3">3. Adverbs used with adjectives and other adverbs</h5>
+		<p>Adverbs modifying adjectives or other adverbs are placed after them. To convey excessiveness the word <b>badans</b> <span class="grayNew">overdo, excessive</span> can be used as an adverb, e.g. <b>milk rot badans</b> <span class="grayNew">too small</span>, <b>rot olo rot badans</b> <span class="grayNew">too well</span>. To express the opposite idea, that is insufficiency, a similar strategy is employed, but with the word <b>bamüi</b> <span class="grayNew">underdo, insufficient</span>, e.g. <b>do rot bamüi</b> <span class="grayNew">not big enough</span>, <b>rot olo rot bamüi</b> <span class="grayNew">not well enough</span>.</p>
+			<p>Another strategy would be to use augmentatives or diminutives, e.g. <b>ugu milkalun</b> <span class="grayNew">a too small house / a house not big enough</span>, <b>Nänäl kugus rot boado paba.</b> lit. <span class="grayNew">People came too mani-ly.</span> = <span class="grayNew">Too many people came.</span> Using augmentatives with adjectives or adverbs with positive connotations expresses the idea of <span class="grayNew">a little too</span>, e.g. <b>Lä ugu doalun mion.</b> <span class="grayNew">The house is a little (too) large.</span></p>
+			<p>To express sufficiency the word <b>müidansa</b> <span class="grayNew">enough, just right</span> is used, e.g. <b>do müidansa</b> <span class="grayNew">big enough</span>, <b>rot olo müidansa</b> <span class="grayNew">well enough</span>.</p>
+			<p class="noSpace">The adverb <b>roba</b> <span class="grayNew">very</span> (from <b>rot</b> <span class="grayNew">way</span> + <b>boa</b> <span class="grayNew">many</span>), and the indefinite pronouns <b>retbis</b> <span class="grayNew">in all ways, completely</span> and <b>rot anüi</b> <span class="grayNew">not at all</span> can be used both attributively and predicatively.</p>
+			<ul class="newUl">
+				<li><b>olo roba</b> <span class="grayNew">very good</span> (good very)</li>
+				<li><b>Sansk rot olo roba pa.</b> <span class="grayNew">He writes very well.</span> (write-3P by good 3OUM.)</li>
+				<li><b>sosar sostagbieo retbis</b> <span class="grayNew">completely burnt</span> (GEN-take-GER GEN-burn-GER completely)</li>
+				<li><b>Lälä mirn retbis.</b> <span class="grayNew">I am completely depressed.</span> (COP-1SG sad completely.)</li>
+				<li><b>olo rot anüi</b> <span class="grayNew">in no way good</span> (good by NEG.ART)</li>
+				<li><b>Lä kago rot anüi müi mikaga gä sab paba.</b> <span class="grayNew">These two things are not at all the same.</span> (COP-3P same by NEG.ART near thing-REDUP DEM two 3OM.)</li>
+			</ul>
+			<p class="noSpace">To express the meaning of <span class="grayNew">quite, pretty</span>, the word <b>dar</b> <span class="grayNew">or</span> can be placed after an adjective or adverb. This can be done in predicative and attribultively and predicatively. In the latter case the auxiliary verb <b>ba</b> is used and the adjective is used nominally as a quasi-direct object, thus it does not participate in class agreement with the subject noun. The meaning <span class="grayNew">not very</span> can be achieved by negating the verb, but this form cannot be used attributively.</p>
+			<ul class="newUl">
+				<li><b>mika do dar</b> <span class="grayNew">quite a big thing</span> (thing big or)</li>
+				<li><b>Ba mienarn mirn dar tarark.</b> <span class="grayNew">Rain is quite sad.</span> (do-3P rain sad or 3NUM-3NUM.)</li>
+				<li><b>Piiba leüt dans dar mion.</b> <span class="grayNew">The tree is not very far.</span> (NEG-do-3P tree far or 3EUM-3EUM.)</li>
+			</ul>
+			
+		<h5 id="9_4">4. Numbers</h5>
+			<p>a</p>
+			
+		<h4 id="10">Particles</h4><br/>
+			<h5 id="10_1">1. Conjunctions/prepositions</h5>
+		<p class="noSpace">Conjunctions and prepositions constitute one class (hereafter referred to as particles). In fact, the distinction between them and adverbs is only relevant because particles can attach to a verb in certain constructions, e.g. <b>kus aki spage-eli rän</b> lit. <span class="grayNew">the person of my going-with</span> = <span class="grayNew">the person who is going with me</span> (person DEF.ART GEN-go-GER-with GEN-1SG). In place of particles, case marking can be used to indicate the function of a word in a sentence. The genitive shows possession, but also means <span class="grayNew">from</span>, or <span class="grayNew">about</span>. The dative marks indirect objects, but also location and destination. When case prefixes are attached to the ends of verbs, the forms <b>-son</b> and <b>-eli</b> are used invariably.</p>
+			<ul class="newUl">
+				<li><b>bie sostag</b> <span class="grayNew">the light of fire</span> (light GEN-fire)</li>
+				<li><b>Nän semii nä.</b> <span class="grayNew">I come from there.</span> (come-1P GEN-there 1SG.)</li>
+				<li><b>Daäbenkan semienarn si.</b> <span class="grayNew">We talked about rain.</span> (talk-REDUP-1P GEN-rain 1PL.)</li>
+				<li><b>Ar ekki lugu pa.</b> <span class="grayNew">The man is in the house.</span> (LOC.COP-3P man DAT-house 3OUM.)</li>
+				<li><b>Pa ekki lugu pa.</b> <span class="grayNew">The man goes to the house.</span> (go-3P man DAT-house 3OUM.)</li>
+				<li><b>Daäbenka ekki äbmonk pa.</b> <span class="grayNew">The man talked to the woman.</span> (talk-REDUP-3P man DAT-woman 3OUM.)</li>
+			</ul>
+			<p>Particles may require the following noun to be conjugated into a specific case.</p>
+			<table class="tabNew">
+				<tr>
+					<th>FORM</th>
+					<td><b>ä/äb</b> <i>a/av</i>, <b>e/el</b> <i>e/ew</i></td>
+				</tr>
+				<tr>
+					<th>MEANING</th>
+					<td><span class="grayNew">and</span></td>
+				</tr>
+				<tr>
+					<th>CASE</th>
+					<td>DIRECT</td>
+				</tr>
+				<tr>
+					<th>ETYMOLOGY</th>
+					<td><b>eli</b> DAT, <b>äb</b> DAT</td>
+				</tr>
+
+			</table>
+			<p class="noSpace">The form <b>ä/äb</b> is used before animate nouns and <b>e/el</b> elsewhere. The consonants are appended only if the following word is vowel-initial. This particle can only be used to link nouns and adjectives, not verbs, as in <span class="grayNew">I came home and ate dinner.</span>; this must be expressed using words like <b>eligä</b> <span class="grayNew">then</span>. Unlike the English <span class="grayNew">and</span>, this particle is used before the first word in a list, meaning literally <span class="grayNew">(in addition) to x, y</span> for <span class="grayNew">x and y</span>. Since the form stems directly from the dative marker, the dative case is not applied to the following noun.</p>
+			<ul class="newUl">
+				<li><b>äb ekki, monk</b> <span class="grayNew">man and woman</span> (and man, woman)</li>
+				<li><b>mika e mirn, milk</b> <span class="grayNew">sad and small thing</span> (thing and sad, small)</li>
+			</ul>
+			<table class="tabNew">
+				<tr>
+					<th>FORM</th>
+					<td><b>dar</b> <i>dar</i></td>
+				</tr>
+				<tr>
+					<th>MEANING</th>
+					<td><span class="grayNew">(either), or</span></td>
+				</tr>
+				<tr>
+					<th>CASE</th>
+					<td>DIRECT</td>
+				</tr>
+				<tr>
+					<th>ETYMOLOGY</th>
+					<td><b>darn</b> <span class="grayNew">other</span></td>
+				</tr>
+			</table>
+			<p class="noSpace">This particle is used between words or clauses, similarly to its English equivalent.</p>
+			<ul class="newUl">
+				<li><b>(dar) mi, dar mii</b> <span class="grayNew">(either) here or there</span> ([or] here, or there)</li>
+				<li><b>(Dar) nälk, dar piinälk kiulu.</b> <span class="grayNew">You (either) come, or you don't.</span> ([or] come-2P, or NEG-come-2P 2SG.)</li>
+			</ul>
+			<table class="tabNew">
+				<tr>
+					<th>FORM</th>
+					<td><b>ägä</b> <i>aja</i></td>
+				</tr>
+				<tr>
+					<th>MEANING</th>
+					<td><span class="grayNew">but, though, although, despite, even if, only</span></td>
+				</tr>
+				<tr>
+					<th>CASE</th>
+					<td>DIRECT</td>
+				</tr>
+				<tr>
+					<th>ETYMOLOGY</th>
+					<td><b>läläl gä</b> <span class="grayNew">it may be</span> (COP-REDUP DEM)</td>
+				</tr>
+			</table>
+			<p class="noSpace">This particle is used in the subordinate clause, as in <span class="grayNew">though I do x, I don't do y</span> for <span class="grayNew">I do x but I don't do y</span>. It is also used with pronouns meaning <span class="grayNew">any ~</span>. If it describes verbs, it can be substituted with the potential form. It can be also used to mean <span class="grayNew">just, only, simply</span> (see <b>Particles 2. Other equivalent forms</b>).</p>
+			<ul class="newUl">
+				<li><b>ägä mienarn</b> <span class="grayNew">despite the rain</span> (but rain)</li>
+				<li><b>Ägä elin mienarn nark, pielin nid ako näläb.</b> <span class="grayNew">I see rain, but I don't see the sun.</span> (but see-1P rain 1SG-1NUM, NEG-see-1P sun DEF.ART 1SG-3SUM.)</li>
+				<li><b>Ägä elilin nä, äblälä püta semikan.</b> <span class="grayNew">Even if/though I know, I'll say nothing.</span> (but know-1P 1SG, DAT-COP-1SG like GEN-nothing.)</li>
+				<li><b>Äblälä püta semikan ägä elilii.</b> <span class="grayNew">Despite knowing I'll say nothing.</span> (DAT-COP-1SG like GEN-nothing but know-GER.)</li>
+				<li><b>Lä olo ägä lilä arä.</b> lit. <span class="grayNew">Wherever is good.</span> = <span class="grayNew">It's good wherever.</span> (COP-3P good but where 3WUM.)</li>
+			</ul>
+			<table class="tabNew">
+				<tr>
+					<th>FORM</th>
+					<td><b>pagson</b> <i>paskow̃</i></td>
+				</tr>
+				<tr>
+					<th>MEANING</th>
+					<td><span class="grayNew">from, since</span></td>
+				</tr>
+				<tr>
+					<th>CASE</th>
+					<td>GENITIVE</td>
+				</tr>
+				<tr>
+					<th>ETYMOLOGY</th>
+					<td><b>pag</b> <span class="grayNew">go</span> + <b>son</b> GEN → <b>pagson</b></td>
+				</tr>
+			</table>
+			<p class="noSpace">Can be used for both time and place. Functions as an alternative to genitive marking.</p>
+			<ul class="newUl">
+				<li><b>pagson sugu rän</b> <span class="grayNew">from my house</span> (from GEN-house GEN-1SG)</li>
+				<li><b>pagson seligä</b> <span class="grayNew">since then</span> (from GEN-then)</li>
+			</ul>
+			<table class="tabNew">
+				<tr>
+					<th>FORM</th>
+					<td><b>nelli</b> <i>nyelli</i></td>
+				</tr>
+				<tr>
+					<th>MEANING</th>
+					<td><span class="grayNew">to, until</span></td>
+				</tr>
+				<tr>
+					<th>CASE</th>
+					<td>DATIVE</td>
+				</tr>
+				<tr>
+					<th>ETYMOLOGY</th>
+					<td><b>näl</b> <span class="grayNew">come</span> + <b>li</b> DAT → <b>nelli</b></td>
+				</tr>
+			</table>
+			<p class="noSpace">Can be used for both time and place. Functions as an alternative to dative marking.</p>
+			<ul class="newUl">
+				<li><b>nelli lugu rän</b> <span class="grayNew">to my house</span> (to DAT-house GEN-1SG)</li>
+				<li><b>nelli leligä</b> <span class="grayNew">until then</span> (to DAT-then)</li>
+			</ul>
+			<table class="tabNew">
+				<tr>
+					<th>FORM</th>
+					<td><b>rot</b> <i>not</i></td>
+				</tr>
+				<tr>
+					<th>MEANING</th>
+					<td><span class="grayNew">by, through, with</span></td>
+				</tr>
+				<tr>
+					<th>CASE</th>
+					<td>GENITIVE</td>
+				</tr>
+				<tr>
+					<th>ETYMOLOGY</th>
+					<td><b>rot</b> <span class="grayNew">path</span></td>
+				</tr>
+			</table>
+			<p class="noSpace">This is an instrumental particle. It is also used to mean <span class="grayNew">through</span>, <span class="grayNew">by</span> and <span class="grayNew">per</span> as in <span class="grayNew">through the window</span>, <span class="grayNew">two by four</span> and <span class="grayNew">three pieces per person</span>. It is not used, however, to mark the agent of a passive construction. With verbs and adjectives, it has an adverbial function (see <b>Adverbs 2. Verb and adjective conversion into adverbs</b>).</p>
+			<ul class="newUl">
+				<li><b>Eli kugus rot diipüi ko paba.</b> <span class="grayNew">People see with their eyes.</span> (see-3P person-REDUP through GEN-eye DEF.ART 3OM.)</li>
+				<li><b>Pabask rot sugu nä.</b> <span class="grayNew">I walked through the house.</span> (go-REDUP-1P through GEN-house 1SG.)</li>
+				<li><b>Ar mina soleüt rot nikus pa.</b> <span class="grayNew">There are four trees per person.</span> (LOC-COP-3P four-NOM GEN-tree through GEN-person 3OUM.)</li>
+			</ul>
+			<table class="tabNew">
+				<tr>
+					<th>FORM</th>
+					<td><b>bans</b> <i>vaw̃s</i></td>
+				</tr>
+				<tr>
+					<th>MEANING</th>
+					<td><span class="grayNew">for (the sake), because of, by</span></td>
+				</tr>
+				<tr>
+					<th>CASE</th>
+					<td>DIRECT</td>
+				</tr>
+				<tr>
+					<th>ETYMOLOGY</th>
+					<td><b>bans</b> <span class="grayNew">I do</span></td>
+				</tr>
+			</table>
+			<p class="noSpace">This particle can mark the beneficiary of an action. It also marks the agent in passive constructions, but only in subordinate clauses or if the lexical verb takes any objects. It marks the subject in subordinate clauses and certain non-finite clauses, if the subject is different from the main clause. It is then placed directly after the lexical verb, or after the causative <b>räbe</b> <span class="grayNew">give</span> in passive causative expressions. Used before gerunds, it has the meaning of <span class="grayNew">in order to</span>, or <span class="grayNew">because</span> (see <b>Verbs 10. Non-finite forms</b>).</p>
+			<ul class="newUl">
+				<li><b>Peomoms bans kiulu näpa.</b> <span class="grayNew">I did it for you (because of you).</span> (do-REDUP-1P for 2SG 1SG-3OUM.)</li>
+				<li><b>sosar speomu bans nä</b> <span class="grayNew">done by me</span> (GEN-take-GER GEN-do-GER for 1SG)</li>
+				<li><b>Nonorn diii bans pa sugu rän närä.</b> <span class="grayNew">I had my house chosen by him.</span> (take-REDUP-1P choose-GER for 3OUM GEN-house GEN-1SG 1SG-3WUM.)</li>
+				<li><b>kus aki selii bans nä</b> <span class="grayNew">the person I see</span> (person DEF.ART GEN-see-GER for 1SG)</li>
+			</ul>
+			<table class="tabNew">
+				<tr>
+					<th>FORM</th>
+					<td><b>eli</b> <i>eli</i></td>
+				</tr>
+				<tr>
+					<th>MEANING</th>
+					<td><span class="grayNew">with</span></td>
+				</tr>
+				<tr>
+					<th>CASE</th>
+					<td>DATIVE</td>
+				</tr>
+				<tr>
+					<th>ETYMOLOGY</th>
+					<td><b>eli</b> DAT</td>
+				</tr>
+			</table>
+			<p class="noSpace">This particle is used to mark accompaniment and cannot be used instrumentally as in <span class="grayNew">eat with a fork</span> or to mark a noun as in <span class="grayNew">a house with windows</span>. For the former case, the particle <b>rot</b> is used instead. For the latter case, the word <b>sosun</b> <i>sosow̃</i> lit. <span class="grayNew">of existing</span> (GEN-LOC.COP) is used with the following noun in the genitive case, e.g. <b>ena sosun diisir ako</b> <span class="grayNew">sky with a moon</span> (sky GEN-LOC.COP GEN-moon DEF.ART). Used before gerunds, this particle has the meaning of <span class="grayNew">while doing</span> or <span class="grayNew">having done</span> (see <b>Verbs 10. Non-finite forms</b>).</p>
+			<ul class="newUl">
+				<li><b>Pask eli äbpa nä.</b> <span class="grayNew">I go with him.</span> (go-1P with DAT-3OUM 1SG.)</li>
+			</ul>
+			<table class="tabNew">
+				<tr>
+					<th>FORM</th>
+					<td><b>rütnü</b> <i>ünü</i></td>
+				</tr>
+				<tr>
+					<th>MEANING</th>
+					<td><span class="grayNew">without</span></td>
+				</tr>
+				<tr>
+					<th>CASE</th>
+					<td>DIRECT</td>
+				</tr>
+				<tr>
+					<th>ETYMOLOGY</th>
+					<td><b>rot</b> <span class="grayNew">by</span> + <b>nür</b> LOC.COP-GER → <b>rütnür</b> → <b>rütnü(r)</b> → <b>rütnü</b></td>
+				</tr>
+			</table>
+			<p class="noSpace">This particle is used to mark the lack of accompaniment and cannot be used instrumentally as in <span class="grayNew">eat without a fork</span> or to mark a noun as in <span class="grayNew">a house without windows</span>. For the former case, a verbal form like <span class="grayNew">eat without using a fork</span> is used instead. For the latter case, the word <b>sünür</b> <i>hünür</i> lit. <span class="grayNew">of lacking</span> (GEN-NEG.LOC.COP) is used with the following noun in the direct case, e.g. <b>ena sünür sir ako</b> <span class="grayNew">sky without a moon</span> (sky GEN-NEG.LOC.COP moon DEF.ART). Used before gerunds, this particle has the meaning of <span class="grayNew">wihtout doing</span> (see <b>Verbs 10. Non-finite forms</b>).</p>
+			<ul class="newUl">
+				<li><b>Pask rütnü pa nä.</b> <span class="grayNew">I go without him.</span> (go-1P without 3OUM 1SG.)</li>
+			</ul>
+			<table class="tabNew">
+				<tr>
+					<th>FORM</th>
+					<td><b>kagoeli</b> <i>kagweli</i></td>
+				</tr>
+				<tr>
+					<th>MEANING</th>
+					<td><span class="grayNew">also, even, neither/nor, both/and</span></td>
+				</tr>
+				<tr>
+					<th>CASE</th>
+					<td>DATIVE</td>
+				</tr>
+				<tr>
+					<th>ETYMOLOGY</th>
+					<td><b>kago</b> <span class="grayNew">same</span> + <b>eli</b> <span class="grayNew">with</span> → <b>kagoeli</b></td>
+				</tr>
+			</table>
+			<p class="noSpace">When used with nouns, it precedes them. When used with pronouns which would be in SDOAUX, the pronouns are used in the dative form after it and then in SDOAUX. Used multiple times within a clause, it means <span class="grayNew">both/and</span> for affirmative sentences and <span class="grayNew">neither/nor</span> for negative sentences. When used with verbs and adjectives, the auxiliary verb <b>ba</b> <span class="grayNew">do</span> is used, and the lexical verb is placed in the gerund. Though this particle requires the dative form, the marked nouns still act as subjects and direct objects, despite not being in the direct case. However, because the particle takes the dative form, if it marks an indirect object, the particle or case prefix used before the indirect object is attached to the end of the verb.</p>
+			<ul class="newUl">
+				<li><b>Elin kagoeli äb'n nalul nark.</b> <span class="grayNew">I also/Even I (among other people) see water.</span> (see-1P also DAT-1SG water 1SG-3NUM.)</li>
+				<li><b>Elin kagoeli linalul nark.</b> <span class="grayNew">I also/even see water (among other things).</span> (see-1P also DAT-water 1SG-3NUM.)</li>
+				<li><b>Bans kagoeli lelii sonalul närä.</b> <span class="grayNew">I also/even see water (among doing other things).</span> (do-1P also DAT-see-GER GEN-water 1SG-3WUM.)</li>
+				<li><b>Ba ekki kagoeli lolo aräläb.</b> <span class="grayNew">The man is also good (among other qualities).</span> (do-3P man also DAT-good 3WUM-3SUM.)</li>
+				<li><b>Daäben-eli kagoeli äbekki nä.</b> <span class="grayNew">I talk to the man as well (as well as to other people).</span> (talk-1P-to also DAT-man 1SG.)</li>
+				<li><b>Pask-rütnü kagoeli äbekki nä.</b> <span class="grayNew">I go without the man as well (as well as without other people).</span> (go-1P-without also DAT-man 1SG.)</li>
+				<li><b>Pask kagoeli äb'n kagoeli äbekki lugu si.</b> <span class="grayNew">Both me and the man go to the house.</span> (go-1P also DAT-1SG also DAT-man DAT-house 1PL.)</li>
+				<li><b>Elin kagoeli lugu nüän kagoeli lileüt ano nänon.</b> <span class="grayNew">I see neither a house nor a tree.</span> (see-1P also DAT-house NEG.ART also DAT-tree NEG.ART 1SG-3EM.)</li>
+				<li><b>Bans kagoeli lipage kagoeli linäl näläb.</b> <span class="grayNew">I go and (also I) come.</span> (do-1P also DAT-go-GER also DAT-come-GER 1SG-3SM.)</li>
+				<li><b>Ba monk kagoeli lolo nüi kagoeli lispal nüi mäläb.</b> <span class="grayNew">The woman is neither good nor bad.</span> (do-3P woman also DAT-good NEG.ART also DAT-bad NEG.ART 3EUM-3SM.)</li>
+			</ul>
+			
+			<h5 id="10_2">2. Other equivalent forms</h5>
+		<p class="noSpace">The word <b>ägä</b> <i>aja</i> can be used to mean <span class="grayNew">only, just, simply</span>. If used in this sense it may be preceded with a negative pronoun. Note that this may change the class of the subject or direct object, resulting in a different SDOAUX. Because this word does not mark the following word for case, case prefixes and other particles preceding the noun do not need to be attached to the verb, unlike with <b>kagoeli</b>.</p>
+			<ul class="newUl">
+				<li><b>Elin ägä nä nalul nark.</b> <span class="grayNew">Only I see water.</span> (see-1P but 1SG water 1SG-3NUM.)</li>
+				<li><b>Eli kus anüi ägä nä nalul park.</b> <span class="grayNew">No one but me sees water.</span> = <span class="grayNew">Only I see water.</span> (see-3P person NEG.ART but 1SG water 3OUM-3NUM.)</li>
+				<li><b>Seon ägä nä limi.</b> <span class="grayNew">Only I am here.</span> (LOC.COP-1SG but 1SG DAT-here.)</li>
+				<li><b>Ar kus anüi ägä nä limi pa.</b> <span class="grayNew">No one but me is here.</span> = <span class="grayNew">Only I am here.</span> (LOC.COP-3P but 1SG DAT-here 3OUM.)</li>
+				<li><b>Elin ägä nalul nark.</b> <span class="grayNew">I only see water (but I don't see other things).</span> (see-1P but water 1SG-3NUM.)</li>
+				<li><b>Elin mikan ägä nalul nion.</b> <span class="grayNew">I see nothing but water.</span> = <span class="grayNew">I only see water.</span> (see-1P nothing but water 1SG-3EUM.)</li>
+				<li><b>Bans ägä elii sonalul närä.</b> <span class="grayNew">I only see water (but I don't do other things).</span> (do-1P but see-GER GEN-water 1SG-3WUM.)</li>
+				<li><b>Ba ekki ägä olo aräläb.</b> <span class="grayNew">The man is only good (but has no other qualities).</span> (do-3P man but good 3WUM-3SUM.)</li>
+				<li><b>Daäben ägä äbekki nä.</b> <span class="grayNew">I talk only to the man (but not to other people).</span> (talk-1P but DAT-man 1SG.)</li>
+				<li><b>Pask ägä rütnü ekki nä.</b> <span class="grayNew">I go only without the man (but with other people).</span> (go-1P but without man 1SG.)</li>
+			</ul>
+	    <p class="noSpace">The word <b>püta</b> <i>püta</i> means <span class="grayNew">nature, style, -ness</span> and functions as an inanimate noun, but it can also be used to mean lit. <span class="grayNew">(being) like</span>. It is then treated as a set noun (GEN <b>diüta</b> DAT <b>müta</b>) and the initial <b>p</b> is elided unless the preceding word is vowel-final. It can be used with the copula to mean <span class="grayNew">to be like x</span>, with the particle <b>rot</b> to mean <span class="grayNew">(do) like/as x</span>, or it can describe a preceding noun with the meaning of <span class="grayNew">x like a y</span>. The following noun is in the genitive case, since the construction literally means <span class="grayNew">(having) the nature of x</span>.</p>
+			<ul class="newUl">
+				<li><b>Lä püta spamt püi nipa arä.</b> <span class="grayNew">His eyes are like flowers.</span> (COP-3P nature GEN-flower eye DAT-3OUM 3WUM.)</li>
+				<li><b>surs diüta diisir ako</b> <span class="grayNew">a head like the moon</span> (head GEN-nature GEN-moon DEF.ART)</li>
+				<li><b>surs do rot diüta diisir ako</b> <span class="grayNew">a head big like the moon</span> (head big by GEN-nature GEN-moon DEF.ART)</li>
+				<li><b>Stagbie usa rän rot diüta sostag pa.</b> <span class="grayNew">My heart is burning like a fire.</span> (burn-3P heart GEN-1SG by GEN-nature GEN-fire 3OUM.)</li>
+			</ul>
+			
+			<h5 id="10_3">3. Positional particles</h5>
+		<p></p>
+				
+			
+		<h4 id="11">Verbs</h4><br/>
+      
+      <h5 id="11_1">1. Tense/aspect system</h5>
+    <p>The verbal paradigm is a modified version of a proto-system in which verbs may be modified in two ways: by applying case (direct - non-past, genitive - past, dative - future/irrealis) and by applying other strategies (plain form - realis, LOC.COP DAT-GER - imperfective, reduplication - irrealis). Three forms are shifted in the current system: conditional → perfect → potential. The old system may be used in certain solidified expressions or constructions. The current system is as follows:</p>
+     <table class="tabNew">
+      <tr>
+				<th></th>
+				<th>DIRECT</th>
+				<th>GENITIVE</th>
+        <th>DATIVE</th>
+			</tr>
+			<tr>
+				<th>PLAIN</th>
+				<td>present</td>
+        <td>conditional</td>
+        <td>future</td>
+			</tr>
+      <tr>
+        <th>LOC.COP DAT-GER</th>
+        <td>imperfect</td>
+        <td>past habitual</td>
+        <td>potential</td>
+      </tr>
+      <tr>
+        <th>REDUP</th>
+        <td>perfect</td>
+        <td>past potential</td>
+        <td>necessitative</td>
+      </tr>
+    </table>
+      <p>The forms serve the following functions:</p>
+      <table class="tabNew">
+      <tr>
+				<th>PRESENT</th>
+        <td>present progressive or habitual actions - <span class="grayNew">I do</span>, <span class="grayNew">I am doing</span></td>
+      </tr>
+      <tr>
+				<th>IMPERFECT</th>
+        <td>past progressive actions that have either finished in the past or have lasted until the present - <span class="grayNew">I was doing</span>, <span class="grayNew">I have been doing</span></td>
+      </tr>
+      <tr>
+				<th>PERFECT</th>
+        <td>past perfective actions - <span class="grayNew">I did</span>, <span class="grayNew">I have done</span></td>
+      </tr>
+      <tr>
+				<th>CONDITIONAL</th>
+        <td>conditions - <span class="grayNew">if I do</span>, <span class="grayNew">if I had done</span></td>
+      </tr>
+      <tr>
+				<th>PAST HABITUAL</th>
+        <td>habitual actions which occurred in the past - <span class="grayNew">I used to do</span>, <span class="grayNew">I would do</span></td>
+      </tr>
+      <tr>
+				<th>PAST POTENTIAL</th>
+        <td>past actions which may have happened - <span class="grayNew">I may have done</span>, <span class="grayNew">I could have done</span>, <span class="grayNew">maybe I have done</span></td>
+      </tr>
+      <tr>
+				<th>FUTURE</th>
+        <td>future perfective or progressive actions - <span class="grayNew">I will do</span>, <span class="grayNew">I am going to do</span>, <span class="grayNew">I will be doing</span>, <span class="grayNew">I will have done</span></td>
+      </tr>
+      <tr>
+				<th>POTENTIAL</th>
+        <td>capability or possibility - <span class="grayNew">I can do</span>, <span class="grayNew">I could do</span>, <span class="grayNew">I may do</span>, <span class="grayNew">maybe I will do</span></td>
+      </tr>
+      <tr>
+				<th>NECESSITATIVE</th>
+        <td>neccessity - <span class="grayNew">I must do</span>, <span class="grayNew">I have to do</span></td>
+      </tr>
+      </table>
+			<p class="noSpace">When using constructions with the locative copula, the direct object of the clause is in the genitive case and follows the gerund of the lexical verb directly. This is different from regular sentences in which the direct object is typically clause-final. If the subject in such clauses is a noun, it is placed between the locative copula and the gerund. When the verb has an indirect object and a direct object, the indirect object follows the direct object, acting as an adverbial phrase. However, if the direct object is not stated, case prefixes/particles are attached to the end of the gerund and the object is in the genitive case.</p>
+			<ul class="newUl">
+				<li><b>Seon lelii.</b> lit. <span class="grayNew">I am at seeing.</span> = <span class="grayNew">I was looking.</span> (LOC.COP-1SG DAT-see-GER.)</li>
+				<li><b>Seon lelii sugu.</b> lit. <span class="grayNew">I am at looking of a house.</span> = <span class="grayNew">I was looking at a house.</span> (LOC.COP-1SG DAT-see-GER GEN-house.)</li>
+				<li><b>Ar ekki lelii ormonk arä.</b> lit. <span class="grayNew">The man is at seeing of the woman.</span> = <span class="grayNew">The man was looking at the woman.</span> (LOC.COP-3P DAT-see-GER GEN-woman 3WUM.)</li>
+				<li><b>Seosk läbekuns-eli rekki.</b> lit. <span class="grayNew">You are at talking-to of the man.</span> = <span class="grayNew">You were talking to the man.</span> (LOC.COP-2SG DAT-talk-GER-to GEN-man.)</li>
+				<li><b>Ebsis likusoo spamt äbekki.</b> lit. <span class="grayNew">We to-are at giving of a flower to the man.</span> = <span class="grayNew">We can give a flower to the man.</span> (DAT-LOC.COP-1PL DAT-offer-GER GEN-flower DAT-man.)</li>
+				<li><b>Orseon lidotun semika sugu.</b> lit. <span class="grayNew">I of-am at taking of things from the house.</span> = <span class="grayNew">I used to take things from the house.</span> (GEN-LOC.COP-1SG DAT-take-GER GEN-thing GEN-house.)</li>
+			</ul>
+			
+			<h5 id="11_2">2. Regular verbs</h5>
+			<p>Regular verbs have five forms - the base form, first, second and third person forms, and a gerund. First person forms use the <b>-(ä)n</b> and <b>-s</b> suffixes, and second person forms use the <b>-(a)kiu</b> and <b>-k</b> suffixes stemming from personal pronouns. Third person forms are identical to base forms. Regular verbs do not conjugate for number. The gerund is a nominal form and is used in various auxiliary constructions.</p>
+			 <table class="tabNew">
+      	<tr>
+					<th>ENDING</th>
+					<th>1P</th>
+					<th>2P</th>
+					<th>GERUND</th>
+					<th>EXAMPLE</th>
+      	</tr>
+				<tr>
+					<th>NON-HIGH V</th>
+					<td><b>-s</b></td>
+					<td><b>-kiu</b>*</td>
+					<td><b>-A</b>**</td>
+					<td><b>kuso</b> <i>kuso</i> <span class="grayNew">offer</span> → <b>kusos</b> <i>kusos</i>, <b>kusekiu</b> <i>kuhyéchu</i>, <b>kusoo</b> <i>kusu</i></td>
+      	</tr>
+				<tr>
+					<th>HIGH V</th>
+					<td><b>-n</b></td>
+					<td><b>-kiu</b></td>
+					<td><b>-A</b></td>
+					<td><b>eli</b> <i>eli</i> <span class="grayNew">see</span> → <b>elin</b> <i>elew̃</i>, <b>elikiu</b> <i>elíchu</i>, <b>elii</b> <i>eway</i></td>
+      	</tr>
+				<tr>
+					<th><b>T</b></th>
+					<td><b>-s-P</b></td>
+					<td><b>-kiu</b></td>
+					<td><b>-A</b></td>
+					<td><b>tup</b> <i>tup</i> <span class="grayNew">kill</span> → <b>tusp</b> <i>tusp</i>, <b>tipkiu</b> <i>chicchu</i>, <b>tipi</b> <i>chipi</i></td>
+      	</tr>
+				<tr>
+					<th><b>s</b></th>
+					<td><b>-n-s</b></td>
+					<td><b>-k</b></td>
+					<td><b>-A</b></td>
+					<td><b>does</b> <i>dwes</i> <span class="grayNew">feel</span> → <b>doens</b> <i>dwew̃s</i>, <b>doesk</b> <i>dwesk</i>, <b>düüsü</b> <i>daẅhü</i></td>
+      	</tr>
+				<tr>
+					<th><b>N</b></th>
+					<td><b>-s</b></td>
+					<td><b>-k</b></td>
+					<td><b>-A</b></td>
+					<td><b>son</b> <i>sow̃</i> <span class="grayNew">carry</span> → <b>sons</b> <i>sow̃s</i>, <b>sonk</b> <i>sow̃k</i>, <b>sonu</b> <i>sonu</i></td>
+      	</tr>
+				<tr>
+					<th><b>L</b></th>
+					<td><b>-n</b></td>
+					<td><b>-k</b></td>
+					<td><b>-</b></td>
+					<td><b>piir</b> <i>payr</i> <span class="grayNew">differ</span> → <b>piirn</b> <i>payrn</i>, <b>piirk</b> <i>payrk</i>, <b>piir</b> <i>payr</i></td>
+      	</tr>
+				<tr>
+					<th><b>(W)CC1</b></th>
+					<td><b>-än</b>***</td>
+					<td><b>-akiu</b>****</td>
+					<td><b>C1-A-(W)C</b></td>
+					<td><b>inst</b> <i>ew̃st</i> <span class="grayNew">begin</span> → <b>instän</b> <i>ew̃hchaw̃</i>, <b>instakiu</b> <i>ew̃stáchu</i>, <b>ituns</b> <i>itow̃s</i></td>
+      	</tr>
+			</table>
+			<p>*<b>kiu</b> triggers umlaut.<br/>
+			**<b>A</b> stands for a theme vowel particular to a given class (N <b>a</b>, S <b>o</b>, W <b>i</b>, E <b>u</b>, O <b>ü</b>). N uses a neutral vowel <b>a</b>. <b>i</b> and <b>ü</b> trigger umlaut.<br/>
+			***<b>W-s-P</b> for <b>WP</b>.<br/>
+			****<b>-k</b> for <b>Ws</b>.</p>
+			<p>All second person verb forms ending in <b>-(a)kiu</b> are stressed on the penult.</p>
+	    		<p>Each of the nine tenses/aspects can be conjugated into these forms, including the gerund.</p>
+			
+			<h5 id="11_3">3. Copulae</h5>
+			<p>There is a copula and a locative copula. The copula is followed directly by its complement (a noun or an adejctive). The locative copula expresses existence and is the equivalent of the English <span class="grayNew">to be (somewhere)</span> and <span class="grayNew">there is (something somewhere)</span>. It is also used to indicate posession. Rather than using a verb like <span class="grayNew">to have</span>, the locative copula is used, with its complement being the possessee and the possessor being used in the dative, e.g. <b>Ar mis äb'n.</b> lit. <span class="grayNew">There is time to me.</span> = <span class="grayNew">I have time.</span> (LOC.COP-3P time DAT-1SG.).</p>
+			<p>The copulae are the only verbs which do not require SDOAUX, unless the subject is in third person. This is because they are also the only verbs to conjugate for person in first and second person. The first person set and plural endings are <b>-eis</b> and <b>-(i)s</b> respectively, and the second person endings are <b>-iis</b> and <b>-oa</b>; these stem from personal pronouns.</p>
+			<p>Copulae stem from proto-verbs which are no longer in use, at least with their original meanings. The copula stems from <b>läl</b> → <b>l(äl)-</b> <span class="grayNew">*stay</span> and the locative copula stems from <b>seons</b> → <b>s(eons)-</b> <span class="grayNew">*live</span>. The verb <b>ar</b> → <b>a(r)-</b> <span class="grayNew">*stand</span> is used suppletively for both copulae. The verb <b>nür</b> → <b>nü(r)-</b> <span class="grayNew">*lack</span> is used as the negative form of the locative copula.</p>
+			<table class="tabNew">
+      	<tr>
+					<th></th>
+					<th>BASE FORM</th>
+					<th>1P SG/SET/PL</th>
+					<th>2P SG/SET/PL</th>
+					<th>3P</th>
+					<th>GERUND</th>
+      	</tr>
+				<tr>
+					<th>COPULA</th>
+					<td><b>läl</b> <i>law</i></td>
+					<td><b>lälä</b> <i>lala</i><br/><b>läleis</b> <i>lales</i><br/><b>läis</b> <i>les</i></td>
+					<td><b>liu</b> <i>lu</i><br/><b>eriis</b> <i>enays</i><br/><b>loa</b> <i>wa</i></td>
+					<td><b>lä</b> <i>la</i></td>
+					<td><b>läl</b> <i>law</i></td>
+      	</tr>
+				<tr>
+					<th>LOC.COP</th>
+					<td><b>seons</b> <i>hyow̃s</i></td>
+					<td><b>seon</b> <i>hyow̃</i><br/><b>aeis</b> <i>es</i><br/><b>sis</b> <i>his</i></td>
+					<td><b>seosk</b> <i>hyosk</i><br/><b>siis</b> <i>says</i><br/><b>soa</b> <i>swa</i></td>
+					<td><b>ar</b> <i>ar</i></td>
+					<td><b>sun</b> <i>sow̃</i></td>
+      	</tr>
+				<tr>
+					<th>NEG.LOC.COP</th>
+					<td><b>nür</b> <i>nür</i></td>
+					<td><b>nüä</b> <i>nẅa</i><br/><b>nüeis</b> <i>nẅis</i><br/><b>nürs</b> <i>nürs</i></td>
+					<td><b>nürk</b> <i>nürk</i><br/><b>nüriis</b> <i>nünays</i><br/><b>nüroa</b> <i>nünwa</i></td>
+					<td><b>nü</b> <i>nü</i></td>
+					<td><b>nür</b> <i>nür</i></td>
+      	</tr>
+			</table>
+			<p>Reduplicated forms of the copula take the verb <b>ar</b> → <b>a(r)-</b> as the base instead. Wherever <b>ar</b> is used suppletively in the present tense, its reduplicated form <b>arar</b> → <b>ara(r)-</b> is used as the base. Past copulae use the perfect tense, never the imperfect tense.</p>
+			<table class="tabNew">
+      	<tr>
+					<th></th>
+					<th>BASE FORM</th>
+					<th>1P SG/SET/PL</th>
+					<th>2P SG/SET/PL</th>
+					<th>3P</th>
+					<th>GERUND</th>
+      	</tr>
+				<tr>
+					<th>COPULA</th>
+					<td><b>ar</b> <i>ar</i></td>
+					<td><b>arn</b> <i>arn</i><br/><b>areis</b> <i>ayes</i><br/><b>ars</b> <i>ars</i></td>
+					<td><b>ark</b> <i>ark</i><br/><b>areriis</b> <i>ayenays</i><br/><b>aroa</b> <i>anwa</i></td>
+					<td><b>ar</b> <i>ar</i></td>
+					<td><b>ar</b> <i>ar</i></td>
+      	</tr>
+				<tr>
+					<th>LOC.COP</th>
+					<td><b>seonons</b> <i>hyonow̃s</i></td>
+					<td><b>seonon</b> <i>hyonow̃</i><br/><b>araeis</b> <i>ayes</i><br/><b>seonsis</b> <i>hyow̃his</i></td>
+					<td><b>seonosk</b> <i>hyonosk</i><br/><b>seonsiis</b> <i>hyow̃says</i><br/><b>seonsoa</b> <i>hyow̃swa</i></td>
+					<td><b>arar</b> <i>anar</i></td>
+					<td><b>nosun</b> <i>nosow̃</i></td>
+      	</tr>
+				<tr>
+					<th>NEG.LOC.COP</th>
+					<td><b>nünür</b> <i>nünür</i></td>
+					<td><b>nünüä</b> <i>nünẅa</i><br/><b>nünüeis</b> <i>nünẅis</i><br/><b>nünürs</b> <i>nünürs</i></td>
+					<td><b>nünürk</b> <i>nünürk</i><br/><b>nünüriis</b> <i>nününays</i><br/><b>nünüroa</b> <i>nününwa</i></td>
+					<td><b>nünü</b> <i>nünü</i></td>
+					<td><b>nünür</b> <i>nünür</i></td>
+      	</tr>
+			</table>
+			<p>The resultant semantic voids are filled with the verbs <b>lälugu</b> <span class="grayNew">live</span> (from <b>läl</b> <span class="grayNew">*stay</span> + <b>ugu</b> <span class="grayNew">house</span>), <b>dosuepeul</b> <span class="grayNew">remain, stay still, be silent</span> (from <b>dosue</b> <span class="grayNew">move</span> + <b>peul</b> <span class="grayNew">not</span>), and <b>gimisdar</b> <span class="grayNew">stand</span> (from <b>gir</b> <span class="grayNew">fight</span> + <b>misda</b> <span class="grayNew">again</span>).</p>
+			
+			<h5 id="11_4">4. Irregular verbs</h5>
+			<p>There are six irregular verbs. Two of these are verbs of movement - <b>pag</b> <span class="grayNew">go</span> and <b>näl</b> <span class="grayNew">come</span>. The other four are no longer used in their original meanings and are preserved only as auxiliary verbs or in set expressions - <b>ba</b> <span class="grayNew">*do</span>, <b>nors</b> <span class="grayNew">*take</span>, <b>räbe</b> <span class="grayNew">*give</span>, <b>dansk</b> <span class="grayNew">*say</span>.</p>
+			<table class="tabNew">
+      	<tr>
+					<th></th>
+					<th>BASE FORM</th>
+					<th>1P</th>
+					<th>2P</th>
+					<th>3P</th>
+					<th>GERUND</th>
+      	</tr>
+				<tr>
+					<th>GO</th>
+					<td><b>pag</b> <i>pag</i></td>
+					<td><b>pask</b> <i>pask</i></td>
+					<td><b>pägkiu</b> <i>pyacchu</i></td>
+					<td><b>pa</b> <i>pa</i></td>
+					<td><b>page</b> <i>paje</i></td>
+      	</tr>
+				<tr>
+					<th>COME</th>
+					<td><b>näl</b> <i>nyaw</i></td>
+					<td><b>nän</b> <i>nyaw̃</i></td>
+					<td><b>nälk</b> <i>nyawk</i></td>
+					<td><b>näl</b> <i>nyaw</i></td>
+					<td><b>näl</b> <i>nyaw</i></td>
+      	</tr>
+				<tr>
+					<th>*DO</th>
+					<td><b>ba</b> <i>va</i></td>
+					<td><b>bans</b> <i>vaw̃s</i></td>
+					<td><b>bao</b> <i>vo</i></td>
+					<td><b>ba</b> <i>va</i></td>
+					<td><b>bü</b> <i>vü</i></td>
+      	</tr>
+				<tr>
+					<th>*TAKE</th>
+					<td><b>nors</b> <i>nors</i></td>
+					<td><b>norn</b> <i>norn</i></td>
+					<td><b>norsk</b> <i>norsk</i></td>
+					<td><b>nor</b> <i>nor</i></td>
+					<td><b>sar</b> <i>sar</i></td>
+      	</tr>
+				<tr>
+					<th>*GIVE</th>
+					<td><b>räbe</b> <i>yavye</i></td>
+					<td><b>räb'n</b> <i>yaẅn</i></td>
+					<td><b>rebkiu</b> <i>yecchu</i></td>
+					<td><b>räb</b> <i>yav</i></td>
+					<td><b>räbee</b> <i>yavi</i></td>
+      	</tr>
+				<tr>
+					<th>*SAY</th>
+					<td><b>dansk</b> <i>daw̃sk</i></td>
+					<td><b>dan</b> <i>daw̃</i></td>
+					<td><b>do</b> <i>do</i></td>
+					<td><b>da</b> <i>da</i></td>
+					<td><b>kuns</b> <i>kow̃s</i></td>
+      	</tr>
+			</table>
+			<p>Reduplicated forms are regular for the most part.</p>
+			<table class="tabNew">
+      	<tr>
+					<th></th>
+					<th>BASE FORM</th>
+					<th>1P</th>
+					<th>2P</th>
+					<th>3P</th>
+					<th>GERUND</th>
+      	</tr>
+				<tr>
+					<th>GO</th>
+					<td><b>pabag</b> <i>pavag</i></td>
+					<td><b>pabask</b> <i>pavask</i></td>
+					<td><b>pabägkiu</b> <i>pavyácchu</i></td>
+					<td><b>paba</b> <i>pava</i></td>
+					<td><b>pabage</b> <i>pavaje</i></td>
+      	</tr>
+				<tr>
+					<th>COME</th>
+					<td><b>nänäl</b> <i>nyanyaw</i></td>
+					<td><b>nänän</b> <i>nyanyaw̃</i></td>
+					<td><b>nänälk</b> <i>nyanyawk</i></td>
+					<td><b>nänäl</b> <i>nyanyaw</i></td>
+					<td><b>nänäl</b> <i>nyanyaw</i></td>
+      	</tr>
+				<tr>
+					<th>*DO</th>
+					<td><b>baba</b> <i>vava</i></td>
+					<td><b>babans</b> <i>vavaw̃s</i></td>
+					<td><b>babao</b> <i>vavo</i></td>
+					<td><b>baba</b> <i>vava</i></td>
+					<td><b>bäbü</b> <i>vyavü</i></td>
+      	</tr>
+				<tr>
+					<th>*TAKE</th>
+					<td><b>nonors</b> <i>nonors</i></td>
+					<td><b>nonorn</b> <i>nonorn</i></td>
+					<td><b>nonorsk</b> <i>nonorsk</i></td>
+					<td><b>nonor</b> <i>nonor</i></td>
+					<td><b>nosar</b> <i>nosar</i></td>
+      	</tr>
+				<tr>
+					<th>*GIVE</th>
+					<td><b>räbebe</b> <i>yavyevye</i></td>
+					<td><b>räbeb'n</b> <i>yavyeẅn</i></td>
+					<td><b>räbebkiu</b> <i>yavyécchu</i></td>
+					<td><b>räbeb</b> <i>yavyev</i></td>
+					<td><b>räbebee</b> <i>yavyevi</i></td>
+      	</tr>
+				<tr>
+					<th>*SAY</th>
+					<td><b>dankans</b> <i>daw̃kaw̃s</i></td>
+					<td><b>dankan</b> <i>daw̃kaw̃</i></td>
+					<td><b>danko</b> <i>daw̃ko</i></td>
+					<td><b>danka</b> <i>daw̃ka</i></td>
+					<td><b>kasun</b> <i>kasow̃</i></td>
+      	</tr>
+			</table>
+			<p>These conjugations also apply to any compound verbs where the head verb is irregular, e.g. <b>daäbensk</b> <span class="grayNew">talk</span> (<b>dansk</b> + <b>räbe</b>) conjugates as follows: <b>daäben</b>, <b>doäbe</b>, <b>daäbe</b>, <b>äbekuns</b>, REDUP: <b>daäbenkans</b>, <b>daäbenkan</b>, <b>daäbenko</b>, <b>daäbenka</b>, <b>äbenkasun</b>.</p>
+			<p>The resultant semantic voids are filled with the verbs <b>peom</b> <span class="grayNew">do, make, create</span>, <b>padal</b> <span class="grayNew">receive, accept</span> or <b>dont</b> <span class="grayNew">hold, take, get, have</span> or <b>dii</b> <span class="grayNew">choose, take</span>, <b>kuso</b> <span class="grayNew">give, offer, prepare</span>, and <b>läl üta</b> <span class="grayNew">say</span> (from <b>läl</b> <span class="grayNew">be</span> + <b>üta</b> <span class="grayNew">like</span>).</p>
+			
+			<h5 id="11_5">5. Negation and interrogation</h5>
+			<p>With the exception of the copulae, verbs are negated with a prefix <b>pi-</b> before vowels and <b>pii-</b> before consonants; this stems from the verb <b>piir</b> <span class="grayNew">differ</span>. The copula is negated by placing its complement in the genitive case, cf. <b>Lä dü ugu mion.</b> <span class="grayNew">A house is a place.</span> (COP-3P place house 3EUM.) and <b>Lä südü bamt mion.</b> <span class="grayNew">A flower is not a place.</span> (COP-3P GEN-place flower 3EUM). This is because the copula stems from the verb meaning <span class="grayNew">stay</span> and the genitive conveys the meaning of <span class="grayNew">staying (away) from</span>. When the complement is an adjective, the inanimate genitive prefix is used. The locative copula is negated with the verb <b>nür</b>.</p>
+			<p>Verbs are negated only in definite sentences. Sentences with transitive verbs whose DO is not a pronoun or a noun followed by a definite article, demonstrative or possessive pronoun are negated by attaching the negative article to the DO.</p>
+			<p>The negative prefix precedes any tense/aspect marking, including the conditional form, e.g. <b>Piorpeomk kipa, äbpeoms näpa.</b> <span class="grayNew">If you don't do it, I will.</span> (NEG-GEN-do-2P 2SG-3OUM, DAT-do-1P 1SG-3OUM.). Gerunds of negated verbs function as nouns and case prefixes are therefore placed before the negative prefix, e.g. <b>kus spielii</b> lit. <span class="grayNew">person of not-seeing</span> = <span class="grayNew">person who doesn't see</span> (person GEN-NEG-see-GER).</p>
+			<p>Questions are marked with a verbal prefix <b>dar-</b> before vowels and <b>da-</b> before consonants; this stems from the verb <b>darn</b> <span class="grayNew">other</span>. The interrogative prefix always precedes the negative prefix, if one is used. The two prefixes always precede tense/aspect prefixes. This prefix is subject to umlaut. The combination of the two in the form <b>däpii</b> can be used as a tag.</p>
+			
+			<h5 id="11_6">6. Imperatives</h5>
+			<p class="noSpace">Imperatives are formed by using the conditional tense. The negative form is used for affirmative imperatives and the affirmative form is used for negative imperatives. The subject of the clause is the recepient of the imperative; if the SDOAUX is <b>kiulu</b>, it is typically omitted.</p>
+			<ul class="newUl">
+				<li><b>Ornälk limi (kiulu).</b> lit. <span class="grayNew">If you come here.</span> = <span class="grayNew">Don't come here.</span> (GEN-come-2P DAT-here [2SG].)</li>
+				<li><b>Piortusp spa.</b> lit. <span class="grayNew">If we don't kill him.</span> = <span class="grayNew">Let's kill him.</span> (NEG-GEN-kill-1P 1PL-3OUM.)</li>
+				<li><b>Ürnü liuu ololo äbpa mionon.</b> lit. <span class="grayNew">If there isn't a good life for him.</span> = <span class="grayNew">May he have a good life.</span> (GEN-NEG.LOC.COP-3P life-REDUP good-REDUP DAT-3OUM 3EM.)</li>
+			</ul>
+			
+			<h5 id="11_7">7. Passive and causative voice</h5>
+			<p class="noSpace">Passive and causative voice is expressed with the auxiliaries <b>nors</b> <span class="grayNew">take</span> and <b>räbe</b> <span class="grayNew">give</span> respectively. The verbs are followed by gerunds. In passive constructions, the agent is expressed with the genitive as in <span class="grayNew">He takes the woman's killing.</span> = <span class="grayNew">He is killed by a woman.</span>, unless the verb takes any arguments, in which case the agent is expressed with the particle <b>bans</b> and placed directly after the gerund of the lexical verb, or after the gerund of the auxiliary <b>räbe</b> in passive causative constructions.</p>
+			<ul class="newUl">
+				<li><b>Nonor ekki tipi (ormonk) arärä.</b> lit. <span class="grayNew">The man took the woman's killing.</span> = <span class="grayNew">The man was killed by the woman.</span> (take-REDUP-3P man kill-GER [GEN-woman] 3WUM-3WUM.)</li>
+				<li><b>Ebnüä lisar stiii bans pa sugu rän.</b> lit. <span class="grayNew">I can't take choosing of my house by him.</span> = <span class="grayNew">I can't have my house chosen by him.</span> (DAT-NEG.LOC.COP-1SG DAT-take-GER GEN-choose-GER by 3OUM GEN-house GEN-1SG.)</li>
+				<li><b>Räb nalul libamt liubatum tärion.</b> lit. <span class="grayNew">Water gives blossoming to flowers.</span> = <span class="grayNew">Water makes flowers blossom.</span> (give-3P water DAT-flower blossom-GER 3NUM-3EUM.)</li>
+				<li><b>Räb monk äbekki diii sugu mirä.</b> lit. <span class="grayNew">The woman gives a house's choosing to the man.</span> = <span class="grayNew">The woman makes/lets the man choose a house.</span> (give-3P woman DAT-man choose-GER GEN-house 3EUM-3WUM.)</li>
+				<li><b>Räbeb'n äbmonk kusoo spamt äbekki näläb.</b> lit. <span class="grayNew">I gave a flower's offering to the man to the woman.</span> = <span class="grayNew">I made/let the woman give a flower to the man.</span> (give-REDUP-1P DAT-woman offer-GER GEN-flower DAT-man 1SG-3SUM.)</li>
+				<li><b>Äbnorn räbee bans pa siti semikaäbbaba nipa näläb.</b> lit. <span class="grayNew">I will take the giving of ending his task by him.</span> = <span class="grayNew">I will be made by him to end his task.</span> (DAT-take-1P give-GER by 3OUM GEN-end-GER GEN-task GEN-3OUM 1SG-3SUM.)</li>
+			</ul>
+			
+			<h5 id="11_8">8. Impersonal and reflexive expressions</h5>
+			<p class="noSpace">In every clause, the subject must be overtly stated. For impersonal sentences, the demonstrative <b>gä</b> can be used as a generic subject.</p>
+			<ul class="newUl">
+				<li><b>Lä gä mibie pa.</b> <span class="grayNew">It is daytime.</span> (COP-3P DEM daytime 3OUM.)</li>
+				<li><b>Elili gä kus papa.</b> <span class="grayNew">A person was seen. / They saw a person.</span> (see-REDUP-3P DEM person 3OUM-3OUM.)</li>
+				<li><b>Ebnü gä lidotun skä pa.</b> <span class="grayNew">You / One cannot take this.</span> (DAT-NEG.LOC.COP-3P DEM DAT-take-GER GEN-DEM 3OUM.)</li>
+			</ul>
+			<p class="noSpace">The reflexive pronoun <b>go</b> can be used as a direct or indirect object. It has no SDOAUX form, so reflexive sentences only feature the subject form in the SDOAUX. In the genitive case, it can be helpful in distinguishing possession in the third person. It can also be used after a noun to mean <span class="grayNew">itself</span>, as in <span class="grayNew">something itself</span>.</p>
+			<ul class="newUl">
+				<li><b>Tudusp go nä.</b> <span class="grayNew">I killed myself.</span> (kill-REDUP-1P REFL 1SG.)</li>
+				<li><b>Elili ugu nipa pion.</b> <span class="grayNew">He saw his (another person's) house.</span> (see-REDUP-3P house GEN-3OUM 3OUM-3EUM.)</li>
+				<li><b>Elili ugu nigo pion.</b> <span class="grayNew">He saw his (own) house.</span> (see-REDUP-3P house GEN-REFL 3OUM-3EUM.)</li>
+				<li><b>Paba nid ako go lipielilin läb.</b> <span class="grayNew">The sun itself has died.</span> (go-REDUP-3P sun DEF.ART REFL DAT-unknown 3SUM.)</li>
+			</ul>
+			<p class="noSpace">To reinforce a personal pronoun, if the pronoun is the subject or direct object, it is repeated in the clause in the isolate form, thus existing both in the SDOAUX and the main part of the clause. However, if the personal pronoun is not the subject or direct object, the reflexive <b>go</b> is used after it as a modifier.</p>
+			<ul class="newUl">
+				<li><b>Elilikiu kiulu rot olo äbkus ebbis gä kipa.</b> <span class="grayNew">You yourself know that better than anyone.</span> (know-2P 2SG by good DAT-person DAT-every DEM 2SG-3OUM.)</li>
+				<li><b>Daäbenkan äbpa äbgo nä.</b> <span class="grayNew">I talked to him himself.</span> (talk-REDUP-1P DAT-3OUM DAT-REFL 1SG.)</li>
+			</ul>
+			<p class="noSpace">The reflexive pronoun in the dative case is often used adverbially in sentences in which the subject does something to oneself or for one's own benefit, rather than for someone else. It is typically placed directly after the verb.</p>
+			<ul class="newUl">
+				<li><b>Paba äbgo lugu pa.</b> <span class="grayNew">He went to the house.</span> (go-REDUP-3P DAT-REFL DAT-house 3OUM.)</li>
+				<li><b>Dononst äbgo bamt nä.</b> <span class="grayNew">I got (myself) a flower.</span> (get-REDUP-1P DAT-REFL flower 1SG.)</li>
+			</ul>
+			
+			<h5 id="11_9">9. Modality</h5>
+			<p>a</p>
+			
+			<h5 id="11_10">10. Non-finite forms</h5>
+			<p class="noSpace">The word <b>bans</b> <span class="grayNew">for</span> can be used to mean <span class="grayNew">in order to</span> if followed by a gerund, or <span class="grayNew">because</span> if followed by a clause. In the first case, the direct object is in the genitive case, and indirect objects are treated as adverbial phrases, much like the case with locative copula constructions.</p>
+			<ul class="newUl">
+				<li><b>bans gir</b> lit. <span class="grayNew">for fighting</span> = <span class="grayNew">in order to fight</span> (for fight-GER)</li>
+				<li><b>Dosuepeulul bans tipi rän pa.</b> lit. <span class="grayNew">He stayed for my killing.</span> = <span class="grayNew">He stayed in order to kill me.</span> (stay-REDUP-3P for kill-GER GEN-1SG 3OUM.)</li>
+				<li><b>Pabask limii bans piikusoo spamt äbmonk nä.</b> lit. <span class="grayNew">I went there for the not giving of the flower to the woman.</span> = <span class="grayNew">I went there in order not to give the flower to the woman.</span> (go-REDUP-1P DAT-there for NEG-give-GER GEN-flower DAT-woman 1SG.)</li>
+			</ul>
+			<p class="noSpace">When <b>bans</b> is used to mean <span class="grayNew">because</span>, the main verb is also in the gerund form, but the subject is marked with the word <b>bans</b>, similarly to agents in passive clauses. In such constructions, the subject followed by <b>bans</b> is placed before a potential direct object, which is in the genitive form. In this meaning, the construction can also mean <span class="grayNew">so that something happens</span>.</p>
+			<ul class="newUl">
+				<li><b>bans gir bans nä</b> lit. <span class="grayNew">for fighting by me</span> = <span class="grayNew">because I fight</span> (for fight-GER for 1SG)</li>
+				<li><b>Dosuepeulul bans äbpage bans nä lipielilin pa.</b> lit. <span class="grayNew">He stayed for to-dying by me.</span> = <span class="grayNew">He stayed so that I would die.</span> (stay-REDUP-3P for DAT-go-GER for 1SG DAT-unknown 3OUM.)</li>
+				<li><b>bans äbsun likusoo bans neis spamt äbekki</b> lit. <span class="grayNew">for to-being at the giving by us of the flower to the man</span> = <span class="grayNew">because we can give the flower to the man</span> (for DAT-LOC.COP-GER DAT-give-GER by 1SET GEN-flower DAT-man)</li>
+				<li><b>Peomom bans piäbenkasun bans nä nipa gä papa.</b> lit. <span class="grayNew">He did it for not having talked about him by me.</span> = <span class="grayNew">He did it because I didn't talk about him.</span> (do-REDUP-3P for NEG-talk-REDUP-GER by 1SG GEN-3OUM DEM 3OUM-3OUM.)</li>
+			</ul>
+      <p class="noSpace">The word <b>eli</b> <span class="grayNew">with</span> can be used to mean <span class="grayNew">while doing</span> if followed by a gerund, and <span class="grayNew">having done</span> if followed by a perfect (reduplicated) gerund. The form is impersonal by default, but the subject can be specified using <b>bans</b>. All structural rules which apply to the aforementiones <b>bans</b> as <span class="grayNew">in order to</span> or <span class="grayNew">because</span> apply to <b>eli</b> as well.</p>
+      <ul class="newUl">
+				<li><b>eli lipeomu</b> lit. <span class="grayNew">with doing</span> = <span class="grayNew">while doing</span> (with DAT-do-GER)</li>
+        <li><b>eli likusoo spamt äb'n</b> lit. <span class="grayNew">with giving of the flower to me</span> = <span class="grayNew">while giving a flower to me</span> (with DAT-give-GER GEN-flower DAT-1SG)</li>
+        <li><b>Paba lipielilin eli ligir nipa pa.</b> lit. <span class="grayNew">He died with his fighting.</span> = <span class="grayNew">He died while fighting him.</span> (go-REDUP-3P DAT-unknown with DAT-fight-GER GEN-3OUM 3OUM.)</li>
+        <li><b>Paba lipielilin eli lisun ligir bans pa go pa.</b> lit. <span class="grayNew">He died with being at the fighting by himself.</span> = <span class="grayNew">He died while he (himself) was fighting.</span> (go-REDUP-3P DAT-unknown with DAT-LOC.COP-GER DAT-fight-GER by 3OUM 3OUM.)</li>
+        <li><b>eli linänäl lugu</b> lit. <span class="grayNew">with having come to the house</span> = <span class="grayNew">having come to the house</span> (with DAT-come-REDUP-GER DAT-house)</li>
+        <li><b>Gimistadar eli lipabage bans nä pa.</b> lit. <span class="grayNew">He stood with having gone by me.</span> = <span class="grayNew">He stood up after I went.</span> (stand-REDUP-3P with DAT-go-REDUP-GER by 1SG 3OUM.)</li>
+      </ul>
+      <p class="noSpace">The word <b>rütnü</b> <span class="grayNew">without</span> can be used to mean <span class="grayNew">without doing</span> if followed by a gerund. The form is impersonal by default, but similarly to <b>eli</b>, the subject can be marked with <b>bans</b>.</p>
+      <ul class="newUl">
+				<li><b>rütnü peomu</b> <span class="grayNew">without doing</span> (without do-GER)</li>
+        <li><b>Pabask lipielilin rütnü räbee bans pa seniko äb'n nä.</b> lit. <span class="grayNew">I died without loving by him of me.</span> = <span class="grayNew">I died without him loving me.</span> (go-REDUP-1P DAT-unknown without give-GER by 3OUM GEN-love DAT-1SG 1SG.)</li>
+      </ul>
+			<p class="noSpace">The word <b>rot</b> <span class="grayNew">by</span> can be used to mean <span class="grayNew">by doing</span>, <span class="grayNew">if one does</span> or <span class="grayNew">one should do</span>. It follows the same structural rules as <b>bans</b>, <b>eli</b> and <b>rütnü</b>. However, if used to mean <span class="grayNew">one should do</span>, it is used clause-initially before a conjugated verb with no additional marking.</p>
+			<ul class="newUl">
+				<li><b>Doeseli gä rot skimistar limii ugu pion.</b> <span class="grayNew">By standing there you can see the house.</span> (can-see-3P DEM by GEN-stand-GER DAT-there house 3OUM-3EUM.)</li>
+        <li><b>Äbseosk liläl mirn rot spiitipi bans nä rekki.</b> lit. <span class="grayNew">Through the man's not killing by me you may be sad.</span> = <span class="grayNew">If I don't kill the man you may be sad.</span> (DAT-LOC.COP-2SG DAT-COP-GER sad by GEN-NEG-kill-GER by 1SG GEN-man.)</li>
+				<li><b>Rot rättekiu meis mikauso kiläb.</b> lit. <span class="grayNew">By (the fact) you tell us the truth.</span> = <span class="grayNew">You should tell us the truth.</span> (by tell-2P DAT-1SET truth 2SG-3SUM.)</li>
+      </ul>
+			
+      <h5 id="11_11">11. Other forms</h5>
+			<p>a</p>
+		<p style="color: red;">seem, become, smell, feel + adv, noun</p>
+			
+		<h4 id="12">Word formation</h4>
+		<p class="noSpace">Since the language is head-initial, in compounds which do not agree in class and the class is dictated by the head noun, the ending of the head noun must be moved to the end of the word, using non-concatenative processes:</p>
+		<ul class="newUl">
+			<li>- if the head noun is monosyllabic and ends in V: copy the V to the end of the word</li>
+			<li>- if the head noun is not monosyllabic and ends in V: move the V to the end of the word unless an illegal cluster emerges, in which case copy the V to the end of the word</li>
+			<li>- if the head noun ends in C(s): move the C(s) to the end of the word</li>
+			<li>- break up any remaining illegal clusters with vowels identical in quality to the preceding vowel (insert the vowel as late as possible - <b>Vnskrsk</b> → <b>VnskVrsk</b>)</li>
+			<li>- also break up clusters if they change class, e.g. <b>tup</b> <span class="grayNew">kill</span> W + <b>kus</b> <span class="grayNew">person</span> O → <b>*tukusp</b> O → <b>tukusup</b> <span class="grayNew">murder</span> W</li>
+		</ul>
+		
+			
+		<p style="color: red;">compounds, zero-der, class changing, pos changing, shortenings, affixes for people (er) thing (ness, ity, etc) </p>
+	    
+	    	<h4 id="13">Syntax</h4>
+			<p style="color: red;">word order, compound sentences, relative clauses</p>
+        
+		<h4 id="14">Appendix 1 - SDOAUX</h4>
+		<table class="tabNewTight">
+			<tr>
+				<th colspan="2" rowspan="2" style="text-align: center;">COLUMNS - S<br/>ROWS - DO</th>
+				<th>1SG</th>
+				<th>1SET</th>
+				<th>1PL</th>
+				<th>2SG</th>
+				<th>2SET</th>
+				<th>2PL</th>
+				<th>3NUM</th>
+				<th>3NM</th>
+				<th>3SUM</th>
+				<th>3SM</th>
+				<th>3WUM</th>
+				<th>3WM</th>
+				<th>3EUM</th>
+				<th>3EM</th>
+				<th>3OUM</th>
+				<th>3OM</th>
+			</tr>
+			<tr>
+				<th><b>N(Ä)-</b><br/><i>N(YA)-</i></th>
+				<th><b>NE-</b><br/><i>NYE-</i></th>
+				<th><b>S(I)-</b><br/><i>H(I)-</i></th>
+				<th><b>KI-</b><br/><i>CHI-</i></th>
+				<th><b>LII-</b><br/><i>WAY-</i></th>
+				<th><b>LUO-</b><br/><i>WO-</i></th>
+				<th><b>TAR-</b><br/><i>TAR-</i></th>
+				<th><b>TAD-</b><br/><i>TAD-</i></th>
+				<th><b>LÄ-</b><br/><i>LA-</i></th>
+				<th><b>LÄLÄ-</b><br/><i>LALA-</i></th>
+				<th><b>ARÄ-</b><br/><i>AYA-</i></th>
+				<th><b>ARI-</b><br/><i>AI-</i></th>
+				<th><b>M(I)-</b><br/><i>M(I)-</i></th>
+				<th><b>MION-</b><br/><i>MYOW̃-</i></th>
+				<th><b>P(A)-</b><br/><i>P(A)-</i></th>
+				<th><b>PAB-</b><br/><i>PAV-</i></th>
+			</tr>
+			<tr>
+				<th>1SG</th>
+				<th><b>-(Ä)N</b><br/><i>-(A)W̃</i></th>
+				<td>--------<br/>--------</td>
+				<td><b>nen</b><br/><i>nyew̃</i></td>
+				<td><b>sän</b><br/><i>hyaw̃</i></td>
+				<td><b>kin</b><br/><i>chew̃</i></td>
+				<td><b>liin</b><br/><i>wayn</i></td>
+				<td><b>luon</b><br/><i>wow̃</i></td>
+				<td><b>tarn</b><br/><i>tarn</i></td>
+				<td><b>tadän</b><br/><i>tajaw̃</i></td>
+				<td><b>län</b><br/><i>law̃</i></td>
+				<td><b>lälän</b><br/><i>lalaw̃</i></td>
+				<td><b>arän</b><br/><i>ayaw̃</i></td>
+				<td><b>arin</b><br/><i>ayew̃</i></td>
+				<td><b>män</b><br/><i>myaw̃</i></td>
+				<td><b>mionän</b><br/><i>myonyaw̃</i></td>
+				<td><b>pän</b><br/><i>pyaw̃</i></td>
+				<td><b>pabän</b><br/><i>pavyaw̃</i></td>
+			</tr>
+			<tr>
+				<th>1SET</th>
+				<th><b>-EIS</b><br/><i>-YES</i></th>
+				<td><b>neis</b><br/><i>nyes</i></td>
+				<td>--------<br/>--------</td>
+				<td><b>seis</b><br/><i>hyes</i></td>
+				<td><b>kieis</b><br/><i>chiyes</i></td>
+				<td><b>liieis</b><br/><i>wayyes</i></td>
+				<td><b>luoeis</b><br/><i>woyes</i></td>
+				<td><b>tareis</b><br/><i>tayes</i></td>
+				<td><b>tadeis</b><br/><i>tajes</i></td>
+				<td><b>läeis</b><br/><i>layes</i></td>
+				<td><b>läläeis</b><br/><i>lalayes</i></td>
+				<td><b>aräeis</b><br/><i>ayayes</i></td>
+				<td><b>arieis</b><br/><i>aiyes</i></td>
+				<td><b>meis</b><br/><i>myes</i></td>
+				<td><b>mioneis</b><br/><i>myonyes</i></td>
+				<td><b>peis</b><br/><i>pyes</i></td>
+				<td><b>pabeis</b><br/><i>pavyes</i></td>
+			</tr>
+			<tr>
+				<th>1PL</th>
+				<th><b>ü-(I)S</b><br/><i>ü-(I)S</i></th>
+				<td><b>nis</b><br/><i>nis</i></td>
+				<td><b>nes</b><br/><i>nyes</i></td>
+				<td>--------<br/>--------</td>
+				<td><b>kis</b><br/><i>chis</i></td>
+				<td><b>liis</b><br/><i>ways</i></td>
+				<td><b>luos</b><br/><i>wos</i></td>
+				<td><b>tars</b><br/><i>tars</i></td>
+				<td><b>tädis</b><br/><i>chajis</i></td>
+				<td><b>läs</b><br/><i>las</i></td>
+				<td><b>läläs</b><br/><i>lalas</i></td>
+				<td><b>aräs</b><br/><i>ayas</i></td>
+				<td><b>aris</b><br/><i>ais</i></td>
+				<td><b>mis</b><br/><i>mis</i></td>
+				<td><b>mions</b><br/><i>myow̃s</i></td>
+				<td><b>pis</b><br/><i>pis</i></td>
+				<td><b>päbis</b><br/><i>pyavis</i></td>
+			</tr>
+			<tr style="height: 20px;"></tr>
+			<tr>
+				<th>2SG</th>
+				<th><b>-LU</b><br/><i>-U</i></th>
+				<td><b>nälu</b><br/><i>nyaú</i></td>
+				<td><b>nelu</b><br/><i>nyeú</i></td>
+				<td><b>silu</b><br/><i>hiú</i></td>
+				<td>--------<br/>--------</td>
+				<td><b>liilu</b><br/><i>wayú</i></td>
+				<td><b>luolu</b><br/><i>woú</i></td>
+				<td><b>tarlu</b><br/><i>tawnú</i></td>
+				<td><b>tadlu</b><br/><i>tawdú</i></td>
+				<td><b>lälu</b><br/><i>laú</i></td>
+				<td><b>lälälu</b><br/><i>lalaú</i></td>
+				<td><b>arälu</b><br/><i>ayaú</i></td>
+				<td><b>arilu</b><br/><i>aiú</i></td>
+				<td><b>milu</b><br/><i>miú</i></td>
+				<td><b>mionlu</b><br/><i>myownú</i></td>
+				<td><b>palu</b><br/><i>paú</i></td>
+				<td><b>pablu</b><br/><i>pavú</i></td>
+			</tr>
+			<tr>
+				<th>2SET</th>
+				<th><b>ü-(L)IIS</b><br/><i>ü-(W)AYS</i></th>
+				<td><b>niis</b><br/><i>nays</i></td>
+				<td><b>neliis</b><br/><i>nyeways</i>*</td>
+				<td><b>siis</b><br/><i>says</i></td>
+				<td><b>kiliis</b><br/><i>chiways</i>*</td>
+				<td>--------<br/>--------</td>
+				<td><b>luoliis</b><br/><i>woways</i>*</td>
+				<td><b>täriis</b><br/><i>chanays</i></td>
+				<td><b>tädiis</b><br/><i>chadays</i></td>
+				<td><b>läliis</b><br/><i>laways</i>*</td>
+				<td><b>läläliis</b><br/><i>lalaways</i>*</td>
+				<td><b>aräliis</b><br/><i>ayaways</i>*</td>
+				<td><b>ariliis</b><br/><i>aiways</i>*</td>
+				<td><b>miis</b><br/><i>mays</i></td>
+				<td><b>mieniis</b><br/><i>minays</i></td>
+				<td><b>piis</b><br/><i>pays</i></td>
+				<td><b>päbiis</b><br/><i>pyavays</i></td>
+			</tr>
+			<tr>
+				<th>2PL</th>
+				<th><b>-OA</b><br/><i>-WA</i></th>
+				<td><b>noa</b><br/><i>nwa</i></td>
+				<td><b>neoa</b><br/><i>nyewá</i></td>
+				<td><b>soa</b><br/><i>swa</i></td>
+				<td><b>kioa</b><br/><i>chiwá</i></td>
+				<td><b>liioa</b><br/><i>waywá</i></td>
+				<td>--------<br/>--------</td>
+				<td><b>taroa</b><br/><i>tanwá</i></td>
+				<td><b>tadoa</b><br/><i>tadwá</i></td>
+				<td><b>läoa</b><br/><i>lawá</i></td>
+				<td><b>läläoa</b><br/><i>lalawá</i></td>
+				<td><b>aräoa</b><br/><i>ayawá</i></td>
+				<td><b>arioa</b><br/><i>aiwá</i></td>
+				<td><b>moa</b><br/><i>mwa</i></td>
+				<td><b>mionoa</b><br/><i>myonwá</i></td>
+				<td><b>poa</b><br/><i>pwa</i></td>
+				<td><b>paboa</b><br/><i>pavwá</i></td>
+			</tr>
+			<tr style="height: 20px;"></tr>
+			<tr>
+				<th>3NUM</th>
+				<th><b>-(A)RK</b><br/><i>-(A)RK</i></th>
+				<td><b>nark</b><br/><i>nark</i></td>
+				<td><b>nerk</b><br/><i>nyerk</i></td>
+				<td><b>sark</b><br/><i>sark</i></td>
+				<td><b>kirk</b><br/><i>chirk</i></td>
+				<td><b>liirk</b><br/><i>wayrk</i></td>
+				<td><b>luork</b><br/><i>work</i></td>
+				<td><b>tarark</b><br/><i>tanark</i></td>
+				<td><b>tadark</b><br/><i>tadark</i></td>
+				<td><b>lärk</b><br/><i>lark</i></td>
+				<td><b>lälärk</b><br/><i>lalark</i></td>
+				<td><b>arärk</b><br/><i>ayark</i></td>
+				<td><b>arirk</b><br/><i>airk</i></td>
+				<td><b>mark</b><br/><i>mark</i></td>
+				<td><b>mionark</b><br/><i>myonark</i></td>
+				<td><b>park</b><br/><i>park</i></td>
+				<td><b>pabark</b><br/><i>pavark</i></td>
+			</tr>
+			<tr>
+				<th>3NM</th>
+				<th><b>-DARK</b><br/><i>-DARK</i></th>
+				<td><b>nädark</b><br/><i>nidark</i>**</td>
+				<td><b>nedark</b><br/><i>nyedark</i></td>
+				<td><b>stark</b><br/><i>stark</i></td>
+				<td><b>kidark</b><br/><i>chidark</i></td>
+				<td><b>liidark</b><br/><i>waydark</i></td>
+				<td><b>luodark</b><br/><i>wodark</i></td>
+				<td><b>tardark</b><br/><i>tardark</i></td>
+				<td><b>taddark</b><br/><i>tattark</i></td>
+				<td><b>lädark</b><br/><i>ladark</i></td>
+				<td><b>lälädark</b><br/><i>laladark</i></td>
+				<td><b>arädark</b><br/><i>ayadark</i></td>
+				<td><b>aridark</b><br/><i>aidark</i></td>
+				<td><b>midark</b><br/><i>midark</i></td>
+				<td><b>miondark</b><br/><i>myow̃dark</i></td>
+				<td><b>padark</b><br/><i>padark</i></td>
+				<td><b>pabdark</b><br/><i>pattark</i></td>
+			</tr>
+			<tr>
+				<th>3SUM</th>
+				<th><b>-LÄB</b><br/><i>-LAV</i></th>
+				<td><b>näläb</b><br/><i>nilav</i>**</td>
+				<td><b>neläb</b><br/><i>nyelav</i></td>
+				<td><b>siläb</b><br/><i>hilav</i></td>
+				<td><b>kiläb</b><br/><i>chilav</i></td>
+				<td><b>liiläb</b><br/><i>waylav</i></td>
+				<td><b>luoläb</b><br/><i>wolav</i></td>
+				<td><b>tarläb</b><br/><i>talav</i></td>
+				<td><b>tadläb</b><br/><i>tawjav</i></td>
+				<td><b>läläb</b><br/><i>lalav</i></td>
+				<td><b>läläläb</b><br/><i>lalalav</i></td>
+				<td><b>aräläb</b><br/><i>ayalav</i></td>
+				<td><b>ariläb</b><br/><i>ailav</i></td>
+				<td><b>miläb</b><br/><i>milav</i></td>
+				<td><b>mionläb</b><br/><i>myownyav</i></td>
+				<td><b>paläb</b><br/><i>palav</i></td>
+				<td><b>pabläb</b><br/><i>pavyav</i></td>
+			</tr>
+			</tr>
+			<tr>
+				<th>3SM</th>
+				<th><b>-(L)ÄLÄB</b><br/><i>-(L)ALAV</i></th>
+				<td><b>näläb</b><br/><i>nilav</i>**</td>
+				<td><b>neäläb</b><br/><i>nyalav</i></td>
+				<td><b>säläb</b><br/><i>hyalav</i></td>
+				<td><b>kiäläb</b><br/><i>chalav</i></td>
+				<td><b>liiäläb</b><br/><i>wayalav</i></td>
+				<td><b>luoläläb</b><br/><i>wolalav</i>*</td>
+				<td><b>taräläb</b><br/><i>tayalav</i></td>
+				<td><b>tadäläb</b><br/><i>tajalav</i></td>
+				<td><b>lääläb</b><br/><i>lelav</i></td>
+				<td><b>lälääläb</b><br/><i>lalelav</i></td>
+				<td><b>arääläb</b><br/><i>ayelav</i></td>
+				<td><b>ariäläb</b><br/><i>ayalav</i></td>
+				<td><b>mäläb</b><br/><i>myalav</i></td>
+				<td><b>mionäläb</b><br/><i>myonyalav</i></td>
+				<td><b>päläb</b><br/><i>pyalav</i></td>
+				<td><b>pabäläb</b><br/><i>pavyalav</i></td>
+			</tr>
+			<tr>
+				<th>3WUM</th>
+				<th><b>-RÄ</b><br/><i>-YA</i></th>
+				<td><b>närä</b><br/><i>niyá</i>**</td>
+				<td><b>nerä</b><br/><i>nyeyá</i></td>
+				<td><b>sirä</b><br/><i>hiyá</i></td>
+				<td><b>kirä</b><br/><i>chiyá</i></td>
+				<td><b>liirä</b><br/><i>wayyá</i></td>
+				<td><b>luorä</b><br/><i>woyá</i></td>
+				<td><b>tarrä</b><br/><i>tayá</i></td>
+				<td><b>tadrä</b><br/><i>tajá</i></td>
+				<td><b>lärä</b><br/><i>layá</i></td>
+				<td><b>lälärä</b><br/><i>lalayá</i></td>
+				<td><b>arärä</b><br/><i>ayayá</i></td>
+				<td><b>arirä</b><br/><i>aiyá</i></td>
+				<td><b>mirä</b><br/><i>miyá</i></td>
+				<td><b>mionrä</b><br/><i>myonyá</i></td>
+				<td><b>parä</b><br/><i>payá</i></td>
+				<td><b>pabrä</b><br/><i>pavyá</i></td>
+			</tr>
+			<tr>
+				<th>3WM</th>
+				<th><b>ü-RI</b><br/><i>ü-I</i></th>
+				<td><b>neri</b><br/><i>nyeí</i></td>
+				<td><b>niri</b><br/><i>nií</i></td>
+				<td><b>siri</b><br/><i>hií</i></td>
+				<td><b>kiri</b><br/><i>chií</i></td>
+				<td><b>liiri</b><br/><i>waí</i></td>
+				<td><b>lieri</b><br/><i>lií</i></td>
+				<td><b>tärri</b><br/><i>chaí</i></td>
+				<td><b>tädri</b><br/><i>chají</i></td>
+				<td><b>leri</b><br/><i>leí</i></td>
+				<td><b>läleri</b><br/><i>laleí</i></td>
+				<td><b>areri</b><br/><i>ayeí</i></td>
+				<td><b>ariri</b><br/><i>aií</i></td>
+				<td><b>miri</b><br/><i>mií</i></td>
+				<td><b>mienri</b><br/><i>miní</i></td>
+				<td><b>päri</b><br/><i>pyaí</i></td>
+				<td><b>päbri</b><br/><i>pyaví</i></td>
+			</tr>
+			<tr>
+				<th>3EUM</th>
+				<th><b>ü-ION</b><br/><i>ü-YOW̃</i></th>
+				<td><b>nion</b><br/><i>nyow̃</i></td>
+				<td><b>neion</b><br/><i>nyeyow̃</i></td>
+				<td><b>sion</b><br/><i>hyow̃</i></td>
+				<td><b>kiion</b><br/><i>chiyow̃</i></td>
+				<td><b>liiion</b><br/><i>wayyow̃</i></td>
+				<td><b>luoion</b><br/><i>woyow̃</i></td>
+				<td><b>tärion</b><br/><i>chayow̃</i></td>
+				<td><b>tädion</b><br/><i>chajow̃</i></td>
+				<td><b>läion</b><br/><i>layow̃</i></td>
+				<td><b>läläion</b><br/><i>lalayow̃</i></td>
+				<td><b>aräion</b><br/><i>ayayow̃</i></td>
+				<td><b>ariion</b><br/><i>aiyow̃</i></td>
+				<td><b>mion</b><br/><i>myow̃</i></td>
+				<td><b>mienion</b><br/><i>minyow̃</i></td>
+				<td><b>pion</b><br/><i>pyow̃</i></td>
+				<td><b>päbion</b><br/><i>pyavyow̃</i></td>
+			</tr>
+			<tr>
+				<th>3EM</th>
+				<th><b>-NON</b><br/><i>-NOW̃</i></th>
+				<td><b>nänon</b><br/><i>ninow̃</i>**</td>
+				<td><b>nenon</b><br/><i>nyenow̃</i></td>
+				<td><b>sinon</b><br/><i>hinow̃</i></td>
+				<td><b>kinon</b><br/><i>chinow̃</i></td>
+				<td><b>liinon</b><br/><i>waynow̃</i></td>
+				<td><b>luonon</b><br/><i>wonow̃</i></td>
+				<td><b>tarnon</b><br/><i>tarnow̃</i></td>
+				<td><b>tadnon</b><br/><i>taynow̃</i></td>
+				<td><b>länon</b><br/><i>lanow̃</i></td>
+				<td><b>lälänon</b><br/><i>lalanow̃</i></td>
+				<td><b>aränon</b><br/><i>ayanow̃</i></td>
+				<td><b>arinon</b><br/><i>ainow̃</i></td>
+				<td><b>minon</b><br/><i>minow̃</i></td>
+				<td><b>mionnon</b><br/><i>myonnow̃</i></td>
+				<td><b>panon</b><br/><i>panow̃</i></td>
+				<td><b>pabnon</b><br/><i>paẅnow̃</i></td>
+			</tr>
+			<tr>
+				<th>3OUM</th>
+				<th><b>-PA</b><br/><i>-PA</i></th>
+				<td><b>näpa</b><br/><i>nipá</i>**</td>
+				<td><b>nepa</b><br/><i>nyepá</i></td>
+				<td><b>spa</b><br/><i>spa</i></td>
+				<td><b>kipa</b><br/><i>chipá</i></td>
+				<td><b>liipa</b><br/><i>waypá</i></td>
+				<td><b>luopa</b><br/><i>wopá</i></td>
+				<td><b>tarpa</b><br/><i>tarpá</i></td>
+				<td><b>tadpa</b><br/><i>tappá</i></td>
+				<td><b>läpa</b><br/><i>lapá</i></td>
+				<td><b>läläpa</b><br/><i>lalapá</i></td>
+				<td><b>aräpa</b><br/><i>ayapá</i></td>
+				<td><b>aripa</b><br/><i>aipá</i></td>
+				<td><b>mipa</b><br/><i>mipá</i></td>
+				<td><b>mionpa</b><br/><i>myow̃pá</i></td>
+				<td><b>papa</b><br/><i>papá</i></td>
+				<td><b>pabpa</b><br/><i>pappá</i></td>
+			</tr>
+			<tr>
+				<th>3OM</th>
+				<th><b>-BA</b><br/><i>-VA</i></th>
+				<td><b>näba</b><br/><i>nivá</i>**</td>
+				<td><b>neba</b><br/><i>nyevá</i></td>
+				<td><b>spa</b><br/><i>spa</i></td>
+				<td><b>kiba</b><br/><i>chivá</i></td>
+				<td><b>liiba</b><br/><i>wayvá</i></td>
+				<td><b>luoba</b><br/><i>wová</i></td>
+				<td><b>tarba</b><br/><i>tarvá</i></td>
+				<td><b>tadba</b><br/><i>tappá</i></td>
+				<td><b>läba</b><br/><i>lavá</i></td>
+				<td><b>läläba</b><br/><i>lalavá</i></td>
+				<td><b>aräba</b><br/><i>ayavá</i></td>
+				<td><b>ariba</b><br/><i>aivá</i></td>
+				<td><b>maba</b><br/><i>mavá</i></td>
+				<td><b>mionba</b><br/><i>myow̃vá</i></td>
+				<td><b>paba</b><br/><i>pavá</i></td>
+				<td><b>pabba</b><br/><i>pappá</i></td>
+			</tr>
+		</table>
+    <p>*<b>l</b> inserted due to no S-final or DO-initial semivowel.<br/>
+			**1SG <b>nä</b> is pronounced as <i>ni</i> before consonants.</p>
+	</div>
+</body>
+</html>
+      
+      
