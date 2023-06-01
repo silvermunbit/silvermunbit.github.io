@@ -197,6 +197,9 @@ h2 {
     background: #ddd;
     color: black;
 }
+#laImg {
+	width: 18px;
+}
 
 footer {
     width: 100%;
