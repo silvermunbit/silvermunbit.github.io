@@ -219,6 +219,9 @@ h2 {
     background: #222;
     z-index: 1; 
 }
+#laImg {
+		width: 20px;
+}
 #newLang:hover {
     background: #333;
     -webkit-transition: .3s ease-in-out;
