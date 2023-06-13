@@ -31,6 +31,9 @@ a {
 b {
     font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', 'sans-serif' !important;
 }
+sub {
+	font-size: 10px;
+}
 
 /* MENU */
 
