@@ -34,6 +34,10 @@ b {
 sub {
 	font-size: 10px;
 }
+sup {
+	font-size: 10px;
+	vertical-align: super;
+}
 
 /* MENU */
 
