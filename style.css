@@ -574,6 +574,7 @@ rt {
 }
 .tabNew * {
 	text-align: left;
+	vertical-align: baseline;
 	background: none !important;
 }
 .tabNewTight * {
