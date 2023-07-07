@@ -38,7 +38,7 @@ sub {
 }
 sup {
 	font-size: 10px;
-	vertical-align: super !important;
+	vertical-align: top !important;
 }
 
 /* MENU */
