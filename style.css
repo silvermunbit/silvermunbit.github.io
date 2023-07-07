@@ -34,6 +34,7 @@ b {
 }
 sub {
 	font-size: 10px;
+	vertical-align: baseline !important;
 }
 sup {
 	font-size: 10px;
@@ -573,7 +574,6 @@ rt {
 }
 .tabNew * {
 	text-align: left;
-	vertical-align: baseline;
 	background: none !important;
 }
 .tabNewTight * {
