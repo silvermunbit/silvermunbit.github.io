@@ -1,0 +1,2080 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gramática</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="../../style.css" rel="stylesheet" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"/>
+<script src="../../libs/jquery-3.1.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.getScript("../../js/buttonUp.js", function () {
+            $.getScript("../../js/settingsButton.js", function () {
+                $.getScript("../../js/nonVocabTheme.js", function () {
+                    $.getScript("../../js/localStorage.js")
+                })
+            })
+        })
+    })
+</script>
+</head>
+<body>
+	<a id="top"></a>
+    <a href="#top" id="up">↑</a>
+    <img id="settingsButton" src="../../gfx/settingsDark.png" alt="settings" />
+    <div id="menu">
+        <h3>TEMA</h3>
+        <a id="lightTheme">Claro</a>
+        <a id="darkTheme">Escuro</a>
+        <h3>LINKS</h3>
+        <a id="homepage" href="../../index.html">Página inicial</a>
+        <a id="mobileToggle" href="../../mobile/html/fr/frGrammar.html">Versão móvel</a>
+    </div>
+    <div id="contentDiv">
+		<h4><b>Ortografia</b></h4><br/>
+	    	<h5><b>Consoantes</b></h5>
+		<table class="fr">
+			<tr>
+				<td>ch ph th gn ç h</td>
+				<td class ="ph">/ʃ/ /f/ /t/ /ɲ/ /s/ ∅</td>
+				<td><b>ch</b> may be <span class="ph">/k/</span></td>
+			</tr>
+			<tr>
+				<td>c g cc gg sc xc</td>
+				<td class ="ph">/s/ /ʒ/ /ks/ /ɡʒ/ /s/ /ks/</td>
+				<td>before <b>e i y</b></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class ="ph">/k/ /ɡ/ /k/ /g/ /sk/ /ksk/</td>
+				<td>elsewhere</td>
+			</tr>
+			<tr>
+				<td>s x</td>
+				<td class ="ph">/z/ /gz/</td>
+				<td>intervocalically</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class ="ph">/s/ /ks/</td>
+				<td>elsewhere</td>
+			</tr>
+			<tr>
+				<td>-b -d -g -p -t -s -x -z</td>
+				<td class ="ph">∅</td>
+				<td>usually</td>
+			</tr>
+			<tr>
+				<td>-ct -pt -st</td>
+				<td class ="ph">/kt/ /pt/ /st/</td>
+				<td><b>-ct</b> may be <span class="ph">/t/</span>, <b>-st</b> silent in <b>est</b></td>
+			</tr>
+			<tr>
+				<td>-ent</td>
+				<td class ="ph">∅</td>
+				<td>in 3rd person plural verb conjugations</td>
+			</tr>
+			<tr>
+				<td>-er</td>
+				<td class ="ph">/e, ɛʁ/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>il ill</td>
+				<td class ="ph">/j/</td>
+				<td>after some V (<b>a e eu œ ou ue</b>, V unaffected by i except <b>ue</b> <span class="ph">/œ/</span>)</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class ="ph">/il/ /ij/</td>
+				<td>elsewhere (<b>ill</b> after C may be <span class="ph">/il/</span>, e.g. in <b>mille, ville</b>)</td>
+			</tr>
+			<tr>
+				<td>ti + V</td>
+				<td class ="ph">/tj/</td>
+				<td>word-initially, word-finally, after <b>s x</b></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class ="ph">/sj/</td>
+				<td>elsewhere (<b>tié</b> is <span class="ph">/ti/</span>, <b>tie</b> may be <span class="ph">/si/</span> or <span class="ph">/ti/</span>)</td>
+			</tr>
+			<tr>
+				<td>ge</td>
+				<td class ="ph">/ʒ/</td>
+				<td>before <b>a o u</b></td>
+			</tr>
+			<tr>
+				<td>gu</td>
+				<td class ="ph">/ɡ/</td>
+				<td>before <b>e i y</b></td>
+			</tr>
+		</table>
+	   	<h5><b>Voyelles</b></h5>
+		<table class="fr">
+			<tr>
+				<td>a</td>
+				<td class ="ph">/a, ɑ/</td>
+				<td>usually <span class="ph">/a/</span>, may be <span class="ph">/ɑ/</span></td>
+			</tr>
+			<tr>
+				<td>â</td>
+				<td class ="ph">/ɑ/</td>
+				<td><span class="ph">/ɑ/</span> merges with <span class="ph">/a/</span> in Parisian French</td>
+			</tr>
+			<tr>
+				<td>e</td>
+				<td class ="ph">/e, ɛ, ə/, ∅</td>
+				<td><span class="ph">/e/</span> in monosyllabic words before a silent C; <span class="ph">/ɛ/</span> before C clusters, final C and <b>x</b>; <span class="ph">/ə/</span> elsewhere; <span class="ph">∅</span> word-finally and sometimes word-medially</td>
+			</tr>
+			<tr>
+				<td>ai</td>
+				<td class ="ph">/ɛ, e, ə/</td>
+				<td>usually <span class="ph">/ɛ/</span>, may be <span class="ph">/e/</span>; <span class="ph">/ə/</span> in <b>faisan</b> and forms of <b>faire</b> starting with <b>fais-</b></td>
+			</tr>
+			<tr>
+				<td>é ée ae</td>
+				<td class ="ph">/e/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>è ê ei aie</td>
+				<td class ="ph">/ɛ/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>eu</td>
+				<td class ="ph">/ø, œ/</td>
+				<td><span class="ph">/ø/</span> word-initially, phonologically word-finally, before <span class="ph">/z/</span>; <span class="ph">/œ/</span> elsewhere</td>
+			</tr>
+			<tr>
+				<td>œu</td>
+				<td class ="ph">/ø, œ/</td>
+				<td><span class="ph">/ø/</span> phonologically word-finally; <span class="ph">/œ/</span> elsewhere</td>
+			</tr>
+			<tr>
+				<td>eû œ</td>
+				<td class ="ph">/ø/ /œ/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>o</td>
+				<td class ="ph">/o, ɔ/</td>
+				<td><span class="ph">/o/</span> word-finally, before <span class="ph">/z/</span>; <span class="ph">/ɔ/</span> elsewhere</td>
+			</tr>
+			<tr>
+				<td>au</td>
+				<td class ="ph">/ɔ, o/</td>
+				<td><span class="ph">/ɔ/</span> before <b>r</b>; <span class="ph">/o/</span> elsewhere</td>
+			</tr>
+			<tr>
+				<td>ô eau</td>
+				<td class ="ph">/o/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>i î y -ie</td>
+				<td class ="ph">/i/</td>
+				<td><span class="ph">/j/</span> before vowels</td>
+			</tr>
+			<tr>
+				<td>u û -ue</td>
+				<td class ="ph">/y/</td>
+				<td><span class="ph">/ɥ/</span> before vowels</td>
+			</tr>
+			<tr>
+				<td>ou -oue</td>
+				<td class ="ph">/u/</td>
+				<td><span class="ph">/w/</span> before vowels</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>ao aou oe oo</td>
+				<td class ="ph">/ao/ /au/ /ɔe/ /ɔɔ/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>ay ey -aye</td>
+				<td class ="ph">/ɛj/</td>
+				<td><b>ay</b> may be <span class="ph">/aj/</span></td>
+			</tr>
+			<tr>
+				<td>oi oî oie eoi oê</td>
+				<td class ="ph">/wa/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>oy</td>
+				<td class ="ph">/waj/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>uy uill</td>
+				<td class ="ph">/ɥij/</td>
+				<td></td>
+			</tr>
+		</table>
+	    	<h5><b>Voyelles nasales</b></h5>
+		<table class="fr">
+			<tr>
+				<td>am an em en aon</td>
+				<td class ="ph">/ɑ̃/</td>
+				<td><b>am</b> is <span class="ph">/am/</span> word-finally</td>
+			</tr>
+			<tr>
+				<td>im in ym yn aim ain eim ein éen</td>
+				<td class ="ph">/ɛ̃/</td>
+				<td><b>ym</b> may be <span class="ph">/im/</span></td>
+			</tr>
+			<tr>
+				<td>um un aun eun</td>
+				<td class ="ph">/œ̃/</td>
+				<td>merges with <span class="ph">/ɛ̃/</span> in Parisian French; <b>um</b> may be <span class="ph">/ɔm/</span></td>
+			</tr>
+			<tr>
+				<td>om on</td>
+				<td class ="ph">/õ/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>iem ien yen</td>
+				<td class ="ph">/jɛ̃/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>oin oën</td>
+				<td class ="ph">/wɛ̃/</td>
+				<td></td>
+			</tr>
+	    	</table>
+		
+	    	<h4><b>Alphabet</b></h4>
+	    	<table class="fr">
+			<tr>
+				<td>A</td>
+				<td>a</td>
+				<td class ="ph">/a/</td>
+				<td>J</td>
+				<td>ji</td>
+				<td class ="ph">/ʒi/</td>
+				<td>S</td>
+				<td>esse</td>
+				<td class ="ph">/ɛs/</td>
+			</tr>
+			<tr>
+				<td>B</td>
+				<td>bé</td>
+				<td class ="ph">/be/</td>
+				<td>K</td>
+				<td>ka</td>
+				<td class ="ph">/ka/</td>
+				<td>T</td>
+				<td>té</td>
+				<td class ="ph">/te/</td>
+			</tr>
+			<tr>
+				<td>C</td>
+				<td>cé</td>
+				<td class ="ph">/se/</td>
+				<td>L</td>
+				<td>elle</td>
+				<td class ="ph">/ɛl/</td>
+				<td>U</td>
+				<td>u</td>
+				<td class ="ph">/y/</td>
+			</tr>
+			<tr>
+				<td>D</td>
+				<td>dé</td>
+				<td class ="ph">/de/</td>
+				<td>M</td>
+				<td>emme</td>
+				<td class ="ph">/ɛm/</td>
+				<td>V</td>
+				<td>vé</td>
+				<td class ="ph">/ve/</td>
+			</tr>
+			<tr>
+				<td>E</td>
+				<td>e</td>
+				<td class ="ph">/ə/</td>
+				<td>N</td>
+				<td>enne</td>
+				<td class ="ph">/ɛn/</td>
+				<td>W</td>
+				<td>double vé</td>
+				<td class ="ph">/dubləve/</td>
+			</tr>
+			<tr>
+				<td>F</td>
+				<td>effe</td>
+				<td class ="ph">/ɛf/</td>
+				<td>O</td>
+				<td>o</td>
+				<td class ="ph">/o/</td>
+				<td>X</td>
+				<td>ixe</td>
+				<td class ="ph">/iks/</td>
+			</tr>
+			<tr>
+				<td>G</td>
+				<td>gé</td>
+				<td class ="ph">/ʒe/</td>
+				<td>P</td>
+				<td>pé</td>
+				<td class ="ph">/pe/</td>
+				<td>Y</td>
+				<td>i grec</td>
+				<td class ="ph">/iɡʁɛk/</td>
+			</tr>
+			<tr>
+				<td>H</td>
+				<td>ache</td>
+				<td class ="ph">/aʃ/</td>
+				<td>Q</td>
+				<td>qu</td>
+				<td class ="ph">/ky/</td>
+				<td>Z</td>
+				<td>zède</td>
+				<td class ="ph">/zɛd/</td>
+			</tr>
+			<tr>
+				<td>I</td>
+				<td>i</td>
+				<td class ="ph">/i/</td>
+				<td>R</td>
+				<td>erre</td>
+				<td class ="ph">/ɛʁ/</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+	    	</table>
+	    
+	    	<h4><b>Liaison</b></h4>
+	    	<table class="fr">
+			<tr>
+				<td>-p</td>
+				<td class ="ph">/p‿/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>-d -t</td>
+				<td class ="ph">/t‿/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>-c -q</td>
+				<td class ="ph">/k‿/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>-f</td>
+				<td class ="ph">/v‿/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>-s -z -x</td>
+				<td class ="ph">/z‿/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>-il -ille</td>
+				<td class ="ph">/ij‿/</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>-n</td>
+				<td class ="ph">/n‿/</td>
+				<td>adjectives ending in <b>-ain</b>, <b>-ein</b>, <b>-en</b>, <b>-in</b>, <b>-on</b> cause denasalization, e. g. <b>bon ami</b> <span class="ph">/bɔn‿ami/</span></td>
+			</tr>
+	   	</table>
+	    	<table class="fr">
+			<tr>
+				<td class="b">six</td>
+				<td><span class="ph">/siz/</span> before a V-initial noun, adjective or month, <span class="ph">/si/</span> before a C-initial noun, adjective or month, <span class="ph">/sis/</span> elsewhere</td>
+			</tr>
+			<tr>
+				<td class="b">huit</td>
+				<td><span class="ph">/ɥi/</span> before a C-initial noun, adjective or month, <span class="ph">/ɥit/</span> elsewhere</td>
+			</tr>
+			<tr>
+				<td class="b">neuf</td>
+				<td><span class="ph">/nœv/</span> in <b>neuf ans</b>, <b>neuf heures</b>, <b>neuf hommes</b>, <span class="ph">/nœf/</span> elsewhere</td>
+			</tr>
+			<tr>
+				<td class="b">dix</td>
+				<td>same as <b>six</b>, but <span class="ph">/di/</span> in <b>dix-sept</b> and <span class="ph">/diz/</span> in <b>dix-huit</b> and <b>dix-neuf</b></td>
+			</tr>
+			<tr>
+				<td class="b">vingt</td>
+				<td><span class="ph">/vɛ̃t/</span> before a V-initial noun, adjective or 1-9, <span class="ph">/vɛ̃/</span> elsewhere and always in <b>quatre-vingt</b></td>
+			</tr>
+		</table>
+		<p>Liaison typically occurs:</p>
+	    	<table class="fr">
+			<tr>
+				<td>between a determiner and a following noun or adjective</td>
+				<td><b>les amis</b> <span class="ph">/lez‿ami/</span>, <b>tout homme</b> <span class="ph">/tut‿ɔm/</span></td>
+			</tr>
+			<tr>
+				<td>between an adjective and a following noun</td>
+				<td><b>bon ami</b> <span class="ph">/bɔn‿ami/</span></td>
+			</tr>
+			<tr>
+				<td>between an adverb and a following word</td>
+				<td><b>assez intéressant</b> <span class="ph">/asez‿ɛ̃teʁɛsɑ̃/</span></td>
+			</tr>
+			<tr>
+				<td>between a subject/object pronoun and the verb, between two pronouns</td>
+				<td><b>nous avons</b> <span class="ph">/nuz‿avõ/</span>, <b>vend-il</b> <span class="ph">/vɑ̃t‿il/</span>, <b>elles en achètent</b> <span class="ph">/ɛlz‿ɑ̃n‿aʃɛt/</span></td>
+			</tr>
+			<tr>
+				<td>after a monosyllabic preposition</td>
+				<td><b>chez un ami</b> <span class="ph">/ʃez‿ɛ̃n‿ami/</span></td>
+			</tr>
+			<tr>
+				<td>in some compounds or expressions</td>
+				<td><b>États-Unis</b> <span class="ph">/etaz‿yni/</span></td>
+			</tr>
+	    	</table>
+	    
+	    	<h4><b>Articles</b></h4><br/>
+	    	<h5><b>Articles définis</b></h5>
+	    	<table class="fr">
+			<tr>
+				<td class="b">le / l'</td>
+				<td class ="ph">/lə/ /l/</td>
+				<td>masculin singulier</td>
+			</tr>
+			<tr>
+				<td class="b">la / l'</td>
+				<td class="ph">/la/ /l/</td>
+				<td>féminin singulier</td>
+			</tr>
+			<tr>
+				<td class="b">les</td>
+				<td class="ph">/le/</td>
+				<td>pluriel</td>
+			</tr>
+	    	</table>
+	    	<h5><b>Articles indéfinis</b></h5>
+	    	<table class="fr">
+			<tr>
+				<td class="b">un</td>
+				<td class="ph">/ɛ̃/</td>
+				<td>masculin singulier</td>
+			</tr>
+			<tr>
+				<td class="b">une</td>
+				<td class="ph">/yn/</td>
+				<td>féminin singulier</td>
+			</tr>
+			<tr>
+				<td class="b">des</td>
+				<td class="ph">/de/</td>
+				<td>pluriel</td>
+			</tr>
+	    	</table>
+	    	<h5><b>Articles partitifs</b></h5>
+	    	<table class="fr">
+			<tr>
+				<td class="b">du / de l'</td>
+				<td class="ph">/du/ /də l/</td>
+				<td>masculin singulier</td>
+			</tr>
+			<tr>
+				<td class="b">de la / de l'</td>
+				<td class="ph">/də la/ /də l/</td>
+				<td>féminin singulier</td>
+			</tr>
+			<tr>
+				<td class="b">des</td>
+				<td class="ph">/de/</td>
+				<td>pluriel</td>
+			</tr>
+	    	</table>
+	    	<p>Partitive articles are used to express an unspecified portion/number of something, could be translated as <i>some</i>. Often used where English would use no article - <b>j'aime lire des livres</b> <i>I like reading books</i>.</p>
+	    	<p>Contractions (<b>à</b> <i>to</i>; <b>de</b> <i>of, from</i>):</p>
+	    	<table class="fr">
+			<tr>
+				<td>de + le > <b>du</b> <span class="ph">/dy/</span></td>
+				<td>à + le > <b>au</b> <span class="ph">/o/</span></td>
+			</tr>
+			<tr>
+				<td>de + les > <b>des</b> <span class="ph">/de/</span></td>
+				<td>à + les > <b>aux</b> <span class="ph">/o/</span></td>
+			</tr>
+			<tr>
+				<td>de + un > <b>d'un</b> <span class="ph">/dɛ̃/</span></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>de + une > <b>d'une</b> <span class="ph">/dyn/</span></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>de + des > <b>de</b> <span class="ph">/də/</span></td>
+				<td></td>
+			</tr>
+	    	</table>
+	    	<p>The indefinite and partitive articles become <b>de / d’</b> <span class="ph">/də/ /d/</span> after a negative verb other than <b>être</b>. <b>Des</b> is normally reduced to <b>de / d’</b> when applied to a noun preceded by an adjective.</p>
+	    
+	    	<h4><b>Pronoms personnels</b></h4>
+	    	<table class="fr">
+			<tr>
+				<td colspan="2"><i>Sujet</i></td>
+				<td colspan="2"><i>Objet direct / indirect / réfléchi</i></td>
+				<td colspan="2"><i>Disjonctif</i></td>
+			</tr>
+			<tr>
+				<td class="b">je</td>
+				<td class="ph">/ʒə/</td>
+				<td class="b">me</td>
+				<td class="ph">/mə/</td>
+				<td class="b">moi</td>
+				<td class="ph">/mwa/</td>
+			</tr>
+			<tr>
+				<td class="b">tu</td>
+				<td class="ph">/ty/</td>
+				<td class="b">te</td>
+				<td class="ph">/tə/</td>
+				<td class="b">toi</td>
+				<td class="ph">/twa/</td>
+			</tr>
+			<tr>
+				<td class="b">il, elle</td>
+				<td class="ph">/il/ /ɛl/</td>
+				<td class="b">le, la / lui / se</td>
+				<td class="ph">/lə/ /la/ /lɥi/ /sə/</td>
+				<td class="b">lui, elle, soi</td>
+				<td class="ph">/lɥi/ /ɛl/ /swa/</td>
+			</tr>
+			<tr>
+				<td class="b">nous</td>
+				<td class="ph">/nu/</td>
+				<td class="b">nous</td>
+				<td class="ph">/nu/</td>
+				<td class="b">nous</td>
+				<td class="ph">/nu/</td>
+			<tr>
+				<td class="b">vous</td>
+				<td class="ph">/vu/</td>
+				<td class="b">vous</td>
+				<td class="ph">/vu/</td>
+				<td class="b">vous</td>
+				<td class="ph">/vu/</td>
+			</tr>
+			<tr>
+				<td class="b">ils, elles</td>
+				<td class="ph">/il/ /ɛl/</td>
+				<td class="b">les / leur / se</td>
+				<td class="ph">/le/ /lœʁ/ /sə/</td>
+				<td class="b">eux, elles</td>
+				<td class="ph">/ø/ /ɛl/</td>
+			</tr>
+	    	</table>
+		<p>Disjunctive pronouns are used for emphasis, in isolated positions and as objects of prepositions. Emphatic reflexive pronouns (<i>myself, yourself, etc.</i>) are formed by combining disjunctive pronouns with <b>même(s)</b> <span class="ph">/mɛm/</span> - <b>moi-même</b>, <b>nous-mêmes</b>.</p>
+		<table class="fr">
+			<tr>
+				<td class="b">on</td>
+				<td class="ph">/õ/</td>
+				<td>impersonal pronoun or used instead of nominative <b>nous</b> in informal speech. Reflexive is <b>se</b>.</td>
+			</tr>
+			<tr>
+				<td class="b">ce / cela / ça</td>
+				<td class="ph">/sə/ /səla/ /sa/</td>
+				<td><i>it, that</i> (events, actions, states, general classes of people or things)</td>
+			</tr>
+		</table>
+	    	<table class="fr">
+			<tr>
+				<td colspan="2"><b>y</b> <span class="ph">/i/</span> - replaces inanimate indirect objects with <b>à</b> and prepositional phrases (<i>there</i>)</td>
+			</tr>
+			<tr>
+				<td class="b">Je pense à ce film. - J'y pense.</td>
+				<td>I think about this film. - I think about it.</td>
+			</tr>
+			<tr>
+				<td class="b">Tu vas à l'école. - Tu y vas.</td>
+				<td>You go to the school. - You go there.</td>
+			</tr>
+			<tr>
+				<td class="b">Elle vit dans un studio. - Elle y vit.</td>
+				<td>She lives in a studio apartment. - She lives there.</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="2"><b>en</b> <span class="ph">/ɑ̃/</span> - replaces indirect objects with <b>de</b>, partitive articles, quantifiers (<i>of it/them, from it/them, about it/them...</i>)</td>
+			</tr>
+			<tr>
+				<td class="b">Il parle de son travail. - Il en parle.</td>
+				<td>He talks about his job. - He talks about it.<td/>
+			</tr>
+			<tr>
+				<td class="b">Ils reviennent de Paris. - Ils en reviennent.</td>
+	    			<td>They come back from Paris. - They come back from there.</td>
+			</tr>
+			<tr>
+				<td class="b">Je bois de l'eau. - J'en bois.</td>
+				<td>I drink water. - I drink it.</td>
+			</tr>
+			<tr>	
+				<td class="b">Vous avez des enfants. - Vous en avez.</td>
+				<td>You have children. - You have them.</td>
+			</tr>
+			<tr>	
+				<td class="b">Tu as trois chiens. - Tu en as trois.</td>
+				<td>You have three dogs. - you have three of them.</td>
+			</tr>
+		</table>
+	    
+		<h4><b>Déterminants possessifs</b></h4>
+	    	<table class="fr">
+			<tr>
+				<td colspan="2"><i>Masculin singulier</i></td>
+				<td colspan="2"><i>Féminin singulier</i></td>
+				<td colspan="2"><i>Pluriel</i></td>
+			</tr>
+			<tr>
+				<td class="b">mon</td>
+				<td class="ph">/mõ/</td>
+				<td class="b">ma</td>
+				<td class="ph">/ma/</td>
+				<td class="b">mes</td>
+				<td class="ph">/me/</td>
+			</tr>
+			<tr>
+				<td class="b">ton</td>
+				<td class="ph">/tõ/</td>
+				<td class="b">ta</td>
+				<td class="ph">/ta/</td>
+				<td class="b">tes</td>
+				<td class="ph">/te/</td>
+			</tr>
+			<tr>
+				<td class="b">son</td>
+				<td class="ph">/sõ/</td>
+				<td class="b">sa</td>
+				<td class="ph">/sa/</td>
+				<td class="b">ses</td>
+				<td class="ph">/se/</td>
+			</tr>
+			<tr>
+				<td class="b">notre</td>
+				<td class="ph">/nɔtʁ/</td>
+				<td class="b">notre</td>
+				<td class="ph">/nɔtʁ/</td>
+				<td class="b">nos</td>
+				<td class="ph">/no/</td>
+			</tr>
+			<tr>
+				<td class="b">votre</td>
+				<td class="ph">/vɔtʁ/</td>
+				<td class="b">votre</td>
+				<td class="ph">/vɔtʁ/</td>
+				<td class="b">vos</td>
+				<td class="ph">/vo/</td>
+			</tr>
+			<tr>
+				<td class="b">leur</td>
+				<td class="ph">/lœʁ/</td>
+				<td class="b">leur</td>
+				<td class="ph">/lœʁ/</td>
+				<td class="b">leurs</td>
+				<td class="ph">/lœʁ/</td>
+			</tr>
+	    	</table>
+	    <p><b>Mon, ton, son</b> are also used with feminine nouns starting with a vowel.</p>
+	    
+	    <h4><b>Pronoms possessifs</b></h4>
+	    	<table class="fr">
+			<tr>
+				<td colspan="2"><i>Masculin singulier</i></td>
+				<td colspan="2"><i>Féminin singulier</i></td>
+				<td colspan="2"><i>Masculin pluriel</i></td>
+				<td colspan="2"><i>Féminin pluriel</i></td>
+			</tr>
+			<tr>
+				<td class="b">le mien</td>
+				<td class="ph">/lə mjɛ̃/</td>
+				<td class="b">la mienne</td>
+				<td class="ph">/la mjɛn/</td>
+				<td class="b">les miens</td>
+				<td class="ph">/le mjɛ̃/</td>
+				<td class="b">les miennes</td>
+				<td class="ph">/le mjɛn/</td>
+			</tr>
+			<tr>
+				<td class="b">le tien</td>
+				<td class="ph">/lə tjɛ̃/</td>
+				<td class="b">la tienne</td>
+				<td class="ph">/la tjɛn/</td>
+				<td class="b">les tiens</td>
+				<td class="ph">/le tjɛ̃/</td>
+				<td class="b">les tiennes</td>
+				<td class="ph">/le tjɛn/</td>
+			</tr>
+			<tr>
+				<td class="b">le sien</td>
+				<td class="ph">/lə sjɛ̃/</td>
+				<td class="b">la sienne</td>
+				<td class="ph">/la sjɛn/</td>
+				<td class="b">les siens</td>
+				<td class="ph">/le sjɛ̃/</td>
+				<td class="b">les siennes</td>
+				<td class="ph">/le sjɛn/</td>
+			</tr>
+			<tr>
+				<td class="b">le nôtre</td>
+				<td class="ph">/lə notʁ/</td>
+				<td class="b">la nôtre</td>
+				<td class="ph">/la notʁ/</td>
+				<td class="b">les nôtres</td>
+				<td class="ph">/le notʁ/</td>
+				<td class="b">les nôtres</td>
+				<td class="ph">/le notʁ/</td>
+			</tr>
+			<tr>
+				<td class="b">le vôtre</td>
+				<td class="ph">/lə votʁ/</td>
+				<td class="b">la vôtre</td>
+				<td class="ph">/la votʁ/</td>
+				<td class="b">les vôtres</td>
+				<td class="ph">/le votʁ/</td>
+				<td class="b">les vôtres</td>
+				<td class="ph">/le votʁ/</td>
+			</tr>
+			<tr>
+				<td class="b">le leur</td>
+				<td class="ph">/lə lœʁ/</td>
+				<td class="b">la leur</td>
+				<td class="ph">/la lœʁ/</td>
+				<td class="b">les leurs</td>
+				<td class="ph">/le lœʁ/</td>
+				<td class="b">les leurs</td>
+				<td class="ph">/le lœʁ/</td>
+			</tr>
+	    	</table>
+	    
+	   	<h4><b>Pronoms interrogatifs</b></h4>
+	    	<table class="fr">
+			<tr>
+				<td class="b">qui</td>
+				<td class="ph">/ki/</td>
+				<td><i>who, whom</i> (<b>à qui</b> <i>whose</i>)</td>
+			</tr>
+			<tr>
+				<td class="b">que / qu'</td>
+				<td class="ph">/kə/ /k/</td>
+				<td><i>what</i> (direct object, used with inversion - <b>Que dit-il?</b>)</td>
+			</tr>
+			<tr>
+				<td class="b">qu'est-ce que / qu'est-ce qu'</td>
+				<td class="ph">/kɛs kə/ /kɛs k/</td>
+				<td><i>what</i>, lit. <i>what is it that</i> (direct object, no iveresion - <b>Qu'est-ce qu'il dit?</b>)</td>
+			</tr>
+			<tr>
+				<td class="b">quoi</td>
+				<td class="ph">/kwa/</td>
+				<td><i>what</i> (object, used after the verb, or with prepositions - <b>Tu fais quoi? À quoi pense tu?</b>)</td>
+			</tr>
+			<tr>
+				<td class="b">qu'est-ce qui</td>
+				<td class="ph">/kɛs ki/</td>
+				<td><i>what</i> (subject, no inversion - <b>Qu'est-ce qui se passe?</b>)</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class="b">quel, quelle</td>
+				<td class="ph">/kɛl/ /kɛl/</td>
+				<td>singulier (<i>which ~</i>)</td>
+			</tr>
+			<tr>
+				<td class="b">quels, quelles</td>
+				<td class="ph">/kɛl/ /kɛl/</td>
+				<td>pluriel (<i>which ~</i>)</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class="b">combien</td>
+				<td class="ph">/kõbjɛ̃/</td>
+				<td><i>how much, how many</i></td>
+			</tr>
+			<tr>
+				<td class="b">comment</td>
+				<td class="ph">/kɔmɑ̃/</td>
+				<td><i>how</i></td>
+			</tr>
+			<tr>
+				<td class="b">où</td>
+				<td class="ph">/u/</td>
+				<td><i>where</i></td>
+			</tr>
+			<tr>
+				<td class="b">quand</td>
+				<td class="ph">/kɑ̃/</td>
+				<td><i>when</i></td>
+			</tr>
+			<tr>
+				<td class="b">pourquoi</td>
+				<td class="ph">/puʁkwa/</td>
+				<td><i>why</i></td>
+			</tr>
+	    	</table>
+	    
+	    	<h4><b>Déterminants démonstratifs</b></h4>
+	    	<table class="fr">
+			<tr>
+				<td class="b">ce / cet</td>
+				<td class="ph">/sə/ /sɛt/</td>
+				<td>masculin singulier (<i>this ~</i>)</td>
+			</tr>
+		    	<tr>
+				<td class="b">cette</td>
+				<td class="ph">/sɛt/</td>
+				<td>féminin singulier (<i>this ~</i>)</td>
+			</tr>
+		   	 <tr>
+				<td class="b">ces</td>
+				<td class="ph">/se/</td>
+				<td>pluriel (<i>these ~</i>)</td>
+			</tr>
+		    	<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		    	<tr>
+				<td class="b">cet homme-ci</td>
+				<td class="ph">/sɛtɔmsi/</td>
+				<td><i>this person (this person here)</i></td>
+			</tr>
+		    	<tr>
+				<td class="b">cet homme-là</td>
+				<td class="ph">/sɛtɔmla/</td>
+				<td><i>that person (this person there)</i></td>
+			</tr>
+		    	<tr>
+				<td class="b">celui-ci, celle-ci</td>
+				<td class="ph">/səlɥisi/ /sɛlsi/</td>
+				<td><i>this one, the latter</i></td>
+			</tr>
+		    	<tr>
+				<td class="b">celui-là, celle-là</td>
+				<td class="ph">/səlɥila/ /sɛlla/</td>
+				<td><i>that one, the former</i></td>
+			</tr>
+	    	</table>
+	    
+	    	<h4><b>Pronoms relatifs</b></h4>
+	    	<table class="fr">
+			<tr>
+				<td class="b">lequel, laquelle</td>
+				<td class="ph">/ləkɛl/ /lakɛl/</td>
+				<td>singulier (<i>which one</i>)</td>
+				<td><b>lequel l'a fait?</b> <i>which one did it?</i> <span class="gray"><b>à</b> + <b>lequel</b> &rarr; <b>auquel</b>, <b>de</b> + <b>lequel</b> &rarr; <b>duquel</b></span></td>
+			</tr>
+			<tr>
+				<td class="b">lesquels, lesquelles</td>
+				<td class="ph">/lekɛl/ /lekɛl/</td>
+				<td>pluriel (<i>which ones</i>)</td>
+				<td><b>lesquels aimes-tu?</b> <i>which ones do you like?</i> <span class="gray"><b>à</b> + <b>lesquels</b> &rarr; <b>auxquels</b>, <b>de</b> + <b>lesquels</b> &rarr; <b>desquels</b></span></td>
+			</tr>
+			<tr>
+				<td class="b">celui, celle</td>
+				<td class="ph">/səlɥi/ /sɛl/</td>
+				<td>singulier (<i>the one</i>)</td>
+				<td><b>il est celui que j'aime</b> <i>he is the one I love</i></td>
+			</tr>
+		    	<tr>
+				<td class="b">ceux, celles</td>
+				<td class="ph">/sø/ /sɛl/</td>
+				<td>pluriel (<i>the ones</i>)</td>
+				<td><b>ils sont ceux qui m'aiment</b> <i>they are the ones who love me</i></td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class="b">qui</td>
+				<td class="ph">/ki/</td>
+				<td>subj, human/thing</td>
+				<td><b>la personne qui voit</b> <i>the person who sees</i>, <b>la chose qui existe</b> <i>the thing which exists</i></td>
+			</tr>
+			<tr>
+				<td class="b">que</td>
+				<td class="ph">/kə/</td>
+				<td>dir obj, human/thing</td>
+				<td><b>la personne que je vois</b> <i>the person I see</i>, <b>la chose que je fais</b> <i>the thing I do</i></td>
+			</tr>
+			<tr>
+				<td>prep. + <b>qui</b></td>
+				<td class="ph">/~ ki/</td>
+				<td>indir obj, human</td>
+				<td><b>la personne à qui je parle</b> <i>the person I'm talking to</i></td>
+			</tr>
+			<tr>
+				<td>prep. + <b>lequel...</b></td>
+				<td class="ph">/~ ləkɛl/</td>
+				<td>indir obj, human/thing</td>
+				<td><b>la personne avec laquelle je parle</b> <i>the person I'm talking with</i>, <b>les choses auxquelles je pense</b> <i>the things I'm thinking about</i></td>
+			</tr>
+			<tr>
+				<td class="b">dont</td>
+				<td class="ph">/dõ/</td>
+				<td>indir obj with <b>de</b>, human/thing</td>
+				<td><b>la personne dont je parle</b> <i>the person I'm talking about</i>, <b>la chose dont j'ai oublié le nom</b> <i>the thing whose name I forgot</i></td>
+			</tr>
+			<tr>
+				<td class="b">où</td>
+				<td class="ph">/u/</td>
+				<td>adverbial (where, when)</td>
+				<td><b>le jour où je suis né</b> <i>the day I was born</i>, <b>l'hôpital où je suis né</b> <i>the hospital I was born in</i></td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class="b">ce qui</td>
+				<td class="ph">/sə ki/</td>
+				<td>subj, thing, whole phrase</td>
+				<td><b>il est mort, ce qui est bien</b> <i>he is dead, which is good</i>, <b>je ne sais pas ce qui se passe</b> <i>I don't know what's happening</i></td>
+			</tr>
+			<tr>
+				<td class="b">ce que</td>
+				<td class="ph">/sə kə/</td>
+				<td>dir obj, thing, whole phrase</td>
+				<td><b>je fais ce que je veux</b> <i>I do what I want</i>, <b>je ne sais pas ce que tu as fait</b> <i>I don't know what you did</i></td>
+			</tr>
+			<tr>
+				<td><b>ce</b> + prep. + <b>quoi</b></td>
+				<td class="ph">/~ kwa/</td>
+				<td>indir obj, thing, whole phrase</td>
+				<td><b>je sais ce à quoi tu penses</b> <i>I know what you're thinking about</i>, <b>c'est ce sur quoi je travaille</b> <i>this is what I'm working on</i></td>
+			</tr>
+			<tr>
+				<td class="b">ce dont</td>
+				<td class="ph">/sə dõ/</td>
+				<td>indir obj with <b>de</b>, thing, whole phrase</td>
+				<td><b>c'est ce dont je parle</b> <i>this is what I'm talking about</i></td>
+			</tr>
+		</table>
+	    
+	    	<h4><b>Noms et adjectifs</b></h4></br>
+		<h5><b>Noms</b></h5>
+	    	<table class="fr">
+			<tr>
+				<td><i>Masculin</i></td>
+				<td><i>Féminin</i></td>
+				<td><i>Exemple</i></td>
+			</tr>
+			<tr>
+				<td>∅ -e</td>
+				<td>-e</td>
+				<td><b>l'ami</b> <span class="ph">/ami/</span> &rarr; <b>l'amie</b> <span class="ph">/ami/</span>, <b>le touriste</b> <span class="ph">/tuʁist/</span> &rarr; <b>la touriste</b> <span class="ph">/tuʁist/</span></td>
+			</tr>
+			<tr>
+				<td>-eur -teur</td>
+				<td>-euse -trice</td>
+				<td><b>le danseur</b> <span class="ph">/dɑ̃sœʁ/</span> &rarr; <b>la danseuse</b> <span class="ph">/dɑ̃søz/</span>, <b>l'acteur</b> <span class="ph">/aktœʁ/</span> &rarr; <b>l'actrice</b> <span class="ph">/aktʁis/</span></td>
+			</tr>
+			<tr>
+				<td>-er</td>
+				<td>-ère</td>
+				<td><b>l’étranger</b> <span class="ph">/etʁɑ̃ʒe/</span> &rarr; <b>l'étrangère</b> <span class="ph">/etʁɑ̃ʒɛʁ/</span></td>
+			</tr>
+			<tr>
+				<td>-f</td>
+				<td>-ve</td>
+				<td><b>le sportif</b> <span class="ph">/spɔʁtif/</span> &rarr; <b>la sprortive</b> <span class="ph">/spɔʁtiv/</span></td>
+			</tr>
+			<tr>
+				<td>-n -t</td>
+				<td>-(n)ne -(t)te</td>
+				<td><b>le voisin</b> <span class="ph">/vwazɛ̃/</span> &rarr; <b>la voisine</b> <span class="ph">/vwazin/</span>, <b>le chat</b> <span class="ph">/ʃa/</span> &rarr; <b>la chatte</b> <span class="ph">/ʃat/</span></td>
+			</tr>
+	    	</table>
+		<h5><b>Adjectifs</b></h5>
+	    	<table class="fr">
+			<tr>
+				<td><i>Masculin</i></td>
+				<td><i>Féminin</i></td>
+				<td><i>Exemple</i></td>
+			</tr>
+			<tr>
+				<td>∅ -e</td>
+				<td>-e</td>
+				<td><b>joli</b> <span class="ph">/ʒɔli/</span> &rarr; <b>jolie</b> <span class="ph">/ʒɔli/</span>, <b>jeune</b> <span class="ph">/ʒœn/</span> &rarr; <b>jeune</b> <span class="ph">/ʒœn/</span></td>
+			</tr>
+			<tr>
+				<td>-eur -teur</td>
+				<td>-euse -trice</td>
+				<td><b>joueur</b> <span class="ph">/ʒwœʁ/</span> &rarr; <b>joueuse</b> <span class="ph">/ʒwøz/</span>, <b>créateur</b> <span class="ph">/kʁeatœʁ/</span> &rarr; <b>créatrice</b> <span class="ph">/kʁeatʁis/</span></td>
+			</tr>
+			<tr>
+				<td>-eux -aux -oux</td>
+				<td>-euse -ausse -ouce/-ou(s)se</td>
+				<td><b>heureux</b> <span class="ph">/œʁø/</span> &rarr; <b>heureuse</b> <span class="ph">/œʁøz/</span>, <b>faux</b> <span class="ph">/fo/</span> &rarr; <b>fausse</b> <span class="ph">/fos/</span>, <b>doux</b> <span class="ph">/du/</span> &rarr; <b>douce</b> <span class="ph">/dus/</span>, <b>roux</b> <span class="ph">/ʁu/</span> &rarr; <b>rousse</b> <span class="ph">/ʁus/</span></td>
+			</tr>
+			<tr>
+				<td>-eau -ou</td>
+				<td>-elle -olle</td>
+				<td><b>beau</b> <span class="ph">/bo/</span> &rarr; <b>belle</b> <span class="ph">/bɛl/</span>, <b>mou</b> <span class="ph">/mu/</span> &rarr; <b>molle</b> <span class="ph">/mɔl/</span></td>
+			</tr>
+			<tr>
+				<td>-el -ul -il -al</td>
+				<td>-elle -ulle -ille -ale</td>
+				<td><b>cruel</b> <span class="ph">/kʁyɛl/</span> &rarr; <b>cruelle</b> <span class="ph">/kʁyɛl/</span>, <b>nul</b> <span class="ph">/nyl/</span> &rarr; <b>nulle</b> <span class="ph">/nyl/</span>, <b>gentil</b> <span class="ph">/ʒɑ̃ti/</span> &rarr; <b>gentille</b> <span class="ph">/ʒɑ̃tij/</span>, <b>final</b> <span class="ph">/final/</span> &rarr; <b>finale</b> <span class="ph">/final/</span></td>
+			</tr>
+			<tr>
+				<td>-er</td>
+				<td>-ère</td>
+				<td><b>cher</b> <span class="ph">/ʃɛʁ/</span> &rarr; <b>chère</b> <span class="ph">/ʃɛʁ/</span></td>
+			</tr>
+			<tr>
+				<td>-f</td>
+				<td>-ve</td>
+				<td><b>naïf</b> <span class="ph">/naif/</span> &rarr; <b>naïve</b> <span class="ph">/naiv/</span></td>
+			</tr>
+			<tr>
+				<td>-n -t -et</td>
+				<td>-(n)ne -tte -tte/ète</td>
+				<td><b>fin</b> <span class="ph">/fɛ̃/</span> &rarr; <b>fine</b> <span class="ph">/fin/</span>, <b>bon</b> <span class="ph">/bõ/</span> &rarr; <b>bonne</b> <span class="ph">/bɔn/</span>, <b>sot</b> <span class="ph">/so/</span> &rarr; <b>sotte</b> <span class="ph">/sɔt/</span>, <b>secret</b> <span class="ph">/səkʁɛ/</span> &rarr; <b>secrète</b> <span class="ph">/səkʁɛt/</span></td>
+			</tr>
+			<tr>
+				<td>-c</td>
+				<td>-que/che</td>
+				<td><b>public</b> <span class="ph">/pyblik/</span> &rarr; <b>publique</b> <span class="ph">/pyblik/</span>, <b>blanc</b> <span class="ph">/blɑ̃/</span> &rarr; <b>blanche</b> <span class="ph">/blɑ̃ʃ/</span></td>
+			</tr>
+	    	</table>
+		<p><b>beau, fou, mou, nouveau, vieux</b> &rarr; <b>bel, fol, mol, nouvel, vieil</b> in masculine before a V</p>
+		<table class="fr">
+			<tr>
+				<td><i>Singulier</i></td>
+				<td><i>Pluriel</i></td>
+				<td><i>Exemple</i></td>
+			</tr>
+			<tr>
+				<td>∅</td>
+				<td>-s</td>
+				<td><b>un petit chat</b> <span class="ph">/pəti ʃa/</span> &rarr; <b>de petits chats</b> <span class="ph">/pəti ʃa/</span></td>
+			</tr>
+			<tr>
+				<td>-s -z -x</td>
+				<td>∅</td>
+				<td><b>un nez faux</b> <span class="ph">/ne fo/</span> &rarr; <b>des nez faux</b> <span class="ph">/ne fo/</span></td>
+			</tr>
+			<tr>
+				<td>-eu -au -eau</td>
+				<td>-eux -aux -eaux</td>
+				<td><b>un cheveu</b> <span class="ph">/ʃəvø/</span> &rarr; <b>des cheveux</b> <span class="ph">/ʃəvø/</span>, <b>un tuyau</b> <span class="ph">/tɥijo/</span> &rarr; <b>des tuyaux</b> <span class="ph">/tɥijo/</span>, <b>un beau manteau</b> <span class="ph">/bo mɑ̃to/</span> &rarr; <b>des beaux manteaux</b> <span class="ph">/bo mɑ̃to/</span></td>
+			</tr>
+			<tr>
+				<td>-al -ail</td>
+				<td>-aux/s</td>
+				<td><b>un animal loyal</b> <span class="ph">/animal lwajal/</span> &rarr; <b>des animaux loyaux</b> <span class="ph">/animo lwajo/</span></td>
+			</tr>
+		</table>
+	
+		<h5><b>Comparaison d'adjectifs</b></h5>
+		<table class="fr">
+			<tr>
+				<td><i>Adjectif</i></td>
+				<td><i>Comparatif</i></td>
+				<td><i>Superlatif</i></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><b>grand(e)</b> <span class="ph">/ɡʁɑ̃(d)/</span></td>
+				<td><b>plus grand(e)</b> <span class="ph">/ply ɡʁɑ̃(d)/</span></td>
+				<td><b>le / la plus grand(e)</b> <span class="ph">/lə~/ /la ply ɡʁɑ̃(d)/</span></td>
+				<td>positif</td>
+			</tr>
+			<tr>
+				<td><b>grand(e)</b> <span class="ph">/ɡʁɑ̃(d)/</span></td>
+				<td><b>moins grand(e)</b> <span class="ph">/mwɛ̃ ɡʁɑ̃(d)/</span></td>
+				<td><b>le / la moins grand(e)</b> <span class="ph">/lə~/ /la mwɛ̃ ɡʁɑ̃(d)/</span></td>
+				<td>négatif</td>
+			</tr>
+			<tr>
+				<td><b>bon(ne)</b> <span class="ph">/bõ/ /bɔn/</span></td>
+				<td><b>meilleur(e)</b> <span class="ph">/mɛjœʁ/</span></td>
+				<td><b>le / la meilleur(e)</b> <span class="ph">/lə~/ /la mɛjœʁ/</span></td>
+				<td>irregulier</td>
+			</tr>
+			<tr>
+				<td><b>bien</b> <span class="ph">/bjɛ̃/</span></td>
+				<td><b>mieux</b> <span class="ph">/mjø/</span></td>
+				<td><b>le / la mieux</b> <span class="ph">/lə~/ /la mjø/</span></td>
+				<td>irregulier</td>
+			</tr>
+			<tr>
+				<td><b>mauvais(e)</b> <span class="ph">/movɛ(z)/</span></td>
+				<td><b>pire</b> <span class="ph">/piʁ/</span></td>
+				<td><b>le / la pire</b> <span class="ph">/lə~/ /la piʁ/</span></td>
+				<td>éventuellement irrégulier</td>
+			</tr>
+			<tr>
+				<td><b>petit(e)</b> <span class="ph">/pəti(t)/</span></td>
+				<td><b>moindre</b> <span class="ph">/mwɛ̃dʁ/</span></td>
+				<td><b>le / la moindre</b> <span class="ph">/lə~/ /la mwɛ̃dʁ/</span></td>
+				<td>éventuellement irrégulier</td>
+			</tr>
+		</table>
+	
+		<h4><b>Participes</b></h4></br>
+		<h5><b>Participe présent</b></h5>
+		<p>1P + <b>-ant</b>. <b>être</b> - <b>étant</b>, <b>avoir</b> - <b>ayant</b>.</p>
+		
+		<h5><b>Participe passé</b></h5>
+		<table class="fr">
+			<tr>
+				<td>Groupe I</td>
+				<td>-er &rarr; -é</td>
+				<td><b>parler</b> &rarr; <b>parlé</b></td>
+				<td class="ph">/paʁle/</td>
+			</tr>
+			<tr>
+				<td>Groupe II</td>
+				<td>-ir &rarr; -i</td>
+				<td><b>finir</b> &rarr; <b>fini</b></td>
+				<td class="ph">/fini/</td>
+			</tr>
+			<tr>
+				<td>Groupe III</td>
+				<td>-re &rarr; -u</td>
+				<td><b>vendre</b> &rarr; <b>vendu</b></td>
+				<td class="ph">/vɑ̃dy/</td>
+			</tr>
+		</table>
+		<table class="fr">
+			<tr>
+				<td><b>être</b> &rarr; <b>été</b></td>
+				<td class="ph">/ete/</td>
+				<td><b>pouvoir</b> &rarr; <b>pu</b></td>
+				<td class="ph">/py/</td>
+				<td><b>sortir</b> &rarr; <b>sorti</b></td>
+				<td class="ph">/sɔʁti/</td>
+				<td><b>vouloir</b> &rarr; <b>voulu</b></td>
+				<td class="ph">/vuly/</td>
+				
+			</tr>
+			<tr>
+				<td><b>avoir</b> &rarr; <b>eu</b></td>
+				<td class="ph">/y/</td>
+				<td><b>devoir</b> &rarr; <b>dû</b></td>
+				<td class="ph">/dy/</td>
+				<td><b>dormir</b> &rarr; <b>dormi</b></td>
+				<td class="ph">/dɔʁmi/</td>
+				<td><b>falloir</b> &rarr; <b>fallu</b></td>
+				<td class="ph">/faly/</td>
+			</tr>
+			<tr>
+				<td><b>faire</b> &rarr; <b>fait</b></td>
+				<td class="ph">/fɛ/</td>
+				<td><b>savoir</b> &rarr; <b>su</b></td>
+				<td class="ph">/sy/</td>
+				<td><b>partir</b> &rarr; <b>parti</b></td>
+				<td class="ph">/paʁti/</td>
+				<td><b>venir</b> &rarr; <b>venu</b></td>
+				<td class="ph">/vəny/</td>
+			</tr>
+			<tr>
+				<td><b>aller</b> &rarr; <b>allé</b></td>
+				<td class="ph">/ale/</td>
+				<td><b>lire</b> &rarr; <b>lu</b></td>
+				<td class="ph">/ly/</td>
+				<td><b>servir</b> &rarr; <b>servi</b></td>
+				<td class="ph">/sɛʁvi/</td>
+				<td><b>tenir</b> &rarr; <b>tenu</b></td>
+				<td class="ph">/təny/</td>
+			</tr>
+			<tr>
+				<td><b>prendre</b> &rarr; <b>pris</b></td>
+				<td class="ph">/pʁi/</td>
+				<td><b>boire</b> &rarr; <b>bu</b></td>
+				<td class="ph">/by/</td>
+				<td><b>sentir</b> &rarr; <b>senti</b></td>
+				<td class="ph">/sɑ̃ti/</td>
+				<td><b>recevoir</b> &rarr; <b>reçu</b></td>
+				<td class="ph">/ʁəsy/</td>
+			</tr>
+			<tr>
+				<td><b>mettre</b> &rarr; <b>mis</b></td>
+				<td class="ph">/mi/</td>
+				<td><b>voir</b> &rarr; <b>vu</b></td>
+				<td class="ph">/vy/</td>
+				<td></td>
+				<td></td>
+				<td><b>vivre</b> &rarr; <b>vécu</b></td>
+				<td class="ph">/veky/</td>
+			</tr>
+			<tr>
+				<td><b>ouvrir</b> &rarr; <b>ouvert</b></td>
+				<td class="ph">/uvɛʁ/</td>
+				<td><b>pleuvoir</b> &rarr; <b>plu</b></td>
+				<td class="ph">/ply/</td>
+				<td></td>
+				<td></td>
+				<td><b>courir</b> &rarr; <b>couru</b></td>
+				<td class="ph">/kuʁy/</td>
+			</tr>
+			<tr>
+				<td><b>écrire</b> &rarr; <b>écrirt</b></td>
+				<td class="ph">/ekʁi/</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><b>dire</b> &rarr; <b>dit</b></td>
+				<td class="ph">/di/</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><b>naître</b> &rarr; <b>né</b></td>
+				<td class="ph">/ne/</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><b>mourir</b> &rarr; <b>mort</b></td>
+				<td class="ph">/mɔʁ/</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><b>inscrire</b> &rarr; <b>inscrit</b></td>
+				<td class="ph">/ɛ̃skʁi/</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	
+		<h4><b>Présent</b></h4></br>
+		<h5><b>Verbes réguliers</b></h5>
+		<table class="fr">
+			<tr>
+				<td colspan="4"><i>Groupe I</i> <b>-er</b> (parl<b>er</b> <span class="ph">/paʁl<b>e</b>/</span>):</td>
+			</tr>
+			<tr>
+				<td>je parl<b>e</b></td>
+				<td class="ph">/paʁl/</td>
+				<td>nous parl<b>ons</b></td>
+				<td class="ph">/paʁl<b>õ</b>/</td>
+			</tr>
+			<tr>
+				<td>tu parl<b>es</b></td>
+				<td class="ph">/paʁl/</td>
+				<td>vous parl<b>ez</b></td>
+				<td class="ph">/paʁl<b>e</b>/</td>
+			</tr>
+			<tr>
+				<td>il parl<b>e</b></td>
+				<td class="ph">/paʁl/</td>
+				<td>ils parl<b>ent</b></td>
+				<td class="ph">/paʁl/</td>
+			</tr>
+		</table>
+		<table class="fr">
+			<tr>
+				<td>The stems of group I verbs ending in <b>-ger -cer</b> end in <b>-ge -ç</b> before <b>a o</b> - <b>manger</b> &rarr; <b>mangeons</b>, <b>commencer</b> &rarr; <b>commençons</b></td>
+			</tr>
+			<tr>
+				<td>The stems of most group I verbs ending in <b>-eter -eler -yer</b> end in <b>-ett -ell -i</b> before a silent <b>e</b> - <b>appeler</b> &rarr; <b>appelle</b>, <b>jeter</b> &rarr; <b>jettent</b>, <b>envoyer</b> &rarr; <b>envoie</b></td>
+			</tr>
+			<tr>
+				<td>(<b>-ayer</b> may retain <b>y</b> - <b>essayer</b> &rarr; <b>essaye / essaie</b>)</td>
+			</tr>
+			<tr>
+				<td>Other group I verbs containing a silent <b>e</b> or an <b>é</b> spell it as <b>è</b> before a silent <b>e</b> - <b>lever</b> &rarr; <b>lève</b>, <b>sécher</b> &rarr; <b>sèches</b></td>
+			</tr>
+		</table>
+		<table class="fr">
+			<tr>
+				<td colspan="4"><i>Groupe II</i> <b>-ir</b> (fin<b>ir</b> <span class="ph">/fin<b>iʁ</b>/</span>):</td>
+			</tr>
+			<tr>
+				<td>je fin<b>is</b></td>
+				<td class="ph">/fin<b>i</b>/</td>
+				<td>nous fin<b>issons</b></td>
+				<td class="ph">/fin<b>isõ</b>/</td>
+			</tr>
+			<tr>
+				<td>tu fin<b>is</b></td>
+				<td class="ph">/fin<b>i</b>/</td>
+				<td>vous fin<b>issez</b></td>
+				<td class="ph">/fin<b>ise</b>/</td>
+			</tr>
+			<tr>
+				<td>il fin<b>it</b></td>
+				<td class="ph">/fin<b>i</b>/</td>
+				<td>ils fin<b>issent</b></td>
+				<td class="ph">/fin<b>is</b>/</td>
+			</tr>
+		</table>
+		<p>Group III verbs are irregular and there is no one paradigm, however most follow certain patterns, as shown below (1S - 1sg stem, 1P - 1pl stem, 3P - 3pl stem; the latter two are often identical):</p>
+		<table class="fr">
+			<tr>
+				<td colspan="2"><i>Groupe III</i> <b>-re</b> <b>-ir</b> <b>-oir</b></td>
+				<td colspan="4">(vend<b>re</b> <span class="ph">/vɑ̃d<b>ʁ</b>/</span>):</td>
+				<td colspan="4">(boi<b>re</b> <span class="ph">/bwa<b>ʁ</b>/</span>):</td>
+			</tr>
+			<tr>
+				<td>je 1S + <b>s</b></td>
+				<td>nous 1P + <b>ons</b></td>
+				<td>je vend<b>s</b></td>
+				<td class="ph">/vɑ̃/</td>
+				<td>nous vend<b>ons</b></td>
+				<td class="ph">/vɑ̃d<b>õ</b>/</td>
+				<td>je boi<b>s</b></td>
+				<td class="ph">/bwa/</td>
+				<td>nous buv<b>ons</b></td>
+				<td class="ph">/byv<b>õ</b>/</td>
+			</tr>
+			<tr>
+				<td>tu 1S + <b>s</b></td>
+				<td>vous 1P + <b>ez</b></td>
+				<td>tu vend<b>s</b></td>
+				<td class="ph">/vɑ̃/</td>
+				<td>vous vend<b>ez</b></td>
+				<td class="ph">/vɑ̃d<b>e</b>/</td>
+				<td>tu boi<b>s</b></td>
+				<td class="ph">/bwa/</td>
+				<td>vous buv<b>ez</b></td>
+				<td class="ph">/byv<b>e</b>/</td>
+			</tr>
+			<tr>
+				<td>il 1S + <b>t</b></td>
+				<td>ils 3P + <b>ent</b></td>
+				<td>il vend</td>
+				<td class="ph">/vɑ̃/</td>
+				<td>ils vend<b>ent</b></td>
+				<td class="ph">/vɑ̃d/</td>
+				<td>il boi<b>t</b></td>
+				<td class="ph">/bwa/</td>
+				<td>ils boiv<b>ent</b></td>
+				<td class="ph">/bwav/</td>
+			</tr>
+		</table>
+		<h5><b>Verbes irréguliers</b></h5>
+		<table class="fr">
+			<tr>
+				<td colspan="4"><b>être</b> <span class="ph">/ɛtʁ/</span> <i>to be</i>:</td>
+				<td colspan="4"><b>avoir</b> <span class="ph">/avwaʁ/</span> <i>to have</i>:</td>
+			</tr>
+			<tr>
+				<td>je <b>suis</b></td>
+				<td class="ph">/sɥi/</td>
+				<td>nous <b>sommes</b></td>
+				<td class="ph">/sɔm/</td>
+				<td>j'<b>ai</b></td>
+				<td class="ph">/e/</td>
+				<td>nous <b>avons</b></td>
+				<td class="ph">/avõ/</td>
+			</tr>
+			<tr>
+				<td>tu <b>es</b></td>
+				<td class="ph">/ɛ/</td>
+				<td>vous <b>êtes</b></td>
+				<td class="ph">/ɛt/</td>
+				<td>tu <b>as</b></td>
+				<td class="ph">/a/</td>
+				<td>vous <b>avez</b></td>
+				<td class="ph">/ave/</td>
+			</tr>
+			<tr>
+				<td>il <b>est</b></td>
+				<td class="ph">/ɛ/</td>
+				<td>ils <b>sont</b></td>
+				<td class="ph">/sõ/</td>
+				<td>il <b>a</b></td>
+				<td class="ph">/a/</td>
+				<td>ils <b>ont</b></td>
+				<td class="ph">/õ/</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td colspan="8"></td>
+			</tr>
+			<tr>
+				<td colspan="4"><b>aller</b> <span class="ph">/ale/</span> <i>to go</i>:</td>
+				<td colspan="4"><b>venir</b> <span class="ph">/vəniʁ/</span> <i>to come</i>:</td>
+			</tr>
+			<tr>
+				<td>je <b>vais</b></td>
+				<td class="ph">/vɛ/</td>
+				<td>nous <b>allons</b></td>
+				<td class="ph">/alõ/</td>
+				<td>je <b>viens</b></td>
+				<td class="ph">/vjɛ̃/</td>
+				<td>nous <b>venons</b></td>
+				<td class="ph">/vənõ/</td>
+			</tr>
+			<tr>
+				<td>tu <b>vas</b></td>
+				<td class="ph">/va/</td>
+				<td>vous <b>alez</b></td>
+				<td class="ph">/ale/</td>
+				<td>tu <b>viens</b></td>
+				<td class="ph">/vjɛ̃/</td>
+				<td>vous <b>venez</b></td>
+				<td class="ph">/vəne/</td>
+			</tr>
+			<tr>
+				<td>il <b>va</b></td>
+				<td class="ph">/va/</td>
+				<td>ils <b>vont</b></td>
+				<td class="ph">/võ/</td>
+				<td>il <b>vient</b></td>
+				<td class="ph">/vjɛ̃/</td>
+				<td>ils <b>viennent</b></td>
+				<td class="ph">/vjɛn/</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td colspan="8"></td>
+			</tr>
+			<tr>
+				<td colspan="4"><b>faire</b> <span class="ph">/fɛʁ/</span> <i>to do</i>:</td>
+				<td colspan="4"></td>
+			</tr>
+			<tr>
+				<td>je <b>fais</b></td>
+				<td class="ph">/fɛ/</td>
+				<td>nous <b>faisons</b></td>
+				<td class="ph">/fəzõ/</td>
+				<td colspan="4"></td>
+			</tr>
+			<tr>
+				<td>tu <b>fais</b></td>
+				<td class="ph">/fɛ/</td>
+				<td>vous <b>faites</b></td>
+				<td class="ph">/fɛt/</td>
+				<td colspan="4"></td>
+			</tr>
+			<tr>
+				<td>il <b>fait</b></td>
+				<td class="ph">/fɛ/</td>
+				<td>ils <b>font</b></td>
+				<td class="ph">/fõ/</td>
+				<td colspan="4"></td>
+			</tr>
+		</table>
+		<h5><b>Verbes modaux</b></h5>
+		<table class="fr">
+			<tr>
+				<td colspan="4"><b>vouloir</b> <span class="ph">/vulwaʁ/</span> <i>to want</i>:</td>
+				<td colspan="4"><b>pouvoir</b> <span class="ph">/puvwaʁ/</span> <i>may, can</i> (not <i>know how to</i>):</td>
+			</tr>
+			<tr>
+				<td>je <b>veux</b></td>
+				<td class="ph">/vø/</td>
+				<td>nous <b>voulons</b></td>
+				<td class="ph">/vulõ/</td>
+				<td>je <b>peux</b></td>
+				<td class="ph">/pø/</td>
+				<td>nous <b>pouvons</b></td>
+				<td class="ph">/puvõ/</td>
+			</tr>
+			<tr>
+				<td>tu <b>veux</b></td>
+				<td class="ph">/vø/</td>
+				<td>vous <b>voulez</b></td>
+				<td class="ph">/vule/</td>
+				<td>tu <b>peux</b></td>
+				<td class="ph">/pø/</td>
+				<td>vous <b>pouvez</b></td>
+				<td class="ph">/puve/</td>
+			</tr>
+			<tr>
+				<td>il <b>veut</b></td>
+				<td class="ph">/vø/</td>
+				<td>ils <b>veulent</b></td>
+				<td class="ph">/vœl/</td>
+				<td>il <b>peut</b></td>
+				<td class="ph">/pø/</td>
+				<td>ils <b>peuvent</b></td>
+				<td class="ph">/pœv/</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td colspan="8"></td>
+			</tr>
+			<tr>
+				<td colspan="4"><b>devoir</b> <span class="ph">/dəvwaʁ/</span> <i>must</i>:</td>
+				<td colspan="4"><b>savoir</b> <span class="ph">/savwaʁ/</span> <i>know, know how to, be able to</i>:</td>
+			</tr>
+			<tr>
+				<td>je <b>dois</b></td>
+				<td class="ph">/dwa/</td>
+				<td>nous <b>devons</b></td>
+				<td class="ph">/dəvõ/</td>
+				<td>je <b>sais</b></td>
+				<td class="ph">/sɛ/</td>
+				<td>nous <b>savons</b></td>
+				<td class="ph">/savõ/</td>
+			</tr>
+			<tr>
+				<td>tu <b>dois</b></td>
+				<td class="ph">/dwa/</td>
+				<td>vous <b>devez</b></td>
+				<td class="ph">/dəve/</td>
+				<td>tu <b>sais</b></td>
+				<td class="ph">/sɛ/</td>
+				<td>vous <b>savez</b></td>
+				<td class="ph">/save/</td>
+			</tr>
+			<tr>
+				<td>il <b>doit</b></td>
+				<td class="ph">/dwa/</td>
+				<td>ils <b>doivent</b></td>
+				<td class="ph">/dwav/</td>
+				<td>il <b>sait</b></td>
+				<td class="ph">/sɛ/</td>
+				<td>ils <b>savent</b></td>
+				<td class="ph">/sav/</td>
+			</tr>
+		</table>
+		<p><b>Je peux</b>, but <b>puis-je</b>, <b>si je puis</b> <span class="ph">/pɥi/</span>.</p>
+
+		<h4><b>Passé composé</b></h4>
+		<table class="fr">
+			<tr>
+				<td><b>avoir</b> + participe passé</td>
+				<td>all transitive verbs and most intransitive verbs</td>
+			</tr>
+			<tr>
+				<td><b>être</b> + participe passé</td>
+				<td>all reflexive verbs and intransitive verbs denoting motion or change of state</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Je <b>me</b> suis levé.</td>
+				<td>reflexive</td>
+			</tr>
+		</table>
+		<table class="fr">
+			<tr>
+				<td colspan="2">By attaching <b>-e</b> for feminine and <b>-s</b> for plural, the past participle must agree with the gender and number of:</td>
+			</tr>
+			<tr>
+				<td>the subject if <b>être</b> is used</td>
+				<td>Il est allé. / Elle est allé<b>e</b>. / Ils sont allé<b>s</b>. / Elles sont allé<b>es</b>.</td>
+			</tr>
+			<tr>
+				<td>the direct object if <b>avoir</b> is used </br>and the object precedes the participle</td>
+				<td style="vertical-align: baseline;">Je l’ai vu. / Je l’ai vu<b>e</b>. / Je les ai vu<b>s</b>. / Je les ai vu<b>es</b>.</td>
+			</tr>
+		</table>
+
+		<h4><b>Imparfait</b></h4>
+		<p>Used for past imperfective situations (<i>was doing, used to do</i>) - 1P + personal ending (<b>ét-</b> for <b>être</b>).</p>
+		<table class="fr">
+			<tr>
+				<td colspan="4"><b>parler</b> <span class="ph">/paʁle/</span>:</td>
+				<td colspan="4"><b>être</b> <span class="ph">/ɛtʁ/</span>:</td>
+			</tr>
+			<tr>
+				<td>je parl<b>ais</b></td>
+				<td class="ph">/paʁl<b>ɛ</b>/</td>
+				<td>nous parl<b>ions</b></td>
+				<td class="ph">/paʁl<b>jõ</b>/</td>
+				<td>j'ét<b>ais</b></td>
+				<td class="ph">/et<b>ɛ</b>/</td>
+				<td>nous ét<b>ions</b></td>
+				<td class="ph">/et<b>jõ</b>/</td>
+			</tr>
+			<tr>
+				<td>tu parl<b>ais</b></td>
+				<td class="ph">/paʁl<b>ɛ</b>/</td>
+				<td>vous parl<b>iez</b></td>
+				<td class="ph">/paʁl<b>je</b>/</td>
+				<td>tu ét<b>ais</b></td>
+				<td class="ph">/et<b>ɛ</b>/</td>
+				<td>vous ét<b>iez</b></td>
+				<td class="ph">/et<b>je</b>/</td>
+			</tr>
+			<tr>
+				<td>il parl<b>ait</b></td>
+				<td class="ph">/paʁl<b>ɛ</b>/</td>
+				<td>ils parl<b>aient</b></td>
+				<td class="ph">/paʁl<b>ɛ</b>/</td>
+				<td>il ét<b>ait</b></td>
+				<td class="ph">/et<b>ɛ</b>/</td>
+				<td>ils ét<b>aient</b></td>
+				<td class="ph">/et<b>ɛ</b>/</td>
+			</tr>
+		</table>
+
+		<h4><b>Futur simple</b></h4>
+		<p>Used for future imperfective and perfective situations (<i>will do, will be doing</i>) - infinitive (without <b>-e</b> for <b>-re</b>) + personal ending (many irregulars).</p>
+		<table class="fr">
+			<tr>
+				<td colspan="4"><b>parler</b> <span class="ph">/paʁle/</span>:</td>
+			</tr>
+			<tr>
+				<td>je parler<b>ai</b></td>
+				<td class="ph">/paʁləʁ<b>e</b>/</td>
+				<td>nous parler<b>ons</b></td>
+				<td class="ph">/paʁləʁ<b>õ</b>/</td>
+			</tr>
+			<tr>
+				<td>tu parler<b>as</b></td>
+				<td class="ph">/paʁləʁ<b>a</b>/</td>
+				<td>vous parler<b>ez</b></td>
+				<td class="ph">/paʁləʁ<b>e</b>/</td>
+			</tr>
+			<tr>
+				<td>il parler<b>a</b></td>
+				<td class="ph">/paʁləʁ<b>a</b>/</td>
+				<td>ils parler<b>ont</b></td>
+				<td class="ph">/paʁləʁ<b>õ</b>/</td>
+			</tr>
+		</table>
+		<table class="fr">
+			<tr>
+				<td>Most group I verbs ending in <b>-eter -eler -yer</b> become <b>-etter- -eller- -ier-</b> before a silent <b>e</b> - <b>appeler</b> &rarr; <b>appeller-</b>, <b>jeter</b> &rarr; <b>jetter-</b>, <b>employer</b> &rarr; <b>emploie-</b></td>
+			</tr>
+			<tr>
+				<td>(<b>-ayer</b> may retain <b>y</b> - <b>essayer</b> &rarr; <b>essayer- / essaier-</b>)</td>
+			</tr>
+			<tr>
+				<td>Other group I verbs containing a silent <b>e</b> spell it as <b>è</b> - <b>lever</b> &rarr; <b>lèver-</b></td>
+			</tr>
+			<tr>
+				<td>(verbs containing <b>é</b> may be spelled with <b>é</b> or <b>è</b>, but pronounced as <span class="ph">/ɛ/</span> - <b>sécher</b> &rarr; <b>sécher- / sècher-</b>)</td>
+			</tr>
+		</table>
+		<table class="fr">
+			<tr>
+				<td><b>être</b> &rarr; <b>ser-</b></td>
+				<td class="ph">/səʁ/</td>
+				<td><b>pouvoir</b> &rarr; <b>pourr-</b></td>
+				<td class="ph">/puʁ/</td>
+				<td><b>mourir</b> &rarr; <b>mourr-</b></td>
+				<td class="ph">/muʁ/</td>
+			</tr>
+			<tr>
+				<td><b>avoir</b> &rarr; <b>aur-</b></td>
+				<td class="ph">/oʁ/</td>
+				<td><b>devoir</b> &rarr; <b>devr-</b></td>
+				<td class="ph">/dəvʁ/</td>
+				<td><b>courir</b> &rarr; <b>courr-</b></td>
+				<td class="ph">/kuʁ/</td>
+			</tr>
+			<tr>
+				<td><b>faire</b> &rarr; <b>fer-</b></td>
+				<td class="ph">/fəʁ/</td>
+				<td><b>savoir</b> &rarr; <b>saur-</b></td>
+				<td class="ph">/sɔʁ/</td>
+				<td><b>voir</b> &rarr; <b>verr-</b></td>
+				<td class="ph">/vɛʁ/</td>
+			</tr>
+			<tr>
+				<td><b>aller</b> &rarr; <b>ir-</b></td>
+				<td class="ph">/iʁ/</td>
+				<td><b>vouloir</b> &rarr; <b>voudr-</b></td>
+				<td class="ph">/vudʁ/</td>
+				<td><b>venir</b> &rarr; <b>viendr-</b></td>
+				<td class="ph">/vjɛ̃dʁ/</td>
+			</tr>
+			<tr>
+				<td><b>envoyer</b> &rarr; <b>enverr-</b></td>
+				<td class="ph">/ɑ̃vɛʁ/</td>
+				<td><b>falloir</b> &rarr; <b>faudr-</b></td>
+				<td class="ph">/fodʁ/</td>
+				<td><b>tenir</b> &rarr; <b>tiendr-</b></td>
+				<td class="ph">/tjɛ̃dʁ/</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class="ph"></td>
+				<td><b>pleuvoir</b> &rarr; <b>pleuvr-</b></td>
+				<td class="ph">/plœvʁ/</td>
+				<td><b>recevoir</b> &rarr; <b>recevr-</b></td>
+				<td class="ph">/ʁəsəvʁ/</td>
+			</tr>
+		</table>
+
+		<h4><b>Conditionel</b></h4>
+		<p>Futur stem + imperfait endings.</p>
+		<table class="fr">
+			<tr>
+				<td colspan="4"><b>parler</b> <span class="ph">/paʁle/</span>:</td>
+			</tr>
+			<tr>
+				<td>je parler<b>ais</b></td>
+				<td class="ph">/paʁləʁ<b>ɛ</b>/</td>
+				<td>nous parler<b>ions</b></td>
+				<td class="ph">/paʁləʁ<b>jõ</b>/</td>
+			</tr>
+			<tr>
+				<td>tu parler<b>ais</b></td>
+				<td class="ph">/paʁləʁ<b>ɛ</b>/</td>
+				<td>vous parler<b>iez</b></td>
+				<td class="ph">/paʁləʁ<b>je</b>/</td>
+			</tr>
+			<tr>
+				<td>il parler<b>ait</b></td>
+				<td class="ph">/paʁləʁ<b>ɛ</b>/</td>
+				<td>ils parler<b>aient</b></td>
+				<td class="ph">/paʁləʁ<b>ɛ</b>/</td>
+			</tr>
+		</table>
+
+		<h4><b>Questions et négation</b></h4>
+		<p>Tu aimes le chocolat? = Aimes-tu le chocolat? = <b>Est-ce que</b> tu aimes le chocolat?</br>
+		Il aime le chocolat? = Aime-t-il le chocolat? = <b>Est-ce qu</b>'il aime le chocolat?</br>
+		Tu es triste pourquoi? = Pourquoi es-tu triste? = Pourquoi <b>est-ce que</b> tu es triste?</br></br>
+		Je parle français. &hArr; Je <b>ne</b> parle <b>pas</b> français.</br>
+		C’est toujours bon. &hArr; Ce <b>n</b>’est <b>jamais</b> bon.</br>
+		Il l'a fait. &hArr; Il <b>ne</b> l’a <b>pas</b> fait.</br>
+		Je sais nager. &hArr; Je <b>ne</b> sais <b>pas</b> nager.</br>
+		J’ai des enfants. &hArr; Je n’ai pas <b>d</b>’enfants.</br>
+		J’ai une sœur. &hArr; Je n’ai pas <b>de</b> sœur.</br>
+		C’est un étudiant. &hArr; Ce n’est pas <b>un</b> étudiant. (<b>de</b> not used in negative sentences with <b>être</b>)
+		</p>
+
+		<h4><b>Prépositions</b></h4>
+		<table class="fr">
+			<tr>
+				<td colspan="3"><b>à</b> <span class="ph">/a/</span></td>
+			</tr>
+			<tr>
+				<td>at, in (place)</td>
+				<td class="b">Je suis à la maison.</td>
+				<td>I am at home.</td>
+			</tr>
+			<tr>
+				<td>to (destination)</td>
+				<td class="b">Je vais à Paris.</td>
+				<td>I’m going to Paris.</td>
+			</tr>
+			<tr>
+				<td>on the, to the (directions)</td>
+				<td class="b">L'école est à gauche.</td>
+				<td>The school is to the left.</td>
+			</tr>
+			<tr>
+				<td>until (time)</td>
+				<td class="b">Je travaille de 8h à 16h.</td>
+				<td>I work from 8AM to 4PM.</td>
+			</tr>
+			<tr>
+				<td>at (time)</td>
+				<td class="b">Je me lève à 9 heures.</td>
+				<td>I get up at 9.</td>
+			</tr>
+			<tr>
+				<td>to (indirect object)</td>
+				<td class="b">J'ai donné un cadeau à ma mère.</td>
+				<td>I gave a gift to my mother.</td>
+			</tr>
+			<tr>
+				<td>of (belonging to)</td>
+				<td class="b">C’est un ami à moi.</td>
+				<td>This is a friend of mine.</td>
+			</tr>
+			<tr>
+				<td>for (purpose; compounds)</td>
+				<td class="b">une brosse à dents</td>
+				<td>a toothbrush</td>
+			</tr>
+			<tr>
+				<td>to (before an infinitive)</td>
+				<td class="b">Il y a des choses à faire.</td>
+				<td>There are things to do.</td>
+			</tr>
+			<tr>
+				<td>by</td>
+				<td class="b">peu à peu</td>
+				<td>bit by bit</td>
+			</tr>
+			<tr>
+				<td>at (price)</td>
+				<td class="b">Ce livre est à dix euros.</td>
+				<td>This book is 10 euros.</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="3"><b>de</b> <span class="ph">/də/</span></td>
+			</tr>
+			<tr>
+				<td>from (place)</td>
+				<td class="b">Je viens de France.</td>
+				<td>I come from France.</td>
+			</tr>
+			<tr>
+				<td>from (time)</td>
+				<td class="b">Je travaille de 8h à 16h.</td>
+				<td>I work from 8AM to 4PM.</td>
+			</tr>
+			<tr>
+				<td>of (belonging to)</td>
+				<td class="b">C’est la voiture de John.</td>
+				<td>This is John’s car.</td>
+			</tr>
+			<tr>
+				<td>of (amount)</td>
+				<td class="b">une tasse de café</td>
+				<td>a cup of coffee</td>
+			</tr>
+			<tr>
+				<td style="vertical-align: baseline;">of (attributive; compounds)</td>
+				<td class="b">un jus de pomme<br/>une statue de marbre</td>
+				<td>apple juice<br/>a marble statue</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="3"><b>en</b> <span class="ph">/ɑ̃/</span></td>
+			</tr>
+			<tr>
+				<td>in, to (place)</td>
+				<td class="b">J’habite en France.</td>
+				<td>I live in France.</td>
+			</tr>
+			<tr>
+				<td>by (means)</td>
+				<td class="b">Je vais en voiture.</td>
+				<td>I go by car.</td>
+			</tr>
+			<tr>
+				<td>as</td>
+				<td class="b">Il me traite en ami.</td>
+				<td>He treats me as a friend.</td>
+			</tr>
+			<tr>
+				<td>of, made of (composition)</td>
+				<td class="b">une maison en bois</td>
+				<td>a wooden house</td>
+			</tr>
+			<tr>
+				<td>in (year, month, season)</td>
+				<td class="b">en 1994 / en mars / en été</td>
+				<td>in 1994 / in March / in summer</td>
+			</tr>
+			<tr>
+				<td>in (color)</td>
+				<td class="b">en vert</td>
+				<td>in green</td>
+			</tr>
+		</table>
+		<table class="fr">
+			<tr>
+				<td colspan="3">With smaller places like cities, <b>à</b> is used. With large ones like continents, countries and states, the following are used:</td>
+			</tr>
+			<tr>
+				<td><b>en</b> before f. nouns and V-initial m. nouns</td>
+				<td class="b">Je vais en France / en Iran.</td>
+				<td>I go to France / to Iran.</td>
+			</tr>
+			<tr>
+				<td><b>au</b> before C-initial m. nouns</td>
+				<td class="b">J’habite au Japon.</td>
+				<td>I live in Japan.</td>
+			</tr>
+			<tr>
+				<td><b>aux</b> before plural nouns</td>
+				<td class="b">J’habite aux États-Unis.</td>
+				<td>I live in the United States.</td>
+			</tr>
+		</table>
+		<table class="fr">
+			<tr>
+				<td colspan="3"><b>dans</b> <span class="ph">/dɑ̃/</span></td>
+			</tr>
+			<tr>
+				<td>in, inside (literally)</td>
+				<td class="b">Je suis dans la chambre.</td>
+				<td>I am in the room.</td>
+			</tr>
+			<tr>
+				<td>in (figuratively)</td>
+				<td class="b">Ils vivent dans la pauvreté.</td>
+				<td>They live in poverty.</td>
+			</tr>
+			<tr>
+				<td>in, within (period of time)</td>
+				<td class="b">Je finis dans une heure.</td>
+				<td>I finish in an hour.</td>
+			</tr>
+			<tr>
+				<td style="vertical-align: baseline;">out of, from</td>
+				<td class="b">Je bois dans une tasse.<br/>Je l’ai pris dans le frigo.</td>
+				<td>I drink from a cup.<br/>I took it out of the fridge.</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="3"><b>par</b> <span class="ph">/paʁ/</span></td>
+			</tr>
+			<tr>
+				<td>through</td>
+				<td class="b">Je regarde par la fenêtre.</td>
+				<td>I’m looking through the window.</td>
+			</tr>
+			<tr>
+				<td>by (means)</td>
+				<td class="b">suicide par pendaison</td>
+				<td>suicide by hanging</td>
+			</tr>
+			<tr>
+				<td>by (manner)</td>
+				<td class="b">par hasard</td>
+				<td>by chance</td>
+			</tr>
+			<tr>
+				<td>by (in passive sentences)</td>
+				<td class="b">Il est mangé par lui.</td>
+				<td>It’s eaten by him.</td>
+			</tr>
+			<tr>
+				<td>per</td>
+				<td class="b">trois fois par semaine</td>
+				<td>three times a week</td>
+			</tr>
+			<tr>
+				<td>out of (reason)</td>
+				<td class="b">par tristesse</td>
+				<td>out of sadness</td>
+			</tr>
+		</table>
+		<table class="fr">
+			<tr>
+				<td colspan="3">When talking about means of transportation, the following are used:</td>
+			</tr>
+			<tr>
+				<td><b>à</b> when on the means of transport</td>
+				<td class="b">à pied / à cheval</td>
+				<td>on foot / on horseback</td>
+			</tr>
+			<tr>
+				<td><b>en</b> when in the means of transport</td>
+				<td class="b">en train / en voiture</td>
+				<td>by train / by car</td>
+			</tr>
+			<tr>
+				<td><b>par</b> often not with people</td>
+				<td class="b">par avion / par train</td>
+				<td>by plane / by train (person, or e.g. package)</td>
+			</tr>
+		</table>
+		<table class="fr">
+			<tr>
+				<td colspan="3"><b>sur</b> <span class="ph">/syʁ/</span></td>
+			</tr>
+			<tr>
+				<td>on, on top of</td>
+				<td class="b">La pomme est sur la table.</td>
+				<td>The apple is on the table.</td>
+			</tr>
+			<tr>
+				<td>out of (amount)</td>
+				<td class="b">cinq sur sept</td>
+				<td>five out of seven</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="3"><b>pour</b> <span class="ph">/puʁ/</span></td>
+			</tr>
+			<tr>
+				<td>for (beneficiary)</td>
+				<td class="b">Je l’ai fait pour lui.</td>
+				<td>I did it for him.</td>
+			</tr>
+			<tr>
+				<td>for (direction)</td>
+				<td class="b">Je suis parti pour la France.</td>
+				<td>I left for France.</td>
+			</tr>
+			<tr>
+				<td>to, in order to (purpose)</td>
+				<td class="b">J'y suis allé pour mourir.</td>
+				<td>I went there to die.</td>
+			</tr>
+			<tr style="height: 24px;">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="3"><b>avec</b> <span class="ph">/avɛk/</span></td>
+			</tr>
+			<tr>
+				<td>with (accompaniment)</td>
+				<td class="b">Je parle avec ma sœur.</td>
+				<td>I’m talking with my sister.</td>
+			</tr>
+			<tr>
+				<td>with (manner)</td>
+				<td class="b">avec plaisir</td>
+				<td>with pleasure</td>
+			</tr>
+			<tr>
+				<td>with (means)</td>
+				<td class="b">Je mange avec une fourchette.</td>
+				<td>I eat with a fork.</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
+
