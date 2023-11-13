@@ -449,10 +449,10 @@ span.example {
 	color: #6aa3ff;
 }
 .b {
-	font-family: 'Noto Sans Pro Black', sans-serif !important;
+	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', sans-serif !important;
 }
 .ph b {
-	font-family: 'Noto Sans Pro Black', sans-serif !important;
+	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', sans-serif !important;
 	font-weight: bold;
 }
 
@@ -478,7 +478,7 @@ rt {
     font-size: 7px;
 }
 .ipa {
-    font-family: 'Noto Sans Pro Regular', sans-serif !important;
+    font-family: 'Source Sans Pro Regular', 'Noto Sans JP Regular', sans-serif !important;
 }
 .split {
     height: 20px;
