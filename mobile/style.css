@@ -367,6 +367,9 @@ footer {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+#contentDiv p.noSpace {
+	margin-bottom: 0px;
+}
 #contentDiv h1 {
 	margin: 20px 0px 0px 0px;
     text-align: left;
