@@ -569,7 +569,7 @@ rt {
 	list-style-type: none;
 	margin-left: 4ch;
 }
-#contentDivNew p.noSpace {
+.noSpace {
 	margin-bottom: 0px;
 }
 .tabNew * {
