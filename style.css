@@ -406,6 +406,9 @@ footer {
 	margin-top: 24px;
 	margin-bottom: 24px;
 }
+#contentDiv p.noSpace {
+	margin-bottom: 0px;
+}
 #contentDiv h1 {
 	display: inline-block;
 	margin: 15px 0px;
@@ -569,7 +572,7 @@ rt {
 	list-style-type: none;
 	margin-left: 4ch;
 }
-.noSpace {
+#contentDivNew p.noSpace {
 	margin-bottom: 0px;
 }
 .tabNew * {
