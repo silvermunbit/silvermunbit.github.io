@@ -33,10 +33,12 @@ b {
 }
 sub {
 	font-size: 10px !important;
+	font-family: inherit !important;
 	vertical-align: baseline !important;
 }
 sup {
 	font-size: 10px !important;
+	font-family: inherit !important;
 	vertical-align: top !important;
 }
 
