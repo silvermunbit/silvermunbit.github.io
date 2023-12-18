@@ -545,13 +545,13 @@ rt {
 	margin-top: 24px;
 	margin-bottom: 24px;
 }
-#contentDivNew h4 {
+#contentDivNew h4, #contentDivNew h4 * {
 	font-family: 'Source Sans Pro Black', sans-serif;
 	font-size: 30px;
 	font-weight: 500;
 	margin: 5px 0px;
 }
-#contentDivNew h5 {
+#contentDivNew h5, #contentDivNew h5 * {
 	font-family: 'Source Sans Pro Black', sans-serif;
 	font-size: 20px;
 	font-weight: 500;
@@ -595,6 +595,12 @@ rt {
 }
 span.grayNew {
 	color: #707070;
+}
+#TOC a, #TOC a .grayNew {
+	font-family: 'Source Sans Pro Black', sans-serif;
+}
+#TOC .newUlNested a, #TOC .newUlNested a {
+	font-family: inherit;
 }
 
 /*
