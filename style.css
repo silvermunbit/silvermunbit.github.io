@@ -599,7 +599,7 @@ span.grayNew {
 #TOC a, #TOC a .grayNew {
 	font-family: 'Source Sans Pro Black', sans-serif;
 }
-#TOC .newUlNested a, #TOC .newUlNested a {
+#TOC .newUlNested a, #TOC .newUlNested a .grayNew {
 	font-family: inherit;
 }
 
