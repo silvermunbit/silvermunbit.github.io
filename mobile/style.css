@@ -534,13 +534,13 @@ rt {
 .newUl {
 	margin-top: 0px;
 	list-style-type: none;
-	margin-left: 4ch;
+	margin-left: 2ch;
 	margin-bottom: 24px;
 }
 .newUlNested {
 	margin-top: 0px;
 	list-style-type: none;
-	margin-left: 4ch;
+	margin-left: 2ch;
 }
 #contentDivNew p.noSpace {
 	margin-bottom: 0px;
@@ -576,6 +576,9 @@ rt {
 }
 span.grayNew {
 	color: #707070;
+}
+#TOC {
+	margin-left: 0;
 }
 #TOC a, #TOC a .grayNew {
 	font-family: 'Source Sans Pro Black', sans-serif;
