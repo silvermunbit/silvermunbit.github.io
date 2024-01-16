@@ -11,6 +11,9 @@
 @font-face {font-family: "Noto Sans Pro Regular"; src: url(fonts/NotoSans-Regular.ttf);}
 @font-face {font-family: "Noto Sans Pro Regular Italic"; src: url(fonts/NotoSans-Italic.ttf);}
 
+@font-face {font-family: "Source 3"; src: url(fonts/SourceSans3-VariableFont_wght.ttf);}
+@font-face {font-family: "Source 3 Italic"; src: url(fonts/SourceSans3-Italic-VariableFont_wght.ttf);}
+
 /* GLOBAL */
 
 * {
