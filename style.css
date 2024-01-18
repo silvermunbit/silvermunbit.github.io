@@ -1,5 +1,5 @@
 ﻿/* DESKTOP */
-@font-face {font-family: "Noto Sans JP Light"; src: url(fonts/NotoSansCJKjp-Light.otf);}
+/*@font-face {font-family: "Noto Sans JP Light"; src: url(fonts/NotoSansCJKjp-Light.otf);}
 @font-face {font-family: "Noto Sans JP Black"; src: url(fonts/NotoSansCJKjp-Black.otf);}
 
 @font-face {font-family: "Source Sans Pro Light"; src: url(fonts/SourceSansPro-Light.otf);}
@@ -9,15 +9,16 @@
 @font-face {font-family: "Source Sans Pro Black"; src: url(fonts/SourceSansPro-Black.otf);}
 
 @font-face {font-family: "Noto Sans Pro Regular"; src: url(fonts/NotoSans-Regular.ttf);}
-@font-face {font-family: "Noto Sans Pro Regular Italic"; src: url(fonts/NotoSans-Italic.ttf);}
+@font-face {font-family: "Noto Sans Pro Regular Italic"; src: url(fonts/NotoSans-Italic.ttf);}*/
 
-@font-face {font-family: "Source 3"; src: url(fonts/SourceSans3-VariableFont_wght.ttf);}
-@font-face {font-family: "Source 3 Italic"; src: url(fonts/SourceSans3-Italic-VariableFont_wght.ttf);}
+@font-face {font-family: "Noto"; src: url(fonts/NotoSansJP-VariableFont_wght.ttf);}
+@font-face {font-family: "Source"; src: url(fonts/SourceSans3-VariableFont_wght.ttf);}
+@font-face {font-family: "Source Italic"; src: url(fonts/SourceSans3-Italic-VariableFont_wght.ttf);}
 
 /* GLOBAL */
 
 * {
-    font-family: 'Source Sans Pro Light', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
+    font-family: 'Source', 'Noto', 'Malgun Gothic', sans-serif;
     font-weight: 400;
 }
 *:focus {
@@ -33,7 +34,8 @@ a {
     text-decoration: none;
 }
 b {
-    font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', 'sans-serif' !important;
+    font-family: 'Source', 'Noto', 'Malgun Gothic', 'sans-serif' !important;
+	font-weight: 900;
 }
 sub {
 	font-size: 10px;
@@ -63,9 +65,9 @@ sup {
 }
 h3 {
     margin: 15px 0px 2px 15px;
-    font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+    font-family: 'Source', 'Noto', 'Malgun Gothic', sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 900;
     color: #707070;
 }
 #menu a {
@@ -405,7 +407,8 @@ footer {
     padding: 8px;
 }
 #contentDiv * {
-	font-family: 'Source Sans Pro Light', 'Noto Sans JP Light', 'Malgun Gothic', sans-serif;
+	font-family: 'Source', 'Noto', 'Malgun Gothic', sans-serif;
+	font-weight: 400;
 }
 #contentDiv p {
 	margin-top: 24px;
@@ -417,42 +420,44 @@ footer {
 #contentDiv h1 {
 	display: inline-block;
 	margin: 15px 0px;
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+	font-family: 'Source', 'Noto', 'Malgun Gothic', sans-serif;
 	font-size: 30px;
 	/*color: #707070;*/
-	font-weight: 500;
+	font-weight: 900;
 }
 #contentDiv h2 {
 	display: inline-block;
 	margin: 0px 10px;
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+	font-family: 'Source', 'Noto', 'Malgun Gothic', sans-serif;
 	font-size: 20px;
 	color: #707070;
-	font-weight: 500;
+	font-weight: 900;
 }
 #contentDiv h4 {
     	display: inline-block;
 	margin: 15px 0px;
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+	font-family: 'Source', 'Noto', 'Malgun Gothic', sans-serif;
+	font-weight: 900;
 	font-size: 20px;
 	color: white;
 }
 #contentDiv h4 b {
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+	font-family: 'Source', 'Noto', 'Malgun Gothic', sans-serif;
 	font-size: 30px;
-	font-weight: 500;
+	font-weight: 900;
 }
 #contentDiv h5 {
     	display: inline-block;
 	margin: 15px 0px;
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+	font-family: 'Source', 'Noto', 'Malgun Gothic', sans-serif;
+	font-weight: 900;
 	font-size: 16px;
 	color: white;
 }
 #contentDiv h5 b {
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+	font-family: 'Source', 'Noto', 'Malgun Gothic', sans-serif;
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 900;
 }
 ul {
     margin-left: 18px;
@@ -472,8 +477,8 @@ table td, table th {
 }
 table th {
 	background: #222;
-    font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
-    font-weight: 500;
+    font-family: 'Source', 'Noto', 'Malgun Gothic', sans-serif;
+    font-weight: 900;
 }
 span.blue {
 	color: #09f;
@@ -490,15 +495,17 @@ span.example {
 }
 
 .ph {
-	font-family: 'Source Sans Pro Light', sans-serif !important;
+	font-family: 'Source', sans-serif !important;
 	color: #6aa3ff;
+	font-weight: 400;
 }
 .b {
-	font-family: 'Source Sans Pro Black', sans-serif !important;
+	font-family: 'Source', sans-serif !important;
+	font-weight: 900;
 }
 .ph b {
-	font-family: 'Source Sans Pro Black', sans-serif !important;
-	font-weight: bold;
+	font-family: 'Source', sans-serif !important;
+	font-weight: 900;
 }
 .fr * {
 	text-align: left;
@@ -516,7 +523,8 @@ rt {
     font-size: 10px;
 }
 .ipa {
-    font-family: 'Source Sans Pro Light', sans-serif !important;
+    font-family: 'Source', sans-serif !important;
+	font-weight: 400;
 }
 .split {
     height: 30px;
@@ -542,29 +550,32 @@ rt {
     padding: 8px;
 }
 #contentDivNew * {
-	font-family: 'Source Sans Pro Light', sans-serif;
+	font-family: 'Source', sans-serif;
+	font-weight: 400;
 }
 #contentDivNew p {
 	margin-top: 24px;
 	margin-bottom: 24px;
 }
 #contentDivNew h4, #contentDivNew h4 * {
-	font-family: 'Source Sans Pro Black', sans-serif;
+	font-family: 'Source', sans-serif;
 	font-size: 30px;
-	font-weight: 500;
+	font-weight: 900;
 	margin: 5px 0px;
 }
 #contentDivNew h5, #contentDivNew h5 * {
-	font-family: 'Source Sans Pro Black', sans-serif;
+	font-family: 'Source', sans-serif;
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 900;
 	margin: 5px 0px;
 }
 #contentDivNew * i {
-	font-family: 'Source Sans Pro Light Italic', sans-serif !important;
+	font-family: 'Source Italic', sans-serif !important;
+	font-weight: 400;
 }
 #contentDivNew * b {
-	font-family: 'Source Sans Pro Black', sans-serif !important;
+	font-family: 'Source', sans-serif !important;
+	font-weight: 900;
 }
 .newUl {
 	margin-top: 0px;
@@ -603,7 +614,8 @@ span.grayNew {
 	margin-left: 0;
 }
 #TOC a, #TOC a .grayNew {
-	font-family: 'Source Sans Pro Black', sans-serif;
+	font-family: 'Source', sans-serif;
+	font-weight: 900;
 }
 #TOC .newUlNested a, #TOC .newUlNested a .grayNew {
 	font-family: inherit;
