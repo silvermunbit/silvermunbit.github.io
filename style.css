@@ -22,6 +22,7 @@
 
 * {
     font-family: 'Source', 'Noto', sans-serif;
+	font-weight: 400;
 }
 *:focus {
     outline: none;
@@ -37,6 +38,7 @@ a {
 }
 b {
     font-family: 'Source Black', 'Noto Black', 'sans-serif' !important;
+	font-weight: 900;
 }
 sub {
 	font-size: 10px;
@@ -67,6 +69,7 @@ sup {
 h3 {
     margin: 15px 0px 2px 15px;
     font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
     font-size: 16px;
     color: #707070;
 }
@@ -408,6 +411,7 @@ footer {
 }
 #contentDiv * {
 	font-family: 'Source', 'Noto', sans-serif;
+	font-weight: 400;
 }
 #contentDiv p {
 	margin-top: 24px;
@@ -420,6 +424,7 @@ footer {
 	display: inline-block;
 	margin: 15px 0px;
 	font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 	font-size: 30px;
 	/*color: #707070;*/
 }
@@ -427,6 +432,7 @@ footer {
 	display: inline-block;
 	margin: 0px 10px;
 	font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 	font-size: 20px;
 	color: #707070;
 }
@@ -434,22 +440,26 @@ footer {
     	display: inline-block;
 	margin: 15px 0px;
 	font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 	font-size: 20px;
 	color: white;
 }
 #contentDiv h4 b {
 	font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 	font-size: 30px;
 }
 #contentDiv h5 {
     	display: inline-block;
 	margin: 15px 0px;
 	font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 	font-size: 16px;
 	color: white;
 }
 #contentDiv h5 b {
 	font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 	font-size: 20px;
 }
 ul {
@@ -471,6 +481,7 @@ table td, table th {
 table th {
 	background: #222;
     font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 }
 span.blue {
 	color: #09f;
@@ -488,13 +499,16 @@ span.example {
 
 .ph {
 	font-family: 'Source', sans-serif !important;
+	font-weight: 400;
 	color: #6aa3ff;
 }
 .b {
 	font-family: 'Source Black', sans-serif !important;
+	font-weight: 900;
 }
 .ph b {
 	font-family: 'Source Black', sans-serif !important;
+	font-weight: 900;
 }
 .fr * {
 	text-align: left;
@@ -513,6 +527,7 @@ rt {
 }
 .ipa {
     font-family: 'Source', sans-serif !important;
+	font-weight: 400;
 }
 .split {
     height: 30px;
@@ -539,6 +554,7 @@ rt {
 }
 #contentDivNew * {
 	font-family: 'Source', sans-serif;
+	font-weight: 400;
 }
 #contentDivNew p {
 	margin-top: 24px;
@@ -546,19 +562,26 @@ rt {
 }
 #contentDivNew h4, #contentDivNew h4 * {
 	font-family: 'Source Black', sans-serif;
+	font-weight: 900;
 	font-size: 30px;
 	margin: 5px 0px;
 }
 #contentDivNew h5, #contentDivNew h5 * {
 	font-family: 'Source Black', sans-serif;
+	font-weight: 900;
 	font-size: 20px;
 	margin: 5px 0px;
 }
 #contentDivNew * i {
 	font-family: 'Source Italic', sans-serif !important;
+	font-weight: 400;
 }
 #contentDivNew * b {
 	font-family: 'Source Black', sans-serif !important;
+	font-weight: 900;
+}
+i b {
+	font-family: 'Source Black Italic', sans-serif;
 }
 .newUl {
 	margin-top: 0px;
@@ -591,13 +614,14 @@ rt {
 	padding: 0px 1ch 0pc 0ch;
 }
 span.grayNew {
-	color: #707070;
+	color: #999;
 }
 #TOC {
 	margin-left: 0;
 }
 #TOC a, #TOC a .grayNew {
 	font-family: 'Source Black', sans-serif;
+	font-weight: 900;
 }
 #TOC .newUlNested a, #TOC .newUlNested a .grayNew {
 	font-family: inherit;
