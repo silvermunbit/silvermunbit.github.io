@@ -12,8 +12,9 @@
 @font-face {font-family: "Noto Sans Pro Regular Italic"; src: url(fonts/NotoSans-Italic.ttf);}*/
 
 @font-face {font-family: "Noto"; src: url(fonts/NotoSansJP-VariableFont_wght.ttf) format("woff2 supports variations"), url(fonts/NotoSansJP-VariableFont_wght.ttf) format("woff2-variations"); font-weight: 400 900;}
-@font-face {font-family: "Source"; src: url(fonts/SourceSans3-VariableFont_wght.ttf) format("woff2 supports variations"), url(fonts/SourceSans3-VariableFont_wght.ttf) format("woff2-variations"); font-weight: 400 900;}
-@font-face {font-family: "Source Italic"; src: url(fonts/SourceSans3-Italic-VariableFont_wght.ttf) format("woff2 supports variations"), src: url(fonts/SourceSans3-Italic-VariableFont_wght.ttf) format("woff2-variations"); font-weight: 400 900;}
+/*@font-face {font-family: "Source"; src: url(fonts/SourceSans3-VariableFont_wght.ttf) format("woff2 supports variations"), url(fonts/SourceSans3-VariableFont_wght.ttf) format("woff2-variations"); font-weight: 400 900;}
+@font-face {font-family: "Source Italic"; src: url(fonts/SourceSans3-Italic-VariableFont_wght.ttf) format("woff2 supports variations"), src: url(fonts/SourceSans3-Italic-VariableFont_wght.ttf) format("woff2-variations"); font-weight: 400 900;}*/
+@font-face {font-family: "Source"; src: url(https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;900&display=swap);}
 
 /* GLOBAL */
 
