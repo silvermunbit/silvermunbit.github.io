@@ -11,8 +11,8 @@
 @font-face {font-family: "Noto Sans Pro Regular"; src: url(fonts/NotoSans-Regular.ttf);}
 @font-face {font-family: "Noto Sans Pro Regular Italic"; src: url(fonts/NotoSans-Italic.ttf);}*/
 
-@font-face {font-family: "Noto"; src: url(font/NotoSansCJKjp-Regular.ttf);}
-@font-face {font-family: "Noto Black"; src: url(font/NotoSansCJKjp-Black.ttf);}
+@font-face {font-family: "Noto"; src: url(font/NotoSansJP-Regular.ttf);}
+@font-face {font-family: "Noto Black"; src: url(font/NotoSansJP-Black.ttf);}
 @font-face {font-family: "Source"; src: url(font/SourceSans3-Regular.ttf);}
 @font-face {font-family: "Source Black"; src: url(font/SourceSans3-Black.ttf);}
 @font-face {font-family: "Source Italic"; src: url(font/SourceSans3-Italic.ttf);}
