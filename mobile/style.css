@@ -1,19 +1,15 @@
 ﻿/* MOBILE */
-
-@font-face {font-family: "Noto Sans JP Light"; src: url(../fonts/NotoSansCJKjp-Light.otf);}
-@font-face {font-family: "Noto Sans JP Demi"; src: url(../fonts/NotoSansCJKjp-DemiLight.otf);}
-@font-face {font-family: "Noto Sans JP Black"; src: url(../fonts/NotoSansCJKjp-Black.otf);}
-
-@font-face {font-family: "Source Sans Pro Light"; src: url(../fonts/SourceSansPro-Light.otf);}
-@font-face {font-family: "Source Sans Pro Light Italic"; src: url(../fonts/SourceSansPro-LightIt.otf);}
-@font-face {font-family: "Source Sans Pro Regular"; src: url(../fonts/SourceSansPro-Regular.otf);}
-@font-face {font-family: "Source Sans Pro Regular Italic"; src: url(../fonts/SourceSansPro-It.otf);}
-@font-face {font-family: "Source Sans Pro Black"; src: url(../fonts/SourceSansPro-Black.otf);}
+@font-face {font-family: "Noto"; src: url(font/NotoSansJP-Regular.ttf);}
+@font-face {font-family: "Noto Black"; src: url(font/NotoSansJP-Black.ttf);}
+@font-face {font-family: "Source"; src: url(font/SourceSans3-Regular.ttf);}
+@font-face {font-family: "Source Black"; src: url(font/SourceSans3-Black.ttf);}
+@font-face {font-family: "Source Italic"; src: url(font/SourceSans3-Italic.ttf);}
+@font-face {font-family: "Source Black Italic"; src: url(font/SourceSans3-BlackItalic.ttf);}
 
 /* GLOBAL */
 
 * {
-    font-family: 'Source Sans Pro Regular', 'Noto Sans JP Demi', 'Malgun Gothic', sans-serif;
+    font-family: 'Source', 'Noto', sans-serif;
     font-weight: 400;
 }
 *:focus {
@@ -29,16 +25,17 @@ a {
     text-decoration: none;
 }
 b {
-    font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', 'sans-serif' !important;
+    font-family: 'Source Black', 'Noto Black', 'sans-serif' !important;
+	font-weight: 900;
 }
 sub {
 	font-size: 10px !important;
-	font-family: inherit !important;
+	ily: inherit !important;
 	vertical-align: baseline !important;
 }
 sup {
 	font-size: 10px !important;
-	font-family: inherit !important;
+	ily: inherit !important;
 	vertical-align: top !important;
 }
 
@@ -59,7 +56,8 @@ sup {
 }
 h3 {
     margin: 15px 0px 2px 15px;
-    font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+    ily: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
     font-size: 16px;
     font-weight: 600;
     color: #707070;
@@ -363,7 +361,8 @@ footer {
     font-size: 14px;
 }
 #contentDiv * {
-	font-family: 'Source Sans Pro Regular', 'Noto Sans JP Demi', 'Malgun Gothic', sans-serif;
+	font-family: 'Source', 'Noto', sans-serif;
+	font-weight: 400;
 }
 #contentDiv p {
 	margin-top: 20px;
@@ -375,41 +374,44 @@ footer {
 #contentDiv h1 {
 	margin: 20px 0px 0px 0px;
     text-align: left;
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 	font-size: 24px;
 	/*color: #707070;*/
-	font-weight: 500;
 }
 #contentDiv h2 {
     margin-top: 5px;
     text-align: left;
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 	font-size: 18px;
 	color: #707070;
 }
 #contentDiv h4 {
     	display: inline-block;
 	margin: 10px 0px;
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 	font-size: 16px;
 	color: white;
 }
 #contentDiv h4 b {
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+	font-family: 'Source', 'Noto', 'Malgun Gothic', sans-serif;
+	font-weight: 900;
 	font-size: 24px;
-	font-weight: 500;
 }
 #contentDiv h5 {
     	display: inline-block;
 	margin: 10px 0px;
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 	font-size: 14px;
 	color: white;
 }
 #contentDiv h5 b {
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 	font-size: 16px;
-	font-weight: 500;
 }
 ul {
     margin-left: 18px;
@@ -432,8 +434,8 @@ table td, table th {
 }
 table th {
 	background: #222;
-    font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', 'Malgun Gothic', sans-serif;
-    font-weight: 500;
+    font-family: 'Source Black', 'Noto Black', sans-serif;
+	font-weight: 900;
 }
 span.blue {
 	color: #09f;
@@ -450,15 +452,17 @@ span.example {
 }
 
 .ph {
-	font-family: 'Source Sans Pro Regular', sans-serif !important;
+	font-family: 'Source', sans-serif !important;
+	font-weight: 400;
 	color: #6aa3ff;
 }
 .b {
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', sans-serif !important;
+	font-family: 'Source Black', 'Noto Black', sans-serif !important;
+	font-weight: 900;
 }
 .ph b {
-	font-family: 'Source Sans Pro Black', 'Noto Sans JP Black', sans-serif !important;
-	font-weight: bold;
+	font-family: 'Source Black', 'Noto Black', sans-serif !important;
+	font-weight: 900;
 }
 
 .fr::-webkit-scrollbar {
@@ -483,7 +487,8 @@ rt {
     font-size: 7px;
 }
 .ipa {
-    font-family: 'Source Sans Pro Regular', 'Noto Sans JP Regular', sans-serif !important;
+    font-family: 'Source', 'Noto', sans-serif !important;
+	font-weight: 400;
 }
 .split {
     height: 20px;
@@ -506,7 +511,8 @@ rt {
     padding: 8px;
 }
 #contentDivNew * {
-	font-family: 'Source Sans Pro Regular', sans-serif;
+	font-family: 'Source', sans-serif;
+	font-weight: 400;
 	font-size: 14px;
 }
 #contentDivNew p {
@@ -514,22 +520,28 @@ rt {
 	margin-bottom: 20px;
 }
 #contentDivNew h4, #contentDivNew h4 * {
-	font-family: 'Source Sans Pro Black', sans-serif;
+	font-family: 'Source Black', sans-serif;
+	font-weight: 900;
 	font-size: 24px;
-	font-weight: 500;
 	margin: 5px 0px;
 }
 #contentDivNew h5, #contentDivNew h5 * {
-	font-family: 'Source Sans Pro Black', sans-serif;
+	font-family: 'Source Black', sans-serif;
+	font-weight: 900;
 	font-size: 16px;
-	font-weight: 500;
 	margin: 5px 0px;
 }
 #contentDivNew * i {
-	font-family: 'Source Sans Pro Regular Italic', sans-serif !important;
+	font-family: 'Source Italic', sans-serif !important;
+	font-weight: 400;
 }
 #contentDivNew * b {
-	font-family: 'Source Sans Pro Black', sans-serif !important;
+	font-family: 'Source Black', sans-serif !important;
+	font-weight: 900;
+}
+i b {
+	font-family: 'Source Black Italic', sans-serif;
+	font-weight: 900;
 }
 .newUl {
 	margin-top: 0px;
@@ -575,16 +587,18 @@ rt {
 	-ms-overflow-style: none;
 }
 span.grayNew {
-	color: #707070;
+	color: #999;
 }
 #TOC {
 	margin-left: 0;
 }
 #TOC a, #TOC a .grayNew {
-	font-family: 'Source Sans Pro Black', sans-serif;
+	font-family: 'Source Black', sans-serif;
+	font-weight: 900;
 }
 #TOC .newUlNested a, #TOC .newUlNested a .grayNew {
-	font-family: inherit;
+	font-family: 'Source', sans-serif;
+	font-weight: 400;
 }
 
 /*
@@ -631,7 +645,7 @@ padding
 border
 background
 text-align
-font-family
+ily
 font-size
 color
 font-weight
