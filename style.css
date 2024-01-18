@@ -1,16 +1,4 @@
 ﻿/* DESKTOP */
-/*@font-face {font-family: "Noto Sans JP Light"; src: url(fonts/NotoSansCJKjp-Light.otf);}
-@font-face {font-family: "Noto Sans JP Black"; src: url(fonts/NotoSansCJKjp-Black.otf);}
-
-@font-face {font-family: "Source Sans Pro Light"; src: url(fonts/SourceSansPro-Light.otf);}
-@font-face {font-family: "Source Sans Pro Light Italic"; src: url(fonts/SourceSansPro-LightIt.otf);}
-@font-face {font-family: "Source Sans Pro Regular"; src: url(fonts/SourceSansPro-Regular.otf);}
-@font-face {font-family: "Source Sans Pro Regular Italic"; src: url(fonts/SourceSansPro-It.otf);}
-@font-face {font-family: "Source Sans Pro Black"; src: url(fonts/SourceSansPro-Black.otf);}
-
-@font-face {font-family: "Noto Sans Pro Regular"; src: url(fonts/NotoSans-Regular.ttf);}
-@font-face {font-family: "Noto Sans Pro Regular Italic"; src: url(fonts/NotoSans-Italic.ttf);}*/
-
 @font-face {font-family: "Noto"; src: url(font/NotoSansJP-Regular.ttf);}
 @font-face {font-family: "Noto Black"; src: url(font/NotoSansJP-Black.ttf);}
 @font-face {font-family: "Source"; src: url(font/SourceSans3-Regular.ttf);}
@@ -619,11 +607,11 @@ span.grayNew {
 #TOC {
 	margin-left: 0;
 }
-#TOC a, #TOC a .grayNew, #TOC .newUlNested a .grayNew {
+#TOC a, #TOC a .grayNew {
 	font-family: 'Source Black', sans-serif;
 	font-weight: 900;
 }
-#TOC .newUlNested a {
+#TOC .newUlNested a, #TOC .newUlNested a .grayNew {
 	font-family: 'Source', sans-serif;
 	font-weight: 400;
 }
