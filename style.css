@@ -11,16 +11,17 @@
 @font-face {font-family: "Noto Sans Pro Regular"; src: url(fonts/NotoSans-Regular.ttf);}
 @font-face {font-family: "Noto Sans Pro Regular Italic"; src: url(fonts/NotoSans-Italic.ttf);}*/
 
-@font-face {font-family: "Noto"; src: url(fonts/NotoSansJP-VariableFont_wght.ttf) format("woff2 supports variations"), url(fonts/NotoSansJP-VariableFont_wght.ttf) format("woff2-variations"); font-weight: 400 900;}
-/*@font-face {font-family: "Source"; src: url(fonts/SourceSans3-VariableFont_wght.ttf) format("woff2 supports variations"), url(fonts/SourceSans3-VariableFont_wght.ttf) format("woff2-variations"); font-weight: 400 900;}
-@font-face {font-family: "Source Italic"; src: url(fonts/SourceSans3-Italic-VariableFont_wght.ttf) format("woff2 supports variations"), src: url(fonts/SourceSans3-Italic-VariableFont_wght.ttf) format("woff2-variations"); font-weight: 400 900;}*/
-@font-face {font-family: "Source"; src: url(https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;900&display=swap);}
+@font-face {font-family: "Noto"; src: url(font/NotoSansCJKjp-Regular.ttf);}
+@font-face {font-family: "Noto Black"; src: url(font/NotoSansCJKjp-Black.ttf);}
+@font-face {font-family: "Source"; src: url(font/SourceSans3-Regular.ttf);}
+@font-face {font-family: "Source Black"; src: url(font/SourceSans3-Black.ttf);}
+@font-face {font-family: "Source Italic"; src: url(font/SourceSans3-Italic.ttf);}
+@font-face {font-family: "Source Black Italic"; src: url(font/SourceSans3-BlackItalic.ttf);}
 
 /* GLOBAL */
 
 * {
     font-family: 'Source', 'Noto', sans-serif;
-    font-variation-settings: 'wght' 400;
 }
 *:focus {
     outline: none;
@@ -35,8 +36,7 @@ a {
     text-decoration: none;
 }
 b {
-    font-family: 'Source', 'Noto', 'sans-serif' !important;
-	font-variation-settings: 'wght' 900;
+    font-family: 'Source Black', 'Noto Black', 'sans-serif' !important;
 }
 sub {
 	font-size: 10px;
@@ -66,9 +66,8 @@ sup {
 }
 h3 {
     margin: 15px 0px 2px 15px;
-    font-family: 'Source', 'Noto', sans-serif;
+    font-family: 'Source Black', 'Noto Black', sans-serif;
     font-size: 16px;
-    font-variation-settings: 'wght' 900;
     color: #707070;
 }
 #menu a {
@@ -409,7 +408,6 @@ footer {
 }
 #contentDiv * {
 	font-family: 'Source', 'Noto', sans-serif;
-	font-variation-settings: 'wght' 400;
 }
 #contentDiv p {
 	margin-top: 24px;
@@ -421,44 +419,38 @@ footer {
 #contentDiv h1 {
 	display: inline-block;
 	margin: 15px 0px;
-	font-family: 'Source', 'Noto', sans-serif;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
 	font-size: 30px;
 	/*color: #707070;*/
-	font-variation-settings: 'wght' 900;
 }
 #contentDiv h2 {
 	display: inline-block;
 	margin: 0px 10px;
-	font-family: 'Source', 'Noto', sans-serif;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
 	font-size: 20px;
 	color: #707070;
-	font-variation-settings: 'wght' 900;
 }
 #contentDiv h4 {
     	display: inline-block;
 	margin: 15px 0px;
-	font-family: 'Source', 'Noto', sans-serif;
-	font-variation-settings: 'wght' 900;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
 	font-size: 20px;
 	color: white;
 }
 #contentDiv h4 b {
-	font-family: 'Source', 'Noto', sans-serif;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
 	font-size: 30px;
-	font-variation-settings: 'wght' 900;
 }
 #contentDiv h5 {
     	display: inline-block;
 	margin: 15px 0px;
-	font-family: 'Source', 'Noto', sans-serif;
-	font-variation-settings: 'wght' 900;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
 	font-size: 16px;
 	color: white;
 }
 #contentDiv h5 b {
-	font-family: 'Source', 'Noto', 'Malgun Gothic', sans-serif;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
 	font-size: 20px;
-	font-variation-settings: 'wght' 900;
 }
 ul {
     margin-left: 18px;
@@ -478,8 +470,7 @@ table td, table th {
 }
 table th {
 	background: #222;
-    font-family: 'Source', 'Noto', sans-serif;
-    font-variation-settings: 'wght' 900;
+    font-family: 'Source Black', 'Noto Black', sans-serif;
 }
 span.blue {
 	color: #09f;
@@ -498,15 +489,12 @@ span.example {
 .ph {
 	font-family: 'Source', sans-serif !important;
 	color: #6aa3ff;
-	font-variation-settings: 'wght' 400;
 }
 .b {
-	font-family: 'Source', sans-serif !important;
-	font-variation-settings: 'wght' 900;
+	font-family: 'Source Black', sans-serif !important;
 }
 .ph b {
-	font-family: 'Source', sans-serif !important;
-	font-variation-settings: 'wght' 900;
+	font-family: 'Source Black', sans-serif !important;
 }
 .fr * {
 	text-align: left;
@@ -525,7 +513,6 @@ rt {
 }
 .ipa {
     font-family: 'Source', sans-serif !important;
-	font-variation-settings: 'wght' 400;
 }
 .split {
     height: 30px;
@@ -552,31 +539,26 @@ rt {
 }
 #contentDivNew * {
 	font-family: 'Source', sans-serif;
-	font-variation-settings: 'wght' 400;
 }
 #contentDivNew p {
 	margin-top: 24px;
 	margin-bottom: 24px;
 }
 #contentDivNew h4, #contentDivNew h4 * {
-	font-family: 'Source', sans-serif;
+	font-family: 'Source Black', sans-serif;
 	font-size: 30px;
-	font-variation-settings: 'wght' 900;
 	margin: 5px 0px;
 }
 #contentDivNew h5, #contentDivNew h5 * {
-	font-family: 'Source', sans-serif;
+	font-family: 'Source Black', sans-serif;
 	font-size: 20px;
-	font-variation-settings: 'wght' 900;
 	margin: 5px 0px;
 }
 #contentDivNew * i {
 	font-family: 'Source Italic', sans-serif !important;
-	font-variation-settings: 'wght' 400;
 }
 #contentDivNew * b {
-	font-family: 'Source', sans-serif !important;
-	font-variation-settings: 'wght' 900;
+	font-family: 'Source Black', sans-serif !important;
 }
 .newUl {
 	margin-top: 0px;
@@ -615,8 +597,7 @@ span.grayNew {
 	margin-left: 0;
 }
 #TOC a, #TOC a .grayNew {
-	font-family: 'Source', sans-serif;
-	font-variation-settings: 'wght' 900;
+	font-family: 'Source Black', sans-serif;
 }
 #TOC .newUlNested a, #TOC .newUlNested a .grayNew {
 	font-family: inherit;
