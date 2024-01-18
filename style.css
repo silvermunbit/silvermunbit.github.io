@@ -619,12 +619,13 @@ span.grayNew {
 #TOC {
 	margin-left: 0;
 }
-#TOC a, #TOC a .grayNew {
+#TOC a, #TOC a .grayNew, #TOC .newUlNested a .grayNew {
 	font-family: 'Source Black', sans-serif;
 	font-weight: 900;
 }
-#TOC .newUlNested a, #TOC .newUlNested a .grayNew {
-	font-family: inherit;
+#TOC .newUlNested a {
+	font-family: 'Source', sans-serif;
+	font-weight: 400;
 }
 
 /*
