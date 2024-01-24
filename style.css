@@ -546,12 +546,14 @@ rt {
 }
 #contentDivNew * i {
 	font-family: 'Source Italic', sans-serif !important;
+	font-style: inherit;
 }
 #contentDivNew * b {
 	font-family: 'Source Black', sans-serif !important;
 }
-i b {
-	font-family: 'Source Black Italic', sans-serif;
+#contentDivNew i b {
+	font-family: 'Source Black Italic', sans-serif !important;
+	font-style: inherit;
 }
 .newUl {
 	margin-top: 0px;
