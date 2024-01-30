@@ -12,6 +12,7 @@
     $("#chooseLang").find("a").addClass("light")
     $(".submenuText").css("color", "black")
     $("#wokugi").addClass("light")
+    $("#newLang").addClass("light")
     $("path").addClass("light")
 }
 var darkTheme = function () {
@@ -28,5 +29,6 @@ var darkTheme = function () {
     $("#chooseLang").find("a").removeClass("light")
     $(".submenuText").css("color", "white")
     $("#wokugi").removeClass("light")
+    $("#newLang").removeClass("light")
     $("path").removeClass("light")
 }
