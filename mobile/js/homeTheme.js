@@ -32,3 +32,5 @@ var darkTheme = function () {
     $("#newLang").removeClass("light")
     $("path").removeClass("light")
 }
+
+$("#newGlyph").attr("height", "20px")
