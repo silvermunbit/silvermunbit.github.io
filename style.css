@@ -218,13 +218,8 @@ h2 {
     bottom: 20px;
     right: 20px;
     border-radius: 20px;
-    text-align: center;
-    font-size: 22px;
     background: #222;
     z-index: 1; 
-}
-#laImg {
-		width: 20px;
 }
 #newLang:hover {
     background: #333;
@@ -233,12 +228,16 @@ h2 {
 }
 #newLang.light {
     background: #ddd;
-    color: black;
 }
 #newLang.light:hover {
     background: #ccc;
 }
-
+path {
+	fill: black;
+}
+path.light {
+	fill: white;
+}
 footer {
     width: 100%;
     position: absolute;
