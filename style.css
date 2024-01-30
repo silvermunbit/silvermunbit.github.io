@@ -233,10 +233,10 @@ h2 {
     background: #ccc;
 }
 path {
-	fill: black;
+	fill: white;
 }
 path.light {
-	fill: white;
+	fill: black;
 }
 footer {
     width: 100%;
