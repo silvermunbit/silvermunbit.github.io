@@ -19,7 +19,6 @@
     $("#menu").css("background", "#ddd")
     $("#menu").find("a").css("color", "black")
     $("#menu").find("a").addClass("light")
-    $("#settingsButton").attr("src", "../../gfx/settingsLight.png")
     $("#contentDiv").css("color", "black")
     $("#contentDivNew").css("color", "black")
 }
@@ -44,7 +43,6 @@ var darkTheme = function () {
     $("#menu").css("background", "#222")
     $("#menu").find("a").css("color", "white")
     $("#menu").find("a").removeClass("light")
-    $("#settingsButton").attr("src", "../../gfx/settingsDark.png")
     $("#contentDiv").css("color", "white")
     $("#contentDivNew").css("color", "white")
 }
