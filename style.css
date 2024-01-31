@@ -83,10 +83,10 @@ h3 {
     cursor: pointer;
 }
 #settingsButton path {
-	fill: black;
+	fill: white;
 }
 #settingsButton path.light {
-	fill: white;
+	fill: black;
 }
 #settingsButton.slide {
     transform: rotate(90deg);
