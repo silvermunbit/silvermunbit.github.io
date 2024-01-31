@@ -21,6 +21,7 @@
     $("#menu").find("a").addClass("light")
     $("#contentDiv").css("color", "black")
     $("#contentDivNew").css("color", "black")
+    $("path").addClass("light")
 }
 var darkTheme = function () {
     $("body").css("background", "#111")
@@ -45,4 +46,5 @@ var darkTheme = function () {
     $("#menu").find("a").removeClass("light")
     $("#contentDiv").css("color", "white")
     $("#contentDivNew").css("color", "white")
+    $("path").removeClass("light")
 }
