@@ -233,11 +233,17 @@ h2 {
 #newLang.light:hover {
     background: #ccc;
 }
+svg {
+	overflow: visible;
+}
 path {
-	fill: white;
+	stroke: white;
+	fill: none;
+	stroke-width: 0.06;
 }
 path.light {
-	fill: black;
+	stroke: black;
+	stroke-width: 0.07;
 }
 footer {
     width: 100%;
