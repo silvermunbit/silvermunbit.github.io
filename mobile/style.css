@@ -76,6 +76,12 @@ h3 {
     transition: .3s ease-in-out;
     cursor: pointer;
 }
+#settingsButton path {
+	fill: white;
+}
+#settingsButton path.light {
+	fill: black;
+}
 #settingsButton.slide {
     transform: rotate(90deg);
 }
@@ -218,7 +224,6 @@ path {
 }
 path.light {
 	stroke: black;
-	stroke-width: 0.06;
 }
 footer {
     width: 100%;
