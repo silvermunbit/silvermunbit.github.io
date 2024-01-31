@@ -14,6 +14,7 @@
     $("#rangeWord").css("color", "black")
     $(".rangeMove").css("color", "black")
     $(".rangeMove").css("background", "#ddd")
+    $("path").addClass("light")
 }
 var darkTheme = function () {
     $("body").css("background", "#111")
@@ -31,4 +32,5 @@ var darkTheme = function () {
     $("#rangeWord").css("color", "white")
     $(".rangeMove").css("color", "white")
     $(".rangeMove").css("background", "#222")
+    $("path").removeClass("light")
 }
