@@ -81,6 +81,10 @@ h3 {
     left: 20px;
     transition: .3s ease-in-out;
     cursor: pointer;
+	fill: black;
+}
+#settingsButton.light {
+	fill: white;
 }
 #settingsButton.slide {
     transform: rotate(90deg);
