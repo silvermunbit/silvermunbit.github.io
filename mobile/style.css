@@ -220,7 +220,7 @@ svg {
 path {
 	stroke: white;
 	fill: none;
-	stroke-width: 0.065;
+	stroke-width: 0.06;
 }
 path.light {
 	stroke: black;
