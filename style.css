@@ -610,7 +610,7 @@ span.grayNew {
 	font-family: 'Source', sans-serif;
 }
 .glyphPos {
-	font-size: 10px;
+	font-size: 10px !important;
 	font-family: 'Source Black', sans-serif !important;
 	color: #999;
 	margin-left: 2px;
