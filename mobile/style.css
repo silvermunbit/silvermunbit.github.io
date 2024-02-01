@@ -598,6 +598,11 @@ span.grayNew {
 #TOC .newUlNested a, #TOC .newUlNested a .grayNew {
 	font-family: 'Source', sans-serif;
 }
+.glyphPos {
+	font-size: 10px;
+	font-family: 'Source Black', sans-serif !important;
+	color: #999;
+}
 
 /*
 
