@@ -218,7 +218,7 @@ h2 {
 #newLang {
     width: 40px;
     height: 40px;
-    line-height: 55px;
+    line-height: 58px;
 	text-align: center;
     display: block;
     position: fixed;
@@ -245,11 +245,11 @@ svg {
 path {
 	stroke: white;
 	fill: none;
-	stroke-width: 0.07;
+	stroke-width: 0.06;
 }
 path.light {
 	stroke: black;
-	stroke-width: 0.06;
+	stroke-width: 0.05;
 }
 footer {
     width: 100%;
