@@ -29,7 +29,7 @@ b {
 }
 sub {
 	font-size: 10px !important;
-	ily: inherit !important;
+	font-family: inherit !important;
 	vertical-align: baseline !important;
 }
 sup {
