@@ -607,6 +607,9 @@ span.grayNew {
 .headerRow th {
 	padding-bottom: 5px;
 }
+#tabSyl tr td {
+	min-width: 30px;
+}
 
 /*
 
