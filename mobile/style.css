@@ -182,7 +182,7 @@ h2 {
     right: 60px;
     border-radius: 20px;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     background: #222;
     z-index: 1;
 }
@@ -193,14 +193,13 @@ h2 {
 #newLang {
     width: 40px;
     height: 40px;
-    line-height: 50px;
+    line-height: 58px;
     display: block;
     position: fixed;
     bottom: 10px;
     right: 10px;
     border-radius: 20px;
     text-align: center;
-    font-size: 20px;
     background: #222;
     z-index: 1;
 }
@@ -220,7 +219,7 @@ svg {
 path {
 	stroke: white;
 	fill: none;
-	stroke-width: 0.06;
+	stroke-width: 0.05;
 }
 path.light {
 	stroke: black;
