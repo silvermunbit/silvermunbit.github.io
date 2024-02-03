@@ -616,6 +616,9 @@ span.grayNew {
 	margin-left: 2px;
 	margin-right: 6px;
 }
+.headerRow th {
+	padding-bottom: 5px;
+}
 
 /*
 
