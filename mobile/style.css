@@ -34,7 +34,7 @@ sub {
 }
 sup {
 	font-size: 10px !important;
-	ily: inherit !important;
+	font-family: inherit !important;
 	vertical-align: top !important;
 }
 
