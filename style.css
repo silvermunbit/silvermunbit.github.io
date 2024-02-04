@@ -57,7 +57,7 @@ h3 {
     margin: 15px 0px 2px 15px;
     font-family: 'Source Black', 'Noto Black', sans-serif;
     font-size: 16px;
-    color: #707070;
+    color: #999;
 }
 #menu a {
     width: 155px;
@@ -122,20 +122,20 @@ h2 {
     border-radius: 25px;
     text-align: center;
     font-size: 25px;
-    color: #707070;
+    color: #999;
     transition: .3s ease-in-out;
     cursor: pointer;
 }
 #chooseLang a:hover {
-    background: #474747;
+    background: #999;
     color: #111;
 }
 #chooseLang a.light {
-    color: #a1a1a1;
+    color: #999;
 }
 #chooseLang a.light:hover {
     background: #ddd;
-    color: #a1a1a1;
+    color: #999;
 }
 #langSubmenu {
     width: 800px;
@@ -257,7 +257,7 @@ footer {
     bottom: 30px;
     text-align: center;
     font-size: 20px;
-    color: #707070;
+    color: #999;
 }
 
 /* HOMEPAGE SHRINK */
@@ -337,7 +337,7 @@ footer {
     border-radius: 50px;
     text-align: center;
     font-size: 80px;
-    color: #707070;
+    color: #999;
     background: #222;
 }
 #correct {
@@ -430,7 +430,7 @@ footer {
 	margin: 0px 10px;
 	font-family: 'Source Black', 'Noto Black', sans-serif;
 	font-size: 20px;
-	color: #707070;
+	color: #999;
 }
 #contentDiv h4 {
     	display: inline-block;
@@ -481,7 +481,7 @@ span.green {
 	color: #0c0;
 }
 span.gray {
-	color: #707070;
+	color: #999;
 }
 span.example {
     display: inline-block;
