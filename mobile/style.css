@@ -210,13 +210,16 @@ h2 {
 #newLang.light:hover {
     background: #ccc;
 }
+#newGlyph path {
+	stroke-width: 0.055;
+}
 svg {
 	overflow: visible;
 }
 path {
 	stroke: white;
 	fill: none;
-	stroke-width: 0.055;
+	stroke-width: 0.045;
 }
 path.light {
 	stroke: black;
