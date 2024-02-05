@@ -456,6 +456,7 @@ footer {
 	font-size: 16px;
 	color: white;
 }
+
 #contentDiv h5 b {
 	font-family: 'Source Black', 'Noto Black', sans-serif;
 	font-size: 20px;
@@ -560,6 +561,11 @@ rt {
 #contentDivNew h5, #contentDivNew h5 * {
 	font-family: 'Source Black', sans-serif;
 	font-size: 20px;
+	margin: 5px 0px;
+}
+#contentDivNew h6 {
+	font-family: 'Source Black', sans-serif;
+	font-size: 16px;
 	margin: 5px 0px;
 }
 #contentDivNew * i {
