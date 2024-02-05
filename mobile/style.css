@@ -531,6 +531,11 @@ rt {
 	font-size: 16px;
 	margin: 5px 0px;
 }
+#contentDivNew h6 {
+	font-family: 'Source Black', sans-serif;
+	font-size: 14px;
+	margin: 5px 0px;
+}
 #contentDivNew * i {
 	font-family: 'Source Italic', sans-serif !important;
 	font-style: inherit;
@@ -609,6 +614,9 @@ span.grayNew {
 }
 #tabSyl tr td {
 	min-width: 30px;
+}
+.orth td {
+	text-align: center;
 }
 
 /*
