@@ -439,7 +439,7 @@ footer {
 	color: #999;
 }
 #contentDiv h4 {
-    	display: inline-block;
+	display: inline-block;
 	margin: 15px 0px;
 	font-family: 'Source Black', 'Noto Black', sans-serif;
 	font-size: 20px;
@@ -450,7 +450,7 @@ footer {
 	font-size: 30px;
 }
 #contentDiv h5 {
-    	display: inline-block;
+	display: inline-block;
 	margin: 15px 0px;
 	font-family: 'Source Black', 'Noto Black', sans-serif;
 	font-size: 16px;
@@ -634,6 +634,3 @@ span.grayNew {
 .orth td {
 	text-align: center;
 }
-other
-
-*/
