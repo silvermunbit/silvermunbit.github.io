@@ -615,6 +615,6 @@ span.grayNew {
 #tabSyl tr td {
 	min-width: 30px;
 }
-.orth td {
+.orth td, .orth th {
 	text-align: center;
 }
