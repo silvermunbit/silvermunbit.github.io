@@ -631,6 +631,6 @@ span.grayNew {
 .headerRow th {
 	padding-bottom: 5px;
 }
-.orth td {
+.orth td, .orth th {
 	text-align: center;
 }
