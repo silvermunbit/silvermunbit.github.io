@@ -251,11 +251,11 @@ svg {
 path {
 	stroke: white;
 	fill: none;
-	stroke-width: 0.06;
+	stroke-width: 1.45;
 }
 path.light {
 	stroke: black;
-	stroke-width: 0.04;
+	stroke-width: 1.1;
 }
 footer {
 	width: 100%;
