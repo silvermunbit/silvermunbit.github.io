@@ -211,7 +211,7 @@ h2 {
 	background: #ccc;
 }
 #newGlyph path {
-	stroke-width: 0.055;
+	stroke-width: 1.35;
 }
 svg {
 	overflow: visible;
