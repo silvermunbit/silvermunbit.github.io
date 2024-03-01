@@ -240,10 +240,10 @@ h2 {
 	background: #ccc;
 }
 #newGlyph path {
-	stroke-width: 1.55;
+	stroke-width: 1.65;
 }
 #newGlyph path.light {
-	stroke-width: 1.15;
+	stroke-width: 1.25;
 }
 svg {
 	overflow: visible;
