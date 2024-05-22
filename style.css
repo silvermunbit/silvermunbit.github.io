@@ -1,8 +1,7 @@
 ﻿/* DESKTOP */
 @font-face {font-family: "Noto"; src: url(font/NotoSansCJKjp-DemiLight.otf);}
 @font-face {font-family: "Noto Black"; src: url(font/NotoSansCJKjp-Black.otf);}
-/*@font-face {font-family: "Source"; src: url(font/SourceSans3-Regular.ttf);}*/
-@font-face {font-family: "Source"; src: url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');}
+@font-face {font-family: "Source"; src: url(font/SourceSans3-Regular.ttf);}
 @font-face {font-family: "Source Black"; src: url(font/SourceSans3-Black.ttf);}
 @font-face {font-family: "Source Italic"; src: url(font/SourceSans3-Italic.ttf);}
 @font-face {font-family: "Source Black Italic"; src: url(font/SourceSans3-BlackItalic.ttf);}
@@ -26,8 +25,7 @@ a {
 	text-decoration: none;
 }
 b {
-	font-family: 'Source', 'Noto Black', 'sans-serif' !important;
-	font-weight: 900;
+	font-family: 'Source Black', 'Noto Black', 'sans-serif' !important;
 }
 sub {
 	font-size: 10px;
