@@ -593,6 +593,9 @@ rt {
 span.grayNew {
 	color: #999;
 }
+b span.grayNew {
+	font-family: 'Source Black', sans-serif !important;
+}
 #TOC {
 	margin-left: 0;
 }
