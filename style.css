@@ -635,7 +635,7 @@ b span.grayNew {
 	margin-left: 2px;
 	margin-right: 6px;
 }
-.headerRow th {
+.headerRow td {
 	padding-bottom: 5px;
 }
 .orth td, .orth th {
