@@ -516,6 +516,7 @@ rt {
 #contentDivNew * {
 	font-family: 'Source', sans-serif;
 	font-size: 14px;
+	font-variant-numeric: proportional-nums;
 }
 #contentDivNew p {
 	margin-top: 20px;
@@ -577,6 +578,10 @@ rt {
 .tabNewTight td, .tabNewTight th {
 	padding: 0px 1ch 0pc 0ch;
 }
+.tabNew th, .tabNewTight th {
+	font-variant: small-caps;
+	font-variant-numeric: proportional-nums;
+}
 
 .tabNew::-webkit-scrollbar {
 	display: none;
@@ -612,7 +617,7 @@ b span.grayNew {
 	margin-left: 2px;
 	margin-right: 6px;
 }
-.headerRow th {
+.headerRow td {
 	padding-bottom: 5px;
 }
 #tabSyl tr td {
