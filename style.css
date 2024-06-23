@@ -416,6 +416,7 @@ footer {
 #contentDiv * {
 	font-family: 'Source', 'Noto', sans-serif;
 	font-weight: 400;
+	font-variant-numeric: proportional-nums;
 }
 #contentDiv p {
 	margin-top: 24px;
