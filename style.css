@@ -609,6 +609,10 @@ rt {
 .tabNewTight td, .tabNewTight th {
 	padding: 0px 1ch 0pc 0ch;
 }
+.tabNew th, .tabNewTight th {
+	font-variant: small-caps;
+	font-variant-numeric: proportional-nums;
+}
 span.grayNew {
 	color: #999;
 }
