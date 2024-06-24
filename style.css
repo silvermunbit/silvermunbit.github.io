@@ -549,6 +549,7 @@ rt {
 }
 #contentDivNew * {
 	font-family: 'Source', sans-serif;
+	font-variant-numeric: proportional-nums;
 }
 #contentDivNew p {
 	margin-top: 24px;
