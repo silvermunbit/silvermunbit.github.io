@@ -582,6 +582,11 @@ rt {
 	font-variant: small-caps;
 	font-variant-numeric: proportional-nums;
 }
+#tabUml th, #tabUml td {
+	min-width: auto;
+	text-align: center;
+	padding: 0px 2.5px;
+}
 
 .tabNew::-webkit-scrollbar {
 	display: none;
