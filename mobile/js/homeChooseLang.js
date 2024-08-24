@@ -26,3 +26,14 @@ $("#chooseKo").click(function () {
     if ($("#submenuKo").hasClass("slide")) $("#submenuKo").removeClass("slide")
     else $("#submenuKo").addClass("slide")
 })
+
+$("#chooseWo").click(function () {
+    $("#submenuLa").removeClass("slide")
+    if ($("#submenuWo").hasClass("slide")) $("#submenuWo").removeClass("slide")
+    else $("#submenuWo").addClass("slide")
+})
+$("#chooseLa").click(function () {
+    $("#submenuWo").removeClass("slide")
+    if ($("#submenuLa").hasClass("slide")) $("#submenuLa").removeClass("slide")
+    else $("#submenuLa").addClass("slide")
+})
