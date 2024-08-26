@@ -5,10 +5,8 @@
     $("#menu").css("background", "#ddd")
     $("#menu").find("a").css("color", "black")
     $("#menu").find("a").addClass("light")
-    $("#chooseLang").find("a").addClass("light")
+    $(".chooseLang").find("a").addClass("light")
     $(".submenuText").css("color", "black")
-    $("#wokugi").addClass("light")
-    $("#newLang").addClass("light")
     $("path").addClass("light")
 }
 var darkTheme = function () {
@@ -18,9 +16,7 @@ var darkTheme = function () {
     $("#menu").css("background", "#222")
     $("#menu").find("a").css("color", "white")
     $("#menu").find("a").removeClass("light")
-    $("#chooseLang").find("a").removeClass("light")
+    $(".chooseLang").find("a").removeClass("light")
     $(".submenuText").css("color", "white")
-    $("#wokugi").removeClass("light")
-    $("#newLang").removeClass("light")
     $("path").removeClass("light")
 }
