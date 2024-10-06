@@ -662,7 +662,7 @@ b span.grayNew {
 	background: #111 !important;
 }
 .s0, .s1, .s2, .s3 {
-	color: white !important;
+	color: white;
 	font-size: 16px !important;
 }
 .s0 {
