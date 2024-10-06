@@ -651,9 +651,9 @@ b span.grayNew {
 
 /*DICTIONARY*/
 .waffle {
-	max-width: 1500px;
 	margin: 100px auto 50px;
 	padding: 8px;
+	text-align: left;
 }
 .column-headers-background, .row-header, .freezebar-vertical-handle, .row-headers-background, .freezebar-cell, .freezebar-horizontal-handle {
 	display: none;
@@ -664,6 +664,8 @@ b span.grayNew {
 .s0, .s1, .s2, .s3 {
 	color: white;
 	font-size: 16px !important;
+	background: #111;
+	padding: 2px 3px 2px 3px;
 }
 .s0 {
 	padding-bottom: 5px !important;
