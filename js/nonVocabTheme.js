@@ -19,6 +19,8 @@
     $("#contentDiv").css("color", "black")
     $("#contentDivNew").css("color", "black")
     $("path").addClass("light")
+    $(".s0 .s1 .s2 .s3").css("color", "black !important")
+    $(".ritz td").css("background-color", "#111 !important")
 }
 var darkTheme = function () {
     $("body").css("background", "#111")
@@ -41,4 +43,6 @@ var darkTheme = function () {
     $("#contentDiv").css("color", "white")
     $("#contentDivNew").css("color", "white")
     $("path").removeClass("light")
+    $(".s0 .s1 .s2 .s3").css("color", "white !important")
+    $(".ritz td").css("background-color", "#111 !important")
 }
