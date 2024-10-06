@@ -659,7 +659,7 @@ b span.grayNew {
 	display: none;
 }
 .ritz td {
-	background: #111 !important;
+	background: #111;
 }
 .s0, .s1, .s2, .s3 {
 	color: white;
