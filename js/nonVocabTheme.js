@@ -1,6 +1,6 @@
 ﻿var lightTheme = function () {
     $("body").css("background", "#eeeeee")
-    $(".s0").css("color", "black !important")
+    $(".s0").css("color", "black")
     $("td").css("border", "1px #eeeeee solid")
     $("td").css("background", "#ddd")
     $("th").css("border", "1px #eeeeee solid")
@@ -24,7 +24,7 @@
 }
 var darkTheme = function () {
     $("body").css("background", "#111")
-    $(".s0").css("color", "white !important")
+    $(".s0").css("color", "white")
     $("td").css("border", "1px #111 solid")
     $("td").css("background", "#333")
     $("th").css("border", "1px #111 solid")
