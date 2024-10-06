@@ -1,5 +1,6 @@
 ﻿var lightTheme = function () {
     $("body").css("background", "#eeeeee")
+    $(".s0").css("color", "black !important")
     $("td").css("border", "1px #eeeeee solid")
     $("td").css("background", "#ddd")
     $("th").css("border", "1px #eeeeee solid")
@@ -19,11 +20,11 @@
     $("#contentDiv").css("color", "black")
     $("#contentDivNew").css("color", "black")
     $("path").addClass("light")
-    $(".s0").css("color", "black !important")
     $(".ritz td").css("background", "#eee !important")
 }
 var darkTheme = function () {
     $("body").css("background", "#111")
+    $(".s0").css("color", "white !important")
     $("td").css("border", "1px #111 solid")
     $("td").css("background", "#333")
     $("th").css("border", "1px #111 solid")
@@ -42,7 +43,6 @@ var darkTheme = function () {
     $("#menu").find("a").removeClass("light")
     $("#contentDiv").css("color", "white")
     $("#contentDivNew").css("color", "white")
-    $("path").removeClass("light")
-    $(".s0").css("color", "white !important")
+    $("path").removeClass("light")    
     $(".ritz td").css("background", "#111 !important")
 }
