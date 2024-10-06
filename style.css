@@ -648,3 +648,36 @@ b span.grayNew {
 .orth td, .orth th {
 	text-align: center;
 }
+
+/*DICTIONARY*/
+.waffle {
+	max-width: 1500px;
+	margin: 100px auto 50px;
+	padding: 8px;
+}
+.column-headers-background, .row-header, .freezebar-vertical-handle, .row-headers-background, .freezebar-cell, .freezebar-horizontal-handle {
+	display: none;
+}
+.ritz td {
+	background-color: #111 !important;
+}
+.s0, .s1, .s2, .s3 {
+	color: white !important;
+	font-size: 14px !important;
+}
+.s0 {
+	padding-bottom: 5px !important;
+	padding-right: 15px !important;
+}
+.s0, .s1 {
+	font-family: 'Source Black', sans-serif !important;
+}
+.s2 {
+	font-family: 'Source Italic', sans-serif !important;
+}
+.s3 {
+	font-family: 'Source', sans-serif !important;
+}
+.s3 span {
+	font-family: 'Source Black', sans-serif !important;
+}
