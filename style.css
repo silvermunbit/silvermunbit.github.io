@@ -670,14 +670,15 @@ b span.grayNew {
 .s0 {
 	padding-bottom: 5px !important;
 	padding-right: 15px !important;
+	font-variant: small-caps;
 }
-.s0, .s1 {
+.s1 {
 	font-family: 'Source Black', sans-serif !important;
 }
 .s2 {
 	font-family: 'Source Italic', sans-serif !important;
 }
-.s3 {
+.s0, .s3 {
 	font-family: 'Source', sans-serif !important;
 }
 .s3 span {
