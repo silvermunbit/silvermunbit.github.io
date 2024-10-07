@@ -631,3 +631,39 @@ b span.grayNew {
 .orth td, .orth th {
 	text-align: center;
 }
+
+/*DICTIONARY*/
+.waffle {
+	margin: 50px auto 50px;
+	padding: 8px;
+	text-align: left;
+}
+.column-headers-background, .row-header, .freezebar-vertical-handle, .row-headers-background, .freezebar-cell, .freezebar-horizontal-handle {
+	display: none;
+}
+.ritz td {
+	background: #111;
+}
+.s0, .s1, .s2, .s3 {
+	color: white;
+	font-size: 14px !important;
+	background: #111;
+	padding: 2px 3px 2px 3px;
+}
+.s0 {
+	padding-bottom: 5px !important;
+	padding-right: 15px !important;
+	font-variant: small-caps;
+}
+.s1 {
+	font-family: 'Source Black', sans-serif !important;
+}
+.s2 {
+	font-family: 'Source Italic', sans-serif !important;
+}
+.s0, .s3 {
+	font-family: 'Source', sans-serif !important;
+}
+.s3 span {
+	font-family: 'Source Black', sans-serif !important;
+}
