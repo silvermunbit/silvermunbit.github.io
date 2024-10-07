@@ -661,7 +661,7 @@ b span.grayNew {
 .ritz td {
 	background: #111;
 }
-.s0, .s1, .s2, .s3 {
+.s0, .s1, .s2, .s3, .s4 {
 	color: white;
 	font-size: 16px !important;
 	background: #111;
@@ -678,7 +678,7 @@ b span.grayNew {
 .s2 {
 	font-family: 'Source Italic', sans-serif !important;
 }
-.s0, .s3 {
+.s0, .s3, .s4 {
 	font-family: 'Source', sans-serif !important;
 }
 .s3 span {
