@@ -666,4 +666,5 @@ b span.grayNew {
 }
 .s3 span, .s4 span {
 	font-family: 'Source Black', sans-serif !important;
+	font-weight: normal !important;
 }
