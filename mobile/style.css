@@ -88,128 +88,38 @@ h3 {
 
 /* HOMEPAGE */
 
+#langs {
+	max-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin-top: 80px;
+}
+#lang1, #lang2 {
+	display: inline-block;
+	width: 400px;
+}
 h1 {
-	line-height: 28px;
-	margin-top: 60px;
-	text-align: center;
-	font-size: 28px;
+	font-size: 42px;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
 }
 h2 {
-	line-height: 18px;
-	text-align: center;
-	font-size: 18px;
-}
-.chooseLang {
-	width: 277px;
-	margin: 30px auto;
-}
-.chooseLang a {
-	width: 120px;
-	height: 20px;
-	line-height: 20px;
-	display: inline-block;
-	margin-left: 8px;
-	margin-right: 8px;
-	margin-bottom: 20px;
-	border-radius: 25px;
-	text-align: center;
-	font-size: 18px;
+	font-size: 24px;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
+	margin-top: 12px;
+	margin-bottom: 4px;
 	color: #999;
 }
-#langSubmenu {
-	width: 300px;
-	height: 260px;
-	position: relative;
-	margin: 40px auto;
-	overflow: hidden;
+.langMenu {
+	list-style-type: none;
+	margin-left: 2ch;
+	margin-top: 0;
 }
-.submenu {
-	width: 300px;
-	height: 260px;
-	position: absolute;
-	top: -300px;
-	text-align: center;
-	font-size: 0;
-	transition: .3s ease-in-out;
-}
-.submenu.slide {
-	top: 0px;
-}
-.submenuOption {
-	width: 150px;
-	height: 130px;
-	display: inline-block;
-}
-.submenuCircle {
-	width: 60px;
-	height: 60px;
-	line-height: 60px;
-	display: block;
-	position: relative;
-	left: 45px;
-	border-radius: 30px;
-	text-align: center;
-	font-size: 40px;
-}
-.c1 {
-	background: #e53935;
-}
-.c2 {
-	background: #f9a825;
-}
-.c3 {
-	background: #2bce72;
-}
-.c4 {
-	background: #448aff;
-}
-.submenuText {
-	margin: 10px auto;
-	text-align: center;
+.langMenu li {
 	font-size: 18px;
+	margin-bottom: 4px;
 }
 
-#wokugi {
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	display: block;
-	position: fixed;
-	bottom: 10px;
-	right: 60px;
-	border-radius: 20px;
-	text-align: center;
-	font-size: 22px;
-	background: #222;
-	z-index: 1;
-}
-#wokugi.light {
-	background: #ddd;
-	color: black;
-}
-#newLang {
-	width: 40px;
-	height: 40px;
-	line-height: 58px;
-	display: block;
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	border-radius: 20px;
-	text-align: center;
-	background: #222;
-	z-index: 1;
-}
-#newLang.light {
-	background: #ddd;
-	color: black;
-}
-#newLang.light {
-	background: #ddd;
-}
-#newLang.light:hover {
-	background: #ccc;
-}
 #newGlyph path {
 	stroke-width: 1.35;
 }
@@ -223,24 +133,6 @@ path {
 }
 path.light {
 	stroke: black;
-}
-footer {
-	width: 100%;
-	position: absolute;
-	bottom: 10px;
-	text-align: center;
-	font-size: 18px;
-	color: #999;
-}
-@media only screen and (max-height: 550px) {
-	footer {
-		position: relative;
-	}
-}
-
-.notransition {
-	-webkit-transition: none !important;
-	-moz-transition: none !important;
 }
 
 /* VOCABULARY */
