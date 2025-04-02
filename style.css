@@ -114,18 +114,20 @@ h1 {
 }
 h2 {
 	font-size: 24px;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
+	margin-top: 12px;
+	margin-bottom: 4px;
 	color: #999;
 }
 .langMenu {
 	list-style-type: none;
 	margin-left: 2ch;
+	margin-top: 0;
 }
 .langMenu li {
 	font-size: 18px;
 	margin-bottom: 4px;
 }
-
-
 
 #newGlyph path {
 	stroke-width: 1.65;
