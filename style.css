@@ -110,13 +110,19 @@ h3 {
 }
 h1 {
 	font-size: 42px;
+	font-family: 'Source Black', 'Noto Black', sans-serif;
 }
 h2 {
 	font-size: 24px;
+	color: #999;
 }
-.langMenu ul {
+.langMenu {
 	list-style-type: none;
 	margin-left: 2ch;
+}
+.langMenu li {
+	font-size: 18px;
+	margin-bottom: 4px;
 }
 
 
@@ -138,35 +144,6 @@ path {
 path.light {
 	stroke: black;
 	stroke-width: 1.05;
-}
-
-/* HOMEPAGE SHRINK */
-
-@media only screen and (max-height: 700px) {
-	footer {
-		position: relative;
-	}
-}
-
-@media only screen and (max-width: 850px) {
-	#chooseLang {
-		width: 280px;
-	}
-	#langSubmenu {
-		width: 280px;
-		height: 600px;
-	}
-	.submenu {
-		width: 280px;
-		top: -600px;
-	}
-	footer {
-		position: relative;
-	}
-}
-.notransition {
-	-webkit-transition: none !important;
-	-moz-transition: none !important;
 }
 
 /* NONVOCAB */
