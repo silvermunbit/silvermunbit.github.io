@@ -89,22 +89,21 @@ h3 {
 /* HOMEPAGE */
 
 #langs {
-	max-width: fit-content;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
-	margin-top: 80px;
+	margin-top: 20px;
 }
 #lang1, #lang2 {
 	display: inline-block;
-	width: 400px;
+	width: 50%;
 }
 h1 {
-	font-size: 42px;
+	font-size: 30px;
 	font-family: 'Source Black', 'Noto Black', sans-serif;
 }
 h2 {
-	font-size: 24px;
+	font-size: 20px;
 	font-family: 'Source Black', 'Noto Black', sans-serif;
 	margin-top: 12px;
 	margin-bottom: 4px;
@@ -116,7 +115,7 @@ h2 {
 	margin-top: 0;
 }
 .langMenu li {
-	font-size: 18px;
+	font-size: 16px;
 	margin-bottom: 4px;
 }
 
