@@ -97,148 +97,31 @@ h3 {
 
 /* HOMEPAGE */
 
-h1 {
-	line-height: 50px;
+#langs {
+	max-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
 	margin-top: 80px;
-	text-align: center;
-	font-size: 50px;
 }
-h2 {
-	line-height: 28px;
-	text-align: center;
-	font-size: 28px;
-}
-.chooseLang {
-	width: 973px;
-	margin: 50px auto;
-}
-.chooseLang a {
-	width: 200px;
-	height: 50px;
-	line-height: 50px;
+#lang1, #lang2 {
 	display: inline-block;
-	margin-left: 20px;
-	margin-right: 20px;
-	border-radius: 25px;
-	text-align: center;
-	font-size: 25px;
-	color: #999;
-	transition: .3s ease-in-out;
-	cursor: pointer;
-}
-.chooseLang a:hover {
-	background: #999;
-	color: #111;
-}
-.chooseLang a.light {
-	color: #999;
-}
-.chooseLang a.light:hover {
-	background: #ddd;
-	color: #999;
-}
-#langSubmenu {
-	width: 800px;
-	height: 150px;
-	position: relative;
-	margin: 80px auto;
-	overflow: hidden;
-}
-.submenu {
-	width: 800px;
-	height: 150px;
-	position: absolute;
-	top: -150px;
-	text-align: center;
-	font-size: 0;
-	transition: .3s ease-in-out;
-}
-.submenu.slide {
-	top: 0px;
-}
-.submenuOption {
-	width: 200px;
-	height: 150px;
-	display: inline-block;
-}
-.submenuCircle {
-	width: 80px;
-	height: 80px;
-	line-height: 82px;
-	display: block;
-	position: relative;
-	left: 60px;
-	border-radius: 40px;
-	text-align: center;
-	font-size: 50px;
-}
-.c1 {
-	background: #e53935;
-}
-.c2 {
-	background: #f9a825;
-}
-.c3 {
-	background: #2bce72;
-}
-.c4 {
-	background: #448aff;
-}
-.submenuText {
-	text-align: center;
-	font-size: 20px;
+	width: 400px;
 }
 
-#wokugi {
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	display: block;
-	position: fixed;
-	bottom: 20px;
-	right: 80px;
-	border-radius: 20px;
-	text-align: center;
-	font-size: 22px;
-	background: #222;
-	z-index: 1; 
+h1 {
+	font-size: 20px;
 }
-#wokugi:hover {
-	background: #333;
-	-webkit-transition: .3s ease-in-out;
-	-moz-transition: .3s ease-in-out;
+h2 {
+	font-size: 16px;
 }
-#wokugi.light {
-	background: #ddd;
-	color: black;
+#langMenu ul {
+	list-style-type: none;
+	margin-left: 2ch;
 }
-#wokugi.light:hover {
-	background: #ccc;
-}
-#newLang {
-	width: 40px;
-	height: 40px;
-	line-height: 58px;
-	text-align: center;
-	display: block;
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	border-radius: 20px;
-	background: #222;
-	z-index: 1; 
-}
-#newLang:hover {
-	background: #333;
-	-webkit-transition: .3s ease-in-out;
-	-moz-transition: .3s ease-in-out;
-}
-#newLang.light {
-	background: #ddd;
-}
-#newLang.light:hover {
-	background: #ccc;
-}
+
+
+
 #newGlyph path {
 	stroke-width: 1.65;
 }
@@ -256,14 +139,6 @@ path {
 path.light {
 	stroke: black;
 	stroke-width: 1.05;
-}
-footer {
-	width: 100%;
-	position: absolute;
-	bottom: 30px;
-	text-align: center;
-	font-size: 20px;
-	color: #999;
 }
 
 /* HOMEPAGE SHRINK */
@@ -293,94 +168,6 @@ footer {
 .notransition {
 	-webkit-transition: none !important;
 	-moz-transition: none !important;
-}
-
-/* VOCABULARY */
-
-#total, #guessed {
-	position: absolute;
-	right: 20px;
-	font-size: 20px;
-}
-#total {
-	top: 20px;
-}
-#guessed {
-	top: 55px;
-}
-
-#addDiv {
-	width: 300px;
-	height: 180px;
-	position: absolute;
-	left: 10px;
-	top: 50%;
-	padding: 10px;
-	background: #222;
-}
-#addDiv * {
-	display: block;
-	margin: 10px;
-}
-
-#prompt {
-	line-height: 120px;
-	margin-top: 50px;
-	text-align: center;
-	font-size: 80px;
-}
-#typing {
-	width: 60%;
-	height: 100px;
-	position: relative;
-	top: 50px;
-	margin: 0 auto;
-}
-#inputArea {
-	width: 100%;
-	height: 100%;
-	border: 0;
-	border-radius: 50px;
-	text-align: center;
-	font-size: 80px;
-	color: #999;
-	background: #222;
-}
-#correct {
-	position: relative;
-	top: 70px;
-	text-align: center;
-	font-size: 80px;
-	color: #0c0;
-}
-
-#range {
-	position: fixed;
-	left: .5%;
-	bottom: 105px;
-	width: 99%;
-	height: 30px;
-	margin: 0;
-	border-radius: 15px;
-	background: #474747;
-	-webkit-appearance: none;
-}
-#range::-webkit-slider-thumb {
-	width: 30px;
-	height: 30px;
-	border-radius: 15px;
-	background: red;
-	-webkit-appearance: none;
-}
-#range:focus {
-	outline: none;
-}
-#rangeWord {
-	position: fixed;
-	left: 20px;
-	bottom: 20px;
-	font-size: 50px;
-	color: white;
 }
 
 /* NONVOCAB */
