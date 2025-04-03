@@ -74,9 +74,11 @@ h3 {
 }
 #menu a:hover {
 	background: #333;
+	text-decoration: none;
 }
 #menu a.light:hover {
 	background: #ccc;
+	text-decoration: none;
 }
 #settingsButton {
 	width: 24px;
