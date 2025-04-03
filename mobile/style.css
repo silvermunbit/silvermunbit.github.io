@@ -93,13 +93,14 @@ h3 {
 	margin-right: auto;
 	display: flex;
 	margin-top: 20px;
+	padding: 2
 }
 #lang1, #lang2 {
 	display: inline-block;
 	width: 50%;
 }
 h1 {
-	font-size: 30px;
+	font-size: 24px;
 	font-family: 'Source Black', 'Noto Black', sans-serif;
 }
 h2 {
