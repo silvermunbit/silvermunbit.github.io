@@ -24,6 +24,9 @@ a {
 	color: white;
 	text-decoration: none;
 }
+a:hover {
+	text-decoration: underline;
+}
 b {
 	font-family: 'Source Black', 'Noto Black', 'sans-serif' !important;
 }
