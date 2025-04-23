@@ -1,5 +1,5 @@
 ﻿$("#lalLink1").hover(function () {
-    $("#lalLine1").css("color", "red");
+    $("#lalLine1").css("visibility", "visible");
 }, function () {
-    $("#lalLine1").css("color", "blue");
+    $("#lalLine1").css("visibility", "hidden");
 })
