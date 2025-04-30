@@ -135,6 +135,34 @@ path.light {
 	stroke: black;
 }
 
+#lalLi1 {
+	position: relative;
+	top: -71px;
+	left: 30px;
+}
+#lalLi2 {
+	position: relative;
+	top: -222px;
+	left: 60px;
+}
+#lalLink1, #lalLink2 {
+	display: inline-block;
+	height: 1px;
+}
+#lalLine1, #lalLine2 {
+	writing-mode: vertical-lr;
+	text-decoration: underline;
+	text-underline-position: right;
+	color: rgba(255,255,255,0);
+	text-decoration-color: white;
+	position: relative;
+	top: -75px;
+	left: -1px;
+	z-index: -10;
+	user-select: none;
+	visibility: hidden;
+}
+
 /* NONVOCAB */
 
 #up {
