@@ -42,6 +42,8 @@ $(document).ready(function () {
 		<ul class="newUlNested">
 			<li><a href="#2_1"><span class="grayNew">2.1</span> Consonants</a></li>
 			<li><a href="#2_2"><span class="grayNew">2.2</span> Vowels</a></li>
+			<li><a href="#2_3"><span class="grayNew">2.3</span> Diphthongs</a></li>
+			<li><a href="#2_3"><span class="grayNew">2.4</span> Phonotactics</a></li>
 		</ul>
 </ul>
 	
@@ -164,32 +166,149 @@ $(document).ready(function () {
 	</tr>
 	<tr>
 		<td><b>i</b></td>
-		<td>/i/</td>
-		<td>/ɪ/</td>
+		<td>[i]</td>
+		<td>[ɪ]</td>
 	</tr>
 	<tr>
 		<td><b>u</b></td>
-		<td>/u/</td>
-		<td>/ʊ/</td>
+		<td>[u]</td>
+		<td>[ʊ]</td>
 	</tr>
 	<tr>
 		<td><b>e</b></td>
-		<td>/ei̯/</td>
-		<td>/e/</td>
+		<td>[ei̯]</td>
+		<td>[e]</td>
 	</tr>
 	<tr>
 		<td><b>o</b></td>
-		<td>/ou̯/</td>
-		<td>/o/</td>
+		<td>[ou̯]</td>
+		<td>[o]</td>
 	</tr>
 	<tr>
 		<td><b>a</b></td>
-		<td>/a/</td>
-		<td>/ɐ/</td>
+		<td>[a]</td>
+		<td>[ɐ]</td>
 	</tr>
 </table>
 <p>Note that doubled consonants do not indicate geminates, but rather that the preceding vowel should be lax, cf. <b>pit</b> /pit/ and <b>pitt</b> /pɪt/. Doubled <b>k</b> is conventionally romanized as <b>ck</b> for esthetic reasons.</p>
 <p>Palatals <b>sh j ni li</b>, as well as <b>ch</b> and <b>ng</b> are never doubled, but are always preceded by lax vowels, e.g. <b>mush</b> /mʊʃ/, <b>fong</b> /foŋ/.</p>
+<p>In unstressed syllables, vowels have differet pronunciations depending on whether the syllable is open or closed, or the vowel is word-final.</p>
+<table class="tabNew">
+	<tr>
+		<th>Vowel</th>
+		<th>Open</th>
+		<th>Closed</th>
+		<th>Word-final</th>
+	</tr>
+	<tr>
+		<td><b>i</b></td>
+		<td>[i]</td>
+		<td>[ɪ]</td>
+		<td>[i]</td>
+	</tr>
+	<tr>
+		<td><b>u</b></td>
+		<td>[u]</td>
+		<td>[ʊ]</td>
+		<td>[u]</td>
+	</tr>
+	<tr>
+		<td><b>e</b></td>
+		<td>[e]</td>
+		<td>[ə]</td>
+		<td>[ə]</td>
+	</tr>
+	<tr>
+		<td><b>o</b></td>
+		<td>[o]</td>
+		<td>[ə]</td>
+		<td>[ə]</td>
+	</tr>
+	<tr>
+		<td><b>a</b></td>
+		<td>[ɐ]</td>
+		<td>[ə]</td>
+		<td>[ɐ]</td>
+	</tr>
+</table>
+
+<h5 id="2_3"><span class="grayNew">2.3</span> Diphthongs</h5>
+<p>There are five diphthongs in the language, similar to those found in English.</p>
+<table class="tabNew">
+	<tr>
+		<th>Spelling</th>
+		<th>Stressed</th>
+		<th>Unstressed</th>
+	</tr>
+	<tr>
+		<td><b>ae, ai</b></td>
+		<td>[ai̯]</td>
+		<td>[ɐi̯]</td>
+	</tr>
+	<tr>
+		<td><b>ao, au</b></td>
+		<td>[au̯]</td>
+		<td>[ɐu̯]</td>
+	</tr>
+	<tr>
+		<td><b>ei</b></td>
+		<td colspan="2">[ei̯]</td>
+	</tr>
+	<tr>
+		<td><b>ou</b></td>
+		<td colspan="2">[ou̯]</td>
+	</tr>
+	<tr>
+		<td><b>oi</b></td>
+		<td colspan="2">[oi̯]</td>
+	</tr>
+</table>
+<p>Diphthongs are always tense and never followed by doubled consonants.</p>
+<p>Any other vowels sequences are treated as hiatus, and always pronounced with their cardinal values [i u e o a]. They are never followed by doubled consonants.</p>
+
+<h5 id="2_4"><span class="grayNew">2.4</span> Phonotactics</h5>
+<p>Word-initially, the following clusters are allowed.</p>
+<table class="tabNew">
+	<tr>
+		<td><b>tf kf sf</b></td>
+		<td><b>ps ts ks(x)</b></td>
+		<td><b>sp st sk sm sn</b></td>
+		<td><b>spr str skr</b></td>
+		<td><b>spl skl</b></td>
+		<td><b>pr br tr dr kr gr fr vr sr zr chr mr</b></td>
+		<td><b>pl bl kl gl fl vl sl zl chl ml</b></td>
+	</tr>
+</table>
+<p>Word-medially, all word-initial clusters are allowed in addition to the following.</p>
+<table class="tabNew">
+	<tr>
+		<td><b>tp kp fp chp</b></td>
+		<td><b>pt kt ft cht</b></td>
+		<td><b>pk tk fk chk</b></td>
+		<td><b>p t k</b> + any word-initial <b>s</b>-initial cluster</td>
+		<td><b>mp mb nt nd ngk(nk) ngg nf nv ns nz ngch(nch)</b></td>
+		<td><b>rp rb rt rd rk rg rf rv rs rz rch rm rn rl</b></td>
+		<td><b>lp lb lt ld lk lg lf lv ls lz lch lm ln lr</b></td>
+		<td><b>m/n/ng r l</b> + any word-initial obstruent-initial cluster</td>
+	</tr>
+</table>
+<p>Word-finally, the following clusters are allowed.</p>
+<table class="tabNew">
+	<tr>
+		<td><b>pt kt ft</b></td>
+		<td><b>ps ts ks(x)</b></td>
+		<td><b>sp st sk</b></td>
+		<td><b>mp mb nt nd ngk(nk) nf ns</b></td>
+		<td><b>nsp nst nsk mps nts nks(nx)</b></td>
+		<td><b>rp rb rt rd rk rg rf rs rch rm rn</b></td>
+		<td><b>rsp rst rsk rps rts rks(rx)</b></td>
+		<td><b>lp lb lt ld lk lg lf ls lch lm ln</b></td>
+		<td><b>lsp lst lsk lps lts lks(lx)</b></td>
+	</tr>
+</table>
+<p><b>ks</b> is conventially romanized as <b>x</b> for esthetic reasons, but still treated as two consonants.</p>
+<p>Palatal consonants never cluster.</p>
+<p>Consonant clusters other than those listed above can occur word-medially, but only across morpheme boundaries.</p>
 </div>
 </body>
 </html>
