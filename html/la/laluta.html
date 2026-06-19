@@ -1119,79 +1119,62 @@ $(document).ready(function () {
 <p>This is a simple introduction to umlaut. For more details, see <a href="#17_9"><b>17.9 Umlaut</b></a>.</p>
 
 <h5 id="2_8"><span class="grayNew">2.8</span> Reduplication</h5>
-<p>Some forms in the language are formed through reduplication, which adheres to the following patterns:</p>
+<p>Some forms in the language are formed through reduplication, which adheres to the following patterns. These patterns guarantee that the word's NSWEO class remains the same after reduplication.</p>
 <table class="tabNew">
 	<tr>
-		<th>Ending</th>
+		<th>Structure</th>
 		<th>Original form</th>
 		<th>Redup form</th>
-		<th>Example</th>
+		<th>Examples</th>
 	</tr>
 	<tr>
-		<td rowspan="2">V Monograph</th>
-		<td>V</td>
-		<td>-V</td>
-		<td><b>a</b> → <b>aa</b></td>
+		<td>Ends in T3 trigraph</td>
+		<td>(C)V<sub>1</sub>V<sub>2</sub>V<sub>3</sub></td>
+		<td>-V<sub>2</sub>V<sub>3</sub></td>
+		<td><b>eia</b> → <b>eiaia</b>, <b>kaio</b> → <b>kaioio</b></td>
 	</tr>
 	<tr>
-		<td>(s)CV</td>
-		<td>(s)-GV*</td>
-		<td><b>spa</b> → <b>spaba</b></td>
+		<td>Contains only V(s)</td>
+		<td>V*</td>
+		<td>-[l/r]V</td>
+		<td><b>i</b> → <b>iri</b>, <b>oo</b> → <b>ooloo</b></td>
 	</tr>
 	<tr>
-		<td rowspan="2">V Digraph</th>
-		<td>VV<sub>1</sub></td>
-		<td>-[l/r]VV<sub>1</sub>**</td>
-		<td><b>ee</b> → <b>eeree</b></td>
-	</tr>
-	<tr>
-		<td>(s)CVV<sub>1</sub></td>
-		<td>-GVV<sub>1</sub></td>
-		<td><b>kia</b> → <b>kiagia</b></td>
-	</tr>
-	<tr>
-		<td rowspan="2">V Trigraph T1/T2</th>
-		<td>VV<sub>1</sub>V<sub>2</sub></td>
-		<td>-[l/r]VV<sub>1</sub>V<sub>2</sub>**</td>
-		<td><b>uae</b> → <b>uaeluae</b></td>
-	</tr>
-	<tr>
-		<td>(s)CVV<sub>1</sub>V<sub>2</sub></td>
-		<td>-GVV<sub>1</sub>V<sub>2</sub></td>
-		<td><b>skiii</b> → <b>skiiigiii</b></td>
-	</tr>
-	<tr>
-		<td>V Trigraph T3</th>
-		<td>(s)(C)VV<sub>1</sub>V<sub>2</sub></td>
-		<td>-V<sub>1</sub>V<sub>2</sub></td>
-		<td><b>kaio</b> → <b>kaioio</b>, <b>luai</b> → <b>luaiai</b></td>
+		<td>Ends in V(s)</td>
+		<td>CV</td>
+		<td>-GV***</td>
+		<td><b>ena</b> → <b>enana</b>, <b>baspuo</b> → <b>baspuobuo</b></td>
 	</tr>
 	<tr style="height: 20px;"></tr>
 	<tr>
-		<td rowspan="4">C(s)***</th>
+		<td>Starts with V(s), ends in 1 C</td>
 		<td>VC</td>
 		<td>VGVC</td>
-		<td><b>ak</b> → <b>agak</b>, <b>aios</b> → <b>aiosaios</b></td>
+		<td><b>an</b> → <b>anan</b>, <b>oüt</b> → <b>oüdoüt</b></td>
 	</tr>
 	<tr>
-		<td>VCC<sub>1</sub></td>
-		<td>VCVCC<sub>1</sub></td>
-		<td><b>ask</b> → <b>asask</b>, <b>aurn</b> → <b>auraurn</b></td>
+		<td>Starts with V(s), ends in 2 Cs</td>
+		<td>VC<sub>1</sub>C<sub>2</sub></td>
+		<td>VC<sub>1</sub>VC<sub>1</sub>C<sub>2</sub></td>
+		<td><b>esp</b> → <b>esesp</b>, <b>irm</b> → <b>irirm</b></td>
 	</tr>
 	<tr>
+		<td>Starts with C(s), ends in 1/2 C(s)</td>
+		<td>CVC<sub>1</sub>(C<sub>2</sub>)</td>
+		<td>CVGVC<sub>1</sub>(C<sub>2</sub>)</td>
+		<td><b>sket</b> → <b>skeget</b>, <b>bilemt</b> → <b>bilelemt</b></td>
+	</tr>
+	<tr>
+		<td>Ends in 3 Cs</td>
 		<td>(s)(C)VWsP</td>
 		<td>(s)(C)VWPVWs</td>
-		<td><b>ansk</b> → <b>ankans</b>, <b>skaiersp</b> → <b>skaierpaiers</b></td>
-	</tr>
-	<tr>
-		<td>(s)CVC<sub>1</sub>(C<sub>2</sub>)</td>
-		<td>(s)CVGVC<sub>1</sub>(C<sub>2</sub>)</td>
-		<td><b>kat</b> → <b>kagat</b>, <b>stiaolk</b> → <b>stiaodiaolk</b></td>
+		<td><b>kunidansk</b> → <b>kunidankans</b>, <b>polst</b> → <b>poltols</b></td>
 	</tr>
 </table>
-<p>*G refers to voicing - <b>p t k</b> → <b>b d g</b>.<br>
+<p>*V refers to the entire vowel sequence, be it a monograph, digraph, or trigraph.<br>
 **Epenthetic <b>r</b> appended after front vowels, <b>l</b> appended after back vowels.<br>
-***For consonant-final forms, V refers to the entire vowel sequence, be it a monograph, digraph, or trigraph.</p>
+***G refers to voicing - <b>p t k</b> → <b>b d g</b>.</p>
+<p>Some words are reduplicated irregularly. For insntance, the reduplicated form of the pronoun <b>mion</b> is <b>mionon</b> rather than <b>*miomion</b>, and reduplicating <b>ü</b> <span class="grayNew">ten</span> results in <b>üü</b> <span class="grayNew">twenty</span>, not <b>*ürü</b>. For some words, reduplicated forms are replaced with unrelated words via suppletion, for example the perfect tense of <b>pag</b> <span class="grayNew">go</span> is not <b>*pabag</b>, but <b>üit</b>, stemming from an otherwise obsolete verb meaning <span class="grayNew">travel</span>.</p>
 
 <h4 id="3"><span class="grayNew">3</span> Orthography</h4><br>
 
