@@ -4723,8 +4723,46 @@ $(document).ready(function () {
 		<td><b>a</b></td>
 	</tr>
 </table>
-<p>The affected vowel may be a monograph (e.g. <b>et</b> + <b>-i</b> → <b>iti</b>), a digraph (e.g. <b>saek</b> + <b>-i</b> → <b>säiki</b>) or a trigraph (e.g. <b>muao</b> + <b>-ti</b> → <b>miäeti</b>). In the case of type 3 trigraphs, only the final vowel is affected, e.g. <b>kaio</b> + <b>-sin</b> → <b>kaiesin</b>. For umlaut to occur, there must be an intervening consonant, so a vowel directly affixed to another vowel causes no changes, e.g. <b>rättä</b> + <b>-i</b> → <b>rättäi</b>.</p>
-<p>Some type 1/2 trigraphs may result in illegal vowel sequences. In such cases, semivocalic <b>o</b> shifts to <b>i</b> instead of <b>e</b>, e.g. <b>seäo</b> + <b>-mil</b> → <b>sieimil</b>, not <b>*sieemil</b>.</p>
+<p>The affected vowel may be a monograph (e.g. <b>et</b> + <b>-i</b> → <b>iti</b>), a digraph (e.g. <b>saek</b> + <b>-i</b> → <b>säiki</b>) or a trigraph (e.g. <b>muao</b> + <b>-ti</b> → <b>miäeti</b>). In the case of type 3 trigraphs, only the final two vowels are affected, e.g. <b>kaio</b> + <b>-sin</b> → <b>kaiesin</b>. For umlaut to occur, there must be an intervening consonant, so a vowel directly affixed to another vowel causes no changes, e.g. <b>rättä</b> + <b>-i</b> → <b>rättäi</b>.</p>
+<p>Applying umlaut to some trigraphs may result in illegal vowel sequences. Such trigraphs are modified to be valid as follows.</p>
+<table class="tabNew">
+	<tr>
+		<th>Illegal trigraph</th>
+		<th>Modification</th>
+	</tr>
+	<tr>
+		<td><b>äee</b></td>
+		<td><b>äie</b></td>
+	</tr>
+	<tr>
+		<td><b>aee</b></td>
+		<td><b>aie</b></td>
+	</tr>
+	<tr>
+		<td><b>äii eii</b></td>
+		<td><b>eai</b></td>
+	</tr>
+	<tr>
+		<td><b>aii oii</b></td>
+		<td><b>oai</b></td>
+	</tr>
+	<tr>
+		<td><b>äiü eiü äüü eüü</b></td>
+		<td><b>eaü</b></td>
+	</tr>
+	<tr>
+		<td><b>aiü oiü aüü oüü</b></td>
+		<td><b>oaü</b></td>
+	</tr>
+	<tr>
+		<td><b>uiü</b></td>
+		<td><b>uaü</b></td>
+	</tr>
+	<tr>
+		<td><b>üiü</b></td>
+		<td><b>üaü</b></td>
+	</tr>	
+</table>
 <p>There are cases in which the vowel triggering umlaut is elided, but the effect on the preceding vowel remains, e.g. <b>dont</b> <span class="grayNew">hold</span> + <b>-lioü</b> <span class="grayNew">partially</span> → <b>dentoü</b> <span class="grayNew">retain</span>, <b>es</b> <span class="grayNew">put</span> + <b>-ü</b> GER → <b>üs</b> <span class="grayNew">put</span>-GER.
 <p class="noSpace">Umlaut applies in the following cases:</p>
 <ul class="newUl">
