@@ -3436,72 +3436,83 @@ $(document).ready(function () {
 	<li><b>ä bota, ä sodia, lü spü</b> <span class="grayNew">1110 pages</span> (and 1000-NOM, and 100-NOM, 10 GEN-page)</li>
 </ul>
 <p>For numbers representing the powers of 10, <b>iis</b> <span class="grayNew">one</span> is used attributively after the number, but is omitted in other numbers which include powers of 10. For instance, 100 is <b>sodi iis (F1); sodia iis (F2)</b> lit. <span class="grayNew">one hundred</span>, but 101 is <b>e sodi, iis (F1); ä sodia, iis (F2)</b> lit. <span class="grayNew">hundred and one</span>. In the former case, <b>iis</b> does not take case marking when the number is inflected, for example the genitive of <b>kus ü iis</b> <span class="grayNew">ten people</span> is <b>nikus r'ü iis</b>, not <b>*nikus r'ü r'iis</b>.</p>
-<p>Numbers are formed according to the following patterns. The forms presented are form 1. To create form 2, nominalize all numbers in the number.</p>
+<p>Nominal forms of numbers larger than 20 are formed by nominalizing all constituent numbers, e.g. <b>e sodi, pibik</b> → <b>ä sodia, pibika</b> <span class="grayNew">113</span>. The only exceptions are powers of 10, in which the first word is nominalized, e.g. <b>sodi iis</b> → <b>sodia iis</b> <span class="grayNew">100</span>.</p>
+<p>Numbers are formed according to the following patterns.</p>
 <table class="tabNew">
 	<tr>
 		<th>Number(s)</th>
+		<th>Strategy</th>
 		<th>Form 1</th>
 		<th>Form 2</th>
 	</tr>
 	<tr>
 		<td>1-9</td>
-		<td>separate number</td>
+		<td>separate number[-NOM]</td>
 		<td><b>iis</b> <span class="grayNew">1</span><br><b>sab</b> <span class="grayNew">2</span></td>
+		<td><b>iis</b> <span class="grayNew">1</span><br><b>saba</b> <span class="grayNew">2</span></td>
 	</tr>
 	<tr>
 		<td>10</td>
-		<td>10 1</td>
-		<td><b>ü iis</b> <span class="grayNew">10</span> (10 1)</td>
+		<td>10[-NOM] 1</td>
+		<td><b>ü iis</b> <span class="grayNew">10</span></td>
+		<td><b>ü iis</b> <span class="grayNew">10</span></td>
 	</tr>
 	<tr>
 		<td>11-20</td>
-		<td>(x-10)-REDUP</td>
-		<td><b>iisiis</b> <span class="grayNew">11</span> (1-REDUP)<br><b>üü</b> <span class="grayNew">20</span> (10-REDUP)</td>
+		<td>(x-10)-REDUP[-NOM]</td>
+		<td><b>poiboi</b> <span class="grayNew">16</span><br><b>üü</b> <span class="grayNew">20</span></td>
+		<td><b>poiboia</b> <span class="grayNew">16</span><br><b>üü</b> <span class="grayNew">20</span></td>
 	</tr>
 	<tr>
 		<td>40/60/80</td>
-		<td>(2/3/4)-NOM GEN-2-NOM</td>
-		<td><b>saba diüü</b> <span class="grayNew">40</span> (2-NOM GEN-20-NOM)<br><b>pika diüü</b> <span class="grayNew">60</span> (3-NOM GEN-20-NOM)</td>
+		<td>(2/3/4)-NOM GEN-20-NOM</td>
+		<td><b>saba diüü</b> <span class="grayNew">40</span><br><b>pika diüü</b> <span class="grayNew">60</span></td>
+		<td><b>saba diüü</b> <span class="grayNew">40</span><br><b>pika diüü</b> <span class="grayNew">60</span></td>
 	</tr>
 	<tr>
 		<td>21-99</td>
-		<td>and (20/40/60/80), (1-19)</td>
-		<td><b>el üü, lü</b> <span class="grayNew">30</span> (and 20, 10)<br><b>ä saba diüü, tudu</b> <span class="grayNew">58</span> (and 2-NOM GEN-20-NOM, 8-REDUP)</td>
+		<td>and (20/40/60/80)[-NOM], (1-19)[-NOM]</td>
+		<td><b>el üü, lü</b> <span class="grayNew">30</span><br><b>ä saba diüü, tudu</b> <span class="grayNew">58</span></td>
+		<td><b>äb üü, lü</b> <span class="grayNew">30</span><br><b>ä saba diüü, tudua</b> <span class="grayNew">58</span></td>
 	</tr>
 	<tr style="height: 20px;"></tr>
 	<tr>
 		<td>100</td>
-		<td>100 1</td>
-		<td><b>sodi iis</b> <span class="grayNew">100</span> (100 1)</td>
+		<td>100[-NOM] 1</td>
+		<td><b>sodi iis</b> <span class="grayNew">100</span></td>
+		<td><b>sodia iis</b> <span class="grayNew">100</span></td>
 	</tr>
 	<tr>
 		<td>101-199</td>
-		<td>and 100, (1-99)</td>
-		<td><b>e sodi, ä saba diüü, pik</b> <span class="grayNew">143</span> (and 100, and 2-NOM GEN-20-NOM, 3)</td>
+		<td>and 100[-NOM], (1-99)[-NOM]</td>
+		<td><b>e sodi, ä saba diüü, pik</b> <span class="grayNew">143</span></td>
+		<td><b>ä sodia, ä saba diüü, pika</b> <span class="grayNew">143</span></td>
 	</tr>
 	<tr>
 		<td>200/300...</td>
 		<td>(2/3...)-NOM GEN-100-NOM</td>
-		<td><b>poia diisodia</b> <span class="grayNew">600</span> (6-NOM GEN-100-NOM)</td>
+		<td><b>poia diisodia</b> <span class="grayNew">600</span></td>
+		<td><b>poia diisodia</b> <span class="grayNew">600</span></td>
 	</tr>
 	<tr>
 		<td>201-999</td>
-		<td>and (200/300...), (1-99)</td>
-		<td><b>ä poia diisodia, ä pika diüü, gügür</b> <span class="grayNew">675</span> (and 6-NOM GEN-100-NOM, and 3-NOM GEN-20-NOM, 5-REDUP)</td>
+		<td>and (200/300...)[-NOM], (1-99)[-NOM]</td>
+		<td><b>ä poia diisodia, ä pika diüü, gügür</b> <span class="grayNew">675</span></td>
+		<td><b>ä poia diisodia, ä pika diüü, gügüra</b> <span class="grayNew">675</span></td>
 	</tr>
 	<tr style="height: 20px;"></tr>
 	<tr>
 		<td>1000+</td>
 		<td>same as 100+</td>
-		<td><b>bot iis</b> <span class="grayNew">1000</span> (1000 1)<br><b>saba diibota</b> <span class="grayNew">2000</span> (2-NOM GEN-100-NOM)<br><b>ä poia diibota, saba diisodia</b> <span class="grayNew">6200</span> (and 6-NOM GEN-1000-NOM, 2-NOM GEN-100-NOM)</td>
+		<td><b>bot iis</b> <span class="grayNew">1000</span><br><b>saba diibota</b> <span class="grayNew">2000</span><br><b>ä poia diibota, ä saba diisodia, sel</b> <span class="grayNew">6207</span></td>
+		<td><b>bota iis</b> <span class="grayNew">1000</span><br><b>saba diibota</b> <span class="grayNew">2000</span><br><b>ä poia diibota, ä saba diisodia, sela</b> <span class="grayNew">6207</span></td>
 	</tr>
 </table>
 <p>Numbers larger than 9999 are not used.</p>
-<p>Nominal forms of numbers larger than 20 are formed by nominalizing the one's digit if it is used, e.g. <b>e saba diüü, sab</b> → <b>e saba diüü, saba</b> <span class="grayNew">42</span>. The only exceptions are powers of 10, in which the first word is nominalized, e.g. <b>sodi iis</b> → <b>sodia iis</b> <span class="grayNew">100</span>.</p>
 <p>Numbers are always written as words; there are no characters for digits.</p>
 
 <h5 id="12_2"><span class="grayNew">12.2</span> Ordinal numbers</h5>
-<p>Ordinals are formed by attaching the definite article directly after the adjectival form of the number, for instance <b>pik a</b> <span class="grayNew">third</span> (3 DEF.ART), <b>e saba diüü, sab a</b> <span class="grayNew">forty-second</span> (and 2-NOM GEN-20, 2 DEF.ART). The only exceptions are <b>s'inst</b> <span class="grayNew">first</span> (GEN-start) and <b>s'oüt</b> <span class="grayNew">second, next</span> (GEN-leading). These exceptions only apply to the numbers one and two, and for instance <span class="grayNew">twenty-first</span> is <b>el üü, iis a</b>, not <b>*el üü, s'inst</b>.</p>
+<p>Ordinals are formed by attaching the definite article directly after the adjectival form of the number, for instance <b>pik a</b> <span class="grayNew">third</span> (3 DEF.ART), <b>ä saba diüü, sab a</b> <span class="grayNew">forty-second</span> (and 2-NOM GEN-20, 2 DEF.ART). The only exceptions are <b>s'inst</b> <span class="grayNew">first</span> (GEN-start) and <b>s'oüt</b> <span class="grayNew">second, next</span> (GEN-leading). These exceptions only apply to the numbers one and two, and for instance <span class="grayNew">twenty-first</span> is <b>el üü, iis a</b>, not <b>*el üü, s'inst</b>.</p>
 <p class="noSpace">With the exception of <b>s'inst</b> and <b>s'oüt</b>, ordinals act like adjectival numerals, taking case prefixes which agree in animacy with the head noun and being invariable with respect to number. Because <b>s'inst</b> and <b>s'oüt</b> are genitive by default, they take no additional case marking.</p>
 <ul class="newUl">
 	<li><b>äbkus äbmin ko</b> (DAT-person DAT-4 DEF.ART) <span class="grayNew">to the fourth person</span></li>
@@ -3662,11 +3673,11 @@ $(document).ready(function () {
 <p class="noSpace">The date format is DD/MM/YYYY. The word for <span class="grayNew">day</span> is <b>sirnida</b> <i>hinida</i> and the word for <span class="grayNew">year</span> is <b>paü</b> <i>paü</i>. Dates make use of ordinal numbers and the genitive case.</p>
 <ul class="newUl">
 	<li><b>sirnida s'inst s'irak</b> <span class="grayNew">November 1</span> (day GEN-start GEN-November)</li>
-	<li><b>Lä sirnida asäsä ko s'iekuit spaü s'e saba diibota, el üü, min ko misada pa.</b> <span class="grayNew">Today is March 19, 2024.</span> (COP-3P day 19 DEF.ART GEN-March GEN-year GEN-and 2-NOM GEN-1000-NOM, and 20, 4 DEF.ART today 3OUM.)</li>
+	<li><b>Lä sirnida asäsä ko s'iekuit spaü s'ä saba diibota, el üü, min ko misada pa.</b> <span class="grayNew">Today is March 19, 2024.</span> (COP-3P day 19 DEF.ART GEN-March GEN-year GEN-and 2-NOM GEN-1000-NOM, and 20, 4 DEF.ART today 3OUM.)</li>
 </ul>
 <p class="noSpace">The words for hours and minutes are <b>is</b> <i>is</i> and <b>muao</b> <i>mwaw</i>, respectively. When expressing clock time, they are always unmarked for number. Clock time is either expressed using the 24 hour format, or the 12 hour format. In the latter case, words denoting times of the day, such as <b>beeresin</b> <i>viyehyen</i> <span class="grayNew">morning</span> or <b>soresiilt</b> <i>soyesayt</i> <span class="grayNew">evening</span> are used. For 12AM and 12PM, the words <b>lioüsolt</b> <i>loüsowt</i> <span class="grayNew">midnight</span> and <b>lioübee</b> <i>loüvi</i> <span class="grayNew">noon</span> are preferred.</p>
 <ul class="newUl">
-	<li><b>el is asä ko, muao e saba diüü, gür a</b> <span class="grayNew">9:45</span> (and hour 9 DEF.ART, minute and 2-NOM GEN-20, 5 DEF.ART)</li>
+	<li><b>el is asä ko, muao ä saba diüü, gür a</b> <span class="grayNew">9:45</span> (and hour 9 DEF.ART, minute and 2-NOM GEN-20-NOM, 5 DEF.ART)</li>
 	<li><b>is ü ko sosoresiilt</b> <span class="grayNew">10 in the morning</span> (hour 10 DEF.ART GEN-morning)</li>
 	<li><b>Lä e lioübee, muao gür a misk pa.</b> <span class="grayNew">It is now 5 past noon.</span> (COP-3P and noon, minute 5 DEF.ART now 3OUM.)</li>
 </ul>
