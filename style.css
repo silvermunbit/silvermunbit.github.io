@@ -448,6 +448,14 @@ b span.grayNew {
 .orth td, .orth th {
 	text-align: center;
 }
+#euph, #euph * {
+	font-family: 'Source Black Italic', sans-serif;
+	border-radius: 3px;
+}
+.euph1 {background: rgba(255,48,48,0.6);}
+.euph2 {background: rgba(0,144,255,0.6);}
+.euph3 {background: rgba(0,255,0,0.6);}
+.euph4 {background: rgba(192,64,255,0.6);}
 
 /*DICTIONARY*/
 .waffle {
