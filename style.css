@@ -461,7 +461,9 @@ b span.grayNew {
 	height: 10px;
 	border-radius: 5px;
 	display: inline-block;
-	margin-right: 5px;
+	margin-right: 6px;
+	position: relative;
+	left: 1px;
 }
 
 /*DICTIONARY*/
