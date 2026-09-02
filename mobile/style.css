@@ -453,6 +453,13 @@ b span.grayNew {
 .euph2 {background: rgba(0,144,255,0.6);}
 .euph3 {background: rgba(0,255,0,0.6);}
 .euph4 {background: rgba(192,64,255,0.6);}
+.color {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-right: 5px;
+}
 
 /*DICTIONARY*/
 .waffle {
