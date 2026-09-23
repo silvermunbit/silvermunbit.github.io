@@ -134,13 +134,13 @@ path {
 path.light {
 	stroke: black;
 }
-.speakerIcon {
+.spIcon {
 	position: relative;
 	top: 2px;
 	width: 14px;
 	height: 14px;
 }
-.speakerIcon.playing {
+.spIcon.playing {
 	pointer-events: none;
     opacity: 0.5;
 }
