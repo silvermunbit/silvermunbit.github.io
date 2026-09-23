@@ -18,15 +18,6 @@ $(document).ready(function () {
 	})
 })
 </script>
-<script>
-document.querySelectorAll('.speakerIcon').forEach(speaker => {
-    const audio = new Audio(speaker.dataset.sound);
-    speaker.addEventListener('click', () => {
-        audio.currentTime = 0;
-        audio.play();
-    });
-});
-</script>
 </head>
 <body>
 <a id="top"></a>
@@ -8114,5 +8105,16 @@ document.querySelectorAll('.speakerIcon').forEach(speaker => {
 	<li>Prt - particle</li>
 </ul>
 </div>
+	
+<script>
+document.querySelectorAll('.speakerIcon').forEach(speaker => {
+    const audio = new Audio(speaker.dataset.sound);
+    speaker.addEventListener('click', () => {
+        audio.currentTime = 0;
+        audio.play();
+    });
+});
+</script>
+	
 </body>
 </html>
