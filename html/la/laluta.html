@@ -8109,9 +8109,18 @@ $(document).ready(function () {
 <script>
 document.querySelectorAll('.speakerIcon').forEach(speaker => {
     const audio = new Audio(speaker.dataset.sound);
+
     speaker.addEventListener('click', () => {
+        if (!audio.paused) return;
+
+        speaker.classList.add('playing');
+
         audio.currentTime = 0;
         audio.play();
+
+        audio.addEventListener('ended', () => {
+            speaker.classList.remove('playing');
+        }, { once: true });
     });
 });
 </script>
