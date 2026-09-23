@@ -137,10 +137,12 @@ path.light {
 .speakerIcon {
 	position: relative;
 	top: 2px;
+	width: 14px;
+	height: 14px;
 }
-.speakerIcon path {
-	stroke: none;
-	fill: #999;
+.speakerIcon.playing {
+	pointer-events: none;
+    opacity: 0.5;
 }
 
 #lalLi1 {
