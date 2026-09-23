@@ -153,16 +153,16 @@ path.light {
 	stroke: black;
 	stroke-width: 1.05;
 }
-.speakerIcon {
+.spIcon {
 	position: relative;
 	top: 2px;
 	width: 14px;
 	height: 14px;
 }
-.speakerIcon:hover {
+.spIcon:hover {
 	cursor: pointer;
 }
-.speakerIcon.playing {
+.spIcon.playing {
 	pointer-events: none;
     opacity: 0.5;
 }
