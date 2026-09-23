@@ -8079,19 +8079,19 @@ $(document).ready(function () {
 </div>
 	
 <script>
-document.querySelectorAll('.speakerIcon').forEach(speaker => {
-    const audio = new Audio(speaker.dataset.sound);
+document.querySelectorAll('.spIcon').forEach(sp => {
+    const audio = new Audio(sp.dataset.sound);
 
-    speaker.addEventListener('click', () => {
+    sp.addEventListener('click', () => {
         if (!audio.paused) return;
 
-        speaker.classList.add('playing');
+        sp.classList.add('playing');
 
         audio.currentTime = 0;
         audio.play();
 
         audio.addEventListener('ended', () => {
-            speaker.classList.remove('playing');
+            sp.classList.remove('playing');
         }, { once: true });
     });
 });
