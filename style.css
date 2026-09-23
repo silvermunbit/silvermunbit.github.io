@@ -159,10 +159,9 @@ path.light {
 	width: 14px;
 	height: 14px;
 }
-/*.speakerIcon path {
-	stroke: none;
-	fill: #999;
-}*/
+.speakerIcon:hover {
+	cursor: pointer;
+}
 
 #lalLi1 {
 	position: relative;
