@@ -156,6 +156,8 @@ path.light {
 .speakerIcon {
 	position: relative;
 	top: 2px;
+	width: 14px;
+	height: 14px;
 }
 .speakerIcon path {
 	stroke: none;
