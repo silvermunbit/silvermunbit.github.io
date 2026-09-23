@@ -159,10 +159,10 @@ path.light {
 	width: 14px;
 	height: 14px;
 }
-.speakerIcon path {
+/*.speakerIcon path {
 	stroke: none;
 	fill: #999;
-}
+}*/
 
 #lalLi1 {
 	position: relative;
