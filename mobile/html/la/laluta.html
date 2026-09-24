@@ -8,25 +8,12 @@
 <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon"/>
 <script src="../../libs/jquery-3.1.0.min.js"></script>
 <script>
-    $.get('../../../html/la/laluta.html', function(htmlContent) {
-    let parser = new DOMParser();
-    let doc = parser.parseFromString(htmlContent, 'text/html');
-
-    let extraSteps = "../../"; 
-
-    doc.querySelectorAll('svg[data-sound]').forEach(el => {
-        let val = el.getAttribute('data-sound');
-        
-        if (val && !val.startsWith('http') && !val.startsWith('/') && !val.startsWith('data:')) {
-            el.setAttribute('data-sound', extraSteps + val);
-        }
-    });
-
-    $('#i').html(doc.body.innerHTML);
-        
-});
-    $('#mobileToggle').attr('href','../../../html/la/laluta.html' );
-$('#mobileToggle').text('Desktop');
+    $(function () {
+        $("#i").load("../../../html/la/laluta.html", function () {
+            $("#mobileToggle").attr("href", "../../../html/la/laluta.html")
+            $("#mobileToggle").text("Desktop")
+        })
+    })
 </script>
 </head>
 <body>
