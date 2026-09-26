@@ -8079,21 +8079,35 @@ $(document).ready(function () {
 </div>
 	
 <script>
-document.querySelectorAll('.spIcon').forEach(sp => {
-    const audio = new Audio(sp.dataset.sound);
+const audio = new Audio();
+let currentSpeaker = null;
 
-    sp.addEventListener('click', () => {
-        if (!audio.paused) return;
+document.addEventListener('click', event => {
+    const speaker = event.target.closest('.spIcon');
 
-        sp.classList.add('playing');
+    if (!speaker) return;
 
-        audio.currentTime = 0;
-        audio.play();
+    // Ignore clicks while a sound is playing
+    if (!audio.paused) return;
 
-        audio.addEventListener('ended', () => {
-            sp.classList.remove('playing');
-        }, { once: true });
+    currentSpeaker = speaker;
+    currentSpeaker.classList.add('playing');
+
+    audio.src = speaker.dataset.sound;
+    audio.currentTime = 0;
+
+    audio.play().catch(error => {
+        console.error('Audio error:', error);
+        currentSpeaker.classList.remove('playing');
+        currentSpeaker = null;
     });
+});
+
+audio.addEventListener('ended', () => {
+    if (currentSpeaker) {
+        currentSpeaker.classList.remove('playing');
+        currentSpeaker = null;
+    }
 });
 </script>
 	
