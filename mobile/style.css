@@ -19,7 +19,6 @@ body {
 	margin: 0;
 	background: #111;
 	color: white;
-	overflow-x: hidden;
 }
 a {
 	color: white;
@@ -341,6 +340,7 @@ rt {
 #contentDivNew {
 	margin: 50px auto 50px;
 	padding: 8px;
+	overflow-x: hidden;
 }
 #contentDivNew * {
 	font-family: 'Source', sans-serif;
