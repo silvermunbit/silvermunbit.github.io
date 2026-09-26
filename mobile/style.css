@@ -139,8 +139,8 @@ path.light {
 	top: 2px;
 	width: 14px;
 	height: 14px;
-	padding: 8px;
-	margin: -8px;
+	padding: 14px;
+	margin: -14px;
 	box-sizing: content-box;
 }
 .spIcon.playing {
