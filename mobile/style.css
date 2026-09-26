@@ -137,8 +137,8 @@ path.light {
 .spIcon {
 	position: relative;
 	top: 2px;
-	width: 14px;
-	height: 14px;
+	width: 1em;
+	height: 1em;
 }
 .spIcon.playing {
 	pointer-events: none;
