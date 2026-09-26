@@ -19,6 +19,7 @@ body {
 	margin: 0;
 	background: #111;
 	color: white;
+	overflow-x: hidden;
 }
 a {
 	color: white;
