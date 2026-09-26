@@ -142,7 +142,6 @@ path.light {
 	padding: 14px;
 	margin: -14px;
 	box-sizing: content-box;
-	background:red;
 }
 .spIcon.playing {
 	pointer-events: none;
