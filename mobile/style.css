@@ -147,6 +147,12 @@ path.light {
 	pointer-events: none;
     opacity: 0.5;
 }
+.spIcon, .spIcon * {
+	user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    touch-action: manipulation;
+}
 
 #lalLi1 {
 	position: relative;
